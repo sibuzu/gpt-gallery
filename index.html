@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GPT Gallery</title>
+  <style>
+    :root {
+      --ink: #201814;
+      --muted: #75695f;
+      --paper: #fff9f0;
+      --panel: #fffdf8;
+      --line: #eadccb;
+      --accent: #0f766e;
+      --accent-soft: #d8f3ee;
+      --rose: #b85c70;
+      --shadow: 0 18px 45px rgba(70, 47, 27, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.18), transparent 36rem),
+        linear-gradient(120deg, #fff9f0 0%, #f8efe1 48%, #edf8f5 100%);
+      font-family: "Avenir Next", "PingFang TC", "Noto Sans TC", sans-serif;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 34px clamp(18px, 4vw, 56px) 18px;
+      border-bottom: 1px solid rgba(234, 220, 203, 0.8);
+      background: rgba(255, 253, 248, 0.72);
+      backdrop-filter: blur(18px);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .bar {
+      align-items: end;
+      display: grid;
+      gap: 18px;
+      grid-template-columns: 1fr minmax(220px, 320px);
+      margin: 0 auto;
+      max-width: 1280px;
+    }
+
+    h1 {
+      font-family: Georgia, "Songti TC", serif;
+      font-size: clamp(34px, 5vw, 72px);
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: 0.95;
+      margin: 0;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 12px 0 0;
+    }
+
+    .search {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      color: var(--ink);
+      font: inherit;
+      min-height: 44px;
+      outline: none;
+      padding: 0 14px;
+      width: 100%;
+    }
+
+    main {
+      margin: 0 auto;
+      max-width: 1280px;
+      padding: 22px clamp(18px, 4vw, 56px) 56px;
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 22px;
+    }
+
+    .chip {
+      align-items: center;
+      background: rgba(255, 253, 248, 0.82);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--ink);
+      cursor: pointer;
+      display: inline-flex;
+      font: inherit;
+      gap: 8px;
+      min-height: 38px;
+      padding: 0 14px;
+      transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+    }
+
+    .chip:hover {
+      transform: translateY(-1px);
+    }
+
+    .chip.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .count {
+      color: inherit;
+      font-size: 12px;
+      opacity: 0.72;
+    }
+
+    .grid {
+      column-count: 4;
+      column-gap: 16px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid rgba(234, 220, 203, 0.84);
+      border-radius: 8px;
+      box-shadow: 0 10px 28px rgba(70, 47, 27, 0.1);
+      break-inside: avoid;
+      cursor: zoom-in;
+      display: inline-block;
+      margin: 0 0 16px;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
+
+    .card img {
+      display: block;
+      height: auto;
+      width: 100%;
+    }
+
+    .caption {
+      align-items: center;
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+      padding: 10px 12px 12px;
+    }
+
+    .category {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .filename {
+      color: var(--muted);
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .empty {
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      color: var(--muted);
+      display: none;
+      padding: 42px;
+      text-align: center;
+    }
+
+    .lightbox {
+      align-items: center;
+      background: rgba(32, 24, 20, 0.86);
+      display: none;
+      inset: 0;
+      justify-content: center;
+      padding: 22px;
+      position: fixed;
+      z-index: 30;
+    }
+
+    .lightbox.open {
+      display: flex;
+    }
+
+    .lightbox figure {
+      margin: 0;
+      max-height: 94vh;
+      max-width: min(96vw, 1180px);
+    }
+
+    .lightbox img {
+      border-radius: 8px;
+      box-shadow: 0 28px 80px rgba(0, 0, 0, 0.42);
+      display: block;
+      max-height: 86vh;
+      max-width: 100%;
+      object-fit: contain;
+    }
+
+    .lightbox figcaption {
+      color: #fff8ed;
+      font-size: 14px;
+      padding-top: 10px;
+      text-align: center;
+    }
+
+    .close {
+      background: #fff8ed;
+      border: 0;
+      border-radius: 999px;
+      color: var(--ink);
+      cursor: pointer;
+      font-size: 24px;
+      height: 42px;
+      line-height: 1;
+      position: fixed;
+      right: 18px;
+      top: 18px;
+      width: 42px;
+    }
+
+    @media (max-width: 980px) {
+      .grid {
+        column-count: 3;
+      }
+    }
+
+    @media (max-width: 720px) {
+      header {
+        position: static;
+      }
+
+      .bar {
+        grid-template-columns: 1fr;
+      }
+
+      .grid {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width: 460px) {
+      .grid {
+        column-count: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <div>
+        <h1>GPT Gallery</h1>
+        <p class="meta"><span id="visibleCount">0</span> / <span id="totalCount">0</span> images</p>
+      </div>
+      <input class="search" id="search" type="search" placeholder="搜尋檔名或類別">
+    </div>
+  </header>
+
+  <main>
+    <nav class="filters" id="filters" aria-label="圖片分類"></nav>
+    <section class="grid" id="grid" aria-live="polite"></section>
+    <p class="empty" id="empty">沒有符合條件的圖片</p>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="close" id="close" type="button" aria-label="關閉">×</button>
+    <figure>
+      <img id="preview" alt="">
+      <figcaption id="previewCaption"></figcaption>
+    </figure>
+  </div>
+
+  <script>
+    // GALLERY_DATA_START
+    const images = [
+          {
+                "category": "美少女古風",
+                "src": "images/美少女古風/ChatGPT Image 2026年7月19日 下午02_46_49.png",
+                "title": "2026年7月19日 下午02_46_49"
+          },
+          {
+                "category": "美少女古風",
+                "src": "images/美少女古風/ChatGPT Image 2026年7月19日 下午02_48_36.png",
+                "title": "2026年7月19日 下午02_48_36"
+          },
+          {
+                "category": "美少女古風",
+                "src": "images/美少女古風/ChatGPT Image 2026年7月19日 下午02_48_42.png",
+                "title": "2026年7月19日 下午02_48_42"
+          },
+          {
+                "category": "美少女古風",
+                "src": "images/美少女古風/ChatGPT Image 2026年7月19日 下午02_48_50.png",
+                "title": "2026年7月19日 下午02_48_50"
+          },
+          {
+                "category": "美少女古風",
+                "src": "images/美少女古風/ChatGPT Image 2026年7月19日 下午02_48_55.png",
+                "title": "2026年7月19日 下午02_48_55"
+          },
+          {
+                "category": "美少女古風",
+                "src": "images/美少女古風/ChatGPT Image 2026年7月19日 下午02_52_52.png",
+                "title": "2026年7月19日 下午02_52_52"
+          },
+          {
+                "category": "美少女天使",
+                "src": "images/美少女天使/ChatGPT Image 2026年7月19日 下午02_45_18.png",
+                "title": "2026年7月19日 下午02_45_18"
+          },
+          {
+                "category": "美少女天使",
+                "src": "images/美少女天使/ChatGPT Image 2026年7月19日 下午02_49_19.png",
+                "title": "2026年7月19日 下午02_49_19"
+          },
+          {
+                "category": "美少女天使",
+                "src": "images/美少女天使/ChatGPT Image 2026年7月19日 下午02_49_27.png",
+                "title": "2026年7月19日 下午02_49_27"
+          },
+          {
+                "category": "美少女天使",
+                "src": "images/美少女天使/ChatGPT Image 2026年7月19日 下午02_49_33.png",
+                "title": "2026年7月19日 下午02_49_33"
+          },
+          {
+                "category": "美少女天使",
+                "src": "images/美少女天使/ChatGPT Image 2026年7月19日 下午02_49_41.png",
+                "title": "2026年7月19日 下午02_49_41"
+          },
+          {
+                "category": "美少女居家",
+                "src": "images/美少女居家/ChatGPT Image 2026年7月19日 下午02_46_27.png",
+                "title": "2026年7月19日 下午02_46_27"
+          },
+          {
+                "category": "美少女居家",
+                "src": "images/美少女居家/ChatGPT Image 2026年7月19日 下午02_50_54.png",
+                "title": "2026年7月19日 下午02_50_54"
+          },
+          {
+                "category": "美少女居家",
+                "src": "images/美少女居家/ChatGPT Image 2026年7月19日 下午02_51_01.png",
+                "title": "2026年7月19日 下午02_51_01"
+          },
+          {
+                "category": "美少女居家",
+                "src": "images/美少女居家/ChatGPT Image 2026年7月19日 下午02_51_07.png",
+                "title": "2026年7月19日 下午02_51_07"
+          },
+          {
+                "category": "美少女居家",
+                "src": "images/美少女居家/ChatGPT Image 2026年7月19日 下午02_51_13.png",
+                "title": "2026年7月19日 下午02_51_13"
+          },
+          {
+                "category": "美少女居家",
+                "src": "images/美少女居家/ChatGPT Image 2026年7月19日 下午02_51_51.png",
+                "title": "2026年7月19日 下午02_51_51"
+          },
+          {
+                "category": "美少女居家",
+                "src": "images/美少女居家/ChatGPT Image 2026年7月19日 下午02_51_58.png",
+                "title": "2026年7月19日 下午02_51_58"
+          },
+          {
+                "category": "美少女時尚",
+                "src": "images/美少女時尚/ChatGPT Image 2026年7月19日 下午02_45_11.png",
+                "title": "2026年7月19日 下午02_45_11"
+          },
+          {
+                "category": "美少女時尚",
+                "src": "images/美少女時尚/ChatGPT Image 2026年7月19日 下午02_45_33.png",
+                "title": "2026年7月19日 下午02_45_33"
+          },
+          {
+                "category": "美少女時尚",
+                "src": "images/美少女時尚/ChatGPT Image 2026年7月19日 下午02_45_47.png",
+                "title": "2026年7月19日 下午02_45_47"
+          },
+          {
+                "category": "美少女時尚",
+                "src": "images/美少女時尚/ChatGPT Image 2026年7月19日 下午02_45_53.png",
+                "title": "2026年7月19日 下午02_45_53"
+          },
+          {
+                "category": "美少女時尚",
+                "src": "images/美少女時尚/ChatGPT Image 2026年7月19日 下午02_46_33.png",
+                "title": "2026年7月19日 下午02_46_33"
+          },
+          {
+                "category": "美少女時尚",
+                "src": "images/美少女時尚/ChatGPT Image 2026年7月19日 下午02_47_35.png",
+                "title": "2026年7月19日 下午02_47_35"
+          },
+          {
+                "category": "美少女時尚",
+                "src": "images/美少女時尚/ChatGPT Image 2026年7月19日 下午02_50_35.png",
+                "title": "2026年7月19日 下午02_50_35"
+          },
+          {
+                "category": "美少女校園",
+                "src": "images/美少女校園/ChatGPT Image 2026年7月19日 下午02_46_39.png",
+                "title": "2026年7月19日 下午02_46_39"
+          },
+          {
+                "category": "美少女校園",
+                "src": "images/美少女校園/ChatGPT Image 2026年7月19日 下午02_47_06.png",
+                "title": "2026年7月19日 下午02_47_06"
+          },
+          {
+                "category": "美少女海報",
+                "src": "images/美少女海報/ChatGPT Image 2026年7月19日 下午02_51_21.png",
+                "title": "2026年7月19日 下午02_51_21"
+          },
+          {
+                "category": "美少女海報",
+                "src": "images/美少女海報/ChatGPT Image 2026年7月19日 下午02_51_35.png",
+                "title": "2026年7月19日 下午02_51_35"
+          },
+          {
+                "category": "美少女海報",
+                "src": "images/美少女海報/ChatGPT Image 2026年7月19日 下午02_52_05.png",
+                "title": "2026年7月19日 下午02_52_05"
+          },
+          {
+                "category": "美少女海報",
+                "src": "images/美少女海報/ChatGPT Image 2026年7月19日 下午02_52_20.png",
+                "title": "2026年7月19日 下午02_52_20"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_46_43.png",
+                "title": "2026年7月19日 下午02_46_43"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_47_14.png",
+                "title": "2026年7月19日 下午02_47_14"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_47_22.png",
+                "title": "2026年7月19日 下午02_47_22"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_47_42.png",
+                "title": "2026年7月19日 下午02_47_42"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_47_47.png",
+                "title": "2026年7月19日 下午02_47_47"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_47_56.png",
+                "title": "2026年7月19日 下午02_47_56"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_48_02.png",
+                "title": "2026年7月19日 下午02_48_02"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_48_15.png",
+                "title": "2026年7月19日 下午02_48_15"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_48_21.png",
+                "title": "2026年7月19日 下午02_48_21"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_49_52.png",
+                "title": "2026年7月19日 下午02_49_52"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_50_13.png",
+                "title": "2026年7月19日 下午02_50_13"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_50_20.png",
+                "title": "2026年7月19日 下午02_50_20"
+          },
+          {
+                "category": "美少女海灘",
+                "src": "images/美少女海灘/ChatGPT Image 2026年7月19日 下午02_50_26.png",
+                "title": "2026年7月19日 下午02_50_26"
+          },
+          {
+                "category": "美少女透明",
+                "src": "images/美少女透明/ChatGPT Image 2026年7月19日 下午02_45_27.png",
+                "title": "2026年7月19日 下午02_45_27"
+          },
+          {
+                "category": "美少女透明",
+                "src": "images/美少女透明/ChatGPT Image 2026年7月19日 下午02_45_41.png",
+                "title": "2026年7月19日 下午02_45_41"
+          },
+          {
+                "category": "美少女透明",
+                "src": "images/美少女透明/ChatGPT Image 2026年7月19日 下午02_46_15.png",
+                "title": "2026年7月19日 下午02_46_15"
+          },
+          {
+                "category": "美少女透明",
+                "src": "images/美少女透明/ChatGPT Image 2026年7月19日 下午02_46_54.png",
+                "title": "2026年7月19日 下午02_46_54"
+          },
+          {
+                "category": "美少女透明",
+                "src": "images/美少女透明/ChatGPT Image 2026年7月19日 下午02_47_30.png",
+                "title": "2026年7月19日 下午02_47_30"
+          },
+          {
+                "category": "美少女透明",
+                "src": "images/美少女透明/ChatGPT Image 2026年7月19日 下午02_48_08.png",
+                "title": "2026年7月19日 下午02_48_08"
+          },
+          {
+                "category": "美少女透明",
+                "src": "images/美少女透明/ChatGPT Image 2026年7月19日 下午02_48_30.png",
+                "title": "2026年7月19日 下午02_48_30"
+          },
+          {
+                "category": "美少女透明",
+                "src": "images/美少女透明/ChatGPT Image 2026年7月19日 下午02_50_45.png",
+                "title": "2026年7月19日 下午02_50_45"
+          },
+          {
+                "category": "美少女透明",
+                "src": "images/美少女透明/ChatGPT Image 2026年7月19日 下午02_51_27.png",
+                "title": "2026年7月19日 下午02_51_27"
+          },
+          {
+                "category": "美少女透明",
+                "src": "images/美少女透明/ChatGPT Image 2026年7月19日 下午02_52_25.png",
+                "title": "2026年7月19日 下午02_52_25"
+          },
+          {
+                "category": "美少女運動",
+                "src": "images/美少女運動/ChatGPT Image 2026年7月19日 下午02_46_21.png",
+                "title": "2026年7月19日 下午02_46_21"
+          },
+          {
+                "category": "美少女運動",
+                "src": "images/美少女運動/ChatGPT Image 2026年7月19日 下午02_47_00.png",
+                "title": "2026年7月19日 下午02_47_00"
+          },
+          {
+                "category": "美少女運動",
+                "src": "images/美少女運動/ChatGPT Image 2026年7月19日 下午02_49_58.png",
+                "title": "2026年7月19日 下午02_49_58"
+          }
+    ];
+    // GALLERY_DATA_END
+
+
+    const grid = document.querySelector("#grid");
+    const filters = document.querySelector("#filters");
+    const search = document.querySelector("#search");
+    const empty = document.querySelector("#empty");
+    const visibleCount = document.querySelector("#visibleCount");
+    const totalCount = document.querySelector("#totalCount");
+    const lightbox = document.querySelector("#lightbox");
+    const preview = document.querySelector("#preview");
+    const previewCaption = document.querySelector("#previewCaption");
+    const close = document.querySelector("#close");
+    let activeCategory = "全部";
+
+    const categories = ["全部", ...new Set(images.map((image) => image.category))];
+    const totals = images.reduce((map, image) => {
+      map[image.category] = (map[image.category] || 0) + 1;
+      return map;
+    }, {});
+
+    function makeChip(category) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "chip";
+      button.dataset.category = category;
+      button.innerHTML = `${category}<span class="count">${category === "全部" ? images.length : totals[category]}</span>`;
+      button.addEventListener("click", () => {
+        activeCategory = category;
+        render();
+      });
+      return button;
+    }
+
+    function openPreview(image) {
+      preview.src = encodeURI(image.src);
+      preview.alt = image.category;
+      previewCaption.textContent = `${image.category} · ${image.title}`;
+      lightbox.classList.add("open");
+    }
+
+    function closePreview() {
+      lightbox.classList.remove("open");
+      preview.removeAttribute("src");
+    }
+
+    function cardFor(image) {
+      const article = document.createElement("article");
+      article.className = "card";
+      article.tabIndex = 0;
+      article.innerHTML = `
+        <img loading="lazy" src="${encodeURI(image.src)}" alt="${image.category}">
+        <div class="caption">
+          <span class="category">${image.category}</span>
+          <span class="filename">${image.title}</span>
+        </div>
+      `;
+      article.addEventListener("click", () => openPreview(image));
+      article.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") openPreview(image);
+      });
+      return article;
+    }
+
+    function render() {
+      const query = search.value.trim().toLowerCase();
+      const filtered = images.filter((image) => {
+        const matchCategory = activeCategory === "全部" || image.category === activeCategory;
+        const matchQuery = !query || `${image.category} ${image.title}`.toLowerCase().includes(query);
+        return matchCategory && matchQuery;
+      });
+
+      document.querySelectorAll(".chip").forEach((chip) => {
+        chip.classList.toggle("active", chip.dataset.category === activeCategory);
+      });
+      grid.replaceChildren(...filtered.map(cardFor));
+      empty.style.display = filtered.length ? "none" : "block";
+      visibleCount.textContent = filtered.length;
+      totalCount.textContent = images.length;
+    }
+
+    filters.replaceChildren(...categories.map(makeChip));
+    search.addEventListener("input", render);
+    close.addEventListener("click", closePreview);
+    lightbox.addEventListener("click", (event) => {
+      if (event.target === lightbox) closePreview();
+    });
+    window.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closePreview();
+    });
+    render();
+  </script>
+</body>
+</html>
