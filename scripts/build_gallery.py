@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import random
 from pathlib import Path
 
 
@@ -61,6 +62,8 @@ def scan_images() -> tuple[list[dict[str, str]], dict[str, object]]:
                 "src": relative_path,
                 "title": title_for(path),
             })
+
+    random.shuffle(items)
 
     category_counts: dict[str, int] = {}
     for item in items:
