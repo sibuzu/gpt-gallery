@@ -1,17 +1,13 @@
 A photorealistic high-fashion editorial portrait featuring a stunning young adult Japanese woman with authentic Japanese facial features, long wavy dark hair tied into a loose ponytail, luminous fair skin, and warm expressive eyes.
 
 Dress:
-She is wearing an avant-garde, provocative modern fusion of traditional Japanese-inspired style. The outfit consists of:
+She is wearing an avant-garde, provocative modern fusion of traditional Wafu style. 
 
-A captivating ensemble crafted from sheer chiffon and black lace, featuring a natural, ethereal transparent texture that moves gracefully with her body.
-
-The top features an ultra-provocative, completely transparent bralette blouse, made of delicate sheer fabric with subtle lace embroidery that strategically provides only minimal coverage over the bust, elegantly showcasing her décolletage and revealing the form beneath, potentially allowing for subtle nipple visibility through the fabric.
-
-A very short, high-waisted wrap skirt in matching sheer black fabric, which accentuates her slender figure and high legs during the movement.
-
-The design includes flowing, gossamer translucent panels draped over one shoulder and trailing behind her, beautifully revealing the natural contour of her legs, shoulders, and bare midriff through the light, sheer materials.
-
-Minimalist sleek white gold jewelry.
+The outfit consists of: 
+ - A single-layer, ultra-lightweight sheer organza silk kimono-inspired wrap top in a delicate light sky blue (light aqua blue), featuring a natural, ethereal transparent texture that moves gracefully with her body. 
+ - The top features an elegant, dramatic off-the-shoulder draped neckline that showcases her collarbones, shoulders, and back. 
+ - A narrow, glossy white and silver (or deep indigo with silver accent) traditional obi-style elasticated sash wrapped around her waist, accentuating her figure during the movement. 
+ - The sheer fabric flows organically with her pose, beautifully revealing the natural contour of her legs and shoulders through the delicate, transparent layers. Minimalist sleek silver or white gold jewelry.
 
 
 Pose:

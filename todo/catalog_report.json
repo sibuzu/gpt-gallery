@@ -1,18 +1,29 @@
 {
-  "total_categorized": 248,
+  "total_categorized": 277,
   "category_counts": {
+    "古典": 48,
+    "咖啡": 19,
+    "運動": 20,
+    "海報": 8,
+    "工作": 27,
+    "Dress": 20,
+    "居家": 38,
+    "奇幻": 11,
     "海灘": 22,
     "透明": 29,
-    "咖啡": 15,
-    "古典": 43,
-    "工作": 27,
-    "居家": 38,
-    "海報": 8,
-    "運動": 20,
-    "時尚": 35,
-    "奇幻": 11
+    "時尚": 35
   },
   "skipped": [
+    {
+      "path": "images/古典/ChatGPT Image 2026年7月20日 下午08_23_49.png",
+      "duplicate_of": "images/Dress/越南奧黛2.png",
+      "reason": "duplicate_hash"
+    },
+    {
+      "path": "images/古典/ChatGPT Image 2026年7月20日 下午09_23_56.png",
+      "duplicate_of": "images/Dress/中式漢服1.png",
+      "reason": "duplicate_hash"
+    },
     {
       "path": "images/奇幻/ChatGPT Image 2026年7月20日 下午02_24_07.png",
       "duplicate_of": "images/咖啡/ChatGPT Image 2026年7月20日 下午02_52_28.png",
