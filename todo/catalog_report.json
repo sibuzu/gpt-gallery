@@ -1,19 +1,34 @@
 {
-  "total_categorized": 278,
+  "total_categorized": 302,
   "category_counts": {
-    "Dress": 20,
-    "透明": 29,
     "居家": 38,
-    "古典": 49,
-    "時尚": 35,
-    "海灘": 22,
-    "奇幻": 11,
-    "海報": 8,
-    "運動": 20,
     "工作": 27,
+    "透明": 29,
+    "Dress": 41,
+    "時尚": 35,
+    "古典": 52,
+    "運動": 20,
+    "海灘": 22,
+    "海報": 8,
+    "奇幻": 11,
     "咖啡": 19
   },
   "skipped": [
+    {
+      "path": "images/Dress/日式和服(白)3\b.png",
+      "duplicate_of": "images/Dress/中式漢服(白)3.png",
+      "reason": "duplicate_hash"
+    },
+    {
+      "path": "images/古典/ChatGPT Image 2026年7月20日 下午08_47_28.png",
+      "duplicate_of": "images/Dress/中式漢服(白)4.png",
+      "reason": "duplicate_hash"
+    },
+    {
+      "path": "images/古典/ChatGPT Image 2026年7月20日 下午08_59_54.png",
+      "duplicate_of": "images/Dress/印度紗麗3.png",
+      "reason": "duplicate_hash"
+    },
     {
       "path": "images/古典/ChatGPT Image 2026年7月20日 下午09_23_56.png",
       "duplicate_of": "images/Dress/中式漢服(白)1.png",
@@ -22,6 +37,11 @@
     {
       "path": "images/奇幻/ChatGPT Image 2026年7月20日 下午02_24_07.png",
       "duplicate_of": "images/咖啡/ChatGPT Image 2026年7月20日 下午02_52_28.png",
+      "reason": "duplicate_hash"
+    },
+    {
+      "path": "images/居家/ChatGPT Image 2026年7月21日 上午01_02_02.png",
+      "duplicate_of": "images/居家/ChatGPT Image 2026年7月20日 上午09_18_16.png",
       "reason": "duplicate_hash"
     },
     {
