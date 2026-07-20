@@ -1,20 +1,30 @@
 {
-  "total_categorized": 221,
+  "total_categorized": 227,
   "category_counts": {
-    "透明": 35,
-    "運動": 19,
     "古風": 40,
-    "居家": 36,
-    "海灘": 22,
     "時尚": 25,
-    "奇幻": 9,
+    "海灘": 22,
+    "居家": 36,
     "工作": 27,
-    "海報": 8
+    "奇幻": 9,
+    "運動": 19,
+    "海報": 8,
+    "透明": 41
   },
   "skipped": [
     {
       "path": "images/透明/ChatGPT Image 2026年7月19日 下午09_41_54.png",
       "duplicate_of": "images/透明/ChatGPT Image 2026年7月19日 下午09_38_23.png",
+      "reason": "duplicate_hash"
+    },
+    {
+      "path": "images/透明/ChatGPT Image 2026年7月20日 上午11_15_10.png",
+      "duplicate_of": "images/透明/ChatGPT Image 2026年7月20日 上午09_35_58.png",
+      "reason": "duplicate_hash"
+    },
+    {
+      "path": "images/透明/ChatGPT Image 2026年7月20日 上午11_15_23.png",
+      "duplicate_of": "images/透明/ChatGPT Image 2026年7月20日 上午09_34_38.png",
       "reason": "duplicate_hash"
     }
   ]
