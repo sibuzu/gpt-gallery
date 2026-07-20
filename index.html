@@ -85,6 +85,22 @@
       width: 100%;
     }
 
+    .category-menu {
+      appearance: none;
+      background:
+        linear-gradient(45deg, transparent 50%, var(--muted) 50%) right 16px center / 7px 7px no-repeat,
+        linear-gradient(135deg, var(--muted) 50%, transparent 50%) right 11px center / 7px 7px no-repeat,
+        var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      display: none;
+      font: inherit;
+      min-height: 40px;
+      outline: none;
+      padding: 0 34px 0 12px;
+    }
+
     main {
       margin: 0 auto;
       max-width: 1280px;
@@ -246,8 +262,36 @@
     }
 
     @media (max-width: 720px) {
+      header {
+        padding: 20px 16px 14px;
+      }
+
       .bar {
+        align-items: center;
+        display: flex;
+        gap: 14px;
         grid-template-columns: 1fr;
+        justify-content: space-between;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .meta,
+      .search,
+      .filters {
+        display: none;
+      }
+
+      .category-menu {
+        display: block;
+        flex: 0 0 auto;
+        max-width: 44vw;
+      }
+
+      main {
+        padding: 14px 16px 44px;
       }
 
       .grid {
@@ -271,6 +315,7 @@
           <p class="meta"><span id="visibleCount">0</span>/<span id="totalCount">0</span> images</p>
         </div>
       </div>
+      <select class="category-menu" id="categoryMenu" aria-label="圖片分類"></select>
       <input class="search" id="search" type="search" placeholder="搜尋檔名或類別">
     </div>
     <nav class="filters" id="filters" aria-label="圖片分類"></nav>
@@ -293,74 +338,9 @@
     // GALLERY_DATA_START
     const images = [
           {
-                "category": "海報",
-                "src": "images/海報/ChatGPT Image 2026年7月19日 下午06_39_08.png",
-                "title": "2026年7月19日 下午06_39_08"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午09_48_39.png",
-                "title": "2026年7月19日 下午09_48_39"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午04_58_12.png",
-                "title": "2026年7月19日 下午04_58_12"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_16_22.png",
-                "title": "2026年7月20日 上午11_16_22"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_54_16.png",
-                "title": "2026年7月20日 上午06_54_16"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_46_15.png",
-                "title": "2026年7月19日 下午02_46_15"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月20日 上午12_35_35.png",
-                "title": "2026年7月20日 上午12_35_35"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_45_27.png",
-                "title": "2026年7月19日 下午02_45_27"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月20日 上午06_38_57.png",
-                "title": "2026年7月20日 上午06_38_57"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月20日 上午06_06_53.png",
-                "title": "2026年7月20日 上午06_06_53"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_46_49.png",
-                "title": "2026年7月19日 下午02_46_49"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_48_42.png",
-                "title": "2026年7月19日 下午02_48_42"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月20日 上午12_26_45.png",
-                "title": "2026年7月20日 上午12_26_45"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午07_53_48.png",
-                "title": "2026年7月20日 上午07_53_48"
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午11_25_32.png",
+                "title": "2026年7月19日 下午11_25_32"
           },
           {
                 "category": "居家",
@@ -368,84 +348,34 @@
                 "title": "2026年7月19日 下午02_51_01"
           },
           {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午09_37_37.png",
-                "title": "2026年7月19日 下午09_37_37"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午10_55_44.png",
-                "title": "2026年7月19日 下午10_55_44"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_46_54.png",
-                "title": "2026年7月19日 下午02_46_54"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午12_08_52.png",
-                "title": "2026年7月20日 上午12_08_52"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_57_59.png",
-                "title": "2026年7月20日 上午11_57_59"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午09_51_19.png",
-                "title": "2026年7月19日 下午09_51_19"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午02_45_33.png",
-                "title": "2026年7月19日 下午02_45_33"
-          },
-          {
                 "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午09_37_44.png",
-                "title": "2026年7月19日 下午09_37_44"
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_52_52.png",
+                "title": "2026年7月19日 下午02_52_52"
           },
           {
                 "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午08_23_11.png",
-                "title": "2026年7月19日 下午08_23_11"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午11_06_21.png",
-                "title": "2026年7月19日 下午11_06_21"
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午09_37_38.png",
+                "title": "2026年7月19日 下午09_37_38"
           },
           {
                 "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午10_46_34.png",
-                "title": "2026年7月19日 下午10_46_34"
-          },
-          {
-                "category": "奇幻",
-                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午02_49_19.png",
-                "title": "2026年7月19日 下午02_49_19"
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_50_20.png",
+                "title": "2026年7月19日 下午02_50_20"
           },
           {
                 "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午03_20_41.png",
-                "title": "2026年7月19日 下午03_20_41"
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午11_11_14.png",
+                "title": "2026年7月19日 下午11_11_14"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午08_16_04.png",
+                "title": "2026年7月19日 下午08_16_04"
           },
           {
                 "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午11_01_32.png",
-                "title": "2026年7月19日 下午11_01_32"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午02_47_35.png",
-                "title": "2026年7月19日 下午02_47_35"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午11_58_27.png",
-                "title": "2026年7月19日 下午11_58_27"
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午09_34_38.png",
+                "title": "2026年7月20日 上午09_34_38"
           },
           {
                 "category": "居家",
@@ -458,19 +388,119 @@
                 "title": "2026年7月20日 上午09_20_00"
           },
           {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午08_16_04.png",
-                "title": "2026年7月19日 下午08_16_04"
-          },
-          {
-                "category": "海報",
-                "src": "images/海報/ChatGPT Image 2026年7月19日 下午02_52_20.png",
-                "title": "2026年7月19日 下午02_52_20"
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_52_11.png",
+                "title": "2026年7月20日 上午06_52_11"
           },
           {
                 "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_46_33.png",
-                "title": "2026年7月19日 下午02_46_33"
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午11_06_21.png",
+                "title": "2026年7月19日 下午11_06_21"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午09_36_21.png",
+                "title": "2026年7月19日 下午09_36_21"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午06_48_05.png",
+                "title": "2026年7月20日 上午06_48_05"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午06_46_20.png",
+                "title": "2026年7月20日 上午06_46_20"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月19日 下午02_49_52.png",
+                "title": "2026年7月19日 下午02_49_52"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午09_37_44.png",
+                "title": "2026年7月19日 下午09_37_44"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月20日 上午07_38_54.png",
+                "title": "2026年7月20日 上午07_38_54"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午11_27_04.png",
+                "title": "2026年7月19日 下午11_27_04"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_26_02.png",
+                "title": "2026年7月20日 上午06_26_02"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午07_36_49.png",
+                "title": "2026年7月20日 上午07_36_49"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_50_45.png",
+                "title": "2026年7月19日 下午02_50_45"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_19_19.png",
+                "title": "2026年7月20日 上午08_19_19"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午08_06_14.png",
+                "title": "2026年7月19日 下午08_06_14"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_20_26.png",
+                "title": "2026年7月20日 上午06_20_26"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_58_59.png",
+                "title": "2026年7月20日 上午06_58_59"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_33_29.png",
+                "title": "2026年7月19日 下午07_33_29"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_24_44.png",
+                "title": "2026年7月20日 上午06_24_44"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午05_20_02.png",
+                "title": "2026年7月19日 下午05_20_02"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月20日 上午08_53_13.png",
+                "title": "2026年7月20日 上午08_53_13"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午08_27_59.png",
+                "title": "2026年7月19日 下午08_27_59"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_15_05.png",
+                "title": "2026年7月20日 上午08_15_05"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_47_42.png",
+                "title": "2026年7月19日 下午02_47_42"
           },
           {
                 "category": "運動",
@@ -484,348 +514,8 @@
           },
           {
                 "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_07_44.png",
-                "title": "2026年7月20日 上午07_07_44"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_20_26.png",
-                "title": "2026年7月20日 上午06_20_26"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午10_34_45.png",
-                "title": "2026年7月19日 下午10_34_45"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_35_58.png",
-                "title": "2026年7月19日 下午07_35_58"
-          },
-          {
-                "category": "海報",
-                "src": "images/海報/ChatGPT Image 2026年7月19日 下午02_51_21.png",
-                "title": "2026年7月19日 下午02_51_21"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午07_49_01.png",
-                "title": "2026年7月20日 上午07_49_01"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_17_15.png",
-                "title": "2026年7月20日 上午11_17_15"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月20日 上午06_06_40.png",
-                "title": "2026年7月20日 上午06_06_40"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_24_10.png",
-                "title": "2026年7月20日 上午07_24_10"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午02_45_11.png",
-                "title": "2026年7月19日 下午02_45_11"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_48_30.png",
-                "title": "2026年7月19日 下午02_48_30"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月20日 上午07_38_54.png",
-                "title": "2026年7月20日 上午07_38_54"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月20日 上午09_16_47.png",
-                "title": "2026年7月20日 上午09_16_47"
-          },
-          {
-                "category": "海報",
-                "src": "images/海報/ChatGPT Image 2026年7月19日 下午02_45_47.png",
-                "title": "2026年7月19日 下午02_45_47"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_30_20.png",
-                "title": "2026年7月20日 上午07_30_20"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_04_43.png",
-                "title": "2026年7月20日 上午07_04_43"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午07_05_30.png",
-                "title": "2026年7月19日 下午07_05_30"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午11_25_32.png",
-                "title": "2026年7月19日 下午11_25_32"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午12_17_14.png",
-                "title": "2026年7月20日 上午12_17_14"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午12_04_48.png",
-                "title": "2026年7月20日 上午12_04_48"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_52_11.png",
-                "title": "2026年7月20日 上午06_52_11"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午11_28_12.png",
-                "title": "2026年7月19日 下午11_28_12"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_26_05.png",
-                "title": "2026年7月19日 下午07_26_05"
-          },
-          {
-                "category": "奇幻",
-                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午07_37_13.png",
-                "title": "2026年7月19日 下午07_37_13"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午05_40_32.png",
-                "title": "2026年7月19日 下午05_40_32"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午11_43_47.png",
-                "title": "2026年7月19日 下午11_43_47"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_46_43.png",
-                "title": "2026年7月19日 下午02_46_43"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_47_47.png",
-                "title": "2026年7月19日 下午02_47_47"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月19日 下午03_18_35.png",
-                "title": "2026年7月19日 下午03_18_35"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月20日 上午12_00_20.png",
-                "title": "2026年7月20日 上午12_00_20"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午10_38_18.png",
-                "title": "2026年7月19日 下午10_38_18"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午08_31_44.png",
-                "title": "2026年7月19日 下午08_31_44"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_50_35.png",
-                "title": "2026年7月20日 上午06_50_35"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午05_20_02.png",
-                "title": "2026年7月19日 下午05_20_02"
-          },
-          {
-                "category": "奇幻",
-                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午02_49_41.png",
-                "title": "2026年7月19日 下午02_49_41"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午11_27_04.png",
-                "title": "2026年7月19日 下午11_27_04"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_47_30.png",
-                "title": "2026年7月19日 下午02_47_30"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_43_36.png",
-                "title": "2026年7月19日 下午07_43_36"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_19_19.png",
-                "title": "2026年7月20日 上午08_19_19"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_15_05.png",
-                "title": "2026年7月20日 上午08_15_05"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月20日 上午07_43_42.png",
-                "title": "2026年7月20日 上午07_43_42"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_48_55.png",
-                "title": "2026年7月19日 下午02_48_55"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_45_41.png",
-                "title": "2026年7月19日 下午02_45_41"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月19日 下午03_16_55.png",
-                "title": "2026年7月19日 下午03_16_55"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_58_59.png",
-                "title": "2026年7月20日 上午06_58_59"
-          },
-          {
-                "category": "海報",
-                "src": "images/海報/ChatGPT Image 2026年7月19日 下午02_52_05.png",
-                "title": "2026年7月19日 下午02_52_05"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_48_21.png",
-                "title": "2026年7月19日 下午02_48_21"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午02_47_06.png",
-                "title": "2026年7月19日 下午02_47_06"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午06_46_20.png",
-                "title": "2026年7月20日 上午06_46_20"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_50_26.png",
-                "title": "2026年7月19日 下午02_50_26"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午08_30_57.png",
-                "title": "2026年7月20日 上午08_30_57"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午06_48_05.png",
-                "title": "2026年7月20日 上午06_48_05"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午04_58_13.png",
-                "title": "2026年7月19日 下午04_58_13"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午08_43_20.png",
-                "title": "2026年7月19日 下午08_43_20"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午09_45_47.png",
-                "title": "2026年7月19日 下午09_45_47"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午04_42_30.png",
-                "title": "2026年7月19日 下午04_42_30"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午05_23_33.png",
-                "title": "2026年7月19日 下午05_23_33"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_06_21.png",
-                "title": "2026年7月20日 上午07_06_21"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_52_17.png",
-                "title": "2026年7月20日 上午11_52_17"
-          },
-          {
-                "category": "奇幻",
-                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午02_45_18.png",
-                "title": "2026年7月19日 下午02_45_18"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_48_08.png",
-                "title": "2026年7月19日 下午02_48_08"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午03_09_22.png",
-                "title": "2026年7月19日 下午03_09_22"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午07_36_49.png",
-                "title": "2026年7月20日 上午07_36_49"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_03_33.png",
-                "title": "2026年7月20日 上午07_03_33"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午06_22_23.png",
-                "title": "2026年7月20日 上午06_22_23"
-          },
-          {
-                "category": "奇幻",
-                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午02_49_33.png",
-                "title": "2026年7月19日 下午02_49_33"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_41_48.png",
-                "title": "2026年7月20日 上午06_41_48"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午10_57_36.png",
-                "title": "2026年7月19日 下午10_57_36"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午10_52_39.png",
-                "title": "2026年7月19日 下午10_52_39"
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_48_42.png",
+                "title": "2026年7月19日 下午02_48_42"
           },
           {
                 "category": "工作",
@@ -833,504 +523,14 @@
                 "title": "2026年7月19日 下午07_32_08"
           },
           {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月19日 下午02_46_21.png",
-                "title": "2026年7月19日 下午02_46_21"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_47_22.png",
-                "title": "2026年7月19日 下午02_47_22"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午04_46_08.png",
-                "title": "2026年7月19日 下午04_46_08"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午04_50_20.png",
-                "title": "2026年7月19日 下午04_50_20"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月20日 上午06_57_21.png",
-                "title": "2026年7月20日 上午06_57_21"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月20日 上午12_41_06.png",
-                "title": "2026年7月20日 上午12_41_06"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_47_42.png",
-                "title": "2026年7月19日 下午02_47_42"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午07_59_04.png",
-                "title": "2026年7月20日 上午07_59_04"
-          },
-          {
-                "category": "奇幻",
-                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午08_36_25.png",
-                "title": "2026年7月19日 下午08_36_25"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月20日 上午08_55_28.png",
-                "title": "2026年7月20日 上午08_55_28"
-          },
-          {
                 "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午09_18_16.png",
-                "title": "2026年7月20日 上午09_18_16"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午02_51_58.png",
-                "title": "2026年7月19日 下午02_51_58"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午06_06_24.png",
-                "title": "2026年7月20日 上午06_06_24"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午07_10_56.png",
-                "title": "2026年7月19日 下午07_10_56"
-          },
-          {
-                "category": "海報",
-                "src": "images/海報/ChatGPT Image 2026年7月19日 下午08_08_45.png",
-                "title": "2026年7月19日 下午08_08_45"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_24_44.png",
-                "title": "2026年7月20日 上午06_24_44"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午02_50_35.png",
-                "title": "2026年7月19日 下午02_50_35"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_52_25.png",
-                "title": "2026年7月19日 下午02_52_25"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午07_50_29.png",
-                "title": "2026年7月19日 下午07_50_29"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_08_56.png",
-                "title": "2026年7月20日 上午07_08_56"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午09_38_23.png",
-                "title": "2026年7月19日 下午09_38_23"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午08_39_26.png",
-                "title": "2026年7月19日 下午08_39_26"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月19日 下午02_49_52.png",
-                "title": "2026年7月19日 下午02_49_52"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_48_15.png",
-                "title": "2026年7月19日 下午02_48_15"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_47_56.png",
-                "title": "2026年7月19日 下午02_47_56"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_26_07.png",
-                "title": "2026年7月20日 上午07_26_07"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_56_06.png",
-                "title": "2026年7月20日 上午06_56_06"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月20日 上午06_31_15.png",
-                "title": "2026年7月20日 上午06_31_15"
-          },
-          {
-                "category": "海報",
-                "src": "images/海報/ChatGPT Image 2026年7月19日 下午02_45_53.png",
-                "title": "2026年7月19日 下午02_45_53"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_01_39.png",
-                "title": "2026年7月20日 上午08_01_39"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_04_57.png",
-                "title": "2026年7月20日 上午08_04_57"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_23_54.png",
-                "title": "2026年7月19日 下午07_23_54"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月20日 上午08_53_13.png",
-                "title": "2026年7月20日 上午08_53_13"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_15_56.png",
-                "title": "2026年7月20日 上午11_15_56"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午11_32_04.png",
-                "title": "2026年7月19日 下午11_32_04"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月20日 上午07_34_22.png",
-                "title": "2026年7月20日 上午07_34_22"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午06_39_28.png",
-                "title": "2026年7月19日 下午06_39_28"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午07_44_52.png",
-                "title": "2026年7月19日 下午07_44_52"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午09_34_43.png",
-                "title": "2026年7月19日 下午09_34_43"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午04_39_28.png",
-                "title": "2026年7月19日 下午04_39_28"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_07_58.png",
-                "title": "2026年7月20日 上午08_07_58"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午07_50_46.png",
-                "title": "2026年7月20日 上午07_50_46"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午07_41_25.png",
-                "title": "2026年7月20日 上午07_41_25"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午04_44_24.png",
-                "title": "2026年7月19日 下午04_44_24"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_34_41.png",
-                "title": "2026年7月19日 下午07_34_41"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_47_59.png",
-                "title": "2026年7月20日 上午08_47_59"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午08_24_37.png",
-                "title": "2026年7月19日 下午08_24_37"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午06_49_04.png",
-                "title": "2026年7月19日 下午06_49_04"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午07_54_37.png",
-                "title": "2026年7月19日 下午07_54_37"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_36_50.png",
-                "title": "2026年7月20日 上午06_36_50"
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午10_34_45.png",
+                "title": "2026年7月19日 下午10_34_45"
           },
           {
                 "category": "古風",
                 "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_00_41.png",
                 "title": "2026年7月20日 上午07_00_41"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月20日 上午06_17_55.png",
-                "title": "2026年7月20日 上午06_17_55"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_50_20.png",
-                "title": "2026年7月19日 下午02_50_20"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_50_13.png",
-                "title": "2026年7月19日 下午02_50_13"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_27_59.png",
-                "title": "2026年7月20日 上午07_27_59"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午08_36_08.png",
-                "title": "2026年7月20日 上午08_36_08"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午08_02_32.png",
-                "title": "2026年7月19日 下午08_02_32"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午11_11_14.png",
-                "title": "2026年7月19日 下午11_11_14"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_48_02.png",
-                "title": "2026年7月19日 下午02_48_02"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_47_14.png",
-                "title": "2026年7月19日 下午02_47_14"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午09_34_38.png",
-                "title": "2026年7月20日 上午09_34_38"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午02_51_51.png",
-                "title": "2026年7月19日 下午02_51_51"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午09_36_21.png",
-                "title": "2026年7月19日 下午09_36_21"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月20日 上午12_24_14.png",
-                "title": "2026年7月20日 上午12_24_14"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月20日 上午06_28_46.png",
-                "title": "2026年7月20日 上午06_28_46"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午09_37_38.png",
-                "title": "2026年7月19日 下午09_37_38"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月20日 上午09_01_46.png",
-                "title": "2026年7月20日 上午09_01_46"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午04_48_27.png",
-                "title": "2026年7月19日 下午04_48_27"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午09_36_44.png",
-                "title": "2026年7月19日 下午09_36_44"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午08_10_34.png",
-                "title": "2026年7月19日 下午08_10_34"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午12_18_53.png",
-                "title": "2026年7月20日 上午12_18_53"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午08_30_44.png",
-                "title": "2026年7月19日 下午08_30_44"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午07_46_45.png",
-                "title": "2026年7月20日 上午07_46_45"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月19日 下午02_47_00.png",
-                "title": "2026年7月19日 下午02_47_00"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午07_52_34.png",
-                "title": "2026年7月19日 下午07_52_34"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午09_09_06.png",
-                "title": "2026年7月20日 上午09_09_06"
-          },
-          {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午08_51_59.png",
-                "title": "2026年7月19日 下午08_51_59"
-          },
-          {
-                "category": "奇幻",
-                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午08_04_39.png",
-                "title": "2026年7月19日 下午08_04_39"
-          },
-          {
-                "category": "運動",
-                "src": "images/運動/ChatGPT Image 2026年7月20日 上午09_15_49.png",
-                "title": "2026年7月20日 上午09_15_49"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午09_34_54.png",
-                "title": "2026年7月19日 下午09_34_54"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_43_40.png",
-                "title": "2026年7月20日 上午11_43_40"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午09_38_07.png",
-                "title": "2026年7月19日 下午09_38_07"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午08_42_02.png",
-                "title": "2026年7月19日 下午08_42_02"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_50_45.png",
-                "title": "2026年7月19日 下午02_50_45"
-          },
-          {
-                "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午10_43_18.png",
-                "title": "2026年7月19日 下午10_43_18"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午11_09_01.png",
-                "title": "2026年7月19日 下午11_09_01"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午04_55_08.png",
-                "title": "2026年7月19日 下午04_55_08"
-          },
-          {
-                "category": "奇幻",
-                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午02_49_27.png",
-                "title": "2026年7月19日 下午02_49_27"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午09_37_56.png",
-                "title": "2026年7月19日 下午09_37_56"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_48_50.png",
-                "title": "2026年7月19日 下午02_48_50"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午02_51_13.png",
-                "title": "2026年7月19日 下午02_51_13"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午08_03_09.png",
-                "title": "2026年7月19日 下午08_03_09"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午08_06_14.png",
-                "title": "2026年7月19日 下午08_06_14"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_33_29.png",
-                "title": "2026年7月19日 下午07_33_29"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_16_12.png",
-                "title": "2026年7月20日 上午11_16_12"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_26_02.png",
-                "title": "2026年7月20日 上午06_26_02"
-          },
-          {
-                "category": "海報",
-                "src": "images/海報/ChatGPT Image 2026年7月19日 下午02_51_35.png",
-                "title": "2026年7月19日 下午02_51_35"
-          },
-          {
-                "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午09_35_58.png",
-                "title": "2026年7月20日 上午09_35_58"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月20日 上午08_42_33.png",
-                "title": "2026年7月20日 上午08_42_33"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午08_48_28.png",
-                "title": "2026年7月19日 下午08_48_28"
           },
           {
                 "category": "海灘",
@@ -1339,63 +539,28 @@
           },
           {
                 "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_12_24.png",
-                "title": "2026年7月20日 上午08_12_24"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午12_14_00.png",
-                "title": "2026年7月20日 上午12_14_00"
-          },
-          {
-                "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_52_52.png",
-                "title": "2026年7月19日 下午02_52_52"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月20日 上午12_15_59.png",
-                "title": "2026年7月20日 上午12_15_59"
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午07_10_56.png",
+                "title": "2026年7月19日 下午07_10_56"
           },
           {
                 "category": "海灘",
-                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午10_39_58.png",
-                "title": "2026年7月19日 下午10_39_58"
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_50_13.png",
+                "title": "2026年7月19日 下午02_50_13"
           },
           {
-                "category": "時尚",
-                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午08_27_59.png",
-                "title": "2026年7月19日 下午08_27_59"
-          },
-          {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_41_58.png",
-                "title": "2026年7月19日 下午07_41_58"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午07_46_05.png",
-                "title": "2026年7月19日 下午07_46_05"
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_43_40.png",
+                "title": "2026年7月20日 上午11_43_40"
           },
           {
                 "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_48_36.png",
-                "title": "2026年7月19日 下午02_48_36"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午02_46_27.png",
-                "title": "2026年7月19日 下午02_46_27"
-          },
-          {
-                "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午02_51_07.png",
-                "title": "2026年7月19日 下午02_51_07"
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_46_49.png",
+                "title": "2026年7月19日 下午02_46_49"
           },
           {
                 "category": "古風",
-                "src": "images/古風/ChatGPT Image 2026年7月19日 下午09_35_10.png",
-                "title": "2026年7月19日 下午09_35_10"
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_07_44.png",
+                "title": "2026年7月20日 上午07_07_44"
           },
           {
                 "category": "運動",
@@ -1403,24 +568,134 @@
                 "title": "2026年7月20日 上午04_56_43"
           },
           {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_16_12.png",
+                "title": "2026年7月20日 上午11_16_12"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午02_51_07.png",
+                "title": "2026年7月19日 下午02_51_07"
+          },
+          {
+                "category": "海報",
+                "src": "images/海報/ChatGPT Image 2026年7月19日 下午02_52_20.png",
+                "title": "2026年7月19日 下午02_52_20"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_27_59.png",
+                "title": "2026年7月20日 上午07_27_59"
+          },
+          {
                 "category": "居家",
                 "src": "images/居家/ChatGPT Image 2026年7月19日 下午10_37_03.png",
                 "title": "2026年7月19日 下午10_37_03"
           },
           {
-                "category": "工作",
-                "src": "images/工作/ChatGPT Image 2026年7月19日 下午02_46_39.png",
-                "title": "2026年7月19日 下午02_46_39"
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_48_36.png",
+                "title": "2026年7月19日 下午02_48_36"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_51_27.png",
+                "title": "2026年7月19日 下午02_51_27"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午07_54_37.png",
+                "title": "2026年7月19日 下午07_54_37"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午11_01_32.png",
+                "title": "2026年7月19日 下午11_01_32"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月20日 上午12_24_14.png",
+                "title": "2026年7月20日 上午12_24_14"
           },
           {
                 "category": "居家",
-                "src": "images/居家/ChatGPT Image 2026年7月19日 下午10_34_25.png",
-                "title": "2026年7月19日 下午10_34_25"
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午09_18_16.png",
+                "title": "2026年7月20日 上午09_18_16"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午08_36_08.png",
+                "title": "2026年7月20日 上午08_36_08"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午11_43_47.png",
+                "title": "2026年7月19日 下午11_43_47"
+          },
+          {
+                "category": "海報",
+                "src": "images/海報/ChatGPT Image 2026年7月19日 下午02_45_47.png",
+                "title": "2026年7月19日 下午02_45_47"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_48_21.png",
+                "title": "2026年7月19日 下午02_48_21"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月20日 上午07_34_22.png",
+                "title": "2026年7月20日 上午07_34_22"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月20日 上午06_57_21.png",
+                "title": "2026年7月20日 上午06_57_21"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午12_14_00.png",
+                "title": "2026年7月20日 上午12_14_00"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_47_30.png",
+                "title": "2026年7月19日 下午02_47_30"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午08_24_37.png",
+                "title": "2026年7月19日 下午08_24_37"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_48_15.png",
+                "title": "2026年7月19日 下午02_48_15"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午07_44_52.png",
+                "title": "2026年7月19日 下午07_44_52"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_54_16.png",
+                "title": "2026年7月20日 上午06_54_16"
+          },
+          {
+                "category": "海報",
+                "src": "images/海報/ChatGPT Image 2026年7月19日 下午02_52_05.png",
+                "title": "2026年7月19日 下午02_52_05"
           },
           {
                 "category": "奇幻",
-                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午07_59_52.png",
-                "title": "2026年7月19日 下午07_59_52"
+                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午02_45_18.png",
+                "title": "2026年7月19日 下午02_45_18"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午04_46_08.png",
+                "title": "2026年7月19日 下午04_46_08"
           },
           {
                 "category": "運動",
@@ -1429,8 +704,323 @@
           },
           {
                 "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午07_46_05.png",
+                "title": "2026年7月19日 下午07_46_05"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_48_50.png",
+                "title": "2026年7月19日 下午02_48_50"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月20日 上午06_38_57.png",
+                "title": "2026年7月20日 上午06_38_57"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_15_56.png",
+                "title": "2026年7月20日 上午11_15_56"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午06_49_04.png",
+                "title": "2026年7月19日 下午06_49_04"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_48_55.png",
+                "title": "2026年7月19日 下午02_48_55"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_23_54.png",
+                "title": "2026年7月19日 下午07_23_54"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_41_48.png",
+                "title": "2026年7月20日 上午06_41_48"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_47_56.png",
+                "title": "2026年7月19日 下午02_47_56"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_45_41.png",
+                "title": "2026年7月19日 下午02_45_41"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_03_33.png",
+                "title": "2026年7月20日 上午07_03_33"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_47_59.png",
+                "title": "2026年7月20日 上午08_47_59"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午08_48_28.png",
+                "title": "2026年7月19日 下午08_48_28"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午10_43_18.png",
+                "title": "2026年7月19日 下午10_43_18"
+          },
+          {
+                "category": "奇幻",
+                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午07_59_52.png",
+                "title": "2026年7月19日 下午07_59_52"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午08_03_09.png",
+                "title": "2026年7月19日 下午08_03_09"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午07_46_45.png",
+                "title": "2026年7月20日 上午07_46_45"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午04_44_24.png",
+                "title": "2026年7月19日 下午04_44_24"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午10_55_44.png",
+                "title": "2026年7月19日 下午10_55_44"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午09_38_23.png",
+                "title": "2026年7月19日 下午09_38_23"
+          },
+          {
+                "category": "奇幻",
+                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午07_37_13.png",
+                "title": "2026年7月19日 下午07_37_13"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午08_51_59.png",
+                "title": "2026年7月19日 下午08_51_59"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_07_58.png",
+                "title": "2026年7月20日 上午08_07_58"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月20日 上午06_06_40.png",
+                "title": "2026年7月20日 上午06_06_40"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月20日 上午09_16_47.png",
+                "title": "2026年7月20日 上午09_16_47"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_34_41.png",
+                "title": "2026年7月19日 下午07_34_41"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_43_36.png",
+                "title": "2026年7月19日 下午07_43_36"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月20日 上午12_26_45.png",
+                "title": "2026年7月20日 上午12_26_45"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午05_23_33.png",
+                "title": "2026年7月19日 下午05_23_33"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午08_31_44.png",
+                "title": "2026年7月19日 下午08_31_44"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午08_42_02.png",
+                "title": "2026年7月19日 下午08_42_02"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_46_43.png",
+                "title": "2026年7月19日 下午02_46_43"
+          },
+          {
+                "category": "居家",
                 "src": "images/居家/ChatGPT Image 2026年7月19日 下午10_34_58.png",
                 "title": "2026年7月19日 下午10_34_58"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月19日 下午03_16_55.png",
+                "title": "2026年7月19日 下午03_16_55"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_47_14.png",
+                "title": "2026年7月19日 下午02_47_14"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午08_02_32.png",
+                "title": "2026年7月19日 下午08_02_32"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午08_30_57.png",
+                "title": "2026年7月20日 上午08_30_57"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月19日 下午02_47_00.png",
+                "title": "2026年7月19日 下午02_47_00"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午11_09_01.png",
+                "title": "2026年7月19日 下午11_09_01"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_47_22.png",
+                "title": "2026年7月19日 下午02_47_22"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月20日 上午08_55_28.png",
+                "title": "2026年7月20日 上午08_55_28"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月20日 上午12_35_35.png",
+                "title": "2026年7月20日 上午12_35_35"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午04_58_12.png",
+                "title": "2026年7月19日 下午04_58_12"
+          },
+          {
+                "category": "奇幻",
+                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午08_04_39.png",
+                "title": "2026年7月19日 下午08_04_39"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_12_24.png",
+                "title": "2026年7月20日 上午08_12_24"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午07_49_01.png",
+                "title": "2026年7月20日 上午07_49_01"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_57_59.png",
+                "title": "2026年7月20日 上午11_57_59"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月20日 上午09_01_46.png",
+                "title": "2026年7月20日 上午09_01_46"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月20日 上午06_06_53.png",
+                "title": "2026年7月20日 上午06_06_53"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午09_34_43.png",
+                "title": "2026年7月19日 下午09_34_43"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月19日 下午02_46_21.png",
+                "title": "2026年7月19日 下午02_46_21"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午08_43_20.png",
+                "title": "2026年7月19日 下午08_43_20"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月20日 上午06_17_55.png",
+                "title": "2026年7月20日 上午06_17_55"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午11_32_04.png",
+                "title": "2026年7月19日 下午11_32_04"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午02_51_51.png",
+                "title": "2026年7月19日 下午02_51_51"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午02_45_11.png",
+                "title": "2026年7月19日 下午02_45_11"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午09_37_37.png",
+                "title": "2026年7月19日 下午09_37_37"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午06_06_24.png",
+                "title": "2026年7月20日 上午06_06_24"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午02_47_06.png",
+                "title": "2026年7月19日 下午02_47_06"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午11_28_12.png",
+                "title": "2026年7月19日 下午11_28_12"
+          },
+          {
+                "category": "海報",
+                "src": "images/海報/ChatGPT Image 2026年7月19日 下午02_51_21.png",
+                "title": "2026年7月19日 下午02_51_21"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午02_50_35.png",
+                "title": "2026年7月19日 下午02_50_35"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午10_38_18.png",
+                "title": "2026年7月19日 下午10_38_18"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午08_39_26.png",
+                "title": "2026年7月19日 下午08_39_26"
           },
           {
                 "category": "居家",
@@ -1438,9 +1028,464 @@
                 "title": "2026年7月19日 下午02_50_54"
           },
           {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午09_38_07.png",
+                "title": "2026年7月19日 下午09_38_07"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午02_46_39.png",
+                "title": "2026年7月19日 下午02_46_39"
+          },
+          {
                 "category": "透明",
-                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_51_27.png",
-                "title": "2026年7月19日 下午02_51_27"
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_48_30.png",
+                "title": "2026年7月19日 下午02_48_30"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午11_58_27.png",
+                "title": "2026年7月19日 下午11_58_27"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午02_46_33.png",
+                "title": "2026年7月19日 下午02_46_33"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午04_50_20.png",
+                "title": "2026年7月19日 下午04_50_20"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_35_58.png",
+                "title": "2026年7月19日 下午07_35_58"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_16_22.png",
+                "title": "2026年7月20日 上午11_16_22"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午10_52_39.png",
+                "title": "2026年7月19日 下午10_52_39"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午05_40_32.png",
+                "title": "2026年7月19日 下午05_40_32"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_48_08.png",
+                "title": "2026年7月19日 下午02_48_08"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午06_22_23.png",
+                "title": "2026年7月20日 上午06_22_23"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_36_50.png",
+                "title": "2026年7月20日 上午06_36_50"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午09_35_10.png",
+                "title": "2026年7月19日 下午09_35_10"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午07_50_46.png",
+                "title": "2026年7月20日 上午07_50_46"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午03_09_22.png",
+                "title": "2026年7月19日 下午03_09_22"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_45_27.png",
+                "title": "2026年7月19日 下午02_45_27"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午10_34_25.png",
+                "title": "2026年7月19日 下午10_34_25"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午12_08_52.png",
+                "title": "2026年7月20日 上午12_08_52"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_04_43.png",
+                "title": "2026年7月20日 上午07_04_43"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午09_35_58.png",
+                "title": "2026年7月20日 上午09_35_58"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午10_57_36.png",
+                "title": "2026年7月19日 下午10_57_36"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月20日 上午07_43_42.png",
+                "title": "2026年7月20日 上午07_43_42"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午03_20_41.png",
+                "title": "2026年7月19日 下午03_20_41"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月20日 上午12_00_20.png",
+                "title": "2026年7月20日 上午12_00_20"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午06_39_28.png",
+                "title": "2026年7月19日 下午06_39_28"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月20日 上午06_28_46.png",
+                "title": "2026年7月20日 上午06_28_46"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_50_26.png",
+                "title": "2026年7月19日 下午02_50_26"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午09_36_44.png",
+                "title": "2026年7月19日 下午09_36_44"
+          },
+          {
+                "category": "奇幻",
+                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午08_36_25.png",
+                "title": "2026年7月19日 下午08_36_25"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午09_34_54.png",
+                "title": "2026年7月19日 下午09_34_54"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月20日 上午12_41_06.png",
+                "title": "2026年7月20日 上午12_41_06"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午04_58_13.png",
+                "title": "2026年7月19日 下午04_58_13"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午07_50_29.png",
+                "title": "2026年7月19日 下午07_50_29"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午02_45_33.png",
+                "title": "2026年7月19日 下午02_45_33"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午07_05_30.png",
+                "title": "2026年7月19日 下午07_05_30"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午04_39_28.png",
+                "title": "2026年7月19日 下午04_39_28"
+          },
+          {
+                "category": "奇幻",
+                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午02_49_41.png",
+                "title": "2026年7月19日 下午02_49_41"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午02_46_27.png",
+                "title": "2026年7月19日 下午02_46_27"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午09_37_56.png",
+                "title": "2026年7月19日 下午09_37_56"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_47_47.png",
+                "title": "2026年7月19日 下午02_47_47"
+          },
+          {
+                "category": "海報",
+                "src": "images/海報/ChatGPT Image 2026年7月19日 下午06_39_08.png",
+                "title": "2026年7月19日 下午06_39_08"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_46_15.png",
+                "title": "2026年7月19日 下午02_46_15"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午08_30_44.png",
+                "title": "2026年7月19日 下午08_30_44"
+          },
+          {
+                "category": "海報",
+                "src": "images/海報/ChatGPT Image 2026年7月19日 下午02_51_35.png",
+                "title": "2026年7月19日 下午02_51_35"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午08_42_33.png",
+                "title": "2026年7月20日 上午08_42_33"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午09_09_06.png",
+                "title": "2026年7月20日 上午09_09_06"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_50_35.png",
+                "title": "2026年7月20日 上午06_50_35"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午02_48_02.png",
+                "title": "2026年7月19日 下午02_48_02"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午02_47_35.png",
+                "title": "2026年7月19日 下午02_47_35"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午07_59_04.png",
+                "title": "2026年7月20日 上午07_59_04"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_17_15.png",
+                "title": "2026年7月20日 上午11_17_15"
+          },
+          {
+                "category": "奇幻",
+                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午02_49_19.png",
+                "title": "2026年7月19日 下午02_49_19"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午08_10_34.png",
+                "title": "2026年7月19日 下午08_10_34"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午12_04_48.png",
+                "title": "2026年7月20日 上午12_04_48"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午11_52_17.png",
+                "title": "2026年7月20日 上午11_52_17"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月20日 上午09_15_49.png",
+                "title": "2026年7月20日 上午09_15_49"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_26_07.png",
+                "title": "2026年7月20日 上午07_26_07"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午02_51_58.png",
+                "title": "2026年7月19日 下午02_51_58"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午07_52_34.png",
+                "title": "2026年7月19日 下午07_52_34"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_30_20.png",
+                "title": "2026年7月20日 上午07_30_20"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_01_39.png",
+                "title": "2026年7月20日 上午08_01_39"
+          },
+          {
+                "category": "運動",
+                "src": "images/運動/ChatGPT Image 2026年7月19日 下午03_18_35.png",
+                "title": "2026年7月19日 下午03_18_35"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午02_51_13.png",
+                "title": "2026年7月19日 下午02_51_13"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午04_55_08.png",
+                "title": "2026年7月19日 下午04_55_08"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_52_25.png",
+                "title": "2026年7月19日 下午02_52_25"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午10_46_34.png",
+                "title": "2026年7月19日 下午10_46_34"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午12_18_53.png",
+                "title": "2026年7月20日 上午12_18_53"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月20日 上午06_31_15.png",
+                "title": "2026年7月20日 上午06_31_15"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_41_58.png",
+                "title": "2026年7月19日 下午07_41_58"
+          },
+          {
+                "category": "工作",
+                "src": "images/工作/ChatGPT Image 2026年7月19日 下午07_26_05.png",
+                "title": "2026年7月19日 下午07_26_05"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_24_10.png",
+                "title": "2026年7月20日 上午07_24_10"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午04_42_30.png",
+                "title": "2026年7月19日 下午04_42_30"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午12_15_59.png",
+                "title": "2026年7月20日 上午12_15_59"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_06_21.png",
+                "title": "2026年7月20日 上午07_06_21"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月19日 下午08_23_11.png",
+                "title": "2026年7月19日 下午08_23_11"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午02_46_54.png",
+                "title": "2026年7月19日 下午02_46_54"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月19日 下午09_45_47.png",
+                "title": "2026年7月19日 下午09_45_47"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午09_51_19.png",
+                "title": "2026年7月19日 下午09_51_19"
+          },
+          {
+                "category": "海灘",
+                "src": "images/海灘/ChatGPT Image 2026年7月19日 下午10_39_58.png",
+                "title": "2026年7月19日 下午10_39_58"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午08_04_57.png",
+                "title": "2026年7月20日 上午08_04_57"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午07_41_25.png",
+                "title": "2026年7月20日 上午07_41_25"
+          },
+          {
+                "category": "時尚",
+                "src": "images/時尚/ChatGPT Image 2026年7月19日 下午09_48_39.png",
+                "title": "2026年7月19日 下午09_48_39"
+          },
+          {
+                "category": "海報",
+                "src": "images/海報/ChatGPT Image 2026年7月19日 下午02_45_53.png",
+                "title": "2026年7月19日 下午02_45_53"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月20日 上午07_53_48.png",
+                "title": "2026年7月20日 上午07_53_48"
+          },
+          {
+                "category": "居家",
+                "src": "images/居家/ChatGPT Image 2026年7月20日 上午12_17_14.png",
+                "title": "2026年7月20日 上午12_17_14"
+          },
+          {
+                "category": "奇幻",
+                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午02_49_27.png",
+                "title": "2026年7月19日 下午02_49_27"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午06_56_06.png",
+                "title": "2026年7月20日 上午06_56_06"
+          },
+          {
+                "category": "古風",
+                "src": "images/古風/ChatGPT Image 2026年7月20日 上午07_08_56.png",
+                "title": "2026年7月20日 上午07_08_56"
+          },
+          {
+                "category": "海報",
+                "src": "images/海報/ChatGPT Image 2026年7月19日 下午08_08_45.png",
+                "title": "2026年7月19日 下午08_08_45"
+          },
+          {
+                "category": "奇幻",
+                "src": "images/奇幻/ChatGPT Image 2026年7月19日 下午02_49_33.png",
+                "title": "2026年7月19日 下午02_49_33"
+          },
+          {
+                "category": "透明",
+                "src": "images/透明/ChatGPT Image 2026年7月19日 下午04_48_27.png",
+                "title": "2026年7月19日 下午04_48_27"
           }
     ];
     // GALLERY_DATA_END
@@ -1448,6 +1493,7 @@
 
     const grid = document.querySelector("#grid");
     const filters = document.querySelector("#filters");
+    const categoryMenu = document.querySelector("#categoryMenu");
     const search = document.querySelector("#search");
     const empty = document.querySelector("#empty");
     const visibleCount = document.querySelector("#visibleCount");
@@ -1475,6 +1521,13 @@
         render();
       });
       return button;
+    }
+
+    function makeOption(category) {
+      const option = document.createElement("option");
+      option.value = category;
+      option.textContent = category;
+      return option;
     }
 
     function openPreview(image) {
@@ -1518,6 +1571,7 @@
       document.querySelectorAll(".chip").forEach((chip) => {
         chip.classList.toggle("active", chip.dataset.category === activeCategory);
       });
+      categoryMenu.value = activeCategory;
       grid.replaceChildren(...filtered.map(cardFor));
       empty.style.display = filtered.length ? "none" : "block";
       visibleCount.textContent = filtered.length;
@@ -1525,6 +1579,11 @@
     }
 
     filters.replaceChildren(...categories.map(makeChip));
+    categoryMenu.replaceChildren(...categories.map(makeOption));
+    categoryMenu.addEventListener("change", () => {
+      activeCategory = categoryMenu.value;
+      render();
+    });
     search.addEventListener("input", render);
     close.addEventListener("click", closePreview);
     lightbox.addEventListener("click", (event) => {
