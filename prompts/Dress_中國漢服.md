@@ -1,7 +1,6 @@
 She is wearing an avant-garde, provocative modern fusion of traditional Chinese Hanfu elements and contemporary high fashion. 
 
 The outfit consists of: 
- - An ethereal transparent white and blush pink chiffon robe (Hanfu style) that drapes softly over her silhouette. 
  - The sheer fabric features intricate, delicate silver-threaded embroidery of clouds and flowing rivers, creating an exquisite transparent look. 
  - An elegant, deep wrap-around crossover neckline (cross-collar) that beautifully accentuates her collarbones and neck. 
  - A narrow, structured pastel pink silk corset-style sash tied tightly around her high-waist line, accentuating her figure. 
