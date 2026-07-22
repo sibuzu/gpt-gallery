@@ -9,10 +9,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 IMAGES_DIR = ROOT / "images"
-INDEX_HTML = ROOT / "index.html"
+GALLERY_DATA_JS = ROOT / "scripts" / "gallery-data.js"
 REPORT_JSON = ROOT / "todo" / "catalog_report.json"
-START = "    // GALLERY_DATA_START\n"
-END = "    // GALLERY_DATA_END\n"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 SKIP_DIRS = {"all"}
 
@@ -78,29 +76,15 @@ def scan_images() -> tuple[list[dict[str, str]], dict[str, object]]:
 
 
 def render_data_block(items: list[dict[str, str]]) -> str:
-    data = json.dumps(items, ensure_ascii=False, indent=6)
-    first, *rest = data.splitlines()
-    indented_rest = "\n".join(("    " + line) if line else line for line in rest)
-    return f"{START}    const images = {first}\n{indented_rest};\n{END}"
-
-
-def replace_gallery_data(html: str, data_block: str) -> str:
-    if START in html and END in html:
-        before, rest = html.split(START, 1)
-        _, after = rest.split(END, 1)
-        return before + data_block + after
-
-    marker = "    const grid = document.querySelector(\"#grid\");"
-    before, after = html.split(marker, 1)
-    return before.split("    const images = [", 1)[0] + data_block + "\n\n" + marker + after
+    data = json.dumps(items, ensure_ascii=False, indent=2)
+    return f"window.__GALLERY_IMAGES__ = {data};\n"
 
 
 def main() -> None:
     items, report = scan_images()
-    html = INDEX_HTML.read_text(encoding="utf-8")
-    INDEX_HTML.write_text(replace_gallery_data(html, render_data_block(items)), encoding="utf-8")
+    GALLERY_DATA_JS.write_text(render_data_block(items), encoding="utf-8")
     REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Updated {INDEX_HTML.relative_to(ROOT)} with {len(items)} images.")
+    print(f"Updated {GALLERY_DATA_JS.relative_to(ROOT)} with {len(items)} images.")
     print(f"Updated {REPORT_JSON.relative_to(ROOT)}.")
 
 
