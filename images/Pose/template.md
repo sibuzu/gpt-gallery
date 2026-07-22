@@ -8,11 +8,10 @@ She is wearing a lightweight white sleeveless athletic tank top made from breath
 
 
 Pose:
-She is kneeling gracefully on a light wooden floor beside a modern fabric sofa. Her forearms rest comfortably on the sofa cushion while both hands are gently clasped together near her face. Her legs are folded naturally beneath her with her feet extending behind her, creating a relaxed, elegant, and intimate pose.
 
 
 Scene:
-In a luxury hotel suite.
+Choose whatever scene fits best.
 
 
 Composition:
