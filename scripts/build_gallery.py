@@ -5,6 +5,7 @@ import hashlib
 import json
 import re
 import random
+import time
 from pathlib import Path
 
 
@@ -12,8 +13,13 @@ ROOT = Path(__file__).resolve().parents[1]
 IMAGES_DIR = ROOT / "images"
 GALLERY_DATA_JS = ROOT / "scripts" / "gallery-data.js"
 REPORT_JSON = ROOT / "todo" / "catalog_report.json"
+INDEX_HTML = ROOT / "index.html"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 SKIP_DIRS = {"all"}
+BUILT_SCRIPTS = [
+    "scripts/gallery-data.js",
+    "scripts/gallery.js",
+]
 CHATGPT_IMAGE_PATTERN = re.compile(
     r"^ChatGPT Image (\d{4})年(\d{1,2})月(\d{1,2})日 (上午|下午)(\d{1,2})_(\d{2})_(\d{2})$"
 )
@@ -127,15 +133,36 @@ def render_data_block(items: list[dict[str, str]]) -> str:
     return f"window.__GALLERY_IMAGES__ = {data};\n"
 
 
+def update_script_cache_bust(index_path: Path, version: str) -> bool:
+    html = index_path.read_text(encoding="utf-8")
+    original = html
+
+    for script in BUILT_SCRIPTS:
+        pattern = re.compile(rf"(src=\")({re.escape(script)})(?:\\?[^\"']*)?(\")")
+        html = pattern.sub(lambda match: f'{match.group(1)}{match.group(2)}?v={version}{match.group(3)}', html)
+
+    if html == original:
+        return False
+
+    index_path.write_text(html, encoding="utf-8")
+    return True
+
+
 def main() -> None:
     renamed = rename_special_filenames()
     items, report = scan_images()
     GALLERY_DATA_JS.write_text(render_data_block(items), encoding="utf-8")
     REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    version = int(time.time())
+    updated = update_script_cache_bust(INDEX_HTML, str(version))
+
     if renamed:
         print(f"Renamed {renamed} file(s).")
     print(f"Updated {GALLERY_DATA_JS.relative_to(ROOT)} with {len(items)} images.")
     print(f"Updated {REPORT_JSON.relative_to(ROOT)}.")
+    if updated:
+        print(f"Updated {INDEX_HTML.relative_to(ROOT)} cache-buster to v={version}.")
 
 
 if __name__ == "__main__":
