@@ -1,17 +1,17 @@
 {
-  "total_categorized": 382,
+  "total_categorized": 388,
   "category_counts": {
-    "古典": 53,
-    "Dress": 101,
-    "海灘": 26,
-    "居家": 40,
-    "工作": 34,
-    "透明": 29,
+    "居家": 58,
     "時尚": 39,
+    "古典": 53,
+    "透明": 29,
+    "工作": 36,
+    "Dress": 102,
+    "奇幻": 13,
     "運動": 21,
-    "奇幻": 12,
-    "咖啡": 19,
-    "海報": 8
+    "海灘": 26,
+    "海報": 8,
+    "Pose": 3
   },
   "skipped": [
     {
@@ -35,8 +35,8 @@
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/奇幻/img-20260720-142407.png",
-      "duplicate_of": "images/咖啡/img-20260720-145228.png",
+      "path": "images/居家/img-20260720-145228.png",
+      "duplicate_of": "images/奇幻/img-20260720-142407.png",
       "reason": "duplicate_hash"
     },
     {
