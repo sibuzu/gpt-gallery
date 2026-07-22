@@ -1,17 +1,17 @@
 {
-  "total_categorized": 519,
+  "total_categorized": 522,
   "category_counts": {
-    "Dress-1": 61,
-    "Dress": 143,
     "古典": 53,
-    "透明": 29,
-    "Pose": 28,
+    "運動": 23,
+    "居家": 58,
+    "Dress-1": 61,
     "時尚": 47,
     "海灘": 26,
-    "運動": 23,
+    "Dress": 146,
     "工作": 38,
     "奇幻": 13,
-    "居家": 58
+    "透明": 29,
+    "Pose": 28
   },
   "skipped": [
     {
