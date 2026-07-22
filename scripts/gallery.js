@@ -12,13 +12,14 @@ const images = window.__GALLERY_IMAGES__ || [];
     const preview = document.querySelector("#preview");
     const previewCaption = document.querySelector("#previewCaption");
     const close = document.querySelector("#close");
-    let activeCategory = "全部";
+    const DEFAULT_CATEGORY = "Dress";
+    const categories = ["全部", ...new Set(images.map((image) => image.category))];
+    let activeCategory = categories.includes(DEFAULT_CATEGORY) ? DEFAULT_CATEGORY : "全部";
     let currentImages = images;
     let previewIndex = -1;
     let touchStartX = 0;
     let touchStartY = 0;
 
-    const categories = ["全部", ...new Set(images.map((image) => image.category))];
     const totals = images.reduce((map, image) => {
       map[image.category] = (map[image.category] || 0) + 1;
       return map;
