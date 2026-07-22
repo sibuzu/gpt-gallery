@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import random
 from pathlib import Path
 
@@ -13,18 +14,42 @@ GALLERY_DATA_JS = ROOT / "scripts" / "gallery-data.js"
 REPORT_JSON = ROOT / "todo" / "catalog_report.json"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 SKIP_DIRS = {"all"}
-RENAME_MAP = {
-    "ChatGPT Image 2026年7月19日 下午02_46_27.png": "img-20260719-142627.png",
-}
+CHATGPT_IMAGE_PATTERN = re.compile(
+    r"^ChatGPT Image (\d{4})年(\d{1,2})月(\d{1,2})日 (上午|下午)(\d{1,2})_(\d{2})_(\d{2})$"
+)
+
+
+def convert_chatgpt_filename(path: Path) -> str | None:
+    match = CHATGPT_IMAGE_PATTERN.match(path.name.removesuffix(path.suffix))
+    if not match:
+        return None
+
+    year, month, day, period, hour_text, minute, second = match.groups()
+    hour = int(hour_text)
+    if period == "下午":
+        hour = 12 if hour == 12 else hour + 12
+    elif period == "上午" and hour == 12:
+        hour = 0
+
+    normalized_hour = f"{hour:02d}"
+    return (
+        f"img-{int(year):04d}{int(month):02d}{int(day):02d}-"
+        f"{normalized_hour}{minute}{second}{path.suffix.lower()}"
+    )
 
 
 def rename_special_filenames() -> int:
     renamed = 0
-    for path in IMAGES_DIR.rglob("*"):
+    for path in sorted(IMAGES_DIR.rglob("*"), key=lambda item: str(item)):
         if not path.is_file():
             continue
-        new_name = RENAME_MAP.get(path.name)
+        if path.suffix.lower() not in IMAGE_EXTENSIONS:
+            continue
+
+        new_name = convert_chatgpt_filename(path)
         if new_name is None:
+            continue
+        if new_name == path.name:
             continue
 
         target = path.with_name(new_name)
