@@ -1,17 +1,17 @@
 {
-  "total_categorized": 358,
+  "total_categorized": 381,
   "category_counts": {
-    "Dress": 91,
-    "時尚": 37,
-    "咖啡": 19,
-    "運動": 20,
     "居家": 40,
-    "古典": 53,
-    "海灘": 22,
+    "時尚": 39,
     "透明": 29,
+    "運動": 21,
+    "Dress": 101,
+    "古典": 53,
+    "工作": 33,
     "奇幻": 12,
+    "咖啡": 19,
     "海報": 8,
-    "工作": 27
+    "海灘": 26
   },
   "skipped": [
     {
@@ -42,6 +42,11 @@
     {
       "path": "images/居家/ChatGPT Image 2026年7月21日 上午01_02_02.png",
       "duplicate_of": "images/居家/ChatGPT Image 2026年7月20日 上午09_18_16.png",
+      "reason": "duplicate_hash"
+    },
+    {
+      "path": "images/時尚/ChatGPT Image 2026年7月21日 下午09_33_33.png",
+      "duplicate_of": "images/Dress/水晶１.png",
       "reason": "duplicate_hash"
     },
     {
