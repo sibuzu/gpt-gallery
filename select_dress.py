@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 DRESS_DIR = ROOT / "images" / "Dress"
+DRESS_OUTPUT_DIR = ROOT / "images" / "Dress-1"
 STATE_PATH = ROOT / ".select_dress_state.json"
 
 
@@ -37,7 +38,9 @@ def wait_key() -> None:
 
 
 def dress_files() -> list[Path]:
-    sanitize_dress_filenames()
+    DRESS_OUTPUT_DIR.mkdir(exist_ok=True)
+    sanitize_directory(DRESS_DIR)
+    sanitize_directory(DRESS_OUTPUT_DIR)
     files = sorted(path for path in DRESS_DIR.glob("*.md") if path.is_file())
     if not files:
         raise FileNotFoundError(f"No .md files found in {DRESS_DIR}")
@@ -48,8 +51,8 @@ def clean_text(text: str) -> str:
     return "".join(char for char in text if char.isprintable())
 
 
-def sanitize_dress_filenames() -> None:
-    for path in sorted(DRESS_DIR.iterdir(), key=lambda item: item.name):
+def sanitize_directory(directory: Path) -> None:
+    for path in sorted(directory.iterdir(), key=lambda item: item.name):
         clean_name = clean_text(path.name)
         if clean_name == path.name:
             continue
@@ -65,7 +68,7 @@ def sanitize_dress_filenames() -> None:
 
 def next_available_name(basename: str) -> str:
     index = 1
-    while (DRESS_DIR / f"{basename}-{index}.png").exists():
+    while (DRESS_OUTPUT_DIR / f"{basename}-{index}.png").exists():
         index += 1
     return f"{basename}-{index}"
 
