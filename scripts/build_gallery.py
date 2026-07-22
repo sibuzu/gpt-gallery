@@ -13,6 +13,28 @@ GALLERY_DATA_JS = ROOT / "scripts" / "gallery-data.js"
 REPORT_JSON = ROOT / "todo" / "catalog_report.json"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 SKIP_DIRS = {"all"}
+RENAME_MAP = {
+    "ChatGPT Image 2026年7月19日 下午02_46_27.png": "img-20260719-142627.png",
+}
+
+
+def rename_special_filenames() -> int:
+    renamed = 0
+    for path in IMAGES_DIR.rglob("*"):
+        if not path.is_file():
+            continue
+        new_name = RENAME_MAP.get(path.name)
+        if new_name is None:
+            continue
+
+        target = path.with_name(new_name)
+        if target.exists():
+            continue
+
+        path.rename(target)
+        renamed += 1
+
+    return renamed
 
 
 def digest(path: Path) -> str:
@@ -81,9 +103,12 @@ def render_data_block(items: list[dict[str, str]]) -> str:
 
 
 def main() -> None:
+    renamed = rename_special_filenames()
     items, report = scan_images()
     GALLERY_DATA_JS.write_text(render_data_block(items), encoding="utf-8")
     REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if renamed:
+        print(f"Renamed {renamed} file(s).")
     print(f"Updated {GALLERY_DATA_JS.relative_to(ROOT)} with {len(items)} images.")
     print(f"Updated {REPORT_JSON.relative_to(ROOT)}.")
 
