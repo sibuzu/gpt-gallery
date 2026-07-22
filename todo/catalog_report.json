@@ -1,17 +1,17 @@
 {
   "total_categorized": 381,
   "category_counts": {
-    "海灘": 26,
-    "古典": 53,
     "Dress": 101,
-    "運動": 21,
     "時尚": 39,
-    "工作": 33,
-    "透明": 29,
-    "海報": 8,
-    "居家": 40,
     "奇幻": 12,
-    "咖啡": 19
+    "透明": 29,
+    "古典": 53,
+    "居家": 40,
+    "海灘": 26,
+    "咖啡": 19,
+    "海報": 8,
+    "運動": 21,
+    "工作": 33
   },
   "skipped": [
     {
@@ -20,38 +20,38 @@
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/古典/ChatGPT Image 2026年7月20日 下午08_47_28.png",
+      "path": "images/古典/img-20260720-204728.png",
       "duplicate_of": "images/Dress/中式漢服(白)4.png",
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/古典/ChatGPT Image 2026年7月20日 下午08_59_54.png",
+      "path": "images/古典/img-20260720-205954.png",
       "duplicate_of": "images/Dress/印度紗麗3.png",
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/古典/ChatGPT Image 2026年7月20日 下午09_23_56.png",
+      "path": "images/古典/img-20260720-212356.png",
       "duplicate_of": "images/Dress/中式漢服(白)1.png",
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/奇幻/ChatGPT Image 2026年7月20日 下午02_24_07.png",
-      "duplicate_of": "images/咖啡/ChatGPT Image 2026年7月20日 下午02_52_28.png",
+      "path": "images/奇幻/img-20260720-142407.png",
+      "duplicate_of": "images/咖啡/img-20260720-145228.png",
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/居家/ChatGPT Image 2026年7月21日 上午01_02_02.png",
-      "duplicate_of": "images/居家/ChatGPT Image 2026年7月20日 上午09_18_16.png",
+      "path": "images/居家/img-20260721-010202.png",
+      "duplicate_of": "images/居家/img-20260720-091816.png",
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/時尚/ChatGPT Image 2026年7月21日 下午09_33_33.png",
+      "path": "images/時尚/img-20260721-213333.png",
       "duplicate_of": "images/Dress/水晶１.png",
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/透明/ChatGPT Image 2026年7月20日 上午11_15_23.png",
-      "duplicate_of": "images/透明/ChatGPT Image 2026年7月20日 上午09_34_38.png",
+      "path": "images/透明/img-20260720-111523.png",
+      "duplicate_of": "images/透明/img-20260720-093438.png",
       "reason": "duplicate_hash"
     }
   ]
