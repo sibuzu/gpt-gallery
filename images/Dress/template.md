@@ -10,5 +10,5 @@ Scene:
 An upscale, sunlit pedestrian street in an Asian city, with modern glass-facade skyscrapers and pedestrians in the background.
 
 Composition:
-Full body view. Ultra-realistic fashion photography, luxury editorial, premium fashion campaign, provocative style, ethereal translucency, shallow depth of field, soft morning light, natural skin texture, highly detailed delicate sheer fabric with realistic movement, professional color grading, 85mm lens, f/2.2, HDR, masterpiece, ultra detailed,
+Full body view. Ultra-realistic fashion photography, luxury editorial, premium fashion campaign, provocative style, ethereal translucency, shallow depth of field, soft morning light, natural skin textureFull body view. Ultra-realistic fashion photography, luxury editorial, premium fashion campaign, provocative style, natural sheer chiffon and organza silk materials, ethereal translucency, shallow depth of field, soft morning light, natural skin texture, highly detailed delicate sheer fabric with realistic movement, professional color grading, 85mm lens, f/2.2, HDR, masterpiece, ultra detailed., professional color grading, 85mm lens, f/2.2, HDR, masterpiece, ultra detailed,
 
