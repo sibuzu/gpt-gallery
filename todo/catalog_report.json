@@ -1,21 +1,22 @@
 {
-  "total_categorized": 419,
+  "total_categorized": 465,
   "category_counts": {
-    "奇幻": 13,
-    "時尚": 39,
-    "Dress": 102,
-    "居家": 58,
-    "工作": 38,
-    "Pose": 30,
-    "透明": 29,
+    "Dress": 146,
     "海灘": 26,
+    "工作": 38,
     "運動": 23,
-    "古典": 53,
-    "海報": 8
+    "居家": 58,
+    "Pose": 28,
+    "透明": 29,
+    "古典": 54,
+    "時尚": 39,
+    "海報": 8,
+    "奇幻": 13,
+    "Prompt": 3
   },
   "skipped": [
     {
-      "path": "images/Dress/日式和服(白)3\b.png",
+      "path": "images/Dress/日式和服(白)3.png",
       "duplicate_of": "images/Dress/中式漢服(白)3.png",
       "reason": "duplicate_hash"
     },
