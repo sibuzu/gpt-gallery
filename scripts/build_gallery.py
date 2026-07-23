@@ -24,6 +24,14 @@ BUILT_ASSETS = [
 CHATGPT_IMAGE_PATTERN = re.compile(
     r"^ChatGPT Image (\d{4})年(\d{1,2})月(\d{1,2})日 (上午|下午)(\d{1,2})_(\d{2})_(\d{2})$"
 )
+COPY_SUFFIX_PATTERN = re.compile(r"^(.*)-(\d+)$")
+
+
+def category_dirs() -> list[Path]:
+    return sorted(
+        [path for path in IMAGES_DIR.iterdir() if path.is_dir() and path.name not in SKIP_DIRS],
+        key=lambda path: path.name,
+    )
 
 
 def convert_chatgpt_filename(path: Path) -> str | None:
@@ -69,6 +77,63 @@ def rename_special_filenames() -> int:
     return renamed
 
 
+def normalize_zero_variant_filenames() -> int:
+    renamed = 0
+
+    for category_dir in category_dirs():
+        files = sorted([path for path in category_dir.iterdir() if path.is_file()], key=lambda path: path.name)
+        stems = {path.stem for path in files}
+        minus_one_bases = {
+            match.group(1)
+            for path in files
+            if (match := COPY_SUFFIX_PATTERN.match(path.stem)) and match.group(2) == "1"
+        }
+
+        for base in sorted(minus_one_bases):
+            for source in sorted(category_dir.glob(f"{base}.*"), key=lambda path: path.name):
+                if not source.is_file() or source.stem != base:
+                    continue
+
+                target = source.with_name(f"{base}-0{source.suffix}")
+                if target.exists():
+                    continue
+
+                source.rename(target)
+                stems.discard(base)
+                stems.add(f"{base}-0")
+                renamed += 1
+
+        files = sorted([path for path in category_dir.iterdir() if path.is_file()], key=lambda path: path.name)
+        stems = {path.stem for path in files}
+        minus_one_bases = {
+            match.group(1)
+            for path in files
+            if (match := COPY_SUFFIX_PATTERN.match(path.stem)) and match.group(2) == "1"
+        }
+        minus_zero_bases = {
+            match.group(1)
+            for path in files
+            if (match := COPY_SUFFIX_PATTERN.match(path.stem)) and match.group(2) == "0"
+        }
+
+        for base in sorted(minus_zero_bases - minus_one_bases):
+            if base in stems:
+                continue
+
+            for source in sorted(category_dir.glob(f"{base}-0.*"), key=lambda path: path.name):
+                if not source.is_file() or source.stem != f"{base}-0":
+                    continue
+
+                target = source.with_name(f"{base}{source.suffix}")
+                if target.exists():
+                    continue
+
+                source.rename(target)
+                renamed += 1
+
+    return renamed
+
+
 def digest(path: Path) -> str:
     hash_value = hashlib.sha256()
     with path.open("rb") as file:
@@ -86,12 +151,7 @@ def scan_images() -> tuple[list[dict[str, str]], dict[str, object]]:
     skipped: list[dict[str, str]] = []
     seen: dict[str, str] = {}
 
-    category_dirs = sorted(
-        [path for path in IMAGES_DIR.iterdir() if path.is_dir() and path.name not in SKIP_DIRS],
-        key=lambda path: path.name,
-    )
-
-    for category_dir in category_dirs:
+    for category_dir in category_dirs():
         files = sorted(
             [path for path in category_dir.iterdir() if path.is_file() and path.suffix.lower() in IMAGE_EXTENSIONS],
             key=lambda path: path.name,
@@ -151,6 +211,7 @@ def update_asset_cache_bust(index_path: Path, version: str) -> bool:
 
 def main() -> None:
     renamed = rename_special_filenames()
+    normalized = normalize_zero_variant_filenames()
     items, report = scan_images()
     GALLERY_DATA_JS.write_text(render_data_block(items), encoding="utf-8")
     REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -160,6 +221,8 @@ def main() -> None:
 
     if renamed:
         print(f"Renamed {renamed} file(s).")
+    if normalized:
+        print(f"Normalized {normalized} grouped filename(s).")
     print(f"Updated {GALLERY_DATA_JS.relative_to(ROOT)} with {len(items)} images.")
     print(f"Updated {REPORT_JSON.relative_to(ROOT)}.")
     if updated:
