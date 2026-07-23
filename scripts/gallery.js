@@ -25,6 +25,28 @@ const images = window.__GALLERY_IMAGES__ || [];
       return map;
     }, {});
 
+    function basenameKey(title) {
+      return title
+        .replace(/-\d+$/, "")
+        .replace(/[A-Za-z]+$/, "");
+    }
+
+    function groupByBasename(items) {
+      const groups = new Map();
+      const order = [];
+
+      for (const image of items) {
+        const key = basenameKey(image.title || image.src);
+        if (!groups.has(key)) {
+          groups.set(key, []);
+          order.push(key);
+        }
+        groups.get(key).push(image);
+      }
+
+      return order.flatMap((key) => groups.get(key));
+    }
+
     function makeChip(category) {
       const button = document.createElement("button");
       button.type = "button";
@@ -156,11 +178,12 @@ const images = window.__GALLERY_IMAGES__ || [];
 
     function render() {
       const query = search.value.trim().toLowerCase();
-      currentImages = images.filter((image) => {
+      const filtered = images.filter((image) => {
         const matchCategory = activeCategory === "全部" || image.category === activeCategory;
         const matchQuery = !query || `${image.category} ${image.title}`.toLowerCase().includes(query);
         return matchCategory && matchQuery;
       });
+      currentImages = activeCategory === "全部" ? groupByBasename(filtered) : filtered;
 
       document.querySelectorAll(".chip").forEach((chip) => {
         chip.classList.toggle("active", chip.dataset.category === activeCategory);
