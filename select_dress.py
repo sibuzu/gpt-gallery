@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import random
+import re
 import subprocess
 import sys
 import termios
@@ -41,7 +42,11 @@ def dress_files() -> list[Path]:
     DRESS_OUTPUT_DIR.mkdir(exist_ok=True)
     sanitize_directory(DRESS_DIR)
     sanitize_directory(DRESS_OUTPUT_DIR)
-    files = sorted(path for path in DRESS_DIR.glob("*.md") if path.is_file())
+    files = sorted(
+        list(DRESS_DIR.glob("*.md")) + list(DRESS_OUTPUT_DIR.glob("*.md")),
+        key=lambda item: (clean_text(item.parent.name), clean_text(item.stem)),
+    )
+    files = [path for path in files if path.is_file()]
     if not files:
         raise FileNotFoundError(f"No .md files found in {DRESS_DIR}")
     return files
@@ -49,6 +54,12 @@ def dress_files() -> list[Path]:
 
 def clean_text(text: str) -> str:
     return "".join(char for char in text if char.isprintable())
+
+
+def basename_key(stem: str) -> str:
+    key = re.sub(r"-\d+$", "", stem)
+    key = re.sub(r"[a-zA-Z]+$", "", key)
+    return key or stem
 
 
 def sanitize_directory(directory: Path) -> None:
@@ -79,12 +90,33 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def file_map(files: list[Path]) -> dict[str, Path]:
-    return {clean_text(path.stem): path for path in files}
+def file_groups(files: list[Path]) -> dict[str, list[Path]]:
+    groups: dict[str, list[Path]] = {}
+    for path in files:
+        key = basename_key(clean_text(path.stem))
+        groups.setdefault(key, []).append(path)
+
+    for group in groups.values():
+        def path_sort(path: Path) -> tuple[int, str]:
+            stem = clean_text(path.stem)
+            return (0 if stem == basename_key(stem) else 1, stem)
+
+        group.sort(key=path_sort)
+    return groups
 
 
-def load_state(files: list[Path], clear: bool) -> dict[str, list[str]]:
-    basenames = list(file_map(files))
+def select_source_path(group_paths: list[Path]) -> Path:
+    def path_sort(path: Path) -> tuple[int, str]:
+        stem = clean_text(path.stem)
+        if stem == basename_key(stem):
+            return (0, stem)
+        return (1, stem)
+
+    return min(group_paths, key=path_sort)
+
+
+def load_state(groups: dict[str, list[Path]], clear: bool) -> dict[str, list[str]]:
+    basenames = sorted(groups.keys())
     if clear or not STATE_PATH.exists():
         state: dict[str, list[str]] = {"completed": [], "order": basenames.copy()}
         random.shuffle(state["order"])
@@ -94,10 +126,20 @@ def load_state(files: list[Path], clear: bool) -> dict[str, list[str]]:
     with STATE_PATH.open(encoding="utf-8") as state_file:
         state = json.load(state_file)
 
-    completed = [name for name in state.get("completed", []) if name in basenames]
-    known = set(completed)
-    order = [name for name in state.get("order", []) if name in basenames and name not in known]
-    known.update(order)
+        completed = []
+        for raw_name in state.get("completed", []):
+            name = basename_key(str(raw_name))
+            if name in basenames and name not in completed:
+                completed.append(name)
+        known = set(completed)
+
+        order = []
+        for raw_name in state.get("order", []):
+            name = basename_key(str(raw_name))
+            if name in basenames and name not in known:
+                order.append(name)
+                known.add(name)
+        known.update(order)
 
     added = [name for name in basenames if name not in known]
     random.shuffle(added)
@@ -114,8 +156,8 @@ def save_state(state: dict[str, list[str]]) -> None:
 def main() -> None:
     args = parse_args()
     files = dress_files()
-    paths = file_map(files)
-    state = load_state(files, args.clear)
+    groups = file_groups(files)
+    state = load_state(groups, args.clear)
 
     try:
         while True:
@@ -128,7 +170,7 @@ def main() -> None:
                 return
 
             basename = remaining[0]
-            path = paths[basename]
+            path = select_source_path(groups[basename])
             fname = next_available_name(basename)
             content = path.read_text(encoding="utf-8")
 
