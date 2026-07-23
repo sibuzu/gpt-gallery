@@ -183,7 +183,7 @@ const images = window.__GALLERY_IMAGES__ || [];
         const matchQuery = !query || `${image.category} ${image.title}`.toLowerCase().includes(query);
         return matchCategory && matchQuery;
       });
-      currentImages = activeCategory === "全部" ? groupByBasename(filtered) : filtered;
+      currentImages = groupByBasename(filtered);
 
       document.querySelectorAll(".chip").forEach((chip) => {
         chip.classList.toggle("active", chip.dataset.category === activeCategory);
