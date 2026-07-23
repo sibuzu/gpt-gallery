@@ -31,6 +31,15 @@ const images = window.__GALLERY_IMAGES__ || [];
         .replace(/[A-Za-z]+$/, "");
     }
 
+    function variantKey(title) {
+      const copyMatch = title.match(/-(\d+)$/);
+      const copyNumber = copyMatch ? Number(copyMatch[1]) : 0;
+      const withoutCopy = title.replace(/-\d+$/, "");
+      const variantMatch = withoutCopy.match(/[A-Za-z]+$/);
+      const variant = variantMatch ? variantMatch[0] : "";
+      return [variant, copyNumber, title];
+    }
+
     function groupByBasename(items) {
       const groups = new Map();
       const order = [];
@@ -44,7 +53,15 @@ const images = window.__GALLERY_IMAGES__ || [];
         groups.get(key).push(image);
       }
 
-      return order.flatMap((key) => groups.get(key));
+      return order.flatMap((key) => {
+        return groups.get(key).sort((left, right) => {
+          const leftKey = variantKey(left.title || left.src);
+          const rightKey = variantKey(right.title || right.src);
+          return String(leftKey[0]).localeCompare(String(rightKey[0]), "zh-Hant")
+            || Number(leftKey[1]) - Number(rightKey[1])
+            || String(leftKey[2]).localeCompare(String(rightKey[2]), "zh-Hant");
+        });
+      });
     }
 
     function makeChip(category) {
