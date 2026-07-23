@@ -16,7 +16,8 @@ REPORT_JSON = ROOT / "todo" / "catalog_report.json"
 INDEX_HTML = ROOT / "index.html"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 SKIP_DIRS = {"all"}
-BUILT_SCRIPTS = [
+BUILT_ASSETS = [
+    "styles/gallery.css",
     "scripts/gallery-data.js",
     "scripts/gallery.js",
 ]
@@ -133,12 +134,12 @@ def render_data_block(items: list[dict[str, str]]) -> str:
     return f"window.__GALLERY_IMAGES__ = {data};\n"
 
 
-def update_script_cache_bust(index_path: Path, version: str) -> bool:
+def update_asset_cache_bust(index_path: Path, version: str) -> bool:
     html = index_path.read_text(encoding="utf-8")
     original = html
 
-    for script in BUILT_SCRIPTS:
-        pattern = re.compile(rf"(src=\")({re.escape(script)})(?:\\?[^\"']*)?(\")")
+    for asset in BUILT_ASSETS:
+        pattern = re.compile(rf"((?:src|href)=\")({re.escape(asset)})(?:\\?[^\"']*)?(\")")
         html = pattern.sub(lambda match: f'{match.group(1)}{match.group(2)}?v={version}{match.group(3)}', html)
 
     if html == original:
@@ -155,7 +156,7 @@ def main() -> None:
     REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     version = int(time.time())
-    updated = update_script_cache_bust(INDEX_HTML, str(version))
+    updated = update_asset_cache_bust(INDEX_HTML, str(version))
 
     if renamed:
         print(f"Renamed {renamed} file(s).")
