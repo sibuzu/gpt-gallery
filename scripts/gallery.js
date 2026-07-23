@@ -175,6 +175,20 @@ const images = window.__GALLERY_IMAGES__ || [];
       }, 2000);
     }
 
+    function resizeMasonryCard(card) {
+      const styles = getComputedStyle(grid);
+      const rowHeight = Number.parseFloat(styles.gridAutoRows);
+      const gap = Number.parseFloat(styles.rowGap);
+      if (!rowHeight) return;
+
+      const span = Math.ceil((card.getBoundingClientRect().height + gap) / (rowHeight + gap));
+      card.style.gridRowEnd = `span ${span}`;
+    }
+
+    function resizeMasonry() {
+      grid.querySelectorAll(".card").forEach(resizeMasonryCard);
+    }
+
     function cardFor(image, index) {
       const article = document.createElement("article");
       article.className = "card";
@@ -186,6 +200,8 @@ const images = window.__GALLERY_IMAGES__ || [];
           <span class="filename">${image.title}</span>
         </div>
       `;
+      const cardImage = article.querySelector("img");
+      cardImage.addEventListener("load", () => resizeMasonryCard(article));
       article.addEventListener("click", () => openPreview(index));
       article.addEventListener("keydown", (event) => {
         if (event.key === "Enter") openPreview(index);
@@ -207,6 +223,7 @@ const images = window.__GALLERY_IMAGES__ || [];
       });
       categoryMenu.value = activeCategory;
       grid.replaceChildren(...currentImages.map(cardFor));
+      resizeMasonry();
       empty.style.display = currentImages.length ? "none" : "block";
       visibleCount.textContent = currentImages.length;
       totalCount.textContent = images.length;
@@ -219,6 +236,7 @@ const images = window.__GALLERY_IMAGES__ || [];
       render();
     });
     search.addEventListener("input", render);
+    window.addEventListener("resize", resizeMasonry);
     close.addEventListener("click", closePreview);
     lightbox.addEventListener("click", (event) => {
       if (event.target === lightbox) closePreview();
