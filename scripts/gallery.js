@@ -12,7 +12,7 @@ const images = window.__GALLERY_IMAGES__ || [];
     const preview = document.querySelector("#preview");
     const previewCaption = document.querySelector("#previewCaption");
     const close = document.querySelector("#close");
-    const DEFAULT_CATEGORY = "Dress";
+    const DEFAULT_CATEGORY = "Folk";
     const categories = ["全部", ...new Set(images.map((image) => image.category))];
     let activeCategory = categories.includes(DEFAULT_CATEGORY) ? DEFAULT_CATEGORY : "全部";
     let currentImages = images;
