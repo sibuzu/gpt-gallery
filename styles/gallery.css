@@ -152,13 +152,14 @@
       border: 1px solid rgba(234, 220, 203, 0.84);
       border-radius: 8px;
       box-shadow: 0 10px 28px rgba(70, 47, 27, 0.1);
-      cursor: zoom-in;
+      cursor: default;
       overflow: hidden;
       position: relative;
       width: 100%;
     }
 
     .card img {
+      cursor: zoom-in;
       display: block;
       height: auto;
       width: 100%;
@@ -166,6 +167,7 @@
 
     .caption {
       align-items: center;
+      cursor: default;
       display: flex;
       gap: 10px;
       justify-content: space-between;
@@ -194,6 +196,7 @@
       color: var(--muted);
       flex: 0 1 auto;
       font-size: 12px;
+      margin-right: 6px;
       min-width: 0;
       overflow: hidden;
       text-overflow: ellipsis;

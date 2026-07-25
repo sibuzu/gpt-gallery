@@ -213,9 +213,8 @@ const images = window.__GALLERY_IMAGES__ || [];
     function cardFor(image, index) {
       const article = document.createElement("article");
       article.className = "card";
-      article.tabIndex = 0;
       article.innerHTML = `
-        <img loading="lazy" src="${encodeURI(image.src)}" alt="${image.category}">
+        <img loading="lazy" src="${encodeURI(image.src)}" alt="${image.category}" tabindex="0">
         <div class="caption">
           <span class="category">${image.category}</span>
           <span class="caption-end">
@@ -229,6 +228,10 @@ const images = window.__GALLERY_IMAGES__ || [];
       `;
       const cardImage = article.querySelector("img");
       cardImage.addEventListener("load", () => resizeMasonryCard(article));
+      cardImage.addEventListener("click", () => openPreview(index));
+      cardImage.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") openPreview(index);
+      });
       article.querySelector(".copy-desc")?.addEventListener("click", (event) => {
         event.stopPropagation();
         copyMatchingMarkdown(image.src);
@@ -239,10 +242,6 @@ const images = window.__GALLERY_IMAGES__ || [];
       });
       article.querySelector(".card-actions")?.addEventListener("keydown", (event) => {
         event.stopPropagation();
-      });
-      article.addEventListener("click", () => openPreview(index));
-      article.addEventListener("keydown", (event) => {
-        if (event.key === "Enter") openPreview(index);
       });
       return article;
     }
