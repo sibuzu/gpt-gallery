@@ -172,6 +172,7 @@ def scan_images() -> tuple[list[dict[str, str]], dict[str, object]]:
             items.append({
                 "category": category_dir.name,
                 "src": relative_path,
+                "hasDescription": path.with_suffix(".md").exists(),
                 "title": title_for(path),
             })
 

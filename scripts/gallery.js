@@ -96,7 +96,6 @@ const images = window.__GALLERY_IMAGES__ || [];
     function openPreview(index) {
       showPreview(index);
       lightbox.classList.add("open");
-      copyMatchingMarkdown(currentImages[previewIndex].src);
     }
 
     function closePreview() {
@@ -139,6 +138,28 @@ const images = window.__GALLERY_IMAGES__ || [];
         showToast(`${decodeURIComponent(new URL(markdownPath).pathname.split("/").pop())} 已複製`);
       } catch (error) {
         showToast("無法複製同名 md");
+      }
+    }
+
+    async function copyImage(imageSrc) {
+      try {
+        if (!navigator.clipboard || typeof ClipboardItem === "undefined") {
+          showToast("此瀏覽器不支援複製圖片");
+          return;
+        }
+
+        const response = await fetch(imageSrc, { cache: "no-store" });
+        if (!response.ok) throw new Error("Image request failed");
+
+        const blob = await response.blob();
+        await navigator.clipboard.write([
+          new ClipboardItem({
+            [blob.type || "image/png"]: blob,
+          }),
+        ]);
+        showToast(`${decodeURIComponent(new URL(imageSrc, window.location.href).pathname.split("/").pop())} 已複製`);
+      } catch (error) {
+        showToast("無法複製圖片");
       }
     }
 
@@ -197,11 +218,28 @@ const images = window.__GALLERY_IMAGES__ || [];
         <img loading="lazy" src="${encodeURI(image.src)}" alt="${image.category}">
         <div class="caption">
           <span class="category">${image.category}</span>
-          <span class="filename">${image.title}</span>
+          <span class="caption-end">
+            <span class="filename">${image.title}</span>
+            <span class="card-actions">
+              ${image.hasDescription ? '<button class="icon-button copy-desc" type="button" aria-label="複製描述" title="複製描述"><img src="language-json-svgrepo-com.svg" alt=""></button>' : ""}
+              <button class="icon-button copy-image" type="button" aria-label="複製圖片" title="複製圖片"><img src="copy-svgrepo-com.svg" alt=""></button>
+            </span>
+          </span>
         </div>
       `;
       const cardImage = article.querySelector("img");
       cardImage.addEventListener("load", () => resizeMasonryCard(article));
+      article.querySelector(".copy-desc")?.addEventListener("click", (event) => {
+        event.stopPropagation();
+        copyMatchingMarkdown(image.src);
+      });
+      article.querySelector(".copy-image")?.addEventListener("click", (event) => {
+        event.stopPropagation();
+        copyImage(image.src);
+      });
+      article.querySelector(".card-actions")?.addEventListener("keydown", (event) => {
+        event.stopPropagation();
+      });
       article.addEventListener("click", () => openPreview(index));
       article.addEventListener("keydown", (event) => {
         if (event.key === "Enter") openPreview(index);
