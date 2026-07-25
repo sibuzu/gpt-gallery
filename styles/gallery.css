@@ -183,9 +183,11 @@
       align-items: center;
       display: inline-flex;
       flex: 1 1 auto;
-      gap: 10px;
+      gap: 0;
       justify-content: flex-end;
+      margin: 0;
       min-width: 0;
+      padding: 0;
     }
 
     .filename {
@@ -202,7 +204,9 @@
       align-items: center;
       display: inline-flex;
       flex: 0 0 auto;
-      gap: 14px;
+      gap: 0;
+      margin: 0;
+      padding: 0;
     }
 
     .icon-button {
@@ -211,12 +215,13 @@
       border: 0;
       cursor: pointer;
       display: inline-flex;
-      height: 28px;
+      height: 19px;
       justify-content: center;
+      margin: 0;
       opacity: 0.68;
       padding: 0;
       transition: opacity 160ms ease, transform 160ms ease;
-      width: 28px;
+      width: 19px;
     }
 
     .icon-button:hover {
@@ -226,8 +231,10 @@
 
     .icon-button img {
       filter: grayscale(1);
-      height: 24px;
-      width: 24px;
+      height: 16px;
+      margin: 0;
+      padding: 0;
+      width: 16px;
     }
 
     .empty {
