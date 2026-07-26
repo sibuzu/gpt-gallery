@@ -158,7 +158,7 @@
       width: 100%;
     }
 
-    .card img {
+    .card > img {
       cursor: zoom-in;
       display: block;
       height: auto;
@@ -233,6 +233,7 @@
     }
 
     .icon-button img {
+      cursor: pointer;
       filter: grayscale(1);
       height: 16px;
       margin: 0;
