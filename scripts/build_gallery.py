@@ -15,6 +15,7 @@ GALLERY_DATA_JS = ROOT / "scripts" / "gallery-data.js"
 REPORT_JSON = ROOT / "todo" / "catalog_report.json"
 INDEX_HTML = ROOT / "index.html"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
+RENAME_EXTENSIONS = IMAGE_EXTENSIONS | {".md"}
 SKIP_DIRS = {"all"}
 BUILT_ASSETS = [
     "styles/gallery.css",
@@ -22,7 +23,7 @@ BUILT_ASSETS = [
     "scripts/gallery.js",
 ]
 CHATGPT_IMAGE_PATTERN = re.compile(
-    r"^ChatGPT Image (\d{4})年(\d{1,2})月(\d{1,2})日 (上午|下午)(\d{1,2})_(\d{2})_(\d{2})$"
+    r"^ChatGPT Image (\d{4})年(\d{1,2})月(\d{1,2})日 (上午|下午)(\d{1,2})_(\d{2})_(\d{2})(?: \((\d+)\))?$"
 )
 COPY_SUFFIX_PATTERN = re.compile(r"^(.*)-(\d+)$")
 
@@ -39,7 +40,7 @@ def convert_chatgpt_filename(path: Path) -> str | None:
     if not match:
         return None
 
-    year, month, day, period, hour_text, minute, second = match.groups()
+    year, month, day, period, hour_text, minute, second, copy_number = match.groups()
     hour = int(hour_text)
     if period == "下午":
         hour = 12 if hour == 12 else hour + 12
@@ -49,7 +50,9 @@ def convert_chatgpt_filename(path: Path) -> str | None:
     normalized_hour = f"{hour:02d}"
     return (
         f"img-{int(year):04d}{int(month):02d}{int(day):02d}-"
-        f"{normalized_hour}{minute}{second}{path.suffix.lower()}"
+        f"{normalized_hour}{minute}{second}"
+        f"{f'-{copy_number}' if copy_number else ''}"
+        f"{path.suffix.lower()}"
     )
 
 
@@ -58,7 +61,7 @@ def rename_special_filenames() -> int:
     for path in sorted(IMAGES_DIR.rglob("*"), key=lambda item: str(item)):
         if not path.is_file():
             continue
-        if path.suffix.lower() not in IMAGE_EXTENSIONS:
+        if path.suffix.lower() not in RENAME_EXTENSIONS:
             continue
 
         new_name = convert_chatgpt_filename(path)
