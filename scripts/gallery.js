@@ -19,6 +19,7 @@ const images = window.__GALLERY_IMAGES__ || [];
     let previewIndex = -1;
     let touchStartX = 0;
     let touchStartY = 0;
+    const expandedGroups = new Set();
 
     const totals = images.reduce((map, image) => {
       map[image.category] = (map[image.category] || 0) + 1;
@@ -53,14 +54,38 @@ const images = window.__GALLERY_IMAGES__ || [];
         groups.get(key).push(image);
       }
 
-      return order.flatMap((key) => {
-        return groups.get(key).sort((left, right) => {
+      return order.map((key) => {
+        const groupImages = groups.get(key).sort((left, right) => {
           const leftKey = variantKey(left.title || left.src);
           const rightKey = variantKey(right.title || right.src);
           return String(leftKey[0]).localeCompare(String(rightKey[0]), "zh-Hant")
             || Number(leftKey[1]) - Number(rightKey[1])
             || String(leftKey[2]).localeCompare(String(rightKey[2]), "zh-Hant");
         });
+        return { key, images: groupImages };
+      });
+    }
+
+    function displayItemsFor(groups) {
+      return groups.flatMap((group) => {
+        const isExpanded = expandedGroups.has(group.key);
+        if (!isExpanded) {
+          return [{
+            image: group.images[0],
+            groupKey: group.key,
+            groupSize: group.images.length,
+            isCollapsedGroup: group.images.length > 1,
+            isExpandedGroup: false,
+          }];
+        }
+
+        return group.images.map((image) => ({
+          image,
+          groupKey: group.key,
+          groupSize: group.images.length,
+          isCollapsedGroup: false,
+          isExpandedGroup: group.images.length > 1,
+        }));
       });
     }
 
@@ -87,7 +112,7 @@ const images = window.__GALLERY_IMAGES__ || [];
     function showPreview(index) {
       if (!currentImages.length) return;
       previewIndex = (index + currentImages.length) % currentImages.length;
-      const image = currentImages[previewIndex];
+      const image = currentImages[previewIndex].image;
       preview.src = encodeURI(image.src);
       preview.alt = image.category;
       previewCaption.textContent = `${image.category} · ${image.title}`;
@@ -141,28 +166,6 @@ const images = window.__GALLERY_IMAGES__ || [];
       }
     }
 
-    async function copyImage(imageSrc) {
-      try {
-        if (!navigator.clipboard || typeof ClipboardItem === "undefined") {
-          showToast("此瀏覽器不支援複製圖片");
-          return;
-        }
-
-        const response = await fetch(imageSrc, { cache: "no-store" });
-        if (!response.ok) throw new Error("Image request failed");
-
-        const blob = await response.blob();
-        await navigator.clipboard.write([
-          new ClipboardItem({
-            [blob.type || "image/png"]: blob,
-          }),
-        ]);
-        showToast(`${decodeURIComponent(new URL(imageSrc, window.location.href).pathname.split("/").pop())} 已複製`);
-      } catch (error) {
-        showToast("無法複製圖片");
-      }
-    }
-
     async function copyText(text) {
       if (navigator.clipboard && window.isSecureContext) {
         await navigator.clipboard.writeText(text);
@@ -210,35 +213,55 @@ const images = window.__GALLERY_IMAGES__ || [];
       grid.querySelectorAll(".card").forEach(resizeMasonryCard);
     }
 
-    function cardFor(image, index) {
+    function cardFor(item, index) {
+      const { image } = item;
+      const stackBadge = item.isCollapsedGroup ? `<span class="stack-badge">+${item.groupSize - 1}</span>` : "";
+      const stackClass = item.isCollapsedGroup ? " stack" : "";
       const article = document.createElement("article");
       article.className = "card";
       article.innerHTML = `
-        <img loading="lazy" src="${encodeURI(image.src)}" alt="${image.category}" tabindex="0">
+        <div class="card-media${stackClass}">
+          <img loading="lazy" src="${encodeURI(image.src)}" alt="${image.category}" tabindex="0">
+          ${stackBadge}
+        </div>
         <div class="caption">
           <span class="category">${image.category}</span>
           <span class="caption-end">
             <span class="filename">${image.title}</span>
             <span class="card-actions">
               ${image.hasDescription ? '<button class="icon-button copy-desc" type="button" aria-label="複製描述" title="複製描述"><img src="language-json-svgrepo-com.svg" alt=""></button>' : ""}
-              <button class="icon-button copy-image" type="button" aria-label="複製圖片" title="複製圖片"><img src="copy-svgrepo-com.svg" alt=""></button>
+              ${item.isExpandedGroup ? '<button class="icon-button collapse-group" type="button" aria-label="收合群組" title="收合群組"><img src="collapse-svgrepo-com.svg" alt=""></button>' : ""}
             </span>
           </span>
         </div>
       `;
       const cardImage = article.querySelector("img");
       cardImage.addEventListener("load", () => resizeMasonryCard(article));
-      cardImage.addEventListener("click", () => openPreview(index));
+      cardImage.addEventListener("click", () => {
+        if (item.isCollapsedGroup) {
+          expandedGroups.add(item.groupKey);
+          render();
+          return;
+        }
+        openPreview(index);
+      });
       cardImage.addEventListener("keydown", (event) => {
-        if (event.key === "Enter") openPreview(index);
+        if (event.key !== "Enter") return;
+        if (item.isCollapsedGroup) {
+          expandedGroups.add(item.groupKey);
+          render();
+          return;
+        }
+        openPreview(index);
       });
       article.querySelector(".copy-desc")?.addEventListener("click", (event) => {
         event.stopPropagation();
         copyMatchingMarkdown(image.src);
       });
-      article.querySelector(".copy-image")?.addEventListener("click", (event) => {
+      article.querySelector(".collapse-group")?.addEventListener("click", (event) => {
         event.stopPropagation();
-        copyImage(image.src);
+        expandedGroups.delete(item.groupKey);
+        render();
       });
       article.querySelector(".card-actions")?.addEventListener("keydown", (event) => {
         event.stopPropagation();
@@ -253,7 +276,7 @@ const images = window.__GALLERY_IMAGES__ || [];
         const matchQuery = !query || `${image.category} ${image.title}`.toLowerCase().includes(query);
         return matchCategory && matchQuery;
       });
-      currentImages = groupByBasename(filtered);
+      currentImages = displayItemsFor(groupByBasename(filtered));
 
       document.querySelectorAll(".chip").forEach((chip) => {
         chip.classList.toggle("active", chip.dataset.category === activeCategory);
