@@ -26,6 +26,7 @@ CHATGPT_IMAGE_PATTERN = re.compile(
     r"^ChatGPT Image (\d{4})年(\d{1,2})月(\d{1,2})日 (上午|下午)(\d{1,2})_(\d{2})_(\d{2})(?: \((\d+)\))?$"
 )
 COPY_SUFFIX_PATTERN = re.compile(r"^(.*)-(\d+)$")
+NUMBERED_STEM_PATTERN = re.compile(r"^(.+?)(\d+)([A-Za-z]?)(-\d+)?$")
 
 
 def category_dirs() -> list[Path]:
@@ -137,6 +138,45 @@ def normalize_zero_variant_filenames() -> int:
     return renamed
 
 
+def normalize_number_padding() -> int:
+    renamed = 0
+
+    for category_dir in category_dirs():
+        files = sorted(
+            [
+                path
+                for path in category_dir.iterdir()
+                if path.is_file() and path.suffix.lower() in RENAME_EXTENSIONS
+            ],
+            key=lambda path: path.name,
+        )
+        parsed: list[tuple[Path, str, str, str, str]] = []
+        max_numbers: dict[str, int] = {}
+
+        for path in files:
+            match = NUMBERED_STEM_PATTERN.match(path.stem)
+            if not match:
+                continue
+
+            prefix, number_text, letter, copy_suffix = match.groups()
+            parsed.append((path, prefix, number_text, letter, copy_suffix or ""))
+            max_numbers[prefix] = max(max_numbers.get(prefix, 0), int(number_text))
+
+        for path, prefix, number_text, letter, copy_suffix in parsed:
+            number = int(number_text)
+            if max_numbers[prefix] < 10 or number >= 10 or len(number_text) >= 2:
+                continue
+
+            target = path.with_name(f"{prefix}{number:02d}{letter}{copy_suffix}{path.suffix}")
+            if target.exists():
+                continue
+
+            path.rename(target)
+            renamed += 1
+
+    return renamed
+
+
 def digest(path: Path) -> str:
     hash_value = hashlib.sha256()
     with path.open("rb") as file:
@@ -216,6 +256,7 @@ def update_asset_cache_bust(index_path: Path, version: str) -> bool:
 def main() -> None:
     renamed = rename_special_filenames()
     normalized = normalize_zero_variant_filenames()
+    padded = normalize_number_padding()
     items, report = scan_images()
     GALLERY_DATA_JS.write_text(render_data_block(items), encoding="utf-8")
     REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -227,6 +268,8 @@ def main() -> None:
         print(f"Renamed {renamed} file(s).")
     if normalized:
         print(f"Normalized {normalized} grouped filename(s).")
+    if padded:
+        print(f"Zero-padded {padded} numbered filename(s).")
     print(f"Updated {GALLERY_DATA_JS.relative_to(ROOT)} with {len(items)} images.")
     print(f"Updated {REPORT_JSON.relative_to(ROOT)}.")
     if updated:
