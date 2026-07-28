@@ -155,6 +155,7 @@
       cursor: default;
       overflow: hidden;
       position: relative;
+      scroll-margin-top: 132px;
       width: 100%;
     }
 
@@ -427,6 +428,10 @@
 
       .grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .card {
+        scroll-margin-top: 78px;
       }
     }
 
