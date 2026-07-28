@@ -213,12 +213,38 @@ const images = window.__GALLERY_IMAGES__ || [];
       grid.querySelectorAll(".card").forEach(resizeMasonryCard);
     }
 
+    function cardForGroupKey(groupKey) {
+      return Array.from(grid.querySelectorAll(".card")).find((card) => card.dataset.groupKey === groupKey);
+    }
+
+    function renderKeepingCardPosition(groupKey, action) {
+      const currentCard = cardForGroupKey(groupKey);
+      const previousTop = currentCard?.getBoundingClientRect().top || 0;
+
+      action();
+      render();
+
+      const restorePosition = () => {
+        const nextCard = cardForGroupKey(groupKey);
+        if (!nextCard) return;
+
+        const nextTop = nextCard.getBoundingClientRect().top;
+        window.scrollBy(0, nextTop - previousTop);
+      };
+
+      requestAnimationFrame(() => {
+        restorePosition();
+        setTimeout(restorePosition, 120);
+      });
+    }
+
     function cardFor(item, index) {
       const { image } = item;
       const stackBadge = item.isCollapsedGroup ? `<span class="stack-badge">+${item.groupSize - 1}</span>` : "";
       const stackClass = item.isCollapsedGroup ? " stack" : "";
       const article = document.createElement("article");
       article.className = "card";
+      article.dataset.groupKey = item.groupKey;
       article.innerHTML = `
         <div class="card-media${stackClass}">
           <img loading="lazy" src="${encodeURI(image.src)}" alt="${image.category}" tabindex="0">
@@ -239,8 +265,9 @@ const images = window.__GALLERY_IMAGES__ || [];
       cardImage.addEventListener("load", () => resizeMasonryCard(article));
       cardImage.addEventListener("click", () => {
         if (item.isCollapsedGroup) {
-          expandedGroups.add(item.groupKey);
-          render();
+          renderKeepingCardPosition(item.groupKey, () => {
+            expandedGroups.add(item.groupKey);
+          });
           return;
         }
         openPreview(index);
@@ -248,8 +275,9 @@ const images = window.__GALLERY_IMAGES__ || [];
       cardImage.addEventListener("keydown", (event) => {
         if (event.key !== "Enter") return;
         if (item.isCollapsedGroup) {
-          expandedGroups.add(item.groupKey);
-          render();
+          renderKeepingCardPosition(item.groupKey, () => {
+            expandedGroups.add(item.groupKey);
+          });
           return;
         }
         openPreview(index);
@@ -260,8 +288,9 @@ const images = window.__GALLERY_IMAGES__ || [];
       });
       article.querySelector(".collapse-group")?.addEventListener("click", (event) => {
         event.stopPropagation();
-        expandedGroups.delete(item.groupKey);
-        render();
+        renderKeepingCardPosition(item.groupKey, () => {
+          expandedGroups.delete(item.groupKey);
+        });
       });
       article.querySelector(".card-actions")?.addEventListener("keydown", (event) => {
         event.stopPropagation();
