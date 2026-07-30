@@ -60,12 +60,22 @@ const images = window.__GALLERY_IMAGES__ || [];
     }
 
     function basenameKey(title) {
+      const newGroupedMatch = title.match(/^(.+[a-z])\d+$/);
+      if (newGroupedMatch) {
+        return newGroupedMatch[1];
+      }
+
       return title
         .replace(/-\d+$/, "")
         .replace(/[A-Za-z]+$/, "");
     }
 
     function variantKey(title) {
+      const newGroupedMatch = title.match(/^(.+[a-z])(\d+)$/);
+      if (newGroupedMatch) {
+        return ["", Number(newGroupedMatch[2]), title];
+      }
+
       const copyMatch = title.match(/-(\d+)$/);
       const copyNumber = copyMatch ? Number(copyMatch[1]) : 0;
       const withoutCopy = title.replace(/-\d+$/, "");
