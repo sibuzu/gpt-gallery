@@ -1,43 +1,43 @@
 {
   "total_categorized": 891,
   "category_counts": {
-    "Dress": 298,
-    "透明": 15,
-    "Pose": 39,
-    "Theme": 146,
-    "運動": 24,
-    "Folk": 138,
     "居家": 58,
-    "奇幻": 14,
+    "Folk": 138,
     "工作": 41,
+    "Theme": 146,
+    "Dress": 298,
+    "Pose": 39,
+    "奇幻": 14,
     "古典": 53,
-    "時尚": 39,
-    "海灘": 26
+    "海灘": 26,
+    "透明": 15,
+    "運動": 24,
+    "時尚": 39
   },
   "skipped": [
     {
-      "path": "images/Dress/迷你裙k1.png",
-      "duplicate_of": "images/Dress/迷你裙g1.png",
+      "path": "images/Dress/迷你裙k-01.png",
+      "duplicate_of": "images/Dress/迷你裙g-01.png",
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/Theme/鏡子b04.png",
-      "duplicate_of": "images/Theme/鏡子b02.png",
+      "path": "images/Theme/鏡子b-04.png",
+      "duplicate_of": "images/Theme/鏡子b-02.png",
       "reason": "duplicate_hash"
     },
     {
       "path": "images/古典/img-20260720-204728.png",
-      "duplicate_of": "images/Folk/日本和服c1.png",
+      "duplicate_of": "images/Folk/日本和服c-01.png",
       "reason": "duplicate_hash"
     },
     {
       "path": "images/古典/img-20260720-205954.png",
-      "duplicate_of": "images/Folk/印度紗麗c1.png",
+      "duplicate_of": "images/Folk/印度紗麗c-01.png",
       "reason": "duplicate_hash"
     },
     {
       "path": "images/古典/img-20260720-212356.png",
-      "duplicate_of": "images/Folk/中國漢服a1.png",
+      "duplicate_of": "images/Folk/中國漢服a-01.png",
       "reason": "duplicate_hash"
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "path": "images/時尚/img-20260721-213333.png",
-      "duplicate_of": "images/Dress/水晶a1.png",
+      "duplicate_of": "images/Dress/水晶a-01.png",
       "reason": "duplicate_hash"
     },
     {

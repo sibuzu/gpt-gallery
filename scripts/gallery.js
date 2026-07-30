@@ -60,6 +60,11 @@ const images = window.__GALLERY_IMAGES__ || [];
     }
 
     function basenameKey(title) {
+      const dashedGroupedMatch = title.match(/^(.+[a-z])-(\d+)$/);
+      if (dashedGroupedMatch) {
+        return dashedGroupedMatch[1];
+      }
+
       const newGroupedMatch = title.match(/^(.+[a-z])\d+$/);
       if (newGroupedMatch) {
         return newGroupedMatch[1];
@@ -71,6 +76,11 @@ const images = window.__GALLERY_IMAGES__ || [];
     }
 
     function variantKey(title) {
+      const dashedGroupedMatch = title.match(/^(.+[a-z])-(\d+)$/);
+      if (dashedGroupedMatch) {
+        return ["", Number(dashedGroupedMatch[2]), title];
+      }
+
       const newGroupedMatch = title.match(/^(.+[a-z])(\d+)$/);
       if (newGroupedMatch) {
         return ["", Number(newGroupedMatch[2]), title];
