@@ -14,8 +14,9 @@ const images = window.__GALLERY_IMAGES__ || [];
     const previewCaption = document.querySelector("#previewCaption");
     const close = document.querySelector("#close");
     const DEFAULT_CATEGORY = "Folk";
+    const CATEGORY_STORAGE_KEY = "gpt-gallery-active-category";
     const categories = ["全部", ...new Set(images.map((image) => image.category))];
-    let activeCategory = categories.includes(DEFAULT_CATEGORY) ? DEFAULT_CATEGORY : "全部";
+    let activeCategory = initialCategory();
     let currentImages = images;
     let currentGroups = [];
     let previewIndex = -1;
@@ -27,6 +28,36 @@ const images = window.__GALLERY_IMAGES__ || [];
       map[image.category] = (map[image.category] || 0) + 1;
       return map;
     }, {});
+
+    function storedCategory() {
+      try {
+        return window.localStorage.getItem(CATEGORY_STORAGE_KEY);
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function rememberCategory(category) {
+      try {
+        window.localStorage.setItem(CATEGORY_STORAGE_KEY, category);
+      } catch (error) {
+        // Ignore storage failures so the gallery still works in private or restricted contexts.
+      }
+    }
+
+    function initialCategory() {
+      const savedCategory = storedCategory();
+      if (savedCategory && categories.includes(savedCategory)) {
+        return savedCategory;
+      }
+      return categories.includes(DEFAULT_CATEGORY) ? DEFAULT_CATEGORY : "全部";
+    }
+
+    function setActiveCategory(category) {
+      activeCategory = category;
+      rememberCategory(category);
+      render();
+    }
 
     function basenameKey(title) {
       return title
@@ -99,8 +130,7 @@ const images = window.__GALLERY_IMAGES__ || [];
       button.dataset.category = category;
       button.innerHTML = `${category}<span class="count">${category === "全部" ? images.length : totals[category]}</span>`;
       button.addEventListener("click", () => {
-        activeCategory = category;
-        render();
+        setActiveCategory(category);
       });
       return button;
     }
@@ -368,8 +398,7 @@ const images = window.__GALLERY_IMAGES__ || [];
     filters.replaceChildren(...categories.map(makeChip));
     categoryMenu.replaceChildren(...categories.map(makeOption));
     categoryMenu.addEventListener("change", () => {
-      activeCategory = categoryMenu.value;
-      render();
+      setActiveCategory(categoryMenu.value);
     });
     search.addEventListener("input", render);
     expandAllToggle.addEventListener("click", toggleAllGroups);
