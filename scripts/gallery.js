@@ -8,6 +8,7 @@ const images = window.__GALLERY_IMAGES__ || [];
     const empty = document.querySelector("#empty");
     const visibleCount = document.querySelector("#visibleCount");
     const totalCount = document.querySelector("#totalCount");
+    const expandAllToggle = document.querySelector("#expandAllToggle");
     const lightbox = document.querySelector("#lightbox");
     const preview = document.querySelector("#preview");
     const previewCaption = document.querySelector("#previewCaption");
@@ -16,6 +17,7 @@ const images = window.__GALLERY_IMAGES__ || [];
     const categories = ["全部", ...new Set(images.map((image) => image.category))];
     let activeCategory = categories.includes(DEFAULT_CATEGORY) ? DEFAULT_CATEGORY : "全部";
     let currentImages = images;
+    let currentGroups = [];
     let previewIndex = -1;
     let touchStartX = 0;
     let touchStartY = 0;
@@ -247,6 +249,37 @@ const images = window.__GALLERY_IMAGES__ || [];
       });
     }
 
+    function groupedKeysFor(groups) {
+      return groups
+        .filter((group) => group.images.length > 1)
+        .map((group) => group.key);
+    }
+
+    function syncExpandAllToggle(groups) {
+      const groupKeys = groupedKeysFor(groups);
+      const allExpanded = groupKeys.length > 0 && groupKeys.every((key) => expandedGroups.has(key));
+      const label = allExpanded ? "全部縮回" : "全部展開";
+
+      expandAllToggle.disabled = groupKeys.length === 0;
+      expandAllToggle.setAttribute("aria-label", label);
+      expandAllToggle.title = label;
+      expandAllToggle.querySelector("img").src = allExpanded ? "collapse-svgrepo-com.svg" : "expand-svgrepo-com.svg";
+    }
+
+    function toggleAllGroups() {
+      const groupKeys = groupedKeysFor(currentGroups);
+      const allExpanded = groupKeys.length > 0 && groupKeys.every((key) => expandedGroups.has(key));
+
+      groupKeys.forEach((key) => {
+        if (allExpanded) {
+          expandedGroups.delete(key);
+          return;
+        }
+        expandedGroups.add(key);
+      });
+      render();
+    }
+
     function cardFor(item, index) {
       const { image } = item;
       const stackBadge = item.isCollapsedGroup ? `<span class="stack-badge">+${item.groupSize - 1}</span>` : "";
@@ -317,7 +350,8 @@ const images = window.__GALLERY_IMAGES__ || [];
         const matchQuery = !query || `${image.category} ${image.title}`.toLowerCase().includes(query);
         return matchCategory && matchQuery;
       });
-      currentImages = displayItemsFor(groupByBasename(filtered));
+      currentGroups = groupByBasename(filtered);
+      currentImages = displayItemsFor(currentGroups);
 
       document.querySelectorAll(".chip").forEach((chip) => {
         chip.classList.toggle("active", chip.dataset.category === activeCategory);
@@ -328,6 +362,7 @@ const images = window.__GALLERY_IMAGES__ || [];
       empty.style.display = currentImages.length ? "none" : "block";
       visibleCount.textContent = currentImages.length;
       totalCount.textContent = images.length;
+      syncExpandAllToggle(currentGroups);
     }
 
     filters.replaceChildren(...categories.map(makeChip));
@@ -337,6 +372,7 @@ const images = window.__GALLERY_IMAGES__ || [];
       render();
     });
     search.addEventListener("input", render);
+    expandAllToggle.addEventListener("click", toggleAllGroups);
     window.addEventListener("resize", resizeMasonry);
     close.addEventListener("click", closePreview);
     lightbox.addEventListener("click", (event) => {
