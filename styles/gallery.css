@@ -45,7 +45,7 @@
 
     h1 {
       font-family: Georgia, "Songti TC", serif;
-      font-size: clamp(34px, 5vw, 72px);
+      font-size: clamp(30px, 4.4vw, 62px);
       font-weight: 700;
       letter-spacing: 0;
       line-height: 0.95;
@@ -57,6 +57,18 @@
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
+    }
+
+    .title-toggle {
+      flex: 0 0 auto;
+      height: 27px;
+      margin-bottom: 4px;
+      width: 27px;
+    }
+
+    .title-toggle img {
+      height: 21px;
+      width: 21px;
     }
 
     .meta {
@@ -291,6 +303,12 @@
       transform: translateY(-1px);
     }
 
+    .icon-button:disabled {
+      cursor: default;
+      opacity: 0.24;
+      transform: none;
+    }
+
     .icon-button img {
       cursor: pointer;
       filter: grayscale(1);
@@ -407,7 +425,18 @@
       }
 
       h1 {
-        font-size: 34px;
+        font-size: 30px;
+      }
+
+      .title-toggle {
+        height: 24px;
+        margin-bottom: 2px;
+        width: 24px;
+      }
+
+      .title-toggle img {
+        height: 18px;
+        width: 18px;
       }
 
       .meta,
