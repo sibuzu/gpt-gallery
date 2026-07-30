@@ -246,6 +246,11 @@ const images = window.__GALLERY_IMAGES__ || [];
       grid.querySelectorAll(".card").forEach(resizeMasonryCard);
     }
 
+    function syncCardOrientation(card, image) {
+      card.classList.toggle("landscape", image.naturalWidth > image.naturalHeight);
+      resizeMasonryCard(card);
+    }
+
     function idForGroupKey(groupKey) {
       let hash = 0;
       for (let index = 0; index < groupKey.length; index += 1) {
@@ -337,7 +342,10 @@ const images = window.__GALLERY_IMAGES__ || [];
         </div>
       `;
       const cardImage = article.querySelector("img");
-      cardImage.addEventListener("load", () => resizeMasonryCard(article));
+      cardImage.addEventListener("load", () => syncCardOrientation(article, cardImage));
+      if (cardImage.complete) {
+        syncCardOrientation(article, cardImage);
+      }
       cardImage.addEventListener("click", () => {
         if (item.isCollapsedGroup) {
           renderAtGroupHash(item.groupKey, () => {
