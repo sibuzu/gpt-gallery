@@ -27,6 +27,18 @@ CHATGPT_IMAGE_PATTERN = re.compile(
 )
 COPY_SUFFIX_PATTERN = re.compile(r"^(.*)-(\d+)$")
 NUMBERED_STEM_PATTERN = re.compile(r"^(.+?)(\d+)([A-Za-z]?)(-\d+)?$")
+DATE_STEM_PATTERN = re.compile(r"^img-\d{8}-\d{6}(?:-\d+)?$")
+OLD_GROUPED_STEM_PATTERN = re.compile(r"^(.+?)(\d+)([a-z]?)(?:-(\d+))?$", re.IGNORECASE)
+NEW_GROUPED_STEM_PATTERN = re.compile(r"^(.+[a-z])(\d+)$")
+
+
+def number_to_letters(number: int) -> str:
+    letters = ""
+    while number > 0:
+        number -= 1
+        letters = chr(ord("a") + (number % 26)) + letters
+        number //= 26
+    return letters
 
 
 def category_dirs() -> list[Path]:
@@ -134,6 +146,90 @@ def normalize_zero_variant_filenames() -> int:
 
                 source.rename(target)
                 renamed += 1
+
+    return renamed
+
+
+def grouped_filename_key(stem: str) -> tuple[str, int, str, int] | None:
+    if stem == "template" or DATE_STEM_PATTERN.match(stem) or NEW_GROUPED_STEM_PATTERN.match(stem):
+        return None
+
+    match = OLD_GROUPED_STEM_PATTERN.match(stem)
+    if not match:
+        return None
+
+    prefix, number_text, letter, copy_text = match.groups()
+    if prefix[-1:].isascii() and prefix[-1:].isalpha():
+        return None
+
+    return (prefix, int(number_text), letter.lower(), int(copy_text or 0))
+
+
+def grouped_filename_sort_key(path: Path) -> tuple[int, int, str]:
+    key = grouped_filename_key(path.stem)
+    if key is None:
+        return (10_000, 10_000, path.name)
+
+    _prefix, _number, letter, copy_number = key
+    letter_order = 0 if not letter else ord(letter) - ord("a") + 1
+    return (letter_order, copy_number, path.name)
+
+
+def normalize_grouped_filenames() -> int:
+    renamed = 0
+
+    for category_dir in category_dirs():
+        groups: dict[tuple[str, int], list[Path]] = {}
+        for path in sorted(category_dir.iterdir(), key=lambda path: path.name):
+            if not path.is_file() or path.suffix.lower() not in RENAME_EXTENSIONS:
+                continue
+
+            key = grouped_filename_key(path.stem)
+            if key is None:
+                continue
+
+            prefix, number, _letter, _copy_number = key
+            groups.setdefault((prefix, number), []).append(path)
+
+        planned: dict[Path, Path] = {}
+        for (prefix, number), paths in sorted(groups.items()):
+            sequence_stems: dict[str, str] = {}
+            stems = sorted({path.stem for path in paths}, key=lambda stem: grouped_filename_sort_key(paths[0].with_name(f"{stem}{paths[0].suffix}")))
+            width = 2 if len(stems) >= 10 else 1
+
+            for index, stem in enumerate(stems, start=1):
+                sequence = f"{index:0{width}d}"
+                sequence_stems[stem] = f"{prefix}{number_to_letters(number)}{sequence}"
+
+            for path in paths:
+                new_stem = sequence_stems[path.stem]
+                if new_stem == path.stem:
+                    continue
+                planned[path] = path.with_name(f"{new_stem}{path.suffix}")
+
+        if not planned:
+            continue
+
+        targets = list(planned.values())
+        duplicate_targets = {target for target in targets if targets.count(target) > 1}
+        existing_targets = {target for target in targets if target.exists() and target not in planned}
+        if duplicate_targets or existing_targets:
+            blocked = sorted(duplicate_targets | existing_targets, key=lambda path: str(path))
+            names = ", ".join(path.relative_to(ROOT).as_posix() for path in blocked[:5])
+            raise RuntimeError(f"Grouped rename target collision in {category_dir.relative_to(ROOT)}: {names}")
+
+        temp_paths: dict[Path, Path] = {}
+        for index, source in enumerate(sorted(planned, key=lambda path: path.name), start=1):
+            temp = source.with_name(f".rename-{index}-{source.name}")
+            while temp.exists():
+                index += 1
+                temp = source.with_name(f".rename-{index}-{source.name}")
+            source.rename(temp)
+            temp_paths[temp] = planned[source]
+
+        for temp, target in temp_paths.items():
+            temp.rename(target)
+            renamed += 1
 
     return renamed
 
@@ -256,6 +352,7 @@ def update_asset_cache_bust(index_path: Path, version: str) -> bool:
 def main() -> None:
     renamed = rename_special_filenames()
     normalized = normalize_zero_variant_filenames()
+    regrouped = normalize_grouped_filenames()
     padded = normalize_number_padding()
     items, report = scan_images()
     GALLERY_DATA_JS.write_text(render_data_block(items), encoding="utf-8")
@@ -268,6 +365,8 @@ def main() -> None:
         print(f"Renamed {renamed} file(s).")
     if normalized:
         print(f"Normalized {normalized} grouped filename(s).")
+    if regrouped:
+        print(f"Regrouped {regrouped} filename(s).")
     if padded:
         print(f"Zero-padded {padded} numbered filename(s).")
     print(f"Updated {GALLERY_DATA_JS.relative_to(ROOT)} with {len(items)} images.")
