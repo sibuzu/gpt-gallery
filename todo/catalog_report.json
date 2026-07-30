@@ -1,18 +1,18 @@
 {
-  "total_categorized": 923,
+  "total_categorized": 933,
   "category_counts": {
-    "Theme": 176,
-    "Dress": 300,
     "古典": 53,
-    "Folk": 138,
-    "透明": 15,
     "工作": 41,
+    "Theme": 186,
+    "Dress": 300,
     "居家": 58,
-    "海灘": 26,
     "Pose": 39,
     "運動": 24,
+    "Folk": 138,
     "時尚": 39,
-    "奇幻": 14
+    "奇幻": 14,
+    "海灘": 26,
+    "透明": 15
   },
   "skipped": [
     {
