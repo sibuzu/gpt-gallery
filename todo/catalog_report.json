@@ -1,23 +1,28 @@
 {
-  "total_categorized": 783,
+  "total_categorized": 799,
   "category_counts": {
-    "居家": 58,
-    "Theme": 53,
+    "Dress": 292,
     "Folk": 136,
-    "Dress": 285,
-    "透明": 15,
-    "Pose": 39,
+    "居家": 58,
     "工作": 41,
-    "時尚": 39,
-    "古典": 53,
+    "Theme": 62,
+    "海灘": 26,
     "運動": 24,
-    "奇幻": 14,
-    "海灘": 26
+    "Pose": 39,
+    "古典": 53,
+    "透明": 15,
+    "時尚": 39,
+    "奇幻": 14
   },
   "skipped": [
     {
       "path": "images/Dress/迷你裙11.png",
       "duplicate_of": "images/Dress/迷你裙07.png",
+      "reason": "duplicate_hash"
+    },
+    {
+      "path": "images/Theme/鏡子2c.png",
+      "duplicate_of": "images/Theme/鏡子2a.png",
       "reason": "duplicate_hash"
     },
     {
