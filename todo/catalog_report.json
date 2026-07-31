@@ -2,17 +2,16 @@
   "total_categorized": 953,
   "category_counts": {
     "Theme": 206,
+    "古典": 53,
     "Dress": 300,
-    "Pose": 39,
-    "時尚": 39,
-    "海灘": 26,
-    "居家": 58,
-    "奇幻": 14,
     "Folk": 138,
+    "時尚": 54,
     "工作": 41,
-    "透明": 15,
+    "Pose": 39,
+    "居家": 58,
+    "海灘": 26,
     "運動": 24,
-    "古典": 53
+    "奇幻": 14
   },
   "skipped": [
     {
@@ -51,13 +50,13 @@
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/時尚/img-20260721-213333.png",
-      "duplicate_of": "images/Dress/水晶a-01.png",
+      "path": "images/時尚/img-20260720-111523.png",
+      "duplicate_of": "images/時尚/img-20260720-093438.png",
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/透明/img-20260720-111523.png",
-      "duplicate_of": "images/透明/img-20260720-093438.png",
+      "path": "images/時尚/img-20260721-213333.png",
+      "duplicate_of": "images/Dress/水晶a-01.png",
       "reason": "duplicate_hash"
     }
   ]
