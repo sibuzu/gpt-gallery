@@ -1,17 +1,13 @@
 {
   "total_categorized": 953,
   "category_counts": {
-    "Theme": 206,
-    "古典": 53,
     "Dress": 300,
+    "日常": 149,
     "Folk": 138,
+    "Theme": 206,
     "時尚": 54,
-    "工作": 41,
-    "Pose": 39,
-    "居家": 58,
-    "海灘": 26,
-    "運動": 24,
-    "奇幻": 14
+    "奇幻": 67,
+    "Pose": 39
   },
   "skipped": [
     {
@@ -25,28 +21,28 @@
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/古典/img-20260720-204728.png",
+      "path": "images/奇幻/img-20260720-204728.png",
       "duplicate_of": "images/Folk/日本和服c-01.png",
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/古典/img-20260720-205954.png",
+      "path": "images/奇幻/img-20260720-205954.png",
       "duplicate_of": "images/Folk/印度紗麗c-01.png",
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/古典/img-20260720-212356.png",
+      "path": "images/奇幻/img-20260720-212356.png",
       "duplicate_of": "images/Folk/中國漢服a-01.png",
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/居家/img-20260720-145228.png",
+      "path": "images/日常/img-20260720-145228.png",
       "duplicate_of": "images/奇幻/img-20260720-142407.png",
       "reason": "duplicate_hash"
     },
     {
-      "path": "images/居家/img-20260721-010202.png",
-      "duplicate_of": "images/居家/img-20260720-091816.png",
+      "path": "images/日常/img-20260721-010202.png",
+      "duplicate_of": "images/日常/img-20260720-091816.png",
       "reason": "duplicate_hash"
     },
     {
