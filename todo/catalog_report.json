@@ -1,11 +1,11 @@
 {
-  "total_categorized": 1050,
+  "total_categorized": 1067,
   "category_counts": {
+    "Dress": 317,
     "Folk": 142,
-    "Dress": 316,
-    "日常": 189,
-    "Theme": 282,
     "奇幻": 67,
+    "Theme": 298,
+    "日常": 189,
     "時尚": 54
   },
   "skipped": [
