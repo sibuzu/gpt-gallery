@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dress Sort</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f4ef;
+      --panel: #ffffff;
+      --ink: #26231f;
+      --muted: #746c61;
+      --line: #ddd6cc;
+      --accent: #9b4d5e;
+      --accent-dark: #713644;
+      --shadow: 0 12px 34px rgba(40, 32, 24, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid var(--line);
+      background: rgba(246, 244, 239, 0.92);
+      backdrop-filter: blur(14px);
+    }
+
+    .bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 18px;
+    }
+
+    h1 {
+      margin: 0 14px 0 0;
+      font-size: 20px;
+      line-height: 1.1;
+    }
+
+    button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 36px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 0 12px;
+      background: var(--panel);
+      color: var(--ink);
+      font: inherit;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: white;
+    }
+
+    button:hover {
+      border-color: var(--accent);
+    }
+
+    button.primary:hover {
+      background: var(--accent-dark);
+    }
+
+    .status {
+      margin-left: auto;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .search {
+      min-height: 36px;
+      width: min(260px, 100%);
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 0 11px;
+      background: white;
+      color: var(--ink);
+      font: inherit;
+    }
+
+    main {
+      padding: 18px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 240px);
+      gap: 14px;
+      align-items: start;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03);
+      overflow: hidden;
+      cursor: grab;
+      transition: transform 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+    }
+
+    .card:active {
+      cursor: grabbing;
+    }
+
+    .card.dragging {
+      opacity: 0.42;
+      transform: scale(0.97);
+    }
+
+    .card.drop-target {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(155, 77, 94, 0.18);
+    }
+
+    .thumb {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #e9e3db;
+    }
+
+    .meta {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) repeat(3, 28px);
+      gap: 4px;
+      align-items: center;
+      padding: 7px 7px 8px 9px;
+    }
+
+    .name {
+      font-size: 12px;
+      line-height: 1.25;
+      word-break: break-all;
+    }
+
+    .icon-btn {
+      width: 28px;
+      min-height: 28px;
+      border-radius: 6px;
+      padding: 0;
+      background: #faf8f5;
+      color: var(--ink);
+      font-size: 16px;
+      line-height: 1;
+    }
+
+    .icon-btn:hover {
+      background: #fff;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      z-index: 30;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: rgba(0, 0, 0, 0.72);
+    }
+
+    .modal.open {
+      display: flex;
+    }
+
+    .modal img {
+      max-width: min(92vw, 980px);
+      max-height: 86vh;
+      object-fit: contain;
+      border-radius: 8px;
+      background: #111;
+      box-shadow: var(--shadow);
+    }
+
+    .modal-name {
+      position: fixed;
+      left: 24px;
+      bottom: 20px;
+      color: white;
+      font-size: 14px;
+      text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
+    }
+
+    .modal-close {
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      width: 42px;
+      min-height: 42px;
+      border-color: rgba(255, 255, 255, 0.4);
+      background: rgba(255, 255, 255, 0.12);
+      color: white;
+      font-size: 24px;
+    }
+
+    .empty {
+      display: none;
+      padding: 26px;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.55);
+      color: var(--muted);
+    }
+
+    .empty.show {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <h1>Dress Sort</h1>
+      <button class="primary" id="saveBtn" type="button">Save DressSort.txt</button>
+      <input class="search" id="searchInput" type="search" placeholder="Filter filename">
+      <span class="status" id="status">Loading...</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="empty" id="empty">No matching images.</div>
+    <section class="grid" id="grid" aria-label="Dress images"></section>
+  </main>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <button class="modal-close" id="closeModal" type="button" aria-label="Close">×</button>
+    <img id="modalImage" alt="">
+    <div class="modal-name" id="modalName"></div>
+  </div>
+
+  <script src="scripts/gallery-data.js"></script>
+  <script>
+    const grid = document.getElementById("grid");
+    const statusEl = document.getElementById("status");
+    const searchInput = document.getElementById("searchInput");
+    const saveBtn = document.getElementById("saveBtn");
+    const empty = document.getElementById("empty");
+    const modal = document.getElementById("modal");
+    const modalImage = document.getElementById("modalImage");
+    const modalName = document.getElementById("modalName");
+    const closeModal = document.getElementById("closeModal");
+
+    const galleryImages = Array.isArray(window.__GALLERY_IMAGES__) ? window.__GALLERY_IMAGES__ : [];
+    const allImages = galleryImages
+      .filter((item) => item.category === "Dress" && item.src && item.src.endsWith(".png"))
+      .map((item) => ({
+        filename: item.src.split("/").pop(),
+        src: item.src,
+      }))
+      .filter((item, index, list) => list.findIndex((other) => other.filename === item.filename) === index)
+      .sort((a, b) => a.filename.localeCompare(b.filename, "zh-Hant"));
+
+    let orderedImages = [...allImages];
+    let draggedFilename = null;
+
+    function parseSortText(text) {
+      return text
+        .split(/\r?\n/)
+        .map((line) => line.trim())
+        .filter((line) => line && !line.startsWith("#"))
+        .map((line) => line.replace(/^.*[\\/]/, ""))
+        .filter((line) => line.toLowerCase().endsWith(".png"));
+    }
+
+    function applyOrder(filenames) {
+      const byName = new Map(allImages.map((item) => [item.filename, item]));
+      const used = new Set();
+      const sorted = [];
+
+      for (const filename of filenames) {
+        const item = byName.get(filename);
+        if (item && !used.has(filename)) {
+          sorted.push(item);
+          used.add(filename);
+        }
+      }
+
+      const remaining = allImages
+        .filter((item) => !used.has(item.filename))
+        .sort((a, b) => a.filename.localeCompare(b.filename, "zh-Hant"));
+
+      orderedImages = [...sorted, ...remaining];
+      render();
+    }
+
+    async function loadDefaultSort() {
+      for (const path of ["DressSort.txt", "images/Dress/DressSort.txt"]) {
+        try {
+          const response = await fetch(path, { cache: "no-store" });
+          if (response.ok) {
+            applyOrder(parseSortText(await response.text()));
+            statusEl.textContent = `${orderedImages.length} images, sorted by ${path}`;
+            return;
+          }
+        } catch {
+          // Local file:// pages often cannot fetch adjacent text files.
+        }
+      }
+      render();
+      statusEl.textContent = `${orderedImages.length} images, default A-Z order`;
+    }
+
+    function render() {
+      const filter = searchInput.value.trim().toLowerCase();
+      grid.textContent = "";
+
+      for (const item of orderedImages) {
+        const visible = !filter || item.filename.toLowerCase().includes(filter);
+        const card = document.createElement("article");
+        card.className = visible ? "card" : "card hidden";
+        card.draggable = true;
+        card.dataset.filename = item.filename;
+
+        const image = document.createElement("img");
+        image.className = "thumb";
+        image.src = item.src;
+        image.alt = item.filename;
+        image.loading = "lazy";
+
+        const name = document.createElement("span");
+        name.className = "name";
+        name.textContent = item.filename;
+
+        const meta = document.createElement("div");
+        meta.className = "meta";
+
+        const up = document.createElement("button");
+        up.className = "icon-btn move-first";
+        up.type = "button";
+        up.title = `Move ${item.filename} to first`;
+        up.setAttribute("aria-label", `Move ${item.filename} to first`);
+        up.textContent = "↑";
+
+        const down = document.createElement("button");
+        down.className = "icon-btn move-last";
+        down.type = "button";
+        down.title = `Move ${item.filename} to last`;
+        down.setAttribute("aria-label", `Move ${item.filename} to last`);
+        down.textContent = "↓";
+
+        const zoom = document.createElement("button");
+        zoom.className = "icon-btn zoom";
+        zoom.type = "button";
+        zoom.title = `Zoom ${item.filename}`;
+        zoom.setAttribute("aria-label", `Zoom ${item.filename}`);
+        zoom.textContent = "⌕";
+
+        meta.append(name, up, down, zoom);
+        card.append(image, meta);
+        grid.append(card);
+      }
+
+      empty.classList.toggle("show", grid.querySelectorAll(".card:not(.hidden)").length === 0);
+      statusEl.textContent = `${orderedImages.length} images`;
+    }
+
+    function filenameOrderText() {
+      return orderedImages.map((item) => item.filename).join("\n") + "\n";
+    }
+
+    async function saveSort() {
+      const text = filenameOrderText();
+      if ("showSaveFilePicker" in window) {
+        try {
+          const handle = await window.showSaveFilePicker({
+            suggestedName: "DressSort.txt",
+            types: [{ description: "Text file", accept: { "text/plain": [".txt"] } }],
+          });
+          const writable = await handle.createWritable();
+          await writable.write(text);
+          await writable.close();
+          statusEl.textContent = "Saved DressSort.txt";
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+
+      const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "DressSort.txt";
+      link.click();
+      URL.revokeObjectURL(url);
+      statusEl.textContent = "Downloaded DressSort.txt";
+    }
+
+    function moveItem(dragged, target) {
+      if (!dragged || !target || dragged === target) return;
+      const from = orderedImages.findIndex((item) => item.filename === dragged);
+      const to = orderedImages.findIndex((item) => item.filename === target);
+      if (from < 0 || to < 0) return;
+      const [item] = orderedImages.splice(from, 1);
+      orderedImages.splice(to, 0, item);
+      render();
+    }
+
+    function moveToEnd(filename, end) {
+      const index = orderedImages.findIndex((item) => item.filename === filename);
+      if (index < 0) return;
+      const [item] = orderedImages.splice(index, 1);
+      if (end === "first") {
+        orderedImages.unshift(item);
+      } else {
+        orderedImages.push(item);
+      }
+      render();
+    }
+
+    grid.addEventListener("dragstart", (event) => {
+      const card = event.target.closest(".card");
+      if (!card) return;
+      draggedFilename = card.dataset.filename;
+      card.classList.add("dragging");
+      event.dataTransfer.effectAllowed = "move";
+      event.dataTransfer.setData("text/plain", draggedFilename);
+    });
+
+    grid.addEventListener("dragend", () => {
+      draggedFilename = null;
+      grid.querySelectorAll(".card").forEach((card) => card.classList.remove("dragging", "drop-target"));
+    });
+
+    grid.addEventListener("dragover", (event) => {
+      const card = event.target.closest(".card");
+      if (!card || card.classList.contains("hidden")) return;
+      event.preventDefault();
+      grid.querySelectorAll(".drop-target").forEach((target) => target.classList.remove("drop-target"));
+      card.classList.add("drop-target");
+    });
+
+    grid.addEventListener("drop", (event) => {
+      const card = event.target.closest(".card");
+      if (!card) return;
+      event.preventDefault();
+      moveItem(draggedFilename || event.dataTransfer.getData("text/plain"), card.dataset.filename);
+    });
+
+    grid.addEventListener("click", (event) => {
+      const moveFirst = event.target.closest(".move-first");
+      const moveLast = event.target.closest(".move-last");
+      if (moveFirst || moveLast) {
+        const card = event.target.closest(".card");
+        if (!card) return;
+        event.stopPropagation();
+        moveToEnd(card.dataset.filename, moveFirst ? "first" : "last");
+        return;
+      }
+
+      const button = event.target.closest(".zoom");
+      if (!button) return;
+      const card = button.closest(".card");
+      const image = card && card.querySelector("img.thumb");
+      if (!image) return;
+      event.stopPropagation();
+      modalImage.src = image.src;
+      modalImage.alt = image.alt;
+      modalName.textContent = image.alt;
+      modal.classList.add("open");
+      modal.setAttribute("aria-hidden", "false");
+    });
+
+    closeModal.addEventListener("click", () => {
+      modal.classList.remove("open");
+      modal.setAttribute("aria-hidden", "true");
+      modalImage.src = "";
+    });
+
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) closeModal.click();
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && modal.classList.contains("open")) closeModal.click();
+    });
+
+    searchInput.addEventListener("input", render);
+    saveBtn.addEventListener("click", saveSort);
+
+    loadDefaultSort();
+  </script>
+</body>
+</html>
