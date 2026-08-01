@@ -5,23 +5,35 @@ import hashlib
 import json
 import re
 import random
+import shutil
 import time
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 IMAGES_DIR = ROOT / "images"
-GALLERY_DATA_JS = ROOT / "scripts" / "gallery-data.js"
+GALLERY_SITE_DIR = ROOT / "sites" / "gallery"
+DESIGN_SITE_DIR = ROOT / "sites" / "design"
+GALLERY_DATA_JS = GALLERY_SITE_DIR / "scripts" / "gallery-data.js"
+DESIGN_DATA_JS = DESIGN_SITE_DIR / "scripts" / "design-data.js"
 REPORT_JSON = ROOT / "todo" / "catalog_report.json"
-INDEX_HTML = ROOT / "index.html"
+GALLERY_INDEX_HTML = GALLERY_SITE_DIR / "index.html"
+DESIGN_INDEX_HTML = DESIGN_SITE_DIR / "index.html"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 RENAME_EXTENSIONS = IMAGE_EXTENSIONS | {".md"}
+DEPLOY_ASSET_EXTENSIONS = IMAGE_EXTENSIONS | {".md"}
 SKIP_DIRS = {"all"}
-BUILT_ASSETS = [
+GALLERY_BUILT_ASSETS = [
     "styles/gallery.css",
     "scripts/gallery-data.js",
     "scripts/gallery.js",
 ]
+DESIGN_BUILT_ASSETS = [
+    "styles/design.css",
+    "scripts/design-data.js",
+    "scripts/design.js",
+]
+DESIGN_STEM_PATTERN = re.compile(r"^(.+)-\d+$")
 CHATGPT_IMAGE_PATTERN = re.compile(
     r"^ChatGPT Image (\d{4})年(\d{1,2})月(\d{1,2})日 (上午|下午)(\d{1,2})_(\d{2})_(\d{2})(?: \((\d+)\))?$"
 )
@@ -336,7 +348,55 @@ def title_for(path: Path) -> str:
     return path.stem.removeprefix("ChatGPT Image ").strip()
 
 
-def scan_images() -> tuple[list[dict[str, str]], dict[str, object]]:
+def chinese_number(number: int) -> str:
+    digits = "零一二三四五六七八九"
+    if 1 <= number <= 10:
+        return "十" if number == 10 else digits[number]
+    if 11 <= number < 20:
+        return f"十{digits[number % 10]}"
+    if 20 <= number < 100:
+        tens, ones = divmod(number, 10)
+        return f"{digits[tens]}十{digits[ones] if ones else ''}"
+    return str(number)
+
+
+def design_category_name(index: int) -> str:
+    return f"設計{chinese_number(index)}"
+
+
+def clear_generated_asset_dir(path: Path) -> None:
+    if path.is_symlink() or path.is_file():
+        path.unlink()
+        return
+    if path.exists():
+        shutil.rmtree(path)
+
+
+def copy_gallery_assets() -> None:
+    target = GALLERY_SITE_DIR / "images"
+    clear_generated_asset_dir(target)
+    shutil.copytree(
+        IMAGES_DIR,
+        target,
+        ignore=shutil.ignore_patterns(".DS_Store"),
+    )
+
+
+def copy_design_assets(design_items: list[dict[str, str]]) -> None:
+    target_root = DESIGN_SITE_DIR / "images"
+    target_design_dir = target_root / "Design"
+    clear_generated_asset_dir(target_root)
+    target_design_dir.mkdir(parents=True, exist_ok=True)
+
+    for item in design_items:
+        source = ROOT / item["src"]
+        for asset in [source, source.with_suffix(".md")]:
+            if not asset.exists() or asset.suffix.lower() not in DEPLOY_ASSET_EXTENSIONS:
+                continue
+            shutil.copy2(asset, target_design_dir / asset.name)
+
+
+def scan_gallery_images() -> tuple[list[dict[str, str]], dict[str, object]]:
     items: list[dict[str, str]] = []
     skipped: list[dict[str, str]] = []
     seen: dict[str, str] = {}
@@ -380,16 +440,47 @@ def scan_images() -> tuple[list[dict[str, str]], dict[str, object]]:
     return items, report
 
 
+def scan_design_images() -> list[dict[str, str]]:
+    items: list[dict[str, str]] = []
+    design_dir = IMAGES_DIR / "Design"
+    catalog_names: dict[str, str] = {}
+
+    if not design_dir.exists():
+        return items
+
+    for path in sorted(design_dir.iterdir(), key=lambda item: item.name):
+        if not path.is_file() or path.suffix.lower() not in IMAGE_EXTENSIONS:
+            continue
+
+        match = DESIGN_STEM_PATTERN.match(path.stem)
+        if not match:
+            continue
+
+        group_name = match.group(1)
+        if group_name not in catalog_names:
+            catalog_names[group_name] = design_category_name(len(catalog_names) + 1)
+
+        relative_path = path.relative_to(ROOT).as_posix()
+        items.append({
+            "category": catalog_names[group_name],
+            "src": relative_path,
+            "hasDescription": path.with_suffix(".md").exists(),
+            "title": title_for(path),
+        })
+
+    return items
+
+
 def render_data_block(items: list[dict[str, str]]) -> str:
     data = json.dumps(items, ensure_ascii=False, indent=2)
     return f"window.__GALLERY_IMAGES__ = {data};\n"
 
 
-def update_asset_cache_bust(index_path: Path, version: str) -> bool:
+def update_asset_cache_bust(index_path: Path, assets: list[str], version: str) -> bool:
     html = index_path.read_text(encoding="utf-8")
     original = html
 
-    for asset in BUILT_ASSETS:
+    for asset in assets:
         pattern = re.compile(rf"((?:src|href)=\")({re.escape(asset)})(?:\\?[^\"']*)?(\")")
         html = pattern.sub(lambda match: f'{match.group(1)}{match.group(2)}?v={version}{match.group(3)}', html)
 
@@ -406,12 +497,17 @@ def main() -> None:
     regrouped = normalize_grouped_filenames()
     separated = normalize_group_sequence_separator()
     padded = normalize_number_padding()
-    items, report = scan_images()
-    GALLERY_DATA_JS.write_text(render_data_block(items), encoding="utf-8")
+    gallery_items, report = scan_gallery_images()
+    design_items = scan_design_images()
+    copy_gallery_assets()
+    copy_design_assets(design_items)
+    GALLERY_DATA_JS.write_text(render_data_block(gallery_items), encoding="utf-8")
+    DESIGN_DATA_JS.write_text(render_data_block(design_items), encoding="utf-8")
     REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     version = int(time.time())
-    updated = update_asset_cache_bust(INDEX_HTML, str(version))
+    gallery_updated = update_asset_cache_bust(GALLERY_INDEX_HTML, GALLERY_BUILT_ASSETS, str(version))
+    design_updated = update_asset_cache_bust(DESIGN_INDEX_HTML, DESIGN_BUILT_ASSETS, str(version))
 
     if renamed:
         print(f"Renamed {renamed} file(s).")
@@ -423,10 +519,13 @@ def main() -> None:
         print(f"Separated {separated} grouped sequence filename(s).")
     if padded:
         print(f"Zero-padded {padded} numbered filename(s).")
-    print(f"Updated {GALLERY_DATA_JS.relative_to(ROOT)} with {len(items)} images.")
+    print(f"Updated {GALLERY_DATA_JS.relative_to(ROOT)} with {len(gallery_items)} images.")
+    print(f"Updated {DESIGN_DATA_JS.relative_to(ROOT)} with {len(design_items)} images.")
     print(f"Updated {REPORT_JSON.relative_to(ROOT)}.")
-    if updated:
-        print(f"Updated {INDEX_HTML.relative_to(ROOT)} cache-buster to v={version}.")
+    if gallery_updated:
+        print(f"Updated {GALLERY_INDEX_HTML.relative_to(ROOT)} cache-buster to v={version}.")
+    if design_updated:
+        print(f"Updated {DESIGN_INDEX_HTML.relative_to(ROOT)} cache-buster to v={version}.")
 
 
 if __name__ == "__main__":
