@@ -420,9 +420,10 @@
       height: min(54vh, 520px);
       min-height: 320px;
       outline: none;
+      overflow-wrap: anywhere;
       padding: 12px;
       resize: vertical;
-      white-space: pre;
+      white-space: pre-wrap;
       width: 100%;
     }
 
