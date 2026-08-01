@@ -11,12 +11,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-IMAGES_DIR = ROOT / "images"
 GALLERY_SITE_DIR = ROOT / "sites" / "gallery"
 DESIGN_SITE_DIR = ROOT / "sites" / "design"
-DIST_DIR = ROOT / "dist"
-GALLERY_DIST_DIR = DIST_DIR / "gallery"
-DESIGN_DIST_DIR = DIST_DIR / "design"
+IMAGES_DIR = GALLERY_SITE_DIR / "images"
 GALLERY_DATA_JS = GALLERY_SITE_DIR / "scripts" / "gallery-data.js"
 DESIGN_DATA_JS = DESIGN_SITE_DIR / "scripts" / "design-data.js"
 REPORT_JSON = ROOT / "todo" / "catalog_report.json"
@@ -375,48 +372,22 @@ def clear_generated_dir(path: Path) -> None:
         shutil.rmtree(path)
 
 
-def copy_site_shell(source: Path, target: Path) -> None:
-    clear_generated_dir(target)
-    shutil.copytree(
-        source,
-        target,
-        ignore=shutil.ignore_patterns(".DS_Store", "images"),
-    )
-
-
-def copy_gallery_assets(target_site_dir: Path) -> None:
-    target = target_site_dir / "images"
-    clear_generated_dir(target)
-    copy_asset_tree(IMAGES_DIR, target)
-
-
 def copy_asset_file(source: Path, target: Path) -> None:
     target.parent.mkdir(parents=True, exist_ok=True)
-    try:
-        target.hardlink_to(source)
-    except OSError:
-        shutil.copy2(source, target)
+    shutil.copy2(source, target)
 
 
-def copy_asset_tree(source_root: Path, target_root: Path) -> None:
-    for source in sorted(source_root.rglob("*"), key=lambda item: str(item)):
-        if source.name == ".DS_Store" or not source.is_file():
-            continue
-        copy_asset_file(source, target_root / source.relative_to(source_root))
-
-
-def copy_design_assets(target_site_dir: Path, design_items: list[dict[str, str]]) -> None:
-    target_root = target_site_dir / "images"
-    target_design_dir = target_root / "Design"
+def copy_design_assets(design_items: list[dict[str, str]]) -> None:
+    target_root = DESIGN_SITE_DIR / "images"
     clear_generated_dir(target_root)
-    target_design_dir.mkdir(parents=True, exist_ok=True)
 
     for item in design_items:
-        source = ROOT / item["src"]
+        source = Path(item["_source"])
+        target_dir = DESIGN_SITE_DIR / "images" / item["category"]
         for asset in [source, source.with_suffix(".md")]:
             if not asset.exists() or asset.suffix.lower() not in DEPLOY_ASSET_EXTENSIONS:
                 continue
-            copy_asset_file(asset, target_design_dir / asset.name)
+            copy_asset_file(asset, target_dir / asset.name)
 
 
 def scan_gallery_images() -> tuple[list[dict[str, str]], dict[str, object]]:
@@ -432,7 +403,7 @@ def scan_gallery_images() -> tuple[list[dict[str, str]], dict[str, object]]:
 
         for path in files:
             hash_value = digest(path)
-            relative_path = path.relative_to(ROOT).as_posix()
+            relative_path = path.relative_to(GALLERY_SITE_DIR).as_posix()
             if hash_value in seen:
                 skipped.append({
                     "path": relative_path,
@@ -483,19 +454,24 @@ def scan_design_images() -> list[dict[str, str]]:
         if group_name not in catalog_names:
             catalog_names[group_name] = design_category_name(len(catalog_names) + 1)
 
-        relative_path = path.relative_to(ROOT).as_posix()
+        relative_path = f"images/{catalog_names[group_name]}/{path.name}"
         items.append({
             "category": catalog_names[group_name],
             "src": relative_path,
             "hasDescription": path.with_suffix(".md").exists(),
             "title": title_for(path),
+            "_source": str(path),
         })
 
     return items
 
 
 def render_data_block(items: list[dict[str, str]]) -> str:
-    data = json.dumps(items, ensure_ascii=False, indent=2)
+    public_items = [
+        {key: value for key, value in item.items() if not key.startswith("_")}
+        for item in items
+    ]
+    data = json.dumps(public_items, ensure_ascii=False, indent=2)
     return f"window.__GALLERY_IMAGES__ = {data};\n"
 
 
@@ -522,6 +498,7 @@ def main() -> None:
     padded = normalize_number_padding()
     gallery_items, report = scan_gallery_images()
     design_items = scan_design_images()
+    copy_design_assets(design_items)
     GALLERY_DATA_JS.write_text(render_data_block(gallery_items), encoding="utf-8")
     DESIGN_DATA_JS.write_text(render_data_block(design_items), encoding="utf-8")
     REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -529,10 +506,6 @@ def main() -> None:
     version = int(time.time())
     gallery_updated = update_asset_cache_bust(GALLERY_INDEX_HTML, GALLERY_BUILT_ASSETS, str(version))
     design_updated = update_asset_cache_bust(DESIGN_INDEX_HTML, DESIGN_BUILT_ASSETS, str(version))
-    copy_site_shell(GALLERY_SITE_DIR, GALLERY_DIST_DIR)
-    copy_site_shell(DESIGN_SITE_DIR, DESIGN_DIST_DIR)
-    copy_gallery_assets(GALLERY_DIST_DIR)
-    copy_design_assets(DESIGN_DIST_DIR, design_items)
 
     if renamed:
         print(f"Renamed {renamed} file(s).")
@@ -547,8 +520,7 @@ def main() -> None:
     print(f"Updated {GALLERY_DATA_JS.relative_to(ROOT)} with {len(gallery_items)} images.")
     print(f"Updated {DESIGN_DATA_JS.relative_to(ROOT)} with {len(design_items)} images.")
     print(f"Updated {REPORT_JSON.relative_to(ROOT)}.")
-    print(f"Built {GALLERY_DIST_DIR.relative_to(ROOT)}.")
-    print(f"Built {DESIGN_DIST_DIR.relative_to(ROOT)}.")
+    print(f"Synced {DESIGN_SITE_DIR.relative_to(ROOT) / 'images'}.")
     if gallery_updated:
         print(f"Updated {GALLERY_INDEX_HTML.relative_to(ROOT)} cache-buster to v={version}.")
     if design_updated:
