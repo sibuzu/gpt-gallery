@@ -7,6 +7,7 @@ const search = document.querySelector("#search");
 const empty = document.querySelector("#empty");
 const visibleCount = document.querySelector("#visibleCount");
 const totalCount = document.querySelector("#totalCount");
+const expandAllToggle = document.querySelector("#expandAllToggle");
 const lightbox = document.querySelector("#lightbox");
 const preview = document.querySelector("#preview");
 const previewCaption = document.querySelector("#previewCaption");
@@ -14,11 +15,13 @@ const close = document.querySelector("#close");
 const categories = ["全部", ...new Set(images.map((image) => image.category))];
 const CATEGORY_STORAGE_KEY = "gpt-design-active-category";
 let activeCategory = initialCategory();
-let currentImages = images;
+let currentItems = images.map((image) => ({ image }));
 let previewIndex = -1;
 let touchStartX = 0;
 let touchStartY = 0;
 let descriptionDialog = null;
+let currentGroups = [];
+const expandedGroups = new Set();
 
 const totals = images.reduce((map, image) => {
   map[image.category] = (map[image.category] || 0) + 1;
@@ -52,6 +55,40 @@ function setActiveCategory(category) {
   render();
 }
 
+function groupByCategory(items) {
+  return categories
+    .filter((category) => category !== "全部")
+    .map((category) => ({
+      key: category,
+      images: items.filter((image) => image.category === category),
+    }))
+    .filter((group) => group.images.length);
+}
+
+function displayItemsFor(groups) {
+  return groups.flatMap((group) => {
+    const isExpanded = expandedGroups.has(group.key);
+    if (!isExpanded) {
+      return [{
+        image: group.images[0],
+        groupKey: group.key,
+        groupSize: group.images.length,
+        isCollapsedGroup: group.images.length > 1,
+        isExpandedGroup: false,
+      }];
+    }
+
+    return group.images.map((image, index) => ({
+      image,
+      groupKey: group.key,
+      groupIndex: index,
+      groupSize: group.images.length,
+      isCollapsedGroup: false,
+      isExpandedGroup: group.images.length > 1,
+    }));
+  });
+}
+
 function makeChip(category) {
   const button = document.createElement("button");
   button.type = "button";
@@ -72,9 +109,9 @@ function makeOption(category) {
 }
 
 function showPreview(index) {
-  if (!currentImages.length) return;
-  previewIndex = (index + currentImages.length) % currentImages.length;
-  const image = currentImages[previewIndex];
+  if (!currentItems.length) return;
+  previewIndex = (index + currentItems.length) % currentItems.length;
+  const image = currentItems[previewIndex].image;
   preview.src = encodeURI(image.src);
   preview.alt = image.category;
   previewCaption.textContent = `${image.category} · ${image.title}`;
@@ -249,12 +286,85 @@ function resizeMasonry() {
   grid.querySelectorAll(".card").forEach(resizeMasonryCard);
 }
 
-function cardFor(image, index) {
+function idForGroupKey(groupKey) {
+  let hash = 0;
+  for (let index = 0; index < groupKey.length; index += 1) {
+    hash = ((hash << 5) - hash + groupKey.charCodeAt(index)) | 0;
+  }
+  return `group-${Math.abs(hash).toString(36)}`;
+}
+
+function cardForGroupKey(groupKey) {
+  return Array.from(grid.querySelectorAll(".card")).find((card) => card.dataset.groupKey === groupKey);
+}
+
+function renderAtGroupHash(groupKey, action) {
+  action();
+  render();
+
+  const groupId = idForGroupKey(groupKey);
+  const restorePosition = () => {
+    const nextCard = cardForGroupKey(groupKey);
+    if (!nextCard) return;
+
+    if (window.location.hash !== `#${groupId}`) {
+      window.history.replaceState(null, "", `#${groupId}`);
+    }
+    nextCard.scrollIntoView({ block: "start" });
+  };
+
+  requestAnimationFrame(() => {
+    restorePosition();
+    setTimeout(restorePosition, 120);
+  });
+}
+
+function syncExpandAllToggle() {
+  const expandableGroups = currentGroups.filter((group) => group.images.length > 1);
+  const enabled = activeCategory === "全部" && expandableGroups.length > 0;
+  const allExpanded = enabled && expandableGroups.every((group) => expandedGroups.has(group.key));
+  const label = allExpanded ? "全部縮回" : "全部展開";
+
+  expandAllToggle.classList.toggle("hidden", activeCategory !== "全部");
+  expandAllToggle.disabled = !enabled;
+  expandAllToggle.setAttribute("aria-label", label);
+  expandAllToggle.title = label;
+  expandAllToggle.querySelector("img").src = allExpanded ? "collapse-svgrepo-com.svg" : "expand-svgrepo-com.svg";
+}
+
+function toggleAllGroups() {
+  if (activeCategory !== "全部") return;
+  const groupKeys = currentGroups
+    .filter((group) => group.images.length > 1)
+    .map((group) => group.key);
+  const allExpanded = groupKeys.length > 0 && groupKeys.every((key) => expandedGroups.has(key));
+
+  groupKeys.forEach((key) => {
+    if (allExpanded) {
+      expandedGroups.delete(key);
+      return;
+    }
+    expandedGroups.add(key);
+  });
+  render();
+}
+
+function cardFor(item, index) {
+  const { image } = item;
+  const stackBadge = item.isCollapsedGroup ? `<span class="stack-badge">+${item.groupSize - 1}</span>` : "";
+  const stackClass = item.isCollapsedGroup ? " stack" : "";
   const article = document.createElement("article");
   article.className = "card";
+  if (item.groupKey) {
+    article.dataset.groupKey = item.groupKey;
+  }
+  if (item.isCollapsedGroup || item.groupIndex === 0) {
+    article.id = idForGroupKey(item.groupKey);
+  }
   article.innerHTML = `
-    <div class="card-media">
+    <div class="card-media${stackClass}">
       <img loading="lazy" src="${encodeURI(image.src)}" alt="${image.category}" tabindex="0">
+      ${stackBadge}
     </div>
     <div class="caption">
       <span class="category">${image.category}</span>
@@ -262,6 +372,7 @@ function cardFor(image, index) {
         <span class="filename">${image.title}</span>
         <span class="card-actions">
           ${image.hasDescription ? '<button class="icon-button copy-desc" type="button" aria-label="複製描述" title="複製描述"><img src="language-json-svgrepo-com.svg" alt=""></button>' : ""}
+          ${item.isExpandedGroup ? '<button class="icon-button collapse-group" type="button" aria-label="收合群組" title="收合群組"><img src="collapse-svgrepo-com.svg" alt=""></button>' : ""}
         </span>
       </span>
     </div>
@@ -272,13 +383,34 @@ function cardFor(image, index) {
   if (cardImage.complete) {
     resizeMasonryCard(article);
   }
-  cardImage.addEventListener("click", () => openPreview(index));
+  cardImage.addEventListener("click", () => {
+    if (item.isCollapsedGroup) {
+      renderAtGroupHash(item.groupKey, () => {
+        expandedGroups.add(item.groupKey);
+      });
+      return;
+    }
+    openPreview(index);
+  });
   cardImage.addEventListener("keydown", (event) => {
-    if (event.key === "Enter") openPreview(index);
+    if (event.key !== "Enter") return;
+    if (item.isCollapsedGroup) {
+      renderAtGroupHash(item.groupKey, () => {
+        expandedGroups.add(item.groupKey);
+      });
+      return;
+    }
+    openPreview(index);
   });
   article.querySelector(".copy-desc")?.addEventListener("click", (event) => {
     event.stopPropagation();
     showMarkdownDescription(image.src);
+  });
+  article.querySelector(".collapse-group")?.addEventListener("click", (event) => {
+    event.stopPropagation();
+    renderAtGroupHash(item.groupKey, () => {
+      expandedGroups.delete(item.groupKey);
+    });
   });
   article.querySelector(".card-actions")?.addEventListener("keydown", (event) => {
     event.stopPropagation();
@@ -288,21 +420,29 @@ function cardFor(image, index) {
 
 function render() {
   const query = search.value.trim().toLowerCase();
-  currentImages = images.filter((image) => {
+  const filtered = images.filter((image) => {
     const matchCategory = activeCategory === "全部" || image.category === activeCategory;
     const matchQuery = !query || `${image.category} ${image.title}`.toLowerCase().includes(query);
     return matchCategory && matchQuery;
   });
+  if (activeCategory === "全部") {
+    currentGroups = groupByCategory(filtered);
+    currentItems = displayItemsFor(currentGroups);
+  } else {
+    currentGroups = [];
+    currentItems = filtered.map((image) => ({ image }));
+  }
 
   document.querySelectorAll(".chip").forEach((chip) => {
     chip.classList.toggle("active", chip.dataset.category === activeCategory);
   });
   categoryMenu.value = activeCategory;
-  grid.replaceChildren(...currentImages.map(cardFor));
+  grid.replaceChildren(...currentItems.map(cardFor));
   resizeMasonry();
-  empty.style.display = currentImages.length ? "none" : "block";
-  visibleCount.textContent = currentImages.length;
+  empty.style.display = currentItems.length ? "none" : "block";
+  visibleCount.textContent = currentItems.length;
   totalCount.textContent = images.length;
+  syncExpandAllToggle();
 }
 
 filters.replaceChildren(...categories.map(makeChip));
@@ -311,6 +451,7 @@ categoryMenu.addEventListener("change", () => {
   setActiveCategory(categoryMenu.value);
 });
 search.addEventListener("input", render);
+expandAllToggle.addEventListener("click", toggleAllGroups);
 window.addEventListener("resize", resizeMasonry);
 close.addEventListener("click", closePreview);
 lightbox.addEventListener("click", (event) => {

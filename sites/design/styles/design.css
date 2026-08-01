@@ -57,6 +57,22 @@ h1 {
   gap: 8px;
 }
 
+.title-toggle {
+  flex: 0 0 auto;
+  height: 27px;
+  margin-bottom: 4px;
+  width: 27px;
+}
+
+.title-toggle img {
+  height: 21px;
+  width: 21px;
+}
+
+.hidden {
+  display: none !important;
+}
+
 .meta {
   color: var(--muted);
   font-size: 14px;
@@ -161,6 +177,57 @@ main {
   position: relative;
   width: 100%;
   z-index: 2;
+}
+
+.card-media.stack {
+  cursor: pointer;
+  padding: 0 10px 10px 0;
+}
+
+.card-media.stack img {
+  cursor: pointer;
+}
+
+.card-media.stack::before,
+.card-media.stack::after {
+  background: var(--panel);
+  border: 1px solid rgba(234, 220, 203, 0.9);
+  bottom: 0;
+  box-shadow: 0 8px 18px rgba(70, 47, 27, 0.12);
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.card-media.stack::before {
+  left: 10px;
+  transform: translate(-5px, -5px);
+  z-index: 0;
+}
+
+.card-media.stack::after {
+  left: 5px;
+  transform: translate(0, 0);
+  z-index: 1;
+}
+
+.stack-badge {
+  align-items: center;
+  background: rgba(32, 24, 20, 0.82);
+  border: 1px solid rgba(255, 248, 237, 0.26);
+  border-radius: 999px;
+  bottom: 18px;
+  color: #fff8ed;
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 700;
+  justify-content: center;
+  min-width: 38px;
+  padding: 5px 9px;
+  position: absolute;
+  right: 18px;
+  z-index: 3;
 }
 
 .caption {
@@ -456,6 +523,17 @@ main {
 
   h1 {
     font-size: 30px;
+  }
+
+  .title-toggle {
+    height: 24px;
+    margin-bottom: 2px;
+    width: 24px;
+  }
+
+  .title-toggle img {
+    height: 18px;
+    width: 18px;
   }
 
   .meta,
