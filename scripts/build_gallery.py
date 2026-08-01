@@ -346,6 +346,17 @@ def title_for(path: Path) -> str:
 
 
 def category_sort_key(path: Path) -> tuple[int, str]:
+    design_values = {
+        "現代": 1,
+        "雲紗": 2,
+        "雅裁": 3,
+        "線舞": 4,
+        "元素": 5,
+        "民族": 6,
+    }
+    if path.name in design_values:
+        return (design_values[path.name], path.name)
+
     prefix = "設計"
     values = {
         "一": 1,
