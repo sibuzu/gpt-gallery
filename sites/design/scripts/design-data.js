@@ -528,6 +528,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "四視圖e-11"
   },
   {
+    "category": "設計五",
+    "src": "images/設計五/四視圖e-12.png",
+    "hasDescription": true,
+    "title": "四視圖e-12"
+  },
+  {
     "category": "設計六",
     "src": "images/設計六/四視圖f-01.png",
     "hasDescription": true,
