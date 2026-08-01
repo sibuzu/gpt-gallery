@@ -616,5 +616,35 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-14.png",
     "hasDescription": true,
     "title": "民族-14"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-15.png",
+    "hasDescription": true,
+    "title": "民族-15"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-16.png",
+    "hasDescription": true,
+    "title": "民族-16"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-17.png",
+    "hasDescription": true,
+    "title": "民族-17"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-18.png",
+    "hasDescription": true,
+    "title": "民族-18"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-19.png",
+    "hasDescription": true,
+    "title": "民族-19"
   }
 ];
