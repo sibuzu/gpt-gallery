@@ -534,6 +534,36 @@ window.__GALLERY_IMAGES__ = [
     "title": "元素-12"
   },
   {
+    "category": "元素",
+    "src": "images/元素/元素-13.png",
+    "hasDescription": true,
+    "title": "元素-13"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-14.png",
+    "hasDescription": true,
+    "title": "元素-14"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-15.png",
+    "hasDescription": true,
+    "title": "元素-15"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-16.png",
+    "hasDescription": true,
+    "title": "元素-16"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-17.png",
+    "hasDescription": true,
+    "title": "元素-17"
+  },
+  {
     "category": "民族",
     "src": "images/民族/民族-01.png",
     "hasDescription": true,
