@@ -558,6 +558,18 @@ window.__GALLERY_IMAGES__ = [
     "title": "線舞-22"
   },
   {
+    "category": "線舞",
+    "src": "images/線舞/線舞-23.png",
+    "hasDescription": true,
+    "title": "線舞-23"
+  },
+  {
+    "category": "線舞",
+    "src": "images/線舞/線舞-24.png",
+    "hasDescription": true,
+    "title": "線舞-24"
+  },
+  {
     "category": "元素",
     "src": "images/元素/元素-01.png",
     "hasDescription": true,
