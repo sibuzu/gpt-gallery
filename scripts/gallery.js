@@ -13,6 +13,7 @@ const images = window.__GALLERY_IMAGES__ || [];
     const preview = document.querySelector("#preview");
     const previewCaption = document.querySelector("#previewCaption");
     const close = document.querySelector("#close");
+    let descriptionDialog = null;
     const DEFAULT_CATEGORY = "Folk";
     const CATEGORY_STORAGE_KEY = "gpt-gallery-active-category";
     const categories = ["全部", ...new Set(images.map((image) => image.category))];
@@ -202,20 +203,25 @@ const images = window.__GALLERY_IMAGES__ || [];
       return url.href;
     }
 
-    async function copyMatchingMarkdown(imageSrc) {
+    async function showMarkdownDescription(imageSrc) {
       const markdownPath = markdownPathFor(imageSrc);
 
       try {
         const response = await fetch(markdownPath, { cache: "no-store" });
-        if (!response.ok) return;
+        if (!response.ok) {
+          showToast("無法讀取同名 md");
+          return;
+        }
 
         const text = await response.text();
-        if (!text.trim()) return;
+        if (!text.trim()) {
+          showToast("同名 md 沒有內容");
+          return;
+        }
 
-        await copyText(text);
-        showToast(`${decodeURIComponent(new URL(markdownPath).pathname.split("/").pop())} 已複製`);
+        openDescriptionDialog(text, decodeURIComponent(new URL(markdownPath).pathname.split("/").pop()));
       } catch (error) {
-        showToast("無法複製同名 md");
+        showToast("無法讀取同名 md");
       }
     }
 
@@ -232,8 +238,79 @@ const images = window.__GALLERY_IMAGES__ || [];
       textarea.style.position = "fixed";
       document.body.appendChild(textarea);
       textarea.select();
-      document.execCommand("copy");
+      textarea.setSelectionRange(0, textarea.value.length);
+      const copied = document.execCommand("copy");
       textarea.remove();
+      if (!copied) {
+        throw new Error("Copy command was not accepted");
+      }
+    }
+
+    function ensureDescriptionDialog() {
+      if (descriptionDialog) return descriptionDialog;
+
+      const dialog = document.createElement("div");
+      dialog.className = "description-dialog";
+      dialog.innerHTML = `
+        <section class="description-panel" role="dialog" aria-modal="true" aria-labelledby="descriptionTitle">
+          <div class="description-head">
+            <h2 id="descriptionTitle">描述內容</h2>
+            <button class="description-close" type="button" aria-label="關閉">×</button>
+          </div>
+          <textarea class="description-text" readonly spellcheck="false"></textarea>
+          <div class="description-actions">
+            <button class="description-copy" type="button">Copy</button>
+            <button class="description-select" type="button">全選文字</button>
+          </div>
+        </section>
+      `;
+
+      const textBox = dialog.querySelector(".description-text");
+      dialog.querySelector(".description-close").addEventListener("click", closeDescriptionDialog);
+      dialog.querySelector(".description-copy").addEventListener("click", async () => {
+        try {
+          await copyText(textBox.value);
+          showToast("描述已複製");
+        } catch (error) {
+          selectDescriptionText();
+          showToast("已全選文字，請手動複製");
+        }
+      });
+      dialog.querySelector(".description-select").addEventListener("click", selectDescriptionText);
+      dialog.addEventListener("click", (event) => {
+        if (event.target === dialog) closeDescriptionDialog();
+      });
+      dialog.addEventListener("keydown", (event) => {
+        event.stopPropagation();
+      });
+
+      document.body.appendChild(dialog);
+      descriptionDialog = dialog;
+      return dialog;
+    }
+
+    function openDescriptionDialog(text, filename) {
+      const dialog = ensureDescriptionDialog();
+      dialog.querySelector("#descriptionTitle").textContent = filename;
+      const textBox = dialog.querySelector(".description-text");
+      textBox.value = text;
+      dialog.classList.add("open");
+      requestAnimationFrame(() => {
+        selectDescriptionText();
+      });
+    }
+
+    function closeDescriptionDialog() {
+      if (!descriptionDialog) return;
+      descriptionDialog.classList.remove("open");
+    }
+
+    function selectDescriptionText() {
+      if (!descriptionDialog) return;
+      const textBox = descriptionDialog.querySelector(".description-text");
+      textBox.focus({ preventScroll: true });
+      textBox.select();
+      textBox.setSelectionRange(0, textBox.value.length);
     }
 
     function showToast(message) {
@@ -387,7 +464,7 @@ const images = window.__GALLERY_IMAGES__ || [];
       });
       article.querySelector(".copy-desc")?.addEventListener("click", (event) => {
         event.stopPropagation();
-        copyMatchingMarkdown(image.src);
+        showMarkdownDescription(image.src);
       });
       article.querySelector(".collapse-group")?.addEventListener("click", (event) => {
         event.stopPropagation();
@@ -442,6 +519,10 @@ const images = window.__GALLERY_IMAGES__ || [];
     }, { passive: true });
     lightbox.addEventListener("touchend", handleSwipe, { passive: true });
     window.addEventListener("keydown", (event) => {
+      if (descriptionDialog?.classList.contains("open")) {
+        if (event.key === "Escape") closeDescriptionDialog();
+        return;
+      }
       if (event.key === "Escape") closePreview();
       if (event.key === "ArrowLeft") movePreview(-1);
       if (event.key === "ArrowRight") movePreview(1);
