@@ -387,11 +387,22 @@ def copy_site_shell(source: Path, target: Path) -> None:
 def copy_gallery_assets(target_site_dir: Path) -> None:
     target = target_site_dir / "images"
     clear_generated_dir(target)
-    shutil.copytree(
-        IMAGES_DIR,
-        target,
-        ignore=shutil.ignore_patterns(".DS_Store"),
-    )
+    copy_asset_tree(IMAGES_DIR, target)
+
+
+def copy_asset_file(source: Path, target: Path) -> None:
+    target.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        target.hardlink_to(source)
+    except OSError:
+        shutil.copy2(source, target)
+
+
+def copy_asset_tree(source_root: Path, target_root: Path) -> None:
+    for source in sorted(source_root.rglob("*"), key=lambda item: str(item)):
+        if source.name == ".DS_Store" or not source.is_file():
+            continue
+        copy_asset_file(source, target_root / source.relative_to(source_root))
 
 
 def copy_design_assets(target_site_dir: Path, design_items: list[dict[str, str]]) -> None:
@@ -405,7 +416,7 @@ def copy_design_assets(target_site_dir: Path, design_items: list[dict[str, str]]
         for asset in [source, source.with_suffix(".md")]:
             if not asset.exists() or asset.suffix.lower() not in DEPLOY_ASSET_EXTENSIONS:
                 continue
-            shutil.copy2(asset, target_design_dir / asset.name)
+            copy_asset_file(asset, target_design_dir / asset.name)
 
 
 def scan_gallery_images() -> tuple[list[dict[str, str]], dict[str, object]]:
