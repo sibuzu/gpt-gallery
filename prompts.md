@@ -1,0 +1,853 @@
+# Prompt Examples
+
+> Source: `todo/prompt_examples.txt`
+
+整理為可搜尋、可複製使用的 AI 服裝設計 prompt。原始編號有跳號處，這裡保留來源中的編號。
+
+## 清涼前衛夏季服裝：英文 Prompt 草稿
+
+> 給我5個前衛的女性夏季服裝設計，清涼舒適為主題，給我prompt text 即可
+
+### 1. Futuristic Sheer Layers
+
+```text
+She is wearing an avant-garde summer outfit featuring an asymmetric ivory sheer organza cropped jacket layered over a minimalist nude-toned bralette, paired with flowing ultra-lightweight high-waisted wide-leg chiffon pants with translucent gradient panels. The design incorporates laser-cut geometric edges, floating silk ribbons, subtle iridescent accents, and breathable mesh inserts. Soft pastel white, pearl silver, and champagne tones create an elegant futuristic aesthetic. Lightweight, airy, cooling, luxurious, highly detailed couture construction.
+```
+
+### 2. Botanical Breeze
+
+```text
+She is wearing an avant-garde nature-inspired summer ensemble featuring a sculptural leaf-shaped silk chiffon halter top with semi-transparent overlapping botanical panels, paired with a flowing asymmetric wrap skirt made from ultra-light organza and sheer pleated fabric. The outfit includes delicate vine-like embroidery, translucent floral textures, and soft flowing fabric extensions that move naturally in the breeze. Color palette consists of sage green, soft mint, ivory, and pale gold. Breathable, elegant, refreshing, luxurious couture.
+```
+
+### 3. Ocean Air Minimalism
+
+```text
+She is wearing an avant-garde ocean-inspired summer outfit featuring a translucent aqua-blue draped silk chiffon cape attached to a minimalist white bandeau top, combined with flowing high-slit layered chiffon trousers resembling ocean waves. The garment features soft rippling textures, reflective pearl details, lightweight mesh structures, and ethereal floating fabric. Colors include crystal blue, seafoam, pearl white, and light turquoise. Cool, airy, sophisticated, fashion-forward, premium editorial quality.
+```
+
+### 4. Floating Geometry
+
+```text
+She is wearing an avant-garde architectural summer outfit consisting of a sculptural asymmetric cropped top with floating geometric translucent panels made of organza and sheer mesh, paired with layered high-waisted wide-leg trousers featuring oversized flowing chiffon extensions that create dynamic movement while walking. Minimal metallic silver trims and soft matte white fabric emphasize modern elegance. Palette includes pure white, soft grey, ice blue, and platinum accents. Lightweight, breathable, futuristic couture.
+```
+
+### 5. Desert Sunset Couture
+
+```text
+She is wearing an avant-garde summer couture ensemble featuring a soft peach sheer silk draped crop top with oversized flowing sleeves made from ultra-light organza, paired with an asymmetrical layered chiffon skirt featuring multiple translucent floating panels and subtle golden embroidery inspired by desert dunes. Fine pleats, feather-light textures, and graceful movement create an ethereal appearance. Colors include warm peach, champagne, sand beige, blush pink, and soft gold. Airy, cooling, elegant, luxurious, editorial fashion.
+```
+
+## 前衛夏季高級訂製服
+
+### 1. Floating Cloud Couture｜浮雲未來感
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer couture outfit featuring a sculptural off-shoulder sheer organza top with floating cloud-like layers, paired with ultra-lightweight high-waisted wide-leg chiffon pants. The design incorporates translucent overlapping fabrics, laser-cut organic edges, soft pearl accents, and breathable mesh panels. The color palette consists of ivory, pearl white, pale sky blue, and soft silver. Ethereal, airy, cooling, luxurious, high-fashion editorial, lightweight, comfortable, flowing movement.
+```
+
+**中文描述**
+
+她穿著一套前衛夏季高級訂製服裝，以雕塑感露肩透明歐根紗上衣搭配超輕量高腰寬褲。設計融合漂浮雲朵般的多層透明布料、雷射切割有機曲線、珍珠細節與透氣網布拼接。配色為象牙白、珍珠白、天空藍與柔和銀色，呈現空靈、涼爽、舒適且充滿高級時尚感。
+
+### 2. Bio-Luminescent Garden｜未來植物花園
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde botanical-inspired summer outfit featuring a semi-transparent silk halter crop top shaped like overlapping flower petals, paired with an asymmetrical flowing organza skirt. Delicate leaf embroidery, translucent mesh structures, and soft gradient fabrics create an elegant organic silhouette. Colors include sage green, mint, ivory, blush pink, and champagne gold. Breathable, lightweight, cooling, elegant couture.
+```
+
+**中文描述**
+
+她穿著一套受植物啟發的前衛夏季服裝，以半透明絲質花瓣造型掛脖短版上衣搭配不對稱飄逸歐根紗裙。細緻葉片刺繡、透明網狀結構與漸層布料塑造自然雕塑感。配色包含鼠尾草綠、薄荷綠、象牙白、淡粉與香檳金，兼具透氣、舒適與高級訂製風格。
+
+### 3. Ocean Breeze Minimalism｜海風極簡主義
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer ensemble featuring a minimalist bandeau top beneath a translucent flowing chiffon cape inspired by ocean waves, paired with layered wide-leg pants made from ultra-light silk chiffon. Pearl embellishments, wave-like pleats, and floating fabric ribbons create dynamic movement. The palette features aqua blue, seafoam green, crystal white, and pale turquoise. Refreshing, airy, elegant, futuristic fashion.
+```
+
+**中文描述**
+
+她穿著一套海洋風前衛夏季服裝，以極簡平口上衣搭配靈感來自海浪的透明雪紡披肩，下身為超輕絲質雪紡層次寬褲。珍珠裝飾、波浪摺紋與飄逸布條營造自然流動感。配色採用水藍、海泡綠、晶白與淺青綠，呈現清爽舒適且富有未來感。
+
+### 4. Air Architecture｜空氣建築
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde architectural summer outfit consisting of an asymmetric sculptural crop top with floating geometric organza panels, paired with oversized flowing high-waisted trousers featuring sheer mesh inserts for maximum ventilation. Metallic silver piping and translucent layered fabrics create a futuristic silhouette. Colors include white, ice blue, light grey, and platinum silver. Ultra-lightweight, breathable, luxurious, editorial couture.
+```
+
+**中文描述**
+
+她穿著一套建築美學風格的前衛夏季服裝，以不對稱雕塑感短版上衣搭配漂浮幾何歐根紗結構，下身為高腰寬版長褲，加入大面積透氣網布設計。金屬銀滾邊與多層透明布料打造未來感輪廓。配色為純白、冰藍、淺灰與鉑銀色，兼具涼爽、舒適與時尚感。
+
+### 5. Desert Wind Elegance｜沙漠微風
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer couture outfit featuring a draped peach silk chiffon crop top with oversized floating sleeves, paired with an asymmetrical layered organza skirt featuring translucent floating panels inspired by desert dunes. Fine pleats, subtle golden embroidery, and feather-light fabrics create effortless elegance. Colors include peach, sand beige, champagne, blush pink, and warm gold. Cooling, airy, flowing, luxurious high-fashion.
+```
+
+**中文描述**
+
+她穿著一套沙漠微風主題的前衛夏季高訂服裝，以桃色絲質雪紡抓皺短版上衣搭配超大飄逸袖，下身為受沙丘啟發的不對稱多層歐根紗裙。細緻百褶、低調金色刺繡與羽毛般輕盈的材質營造自然流動感。配色為蜜桃色、沙米色、香檳色、淡粉與暖金色，展現清涼舒適且極具高級時尚氛圍。
+
+## Milk Flow：牛奶 × 流動
+
+> 以下是以 「Milk Flow（牛奶 × 流動）」 為主題的前衛女性夏季服裝設計，強調液體流動感、輕盈、清涼、半透明材質與高級時裝感。
+
+### 1. Liquid Milk Sculpture｜液態牛奶雕塑
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer couture outfit inspired by flowing milk, featuring a sculptural asymmetric one-shoulder top made of layered translucent organza and liquid-like glossy silk. Cascading draped panels resemble milk splashing in slow motion, paired with high-waisted flowing chiffon trousers that ripple like liquid. Semi-transparent mesh, pearl white gradients, glossy satin accents, and fluid organic curves create an elegant futuristic silhouette. Colors include pure milk white, ivory, pearl, and soft cream. Ultra-lightweight, breathable, ethereal, luxurious editorial fashion.
+```
+
+**中文描述**
+
+她穿著一套以流動牛奶為靈感的前衛夏季高級訂製服裝，不對稱單肩雕塑上衣採用多層透明歐根紗與具有液態光澤的絲綢打造，垂墜布片宛如慢動作飛濺的牛奶。搭配高腰飄逸雪紡寬褲，呈現液體波紋般流動。透明網布、珍珠白漸層、亮面緞布與有機曲線輪廓營造未來感。配色以純牛奶白、象牙白、珍珠白與奶油白為主，輕盈、透氣且充滿高級時尚感。
+
+### 2. Milk Ribbon｜牛奶絲帶
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer ensemble composed of floating ribbon-like strips of sheer organza that twist around the body like streams of pouring milk. A minimalist silk bandeau is combined with flowing asymmetric layers and oversized chiffon sleeves that move gracefully in the wind. The lower garment features layered translucent wide-leg pants with wave-like movement. White-on-white textures, soft satin shine, and fluid silhouettes create a refreshing luxury aesthetic.
+```
+
+**中文描述**
+
+她穿著一套由透明歐根紗絲帶構成的前衛夏季服裝，輕盈布條如傾倒牛奶般纏繞身體。極簡絲質平口上衣搭配不對稱飄逸布層與超大雪紡袖，下身為多層透明寬褲，行走時如液體般自然流動。整體採用白色層次、柔和緞面光澤與流線輪廓，展現清爽奢華的未來時尚。
+
+### 3. Milk Splash｜牛奶飛濺
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde couture dress inspired by the moment milk splashes into the air. Sculptural translucent organza forms dramatic frozen splash shapes around the shoulders and hips, while feather-light chiffon cascades downward like flowing liquid. Integrated breathable mesh panels maintain comfort and ventilation. The color palette features glossy white, pearl cream, translucent ivory, and soft silver highlights. Cooling, artistic, sculptural, high-fashion editorial.
+```
+
+**中文描述**
+
+她穿著一件以牛奶飛濺瞬間為靈感的前衛高訂洋裝。透明歐根紗在肩部與臀部形成凝結於空中的牛奶飛濺雕塑，下方則以羽毛般輕盈的雪紡自然垂落，如液體向下流動。透氣網布提升舒適性。配色以亮白、珍珠奶油白、透明象牙白及淡銀色為主，兼具藝術雕塑感與夏季清涼舒適。
+
+### 4. Cream Wave｜奶霜波浪
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer outfit inspired by whipped milk and soft cream waves. The oversized off-shoulder organza blouse features voluminous cloud-like folds that resemble whipped cream, paired with translucent layered palazzo pants made of flowing chiffon. Soft curved silhouettes, delicate pearl embroidery, and airy fabric movement create a dreamy futuristic appearance. Colors include cream white, vanilla ivory, soft champagne, and pearl.
+```
+
+**中文描述**
+
+她穿著一套以奶泡與奶霜波浪為靈感的前衛夏季服裝。超大露肩歐根紗上衣擁有如鮮奶油般蓬鬆的立體皺摺，下身搭配透明多層雪紡寬褲。柔和曲線輪廓、珍珠刺繡與飄逸布料營造夢幻未來感。配色以奶霜白、香草象牙白、淡香檳色與珍珠白為主，輕盈舒適。
+
+### 5. Infinite Milk Flow｜無限牛奶流
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde futuristic summer couture outfit consisting of interconnected translucent silk ribbons that continuously spiral around the body like an endless stream of flowing milk. Semi-transparent organza layers float independently from the body, creating dynamic motion with every step. Lightweight mesh construction maximizes airflow while maintaining an elegant silhouette. The palette consists of milk white, pearl, crystal white, and subtle iridescent reflections. Hyper-fluid, breathable, luxurious, artistic couture, inspired by liquid motion.
+```
+
+**中文描述**
+
+她穿著一套以無限流動牛奶為概念的前衛未來高級訂製服裝，由多條半透明絲帶彼此交錯，宛如牛奶持續環繞身體流動。透明歐根紗層片懸浮於身體周圍，行走時產生豐富動態。輕量網布結構兼顧透氣性與優雅輪廓。配色以牛奶白、珍珠白、水晶白與微微珠光反射為主，展現極致流動感、藝術感與奢華時尚。
+
+## Avant-Garde Summer Mini：前衛夏季迷你裙
+
+### 1. Floating Petal Mini｜漂浮花瓣迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer mini dress featuring a sculptural off-shoulder crop top crafted from layered translucent organza petals, paired with a flowing high-waisted mini skirt composed of overlapping chiffon petals. Semi-transparent mesh inserts maximize breathability, while soft pearl embroidery and organic curved edges create an ethereal floral silhouette. Colors include ivory, pearl white, blush pink, and champagne. Ultra-lightweight, airy, cooling, luxurious haute couture, editorial fashion.
+```
+
+**中文描述**
+
+她穿著一套前衛夏季迷你裙服裝，以多層透明歐根紗花瓣打造雕塑感露肩短版上衣，下身搭配高腰花瓣層疊迷你裙。服裝加入半透明透氣網布、珍珠刺繡與自然流線花瓣輪廓，營造空靈優雅的花卉造型。配色為象牙白、珍珠白、淡粉色與香檳色，輕盈透氣、清涼舒適，充滿高級訂製時尚感。
+
+### 2. Liquid Wave Mini｜液態波浪迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer outfit featuring a fitted asymmetric bandeau top with glossy satin details, paired with a layered chiffon mini skirt inspired by flowing ocean waves. Floating translucent ribbons wrap around the waist and hips, while soft pleats create dynamic movement. The color palette includes crystal white, aqua blue, seafoam green, and pearl silver. Breathable, elegant, refreshing, futuristic couture.
+```
+
+**中文描述**
+
+她穿著一套液態波浪主題的前衛夏季服裝，以貼身不對稱平口上衣搭配層次雪紡迷你裙。透明飄帶自然環繞腰部與臀部，細緻百褶營造海浪般流動感。配色採用水晶白、水藍色、海泡綠與珍珠銀，兼具透氣、舒適與未來時尚氛圍。
+
+### 3. Air Geometry Mini｜空氣幾何迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde architectural summer outfit consisting of a geometric sculptural cropped top with translucent organza panels, paired with a high-waisted asymmetric mini skirt featuring floating layered mesh and laser-cut organic edges. Metallic silver trims and lightweight fabrics emphasize futuristic elegance while maintaining maximum airflow and comfort. Colors include white, ice blue, platinum, and soft grey.
+```
+
+**中文描述**
+
+她穿著一套建築美學風格的前衛夏季迷你裙服裝，以幾何雕塑感短版上衣搭配高腰不對稱迷你裙。透明歐根紗、多層網布與雷射切割有機曲線打造輕盈立體效果，金屬銀滾邊增添未來感，同時保持極佳透氣性。配色為純白、冰藍、鉑銀與淺灰色。
+
+### 4. Butterfly Breeze Mini｜蝶翼微風迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer ensemble inspired by butterfly wings, featuring a delicate sheer organza halter crop top paired with a layered fluttering mini skirt made of translucent butterfly-shaped panels. Fine embroidery, iridescent details, airy mesh construction, and floating silk ribbons create graceful movement with every step. Colors include lavender, pearl white, soft pink, and pastel blue. Cooling, elegant, whimsical couture.
+```
+
+**中文描述**
+
+她穿著一套蝴蝶主題的前衛夏季服裝，以透明歐根紗掛脖短版上衣搭配蝶翼造型層疊迷你裙。細緻刺繡、珠光細節、透氣網布與飄逸絲帶讓每一步都展現優雅律動。配色包含薰衣草紫、珍珠白、柔粉色與粉藍色，呈現夢幻、清涼且舒適的高級訂製風格。
+
+### 5. Cloud Mist Mini｜雲霧輕羽迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer couture outfit featuring a soft off-shoulder sheer chiffon crop top with oversized floating sleeves, paired with a voluminous layered mini skirt made of cloud-like organza and translucent mesh. Gentle ruffles, pearl embellishments, and flowing fabric create the illusion of drifting mist. The palette consists of cloud white, ivory, soft champagne, and pale sky blue. Extremely lightweight, breathable, luxurious, ethereal editorial fashion.
+```
+
+**中文描述**
+
+她穿著一套雲霧主題的前衛夏季高級訂製服裝，以柔軟露肩透明雪紡短版上衣搭配超大飄逸袖，下身為雲朵般層層堆疊的歐根紗迷你裙。荷葉邊、珍珠裝飾與輕盈飄動的布料營造如薄霧般的夢幻效果。配色為雲白、象牙白、淡香檳色與天空藍，極致輕盈、透氣、舒適且充滿高級時尚感。
+
+### 6. Crystal Breeze Mini｜水晶微風迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer mini outfit featuring a sculptural crystal-inspired crop top made of translucent organza with faceted geometric folds, paired with a layered asymmetric mini skirt constructed from floating sheer chiffon panels. Iridescent reflective trims, breathable mesh inserts, delicate crystal bead embroidery, and weightless silk ribbons create an elegant futuristic silhouette. The color palette features crystal white, ice blue, pearl silver, and soft lavender. Ultra-lightweight, breathable, refreshing, luxurious haute couture, editorial masterpiece.
+```
+
+**中文描述**
+
+她穿著一套水晶主題的前衛夏季迷你裙服裝，以透明歐根紗打造如水晶切面的雕塑感短版上衣，下身搭配多層不對稱透明雪紡迷你裙。珠光反射滾邊、透氣網布、水晶珠刺繡與飄逸絲帶營造未來感輪廓。配色以水晶白、冰藍、珍珠銀與淡薰衣草紫為主，極致輕盈、清爽且充滿高級訂製氛圍。
+
+### 7. Aurora Flow Mini｜極光流光迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer ensemble inspired by the Aurora Borealis, featuring a minimalist asymmetric bandeau top wrapped in translucent gradient organza layers. The flowing mini skirt is composed of floating chiffon panels that shimmer with subtle iridescent reflections. Soft wave pleats, lightweight mesh construction, and delicate silk ribbons create graceful movement. Colors include pearl white, aqua, lavender, pastel cyan, and soft pink. Cooling, ethereal, elegant, futuristic couture.
+```
+
+**中文描述**
+
+她穿著一套以極光為靈感的前衛夏季服裝，以極簡不對稱平口上衣搭配透明漸層歐根紗，下身為多層飄逸雪紡迷你裙。細緻波浪百褶、透氣網布與絲帶營造自然流動感，布料帶有柔和珠光變色效果。配色包含珍珠白、水藍、淡紫、粉青與柔粉色，呈現夢幻又清涼的未來時尚。
+
+### 8. Feather Cloud Mini｜羽雲迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer couture outfit featuring an oversized off-shoulder organza crop blouse with voluminous cloud-like sleeves, paired with a fluffy layered mini skirt made from feather-light chiffon and sheer mesh. Floating feather-inspired fabric strips, soft ruffles, pearl embroidery, and translucent textures create an airy dreamlike silhouette. Colors include ivory, cream, soft peach, and champagne white. Luxurious, breathable, feminine, editorial fashion.
+```
+
+**中文描述**
+
+她穿著一套羽雲主題的前衛夏季高級訂製服裝，以超大露肩歐根紗短版上衣搭配雲朵般蓬鬆袖型，下身為羽毛般輕盈的雪紡層次迷你裙。飄逸羽翼布條、柔軟荷葉邊、珍珠刺繡與透明材質營造夢幻輪廓。配色採用象牙白、奶霜白、蜜桃色與香檳白，輕盈透氣且充滿女性優雅。
+
+### 9. Lotus Bloom Mini｜盛放蓮花迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer mini dress inspired by a blooming lotus flower, featuring layered sculptural petals made from translucent silk organza forming the bodice. The asymmetrical mini skirt unfolds in elegant petal layers with flowing chiffon extensions and breathable mesh beneath. Organic curves, pearl details, and soft satin highlights emphasize natural elegance. Colors include ivory, blush pink, pale coral, and soft gold. Lightweight, cooling, artistic haute couture.
+```
+
+**中文描述**
+
+她穿著一套以盛開蓮花為靈感的前衛夏季迷你裙服裝，上身由多層透明絲質歐根紗花瓣雕塑而成，下身為層層綻放的不對稱花瓣迷你裙，搭配飄逸雪紡與透氣網布。自然曲線、珍珠細節與柔和緞面光澤展現高雅氣質。配色包含象牙白、淡粉、珊瑚粉與柔金色，兼具藝術感與舒適性。
+
+### 10. Wind Sculpture Mini｜風之雕塑迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer couture outfit shaped entirely by the movement of wind, featuring a one-shoulder sculptural crop top with sweeping translucent organza fins that appear to float around the body. The high-waisted mini skirt consists of multiple floating chiffon panels that spiral outward like air currents. Breathable mesh construction, laser-cut flowing edges, satin highlights, and weightless movement create a futuristic aerodynamic silhouette. Colors include pure white, sky blue, silver grey, and pearl. Hyper elegant, breathable, luxurious editorial fashion.
+```
+
+**中文描述**
+
+她穿著一套以風塑形為概念的前衛夏季高級訂製服裝，單肩雕塑感短版上衣延伸出如氣流般漂浮的透明歐根紗翼片，下身為高腰多層旋轉雪紡迷你裙，宛如風流環繞身體。透氣網布、雷射切割流線邊緣、緞面光澤與極輕材質打造空氣動力般的未來輪廓。配色為純白、天空藍、銀灰與珍珠白，展現清涼舒適又充滿藝術感的高級時尚。
+
+### 11. Minimal Breeze Mini｜極簡微風迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a minimalist avant-garde summer outfit featuring a clean sleeveless square-neck crop top made from lightweight matte silk, paired with a high-waisted A-line mini skirt crafted from airy chiffon with subtle layered hems. Soft flowing fabric, hidden mesh ventilation panels, and seamless tailoring create effortless elegance. Colors include ivory, white, sand beige, and soft grey. Lightweight, breathable, refined, modern luxury, understated couture.
+```
+
+**中文描述**
+
+她穿著一套極簡前衛夏季服裝，以俐落方領無袖短版上衣搭配高腰A字迷你裙。採用輕量絲質面料與雪紡層次裙擺，隱藏式透氣網布與無縫剪裁提升舒適性。配色為象牙白、純白、沙米色與淺灰色，呈現簡潔、清爽且高級的現代時尚。
+
+### 12. Soft Linen Flow｜亞麻流線迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a minimalist summer ensemble featuring a relaxed sleeveless V-neck top made from soft linen-blend fabric, paired with an asymmetrical wrap mini skirt with gentle flowing pleats. Natural textures, clean lines, and subtle draping create a refined contemporary silhouette. Colors include oatmeal, ivory, warm beige, and soft white. Comfortable, breathable, elegant, effortless.
+```
+
+**中文描述**
+
+她穿著一套極簡夏季服裝，以柔軟亞麻混紡V領無袖上衣搭配不對稱包覆式迷你裙。自然布料紋理、俐落線條與微微垂墜的剪裁營造現代感輪廓。配色包含燕麥色、象牙白、暖米色與柔白色，舒適透氣且充滿質感。
+
+### 13. Clean Layer Mini｜純淨層次迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a minimalist summer outfit consisting of a fitted sleeveless mock-neck top paired with a layered chiffon mini skirt featuring clean geometric lines. The skirt has subtle translucent outer layers that gently move in the breeze without excessive volume. Hidden side pockets and lightweight fabrics emphasize comfort and functionality. Colors include white, pearl, pale blue, and light stone grey.
+```
+
+**中文描述**
+
+她穿著一套簡約夏季服裝，以合身無袖小高領上衣搭配幾何層次迷你裙。裙身外層加入輕薄透明雪紡，隨風自然飄動但不過度蓬鬆，並設有隱藏式口袋，兼具舒適與機能性。配色為純白、珍珠白、淡藍與淺石灰色。
+
+### 14. Air Fold Mini｜空氣摺線迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a minimalist avant-garde summer outfit featuring a sleeveless asymmetric top with clean folded details, paired with a structured high-waisted mini skirt accented by soft box pleats. The design avoids unnecessary decoration, focusing on elegant proportions, breathable fabrics, and subtle movement. Colors include ivory, soft taupe, light grey, and pearl white. Contemporary, sophisticated, lightweight, cooling.
+```
+
+**中文描述**
+
+她穿著一套極簡前衛夏季服裝，以無袖不對稱摺線上衣搭配高腰立體百褶迷你裙。整體捨棄多餘裝飾，以俐落比例、透氣材質與柔和律動為設計重點。配色為象牙白、淺灰褐、淺灰與珍珠白，現代且優雅。
+
+### 15. Pure White Summer｜純白夏日迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a minimalist summer mini dress featuring a sleeveless boat-neck top seamlessly connected to a clean A-line mini skirt. Crafted from lightweight cotton-silk fabric with a soft matte finish, the silhouette is enhanced by subtle curved seams and a gently flared hem. No excessive embellishments, only refined tailoring, breathable materials, and timeless elegance. Colors include pure white, cream, and ivory. Fresh, comfortable, luxurious minimalism, premium fashion editorial.
+```
+
+**中文描述**
+
+她穿著一套極簡純白夏季迷你裙，以無袖船領上身自然銜接A字裙擺。採用輕盈棉絲混紡面料，霧面質感搭配柔和弧形剪裁與微微外擴的裙襬，不使用多餘裝飾，僅透過精緻剪裁與透氣材質展現高級感。配色以純白、奶白與象牙白為主，清爽舒適、低調且充滿精品時尚氛圍。
+
+## Minimal Sensual Couture：剪裁、鏤空、垂墜、薄紗
+
+> 這種風格可以往 Jacquemus × Dion Lee × Mugler × Issey Miyake 的方向走，不是大量裝飾，而是透過剪裁、鏤空、垂墜、薄紗去展現女性曲線，既有設計感又不會太浮誇。
+
+### 16. Soft Twist Mini｜扭結流線迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an elegant avant-garde summer mini outfit featuring a fitted asymmetric crop top with a soft twisted front detail that naturally enhances the bust. The top flows into a high-waisted draped mini skirt with an overlapping tulip hem that reveals the legs while maintaining graceful movement. Lightweight silk jersey, sheer chiffon side panels, and subtle waist cut-outs create an effortlessly sensual silhouette. Colors include ivory, champagne, and pearl white. Minimalist luxury, breathable, feminine, sophisticated, editorial fashion.
+```
+
+**中文描述**
+
+她穿著一套優雅前衛的夏季迷你裙服裝，以不對稱扭結短版上衣自然修飾胸部曲線，搭配高腰抓皺鬱金香裙襬迷你裙，行走時自然展露腿部線條。採用輕盈絲質針織、透明雪紡側片與低調腰部鏤空設計，在簡潔中展現女性性感。配色為象牙白、香檳白與珍珠白。
+
+### 17. Sheer Layer Mini｜薄紗層次迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a minimalist couture summer outfit featuring a sleek square-neck camisole with ultra-thin shoulder straps and a semi-transparent organza overlay that softly floats around the body. The high-waisted mini skirt combines a fitted inner silhouette with a sheer asymmetrical outer layer that moves gracefully with every step. Fine satin piping, subtle transparency, and clean tailoring create a refined yet sensual appearance. Colors include milk white, ivory, and soft beige.
+```
+
+**中文描述**
+
+她穿著一套極簡高級訂製夏季服裝，以細肩帶方領背心搭配輕盈透明歐根紗罩層。高腰迷你裙採貼身內裙結合不對稱透明外層設計，步行時展現柔美飄逸感。緞面滾邊、若隱若現的透明層次與俐落剪裁，在低調中散發女性魅力。配色為牛奶白、象牙白與淺米色。
+
+### 18. Side Cut Elegance｜側腰曲線迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a contemporary summer mini dress featuring a clean sleeveless high-neck silhouette with elegant curved side waist cut-outs connected by delicate gold rings. The fitted bodice flows into a softly flared mini skirt made from lightweight chiffon with subtle layered movement. The design highlights the natural waistline while remaining refined and breathable. Colors include pearl white, cream, soft grey, and champagne.
+```
+
+**中文描述**
+
+她穿著一件現代感夏季迷你洋裝，以俐落無袖高領設計搭配優雅弧形側腰鏤空，並以細緻金屬圓環連接。貼身上身自然延伸至微A字雪紡迷你裙，輕盈飄逸，同時凸顯腰部曲線。配色為珍珠白、奶白、淺灰與香檳色。
+
+### 19. Open Back Flow｜露背流光迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a refined summer mini dress featuring a clean boat-neck front with an elegant open-back design secured by delicate crisscross silk straps. The fitted waist transitions into a softly layered chiffon mini skirt with subtle side draping. The contrast between the modest front and sensual back creates understated sophistication. Colors include ivory, pearl, soft blush, and warm white. Lightweight, breathable, graceful, luxurious.
+```
+
+**中文描述**
+
+她穿著一件精緻夏季迷你洋裝，正面採簡潔船領設計，背面則以交叉細絲帶打造大面積露背。貼身腰線延伸至柔和層次雪紡迷你裙，側邊自然垂墜，形成前保守、後性感的優雅對比。配色為象牙白、珍珠白、淡粉與暖白色。
+
+### 20. Silk Wrap Mini｜絲綢包裹迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an elegant avant-garde summer outfit featuring a softly draped silk halter top that wraps naturally around the body, paired with a high-waisted wrap mini skirt with a deep overlapping front slit. Delicate chiffon scarf panels extend from the waist and float effortlessly in the breeze. Smooth silk textures, subtle body contouring, and refined proportions create a timeless feminine silhouette. Colors include cream white, ivory, soft champagne, and pearl. Luxurious, breathable, sensual, modern couture.
+```
+
+**中文描述**
+
+她穿著一套優雅前衛的夏季服裝，以柔軟絲綢掛脖上衣自然包覆身體曲線，下身搭配高腰包裹式迷你裙，前方採深層交疊開衩設計，展現修長腿部比例。腰間延伸雪紡飄帶，隨風自然律動。絲綢光澤、貼合身形的剪裁與精緻比例，營造低調卻性感的女性魅力。配色為奶白、象牙白、香檳白與珍珠白。
+
+## Modern Luxury Gradient Mini：漸層與度假高訂
+
+> 以下 5 個設計介於 Jacquemus × Zimmermann × Self-Portrait × Dion Lee 之間，不會太誇張，但有剪裁巧思、若隱若現的性感、布料層次與漸層配色，很適合 AI 生圖。
+
+### 21. Sunset Gradient Wrap Mini｜夕霞漸層包裹迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an elegant avant-garde summer mini outfit featuring a silk halter crop top with softly twisted draping that wraps naturally around the bust. The high-waisted wrap mini skirt features flowing asymmetric chiffon layers with a gradient transition from pearl white to blush pink and warm coral. Semi-transparent organza overlays create floating movement, while subtle side waist cut-outs and delicate gold hardware add refined sensuality. Lightweight silk, breathable mesh lining, luxurious draping, feminine silhouette, sophisticated couture, ultra-lightweight, editorial fashion.
+```
+
+**中文描述**
+
+她穿著一套優雅前衛的夏季迷你裙服裝，以絲質掛脖扭結短版上衣自然包覆胸部曲線。高腰包裹式迷你裙採用雪紡層次設計，由珍珠白漸層至柔粉與珊瑚色，透明歐根紗外層隨步伐飄動。低調側腰鏤空搭配細緻金屬飾件，在優雅中散發女性性感魅力。材質輕盈透氣，剪裁流暢且富有高級訂製感。
+
+### 22. Butterfly Whisper Mini｜蝶影流光迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a contemporary couture summer outfit featuring a delicate off-shoulder chiffon top with butterfly-inspired folded sleeves that softly expose the collarbones. The layered mini skirt combines sheer organza panels in a gradient of ivory, lavender, soft lilac, and pearl blue. Fine crystal embroidery, flowing silk ribbons, and subtle high side slits create graceful movement while revealing the legs naturally. Elegant, feminine, breathable, luxurious, romantic editorial fashion.
+```
+
+**中文描述**
+
+她穿著一套現代高級訂製夏季服裝，以露肩雪紡上衣搭配蝴蝶翅膀般的立體摺袖，自然展現鎖骨線條。迷你裙由多層透明歐根紗構成，色彩由象牙白漸層至薰衣草紫、淡紫與珍珠藍。水晶刺繡、飄逸絲帶與高側開衩設計，讓腿部線條若隱若現，展現優雅浪漫的女性魅力。
+
+### 23. Ocean Pearl Mini｜海洋珍珠迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an elegant summer mini dress featuring a fitted square-neck bodice with delicate pearl chain shoulder straps and a softly sculpted waist. The flowing layered skirt fades from crystal white into aqua blue and seafoam green, with translucent chiffon panels resembling gentle ocean waves. Soft side draping, sheer overlays, and subtle body contouring create a graceful, naturally sensual silhouette. Fresh, luxurious, lightweight, breathable, modern couture.
+```
+
+**中文描述**
+
+她穿著一件優雅夏季迷你洋裝，以貼身方領上身搭配珍珠鍊肩帶與柔和收腰剪裁。裙擺由水晶白漸層至水藍與海泡綠，多層透明雪紡宛如海浪輕輕流動。側邊抓皺、透明罩層與自然貼合身形的設計，展現清新且充滿女性魅力的高級時尚。
+
+### 24. Champagne Bloom Mini｜香檳花漾迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an elegant avant-garde mini dress featuring a soft sweetheart neckline with delicate twisted straps and a fitted bodice. The layered tulip mini skirt combines satin, sheer organza, and chiffon in a gradient from champagne gold to ivory and soft rose. The skirt opens naturally while walking, revealing graceful legs through translucent layers. Fine floral embroidery, subtle shimmer, and flowing movement create understated sensuality. Luxurious, feminine, breathable, editorial masterpiece.
+```
+
+**中文描述**
+
+她穿著一件優雅前衛迷你洋裝，以柔和愛心領搭配細緻扭結肩帶及貼身上身。鬱金香造型迷你裙結合緞面、透明歐根紗與雪紡，由香檳金漸層至象牙白與淡玫瑰粉。行走時裙襬自然展開，透過半透明布料若隱若現展露腿部線條。花卉刺繡與細微珠光點綴，低調中散發迷人性感。
+
+### 25. Aurora Silk Mini｜極光絲綢迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a refined futuristic summer mini outfit featuring a sleek one-shoulder silk top with an elegant draped scarf flowing from the shoulder. The high-waisted asymmetric mini skirt is layered with translucent chiffon that gradually shifts from pearl white to icy blue, lavender, and soft pink with subtle iridescent reflections. Gentle waist cut-outs, fluid draping, and floating organza panels create movement and femininity without excessive exposure. Sophisticated, breathable, lightweight, luxurious couture, premium editorial fashion.
+```
+
+**中文描述**
+
+她穿著一套精緻未來感夏季迷你裙服裝，以單肩絲綢上衣搭配肩部自然垂墜的飄帶設計。高腰不對稱迷你裙採用多層透明雪紡，由珍珠白漸層至冰藍、淡紫與柔粉，帶有細緻珠光折射效果。低調腰部鏤空、流線抓皺與漂浮歐根紗層次，在不過度裸露的情況下展現柔美性感與高級時尚氛圍。
+
+### 26. Pearl Cascade Mini｜珍珠瀑布迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an elegant contemporary summer mini dress featuring a structured sweetheart neckline with delicate twisted silk straps and a softly sculpted bodice. The fitted waist flows into cascading layers of translucent chiffon that gradually transition from pearl white to champagne, blush pink, and soft peach. The asymmetrical skirt reveals graceful legs through floating sheer panels, while subtle pearl embroidery and silky satin piping catch the sunlight beautifully. Lightweight silk chiffon, breathable mesh lining, fluid draping, refined sensuality, luxurious modern couture, premium editorial fashion.
+```
+
+**中文描述**
+
+她穿著一件現代高級訂製夏季迷你洋裝，以立體愛心領搭配細緻扭結絲帶肩帶，貼身上身勾勒柔美曲線。高腰裙身由多層透明雪紡自然垂墜，色彩由珍珠白漸層至香檳色、淡粉與蜜桃色。不對稱裙襬搭配透明層次自然展露腿部線條，珍珠刺繡與緞面滾邊在陽光下散發細膩光澤。輕盈透氣、優雅性感，充滿現代高級時裝氣息。
+
+### 27. Silk Breeze Mini｜絲綢微風迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a luxurious summer outfit featuring an asymmetric one-shoulder silk crop top with an elegant flowing scarf draping from the shoulder. The high-waisted mini skirt combines smooth silk satin with floating translucent organza layers that fade from ivory to pale sky blue and soft lavender. A subtle curved waist cut-out and softly wrapped silhouette naturally accentuate feminine curves without excessive exposure. Ethereal movement, breathable fabrics, sophisticated elegance, contemporary couture.
+```
+
+**中文描述**
+
+她穿著一套高級夏季服裝，以單肩絲綢短版上衣搭配自然垂墜的飄帶設計，高腰迷你裙結合絲綢緞面與透明歐根紗層次，由象牙白漸層至天空藍與淡薰衣草紫。低調弧形腰部鏤空與包覆式剪裁自然襯托女性曲線，在優雅與性感之間取得完美平衡，輕盈透氣，充滿精品度假風格。
+
+### 28. Crystal Bloom Mini｜水晶花語迷你裙
+
+**English Prompt**
+
+```text
+She is wearing an elegant summer mini dress featuring a square neckline with ultra-thin crystal-beaded straps and a softly fitted bodice. The layered tulip mini skirt combines translucent organza petals and lightweight chiffon that gradually blend from crystal white into pale aqua, blush pink, and champagne gold. Fine floral embroidery, shimmering crystal accents, and floating silk ribbons create graceful movement with every step. Feminine, refreshing, luxurious, couture editorial fashion.
+```
+
+**中文描述**
+
+她穿著一件精緻夏季迷你洋裝，以方領設計搭配超細水晶珠肩帶及柔和貼身剪裁。鬱金香造型迷你裙由透明歐根紗花瓣與雪紡層層堆疊而成，色彩由水晶白漸層至淡水藍、柔粉與香檳金。細膩花卉刺繡、水晶點綴與飄逸絲帶讓每一步都充滿律動，展現高雅又迷人的女性氣質。
+
+### 29. Aurora Wrap Mini｜極光流線迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a refined luxury summer ensemble featuring a softly draped halter crop top with elegant crossover wrapping that naturally enhances the neckline. The high-waisted wrap mini skirt features flowing chiffon panels with an iridescent gradient shifting from pearl white to icy blue, lavender, soft rose, and pastel gold. Semi-transparent side panels and delicate satin edging create subtle sensuality while maintaining sophisticated elegance. Ultra-lightweight, breathable, graceful movement, contemporary luxury couture.
+```
+
+**中文描述**
+
+她穿著一套精緻奢華的夏季服裝，以柔和交叉包覆式掛脖短版上衣自然修飾頸肩線條。高腰包裹式迷你裙採用飄逸雪紡層次，由珍珠白漸層至冰藍、淡紫、柔粉與淡金色，並帶有細緻珠光折射。透明側片與緞面滾邊展現若隱若現的性感，整體輕盈透氣且充滿現代高級訂製氛圍。
+
+### 30. Moonlight Silk Mini｜月光絲綢迷你裙
+
+**English Prompt**
+
+```text
+She is wearing a sophisticated summer mini dress featuring a minimalist off-shoulder neckline with softly draped silk that elegantly wraps around the upper body. The fitted waist transitions into a layered asymmetric mini skirt made of silk chiffon and translucent organza, fading from moonlight white into silver pearl, soft champagne, and pale lavender. Flowing scarf-like extensions dance gracefully in the breeze, while delicate waist shaping and sheer layering create understated feminine sensuality. Elegant minimalist luxury, breathable couture fabrics, premium editorial fashion, timeless sophistication.
+```
+
+**中文描述**
+
+她穿著一件高雅夏季迷你洋裝，以極簡露肩絲綢上身自然包覆肩頸曲線。收腰剪裁延伸至由絲質雪紡與透明歐根紗構成的不對稱迷你裙，色彩從月光白漸層至銀珍珠、淡香檳與淡薰衣草紫。裙身延伸如絲巾般的飄帶，隨風輕柔擺動，搭配若隱若現的透明層次與柔美腰線，展現低調卻迷人的女性性感，散發精品級時尚雜誌氛圍。
+
+## Ribbon Stripe Couture：立體絲帶條紋
+
+> 這個主題可以做成 Ribbon Stripe Couture，不是一般的條紋，而是立體布條（fabric stripes）、絲帶、透明條帶、緞帶構成立體服裝。重點是條帶覆蓋重要部位，透過間距、交錯、漸層、透明材質展現性感，而不是大面積裸露。
+
+### 36. Floating Ribbon Stripes｜漂浮絲帶條紋
+
+**English Prompt**
+
+```text
+She is wearing an elegant avant-garde summer mini outfit composed entirely of flowing silk ribbon stripes. Wide satin and translucent organza stripes gracefully wrap around the bust, waist, and hips, leaving delicate negative spaces that subtly reveal the skin. The stripes gently separate toward the skirt, creating dynamic movement with every step. The colors transition seamlessly from pearl white to champagne, blush pink, soft coral, and warm ivory. Lightweight chiffon connectors create a floating illusion, while subtle pearl embroidery enhances the luxurious couture aesthetic. Breathable, feminine, modern luxury resort couture, sophisticated editorial fashion.
+```
+
+**中文描述**
+
+她穿著一套由絲質條帶構成的前衛夏季迷你服裝。寬版絲綢與透明歐根紗條帶自然包覆胸部、腰部與臀部，透過精緻留白讓肌膚若隱若現。裙襬條帶逐漸向外展開，形成優雅流動感。色彩由珍珠白漸層至香檳色、柔粉、珊瑚色與暖象牙白，雪紡連接結構營造漂浮效果，搭配珍珠刺繡展現高級訂製質感，性感卻優雅。
+
+### 37. Aurora Stripe Weave｜極光交織條紋
+
+**English Prompt**
+
+```text
+She is wearing a contemporary couture summer dress created from overlapping translucent fabric stripes that weave organically around the body. The layered stripes become denser over the bust and hips while opening softly along the waist and neckline. Soft gradients shift from icy white through aqua blue, lavender, pastel pink, and pearl silver with delicate iridescent reflections. The floating stripe layers move independently, creating elegant depth and fluidity. Lightweight, breathable, subtly sensual, luxurious editorial couture.
+```
+
+**中文描述**
+
+她穿著一件由透明布條交織而成的現代高訂夏季洋裝。布條於胸部與臀部密集排列，在腰部與領口自然拉開，形成優雅的留白設計。配色由冰白漸層至水藍、淡紫、粉色與珍珠銀，並帶有細緻珠光折射。漂浮的條帶層次在行走時各自律動，展現豐富立體感與低調性感。
+
+### 38. Ocean Breeze Stripes｜海風流線條紋
+
+**English Prompt**
+
+```text
+She is wearing an elegant resort-inspired summer mini dress featuring curved silk stripes flowing diagonally across the body like gentle ocean currents. Wide satin stripes alternate with sheer mesh ribbons to create a balanced contrast between coverage and transparency. The skirt is formed by cascading layered stripes that flutter naturally in the breeze. The palette fades from crystal white into seafoam green, turquoise, aqua blue, and pearl white. Fluid, airy, feminine, luxurious contemporary couture.
+```
+
+**中文描述**
+
+她穿著一件度假風高級夏季迷你洋裝，以弧形絲綢條帶如海流般斜向環繞身體。寬版緞面條帶與透明網紗條帶交錯排列，在包覆與透視之間取得完美平衡。裙襬由多層流動條帶組成，隨風自然飄揚。配色由水晶白漸層至海泡綠、青藍、水藍與珍珠白，清爽又充滿女性魅力。
+
+### 39. Sculpted Stripe Wrap｜雕塑包覆條紋
+
+**English Prompt**
+
+```text
+She is wearing a sophisticated summer couture outfit featuring sculptural satin stripes wrapping around the body in elegant spirals. The bust and hips are covered by broad overlapping silk bands, while the waist is framed by narrower translucent organza stripes that create a naturally slimming silhouette. The color palette flows from ivory through champagne gold, blush rose, warm beige, and pearl white. Fine metallic piping and subtle crystal accents add refined brilliance without overwhelming the minimalist aesthetic. Modern luxury, architectural elegance, breathable, feminine.
+```
+
+**中文描述**
+
+她穿著一套雕塑感高級夏季服裝，以緞面條帶螺旋包覆身體。胸部與臀部由寬版絲綢條帶重疊覆蓋，腰部則以較細的透明歐根紗條帶勾勒纖細曲線。色彩由象牙白漸層至香檳金、玫瑰粉、暖米色與珍珠白，搭配細緻金屬滾邊與水晶點綴，呈現現代建築美學與女性性感。
+
+### 40. Blooming Gradient Stripes｜綻放漸層條紋
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde luxury summer mini outfit composed of layered gradient silk stripes that bloom outward from the waist like flower petals. The stripes vary in width and transparency, naturally covering the bust and hips while revealing elegant glimpses of skin through refined spacing. The flowing skirt consists of floating ribbon-like stripes that create beautiful movement with every step. Colors transition smoothly from milk white to peach, blush pink, champagne gold, soft lavender, and pearl. Lightweight silk, translucent organza, delicate chiffon, refined sensuality, modern haute couture, premium editorial masterpiece.
+```
+
+**中文描述**
+
+她穿著一套由漸層絲綢條帶構成的前衛奢華夏季迷你服裝。條帶自腰部向外綻放，如花瓣般層層展開，並透過不同寬度與透明度自然包覆胸部與臀部，在精緻的間距中若隱若現地展現肌膚。裙襬由飄逸絲帶條紋組成，隨步伐產生優雅律動。配色由牛奶白漸層至蜜桃色、柔粉、香檳金、淡薰衣草紫與珍珠白，採用絲綢、透明歐根紗與雪紡材質，兼具現代高級訂製感與女性柔美性感。
+
+## Blossom Couture：花瓣高級訂製
+
+### 56. Floating Orchid Petals｜蘭花飄瓣
+
+**English Prompt**
+
+```text
+She is wearing an elegant avant-garde summer mini dress composed entirely of sculptural translucent orchid petals. The petals gracefully overlap to cover the bust, waist, and hips, creating an organic silhouette inspired by blooming flowers. Each petal features delicate gradient edges that transition from pearl white to blush pink, champagne, soft lavender, and warm ivory. Semi-transparent silk organza petals float beyond the body, while lightweight chiffon layers add graceful movement. Fine pearl embroidery, subtle crystal highlights, breathable construction, refined feminine sensuality, contemporary luxury resort couture, premium editorial masterpiece.
+```
+
+**中文描述**
+
+她穿著一件完全由立體半透明蘭花花瓣構成的優雅前衛夏季迷你洋裝。花瓣自然層層交疊包覆胸部、腰部與臀部，形成如盛開花朵般的有機輪廓。每片花瓣邊緣由珍珠白漸層至柔粉、香檳色、淡薰衣草紫與暖象牙白。半透明絲質歐根紗花瓣向外漂浮，搭配輕盈雪紡層次營造優雅律動，珍珠刺繡與細緻水晶點綴展現高級訂製的女性魅力。
+
+### 57. Rose Bloom Couture｜玫瑰綻放高訂
+
+**English Prompt**
+
+```text
+She is wearing a luxurious summer couture mini dress formed from hundreds of layered silk rose petals. Larger petals elegantly wrap around the bust and hips, while smaller translucent petals spiral around the waist to create natural body contouring. The flowing petal skirt opens gently with every step, revealing graceful leg movement through soft layered transparency. Colors transition from creamy ivory to rose pink, peach, champagne gold, and subtle coral. Soft satin textures, organza highlights, romantic femininity, lightweight elegance, editorial fashion.
+```
+
+**中文描述**
+
+她穿著一件由數百片絲質玫瑰花瓣組成的奢華夏季高訂迷你洋裝。較大的花瓣優雅包覆胸部與臀部，小巧透明花瓣則螺旋環繞腰部，塑造自然收腰曲線。花瓣裙襬隨步伐輕柔展開，透過透明層次若隱若現展露腿部線條。配色由奶白漸層至玫瑰粉、蜜桃色、香檳金與淡珊瑚色，結合緞面光澤與歐根紗，浪漫又充滿高級感。
+
+### 58. Crystal Lily Petals｜水晶百合花瓣
+
+**English Prompt**
+
+```text
+She is wearing a refined luxury summer mini outfit crafted from translucent lily petals with sculptural elegance. The oversized petals naturally overlap across the neckline, bust, waist, and hips, while smaller floating petals drift around the skirt like blooming flowers caught in the wind. Iridescent gradients shift from crystal white to aqua blue, pearl lavender, soft blush, and champagne gold. Fine crystal bead embroidery and delicate organza textures create remarkable depth, freshness, and feminine sophistication.
+```
+
+**中文描述**
+
+她穿著一套由半透明百合花瓣構成的精緻夏季迷你服裝。大型花瓣自然交疊包覆領口、胸部、腰部與臀部，小型漂浮花瓣則如微風吹拂般點綴裙襬四周。色彩由水晶白漸層至水藍、珍珠淡紫、柔粉與香檳金，搭配細緻水晶珠刺繡與歐根紗紋理，展現清新、高雅且富有女性魅力的精品時尚。
+
+### 59. Floating Magnolia｜玉蘭花流影
+
+**English Prompt**
+
+```text
+She is wearing an elegant contemporary summer mini dress inspired by magnolia blossoms. Smooth oversized silk petals wrap asymmetrically around the bust and hips, while translucent organza petals cascade softly from the waist to form a flowing mini skirt. The layered petals feature subtle color transitions from pearl white to soft champagne, blush peach, pale lilac, and warm cream. Satin sheen, floating petal movement, breathable fabrics, understated sensuality, modern haute couture, premium fashion editorial.
+```
+
+**中文描述**
+
+她穿著一件以玉蘭花盛開為靈感的現代夏季迷你洋裝。光滑的大型絲質花瓣不對稱包覆胸部與臀部，透明歐根紗花瓣自腰部自然垂墜形成飄逸迷你裙。層層花瓣呈現由珍珠白漸層至淡香檳、蜜桃粉、淡紫與奶油白的柔和色彩。緞面光澤、花瓣流動感與透氣材質展現低調而優雅的女性性感。
+
+### 60. Celestial Blossom Couture｜星辰花綻高訂
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde haute couture summer mini dress sculpted entirely from layered translucent flower petals of varying sizes. Large petals elegantly shield the bust, waist, and hips, while dozens of smaller petals radiate outward in floating concentric layers, creating the illusion of flowers blooming in midair. The petals feature rich gradient transitions from pearl white to blush pink, champagne gold, lavender, soft coral, and luminous silver with delicate iridescent reflections. Fine crystal droplets, pearl embellishments, silk organza, airy chiffon, and ultra-light illusion mesh create extraordinary depth and movement. Sophisticated feminine sensuality, ethereal elegance, breathable luxury fabrics, premium editorial fashion masterpiece.
+```
+
+**中文描述**
+
+她穿著一件完全由不同尺寸半透明花瓣雕塑而成的前衛高級訂製夏季迷你洋裝。大型花瓣優雅包覆胸部、腰部與臀部，數十片較小花瓣則向外層層綻放，如盛開於空中的花朵。花瓣擁有由珍珠白漸層至柔粉、香檳金、淡薰衣草紫、柔和珊瑚色與銀白色的豐富色彩變化，並帶有細膩珠光折射。搭配水晶珠滴、珍珠裝飾、絲質歐根紗、輕盈雪紡與超細透明網紗，營造極具立體感與流動感的高級訂製藝術風格，在優雅包覆與女性性感之間取得完美平衡。
+
+## Sheer Thread Couture：透明條帶與飄浮絲線
+
+> 這個主題很適合做成 Sheer Thread Couture，利用 Sheer Stripes（透明條帶）+ Floating Threads（飄浮絲線） 的組合。透明條帶負責結構與覆蓋，絲線則負責流動、層次與光影，呈現高級訂製感與女性柔美性感。
+
+### 46. Ethereal Thread Veil｜空靈絲幕
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde luxury summer mini dress composed of layered sheer organza stripes intertwined with thousands of ultra-fine floating silk threads. Wide translucent stripes gracefully wrap around the bust, waist, and hips, while delicate threads extend beyond the edges like soft flowing mist. The density of the threads gradually fades outward, creating elegant transparency and natural movement. The color palette transitions from pearl white to champagne, blush pink, soft lavender, and warm ivory. Fine crystal embroidery and subtle satin edging add luxurious details. Ultra-lightweight, breathable, graceful, contemporary couture, editorial masterpiece.
+```
+
+**中文描述**
+
+她穿著一件由透明歐根紗條帶與數千條超細絲線交織而成的前衛奢華夏季迷你洋裝。寬版半透明條帶自然包覆胸部、腰部與臀部，細緻絲線則如薄霧般向外延伸，形成柔和流動感。絲線密度由中心逐漸變淡，營造若隱若現的透明層次。配色由珍珠白漸層至香檳色、柔粉、淡薰衣草紫與暖象牙白，搭配細膩水晶刺繡與緞面滾邊，展現現代高級訂製時尚。
+
+### 47. Aurora Silk Matrix｜極光絲網
+
+**English Prompt**
+
+```text
+She is wearing a futuristic summer couture outfit featuring flowing sheer chiffon stripes woven together with iridescent silk threads. The layered stripes create elegant coverage over the bust and hips, while the shimmering thread network softly opens around the waist and shoulders, revealing subtle glimpses of skin. Long floating thread tassels sway gracefully with every movement. Colors shift seamlessly from icy white to aqua blue, pastel lavender, soft pink, and pearl silver with delicate iridescent reflections. Airy, sculptural, breathable, luxurious editorial fashion.
+```
+
+**中文描述**
+
+她穿著一套未來感夏季高級訂製服裝，以透明雪紡條帶結合珠光絲線交織而成。多層條帶優雅包覆胸部與臀部，絲線網狀結構於腰部與肩部自然展開，若隱若現展現肌膚。細長絲線流蘇隨步伐輕柔擺動。配色由冰白漸層至水藍、淡紫、柔粉與珍珠銀，帶有細膩珠光折射，呈現空氣感十足的藝術高訂風格。
+
+### 48. Blooming Ribbon Threads｜花綻絲帶
+
+**English Prompt**
+
+```text
+She is wearing an elegant summer mini outfit crafted from sculptural sheer ribbon stripes layered with floating silk threads. The ribbons wrap naturally around the body to provide refined coverage, while soft thread clusters bloom outward from the waist and skirt like delicate flower petals. Gradient colors blend from milk white to peach, champagne gold, blush rose, and pale coral. Organza, silk chiffon, and ultra-fine mesh create rich transparency and graceful movement. Feminine, romantic, luxurious modern resort couture.
+```
+
+**中文描述**
+
+她穿著一套由透明絲帶條帶與飄浮絲線構成的優雅夏季迷你服裝。絲帶自然環繞身體形成精緻包覆，腰部與裙襬則由絲線如花瓣般向外綻放。色彩由牛奶白漸層至蜜桃色、香檳金、玫瑰粉與淡珊瑚色。歐根紗、絲質雪紡與超細網紗共同營造豐富透明層次與柔美流動感，展現浪漫且高級的女性魅力。
+
+### 49. Sculpted Flow Threads｜流線雕塑
+
+**English Prompt**
+
+```text
+She is wearing a contemporary couture mini dress featuring architectural sheer stripes that spiral elegantly around the body, connected by delicate silk threads stretched like fine brush strokes. The bust and hips are covered by overlapping translucent bands, while the thread network gradually dissolves toward the outer silhouette, creating remarkable depth and softness. The palette transitions from ivory through champagne gold, dusty rose, soft lavender, and pearl white. Satin finishes, floating threads, and subtle asymmetry create sophisticated sensuality and graceful movement.
+```
+
+**中文描述**
+
+她穿著一件現代高訂迷你洋裝，以建築感透明條帶螺旋包覆身體，並以細緻絲線如筆觸般串連各個結構。胸部與臀部由重疊透明條帶優雅覆蓋，外圍絲線逐漸向外消散，形成豐富立體層次。配色由象牙白漸層至香檳金、灰玫瑰粉、淡薰衣草紫與珍珠白，搭配緞面光澤與不對稱設計，散發細膩而高雅的女性性感。
+
+### 50. Celestial Sheer Threads｜星光絲流
+
+**English Prompt**
+
+```text
+She is wearing a luxury avant-garde summer mini dress composed of translucent organza stripes intertwined with endless flowing silk threads. The sheer stripes elegantly frame the neckline, bust, waist, and hips, while countless floating threads extend outward like celestial light trails. The density, transparency, and width of the stripes gradually vary to sculpt the silhouette with refined elegance. Gradient tones flow from pearl white to icy blue, lavender, champagne gold, blush pink, and soft silver. Fine crystal droplets suspended among the threads catch the light beautifully. Ethereal, breathable, sculptural, sensual, premium haute couture, fashion editorial masterpiece.
+```
+
+**中文描述**
+
+她穿著一件由透明歐根紗條帶與無數流動絲線交織而成的奢華前衛夏季迷你洋裝。半透明條帶優雅勾勒領口、胸部、腰部與臀部，無數飄浮絲線如星光軌跡般向外延伸。條帶的寬度、透明度與密度自然變化，雕塑出柔美身形。配色由珍珠白漸層至冰藍、淡薰衣草紫、香檳金、柔粉與銀白色，絲線間點綴細小水晶珠滴，在光線下散發細緻光澤，展現空靈、性感且極具高級訂製藝術感。
+
+## Elemental Haute Couture：自然元素高級訂製
+
+> 這種方向其實就是 Elemental Haute Couture（自然元素高級訂製）。重點不是把元素「印」在衣服上，而是讓元素本身變成服裝，例如水就是衣服、火焰就是裙襬、冰晶就是胸衣，這樣生成效果會高很多。
+
+### 61. Liquid Crystal Bloom｜液態水晶花綻
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde summer mini dress sculpted from flowing liquid crystal and translucent flower petals. The liquid crystal naturally wraps around the bust, waist, and hips, forming smooth reflective contours, while oversized semi-transparent petals bloom organically around the body. Delicate crystal droplets float between the petals, creating depth and elegance. The colors transition seamlessly from crystal white to icy blue, pearl lavender, blush pink, and champagne gold with subtle iridescent reflections. Lightweight, breathable, fluid elegance, sophisticated feminine sensuality, contemporary haute couture, luxury editorial masterpiece.
+```
+
+**中文描述**
+
+她穿著一件由流動液態水晶與半透明花瓣雕塑而成的前衛夏季迷你洋裝。液態水晶自然包覆胸部、腰部與臀部，形成光滑且具有鏡面反射的曲線，超大半透明花瓣則圍繞身體自然綻放。細小水晶珠滴懸浮於花瓣之間，營造豐富立體層次。色彩由水晶白漸層至冰藍、珍珠淡紫、柔粉與香檳金，呈現空靈、輕盈且富有女性魅力的高級訂製時尚。
+
+### 62. Frozen Flame｜冰焰流光
+
+**English Prompt**
+
+```text
+She is wearing a futuristic couture mini outfit created from translucent ice shards seamlessly merging with flowing blue flames. Smooth crystalline structures elegantly cover the bust and hips, while soft flame-like silk ribbons dance around the waist and skirt. The fire appears cool and luminous rather than burning, creating an ethereal contrast between ice and light. Gradient colors shift from icy white through sapphire blue, turquoise, violet, and silver. Sculptural, airy, cinematic, luxurious fashion editorial.
+```
+
+**中文描述**
+
+她穿著一套由透明冰晶與流動藍色火焰融合而成的未來感高級訂製迷你服裝。晶體自然包覆胸部與臀部，柔軟如火焰般的絲帶則於腰部與裙襬流動延伸。火焰呈現冷光般的藍色而非燃燒效果，與冰晶形成夢幻對比。色彩由冰白漸層至寶石藍、青綠、紫羅蘭與銀色，兼具雕塑感與空氣感。
+
+### 63. Milk Blossom Mist｜牛奶花霧
+
+**English Prompt**
+
+```text
+She is wearing a luxury summer mini dress formed from flowing liquid milk, soft flower petals, and delicate steam-like mist. Glossy milk streams elegantly sculpt the bust and hips, while translucent petals naturally bloom along the waist and shoulders. Ethereal steam softly surrounds the silhouette, creating dreamlike depth and movement. The palette transitions from creamy milk white to blush pink, soft peach, champagne ivory, and pearl. Smooth liquid reflections, floating petals, breathable elegance, feminine luxury couture, editorial masterpiece.
+```
+
+**中文描述**
+
+她穿著一件由流動牛奶、柔美花瓣與輕柔霧氣共同構成的高級夏季迷你洋裝。光滑的牛奶液體自然雕塑胸部與臀部曲線，半透明花瓣於腰部與肩部綻放，細緻霧氣圍繞整體輪廓，營造夢幻層次。配色由牛奶白漸層至柔粉、蜜桃色、香檳象牙白與珍珠白，展現柔美、清新且高級的女性魅力。
+
+### 64. Aurora Wind Petals｜極光風花
+
+**English Prompt**
+
+```text
+She is wearing an elegant avant-garde summer mini dress composed of flowing wind currents visualized as translucent ribbons intertwined with floating flower petals and shimmering light trails. The airy ribbons gracefully wrap around the bust, waist, and hips, while luminous petals appear suspended in the moving air. The colors flow naturally from pearl white into aqua blue, lavender, soft pink, mint green, and golden highlights. Delicate glowing particles, silk chiffon textures, and dynamic movement create an ethereal luxury fashion aesthetic.
+```
+
+**中文描述**
+
+她穿著一件由風的流線、漂浮花瓣與光軌共同構成的優雅前衛夏季迷你洋裝。透明氣流般的絲帶自然包覆胸部、腰部與臀部，發光花瓣彷彿懸浮於流動空氣之中。色彩由珍珠白漸層至水藍、淡紫、柔粉、薄荷綠與金色光澤，搭配細緻發光粒子與絲質雪紡紋理，營造夢幻且極具流動感的高級時裝。
+
+### 65. Elemental Symphony｜元素交響曲
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde haute couture summer mini dress sculpted from harmonious natural elements. Flowing water elegantly wraps around the bust, translucent crystal structures contour the waist, luminous flower petals bloom across the shoulders, soft steam drifts around the silhouette, and delicate golden light ribbons weave everything together into a seamless garment. Each element naturally blends into the next, creating sophisticated coverage with subtle glimpses of skin through transparent transitions. The color palette evolves from pearl white to crystal blue, blush pink, champagne gold, soft lavender, and luminous silver. Hyper-realistic elemental textures, fluid dynamics, crystalline reflections, translucent petals, cinematic lighting, breathable luxury couture, ethereal feminine elegance, premium editorial masterpiece.
+```
+
+**中文描述**
+
+她穿著一件由多種自然元素共同雕塑而成的前衛高級訂製夏季迷你洋裝。流動的水優雅包覆胸部，透明水晶勾勒腰部曲線，發光花瓣於肩部自然綻放，輕柔蒸氣環繞整體輪廓，細緻金色光帶則將所有元素自然交織成完整服裝。各種元素彼此流暢融合，透過透明漸層與留白巧妙展現女性曲線而不過度裸露。色彩由珍珠白漸層至水晶藍、柔粉、香檳金、淡薰衣草紫與銀白色，融合液態流動、水晶反射、透明花瓣與電影級光影效果，呈現空靈、高雅且極具藝術性的精品高級訂製時尚。
+
+## Fantasy Haute Couture：森林精靈與魔法森林
+
+> 下面這 5 組偏向 Fantasy Haute Couture，融合 森林精靈（Forest Elf）、西方奇幻（High Fantasy）、仙子（Fae）、魔法森林（Enchanted Forest） 等元素，但保留現代高級時裝感，而非 Cosplay。
+
+### 76. Moonlit Forest Elf｜月光森林精靈
+
+**English Prompt**
+
+```text
+She is wearing an elegant fantasy-inspired summer mini dress designed for a mystical forest elf queen. The fitted bodice is sculpted from overlapping translucent leaves and delicate flower petals, gracefully wrapping around the bust and waist. The layered asymmetrical mini skirt is composed of floating silk chiffon and sheer organza resembling enchanted leaves drifting in the moonlight. Fine golden vines, crystal dewdrops, and luminous fairy dust embroidery decorate the silhouette. Colors transition from pearl white to sage green, emerald, soft mint, lavender, and champagne gold. Airy, breathable, graceful, magical elegance, modern fantasy haute couture, premium editorial fashion.
+```
+
+**中文描述**
+
+她穿著一件以月光森林精靈女王為靈感的優雅奇幻夏季迷你洋裝。貼身上身由層疊半透明葉片與細緻花瓣雕塑而成，自然包覆胸部與腰部。多層不對稱迷你裙以飄逸絲質雪紡與透明歐根紗構成，如月光下飄落的魔法樹葉。金色藤蔓、水晶露珠與發光精靈粉刺繡點綴整體輪廓。配色由珍珠白漸層至鼠尾草綠、翡翠綠、薄荷綠、淡紫與香檳金，展現空靈且高級的奇幻時裝美學。
+
+### 77. Crystal Fairy Blossom｜水晶花精靈
+
+**English Prompt**
+
+```text
+She is wearing a luxurious summer mini dress inspired by a crystal fairy living within enchanted blossoms. The bodice features translucent crystal petals layered over flowing silk, while delicate fairy wings are subtly suggested through floating organza panels extending behind the shoulders. The skirt blooms outward with layered petal-shaped chiffon that sparkles like morning dew. Colors blend from crystal white into blush pink, lilac, pale aqua, pearl silver, and soft gold. Fine crystal embroidery, iridescent shimmer, feminine elegance, luxury fantasy couture, editorial masterpiece.
+```
+
+**中文描述**
+
+她穿著一件以居住於魔法花朵中的水晶精靈為靈感的奢華夏季迷你洋裝。上身由透明水晶花瓣與流動絲綢層層交疊，肩後延伸出如精靈翅膀般的透明歐根紗結構。裙襬由花瓣雪紡層層綻放，閃耀如晨露般的光澤。配色由水晶白漸層至柔粉、淡紫、淺水藍、珍珠銀與柔金色，搭配細膩水晶刺繡與珠光折射，散發夢幻而優雅的女性魅力。
+
+### 78. Enchanted Woodland｜魔法森林秘境
+
+**English Prompt**
+
+```text
+She is wearing a contemporary fantasy couture mini outfit inspired by the enchanted woodland. A softly wrapped bodice woven from elegant vines and translucent leaves naturally contours the body, while the layered mini skirt combines sheer organza, flowing chiffon, and petal-like panels that move gently with every step. Delicate glowing mushrooms, tiny blossoms, golden branches, and floating magical particles are subtly integrated into the design. Colors transition from ivory to moss green, emerald, warm amber, dusty rose, and soft champagne. Lightweight, breathable, romantic, magical luxury fashion.
+```
+
+**中文描述**
+
+她穿著一套以魔法森林秘境為靈感的現代奇幻高級迷你服裝。柔和包覆式上身由優雅藤蔓與半透明葉片交織而成，自然勾勒女性曲線。迷你裙結合透明歐根紗、飄逸雪紡與花瓣造型層片，隨步伐輕柔律動。發光蘑菇、小花、金色樹枝與漂浮魔法粒子低調融入設計。配色由象牙白漸層至苔蘚綠、翡翠綠、暖琥珀色、灰玫瑰粉與香檳色，浪漫且富有神秘感。
+
+### 79. Celestial Dryad｜星辰樹精
+
+**English Prompt**
+
+```text
+She is wearing an avant-garde luxury summer mini dress inspired by an ancient celestial dryad. Sculptural bark-like silk textures blend seamlessly with translucent flower petals and flowing organza, naturally covering the bust, waist, and hips. Delicate glowing vines spiral around the silhouette while floating leaf fragments shimmer like tiny stars. The gradient palette evolves from pearl white through forest green, moonlight silver, lavender, sapphire blue, and luminous gold. Crystal droplets, ethereal lighting, graceful movement, sophisticated fantasy haute couture, premium fashion editorial.
+```
+
+**中文描述**
+
+她穿著一件以遠古星辰樹精為靈感的前衛奢華夏季迷你洋裝。雕塑感樹皮紋理絲綢與半透明花瓣、飄逸歐根紗自然融合，優雅包覆胸部、腰部與臀部。發光藤蔓螺旋環繞身體，漂浮葉片如星光般閃耀。配色由珍珠白漸層至森林綠、月光銀、淡紫、藍寶石色與發光金色，搭配水晶珠滴與空靈光影，展現高級奇幻訂製時尚。
+
+### 80. Queen of the Enchanted Realm｜幻境精靈女王
+
+**English Prompt**
+
+```text
+She is wearing a breathtaking fantasy haute couture summer mini dress inspired by the queen of an enchanted realm. The bodice is sculpted from luminous flower petals, flowing leaves, crystalline vines, and translucent silk membranes that elegantly embrace the bust and waist. The asymmetrical layered mini skirt blossoms outward with weightless organza petals, shimmering fairy threads, and floating ribbons that dance gracefully in the breeze. Fine golden embroidery inspired by ancient elven runes subtly decorates the garment. Colors transition seamlessly from pearl white to emerald green, moonlight blue, blush pink, lavender, champagne gold, and iridescent silver. Hyper-realistic textures, ethereal glow, breathable luxury fabrics, graceful feminine sensuality, cinematic fantasy couture, premium editorial masterpiece.
+```
+
+**中文描述**
+
+她穿著一件以幻境精靈王國女王為靈感的夢幻高級訂製夏季迷你洋裝。上身由發光花瓣、流動葉片、水晶藤蔓與半透明絲綢薄膜雕塑而成，優雅包覆胸部與腰部。多層不對稱迷你裙由輕盈歐根紗花瓣、閃耀精靈絲線與飄逸絲帶綻放而成，隨微風自然律動。服裝低調點綴古老精靈符文金色刺繡。配色由珍珠白漸層至翡翠綠、月光藍、柔粉、淡薰衣草紫、香檳金與虹彩銀色，融合超擬真材質、空靈光暈與流動剪裁，展現神秘、高雅且性感的西方奇幻高級時裝風格。
