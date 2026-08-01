@@ -5,7 +5,6 @@ import hashlib
 import json
 import re
 import random
-import shutil
 import time
 from pathlib import Path
 
@@ -21,8 +20,7 @@ GALLERY_INDEX_HTML = GALLERY_SITE_DIR / "index.html"
 DESIGN_INDEX_HTML = DESIGN_SITE_DIR / "index.html"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 RENAME_EXTENSIONS = IMAGE_EXTENSIONS | {".md"}
-DEPLOY_ASSET_EXTENSIONS = IMAGE_EXTENSIONS | {".md"}
-SKIP_DIRS = {"all"}
+SKIP_DIRS = {"all", "Design"}
 GALLERY_BUILT_ASSETS = [
     "styles/gallery.css",
     "scripts/gallery-data.js",
@@ -33,7 +31,6 @@ DESIGN_BUILT_ASSETS = [
     "scripts/design-data.js",
     "scripts/design.js",
 ]
-DESIGN_STEM_PATTERN = re.compile(r"^(.+)-\d+$")
 CHATGPT_IMAGE_PATTERN = re.compile(
     r"^ChatGPT Image (\d{4})年(\d{1,2})月(\d{1,2})日 (上午|下午)(\d{1,2})_(\d{2})_(\d{2})(?: \((\d+)\))?$"
 )
@@ -348,46 +345,31 @@ def title_for(path: Path) -> str:
     return path.stem.removeprefix("ChatGPT Image ").strip()
 
 
-def chinese_number(number: int) -> str:
-    digits = "零一二三四五六七八九"
-    if 1 <= number <= 10:
-        return "十" if number == 10 else digits[number]
-    if 11 <= number < 20:
-        return f"十{digits[number % 10]}"
-    if 20 <= number < 100:
-        tens, ones = divmod(number, 10)
-        return f"{digits[tens]}十{digits[ones] if ones else ''}"
-    return str(number)
+def category_sort_key(path: Path) -> tuple[int, str]:
+    prefix = "設計"
+    values = {
+        "一": 1,
+        "二": 2,
+        "三": 3,
+        "四": 4,
+        "五": 5,
+        "六": 6,
+        "七": 7,
+        "八": 8,
+        "九": 9,
+        "十": 10,
+    }
+    if not path.name.startswith(prefix):
+        return (10_000, path.name)
 
-
-def design_category_name(index: int) -> str:
-    return f"設計{chinese_number(index)}"
-
-
-def clear_generated_dir(path: Path) -> None:
-    if path.is_symlink() or path.is_file():
-        path.unlink()
-        return
-    if path.exists():
-        shutil.rmtree(path)
-
-
-def copy_asset_file(source: Path, target: Path) -> None:
-    target.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(source, target)
-
-
-def copy_design_assets(design_items: list[dict[str, str]]) -> None:
-    target_root = DESIGN_SITE_DIR / "images"
-    clear_generated_dir(target_root)
-
-    for item in design_items:
-        source = Path(item["_source"])
-        target_dir = DESIGN_SITE_DIR / "images" / item["category"]
-        for asset in [source, source.with_suffix(".md")]:
-            if not asset.exists() or asset.suffix.lower() not in DEPLOY_ASSET_EXTENSIONS:
-                continue
-            copy_asset_file(asset, target_dir / asset.name)
+    suffix = path.name.removeprefix(prefix)
+    if suffix in values:
+        return (values[suffix], path.name)
+    if suffix.startswith("十") and len(suffix) == 2 and suffix[1] in values:
+        return (10 + values[suffix[1]], path.name)
+    if len(suffix) in {2, 3} and suffix[0] in values and suffix[1] == "十":
+        return (values[suffix[0]] * 10 + values.get(suffix[2:], 0), path.name)
+    return (10_000, path.name)
 
 
 def scan_gallery_images() -> tuple[list[dict[str, str]], dict[str, object]]:
@@ -436,32 +418,25 @@ def scan_gallery_images() -> tuple[list[dict[str, str]], dict[str, object]]:
 
 def scan_design_images() -> list[dict[str, str]]:
     items: list[dict[str, str]] = []
-    design_dir = IMAGES_DIR / "Design"
-    catalog_names: dict[str, str] = {}
+    design_dir = DESIGN_SITE_DIR / "images"
 
     if not design_dir.exists():
         return items
 
-    for path in sorted(design_dir.iterdir(), key=lambda item: item.name):
-        if not path.is_file() or path.suffix.lower() not in IMAGE_EXTENSIONS:
-            continue
+    for category_dir in sorted([path for path in design_dir.iterdir() if path.is_dir()], key=category_sort_key):
+        files = sorted(
+            [path for path in category_dir.iterdir() if path.is_file() and path.suffix.lower() in IMAGE_EXTENSIONS],
+            key=lambda path: path.name,
+        )
 
-        match = DESIGN_STEM_PATTERN.match(path.stem)
-        if not match:
-            continue
-
-        group_name = match.group(1)
-        if group_name not in catalog_names:
-            catalog_names[group_name] = design_category_name(len(catalog_names) + 1)
-
-        relative_path = f"images/{catalog_names[group_name]}/{path.name}"
-        items.append({
-            "category": catalog_names[group_name],
-            "src": relative_path,
-            "hasDescription": path.with_suffix(".md").exists(),
-            "title": title_for(path),
-            "_source": str(path),
-        })
+        for path in files:
+            relative_path = path.relative_to(DESIGN_SITE_DIR).as_posix()
+            items.append({
+                "category": category_dir.name,
+                "src": relative_path,
+                "hasDescription": path.with_suffix(".md").exists(),
+                "title": title_for(path),
+            })
 
     return items
 
@@ -498,7 +473,6 @@ def main() -> None:
     padded = normalize_number_padding()
     gallery_items, report = scan_gallery_images()
     design_items = scan_design_images()
-    copy_design_assets(design_items)
     GALLERY_DATA_JS.write_text(render_data_block(gallery_items), encoding="utf-8")
     DESIGN_DATA_JS.write_text(render_data_block(design_items), encoding="utf-8")
     REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -520,7 +494,6 @@ def main() -> None:
     print(f"Updated {GALLERY_DATA_JS.relative_to(ROOT)} with {len(gallery_items)} images.")
     print(f"Updated {DESIGN_DATA_JS.relative_to(ROOT)} with {len(design_items)} images.")
     print(f"Updated {REPORT_JSON.relative_to(ROOT)}.")
-    print(f"Synced {DESIGN_SITE_DIR.relative_to(ROOT) / 'images'}.")
     if gallery_updated:
         print(f"Updated {GALLERY_INDEX_HTML.relative_to(ROOT)} cache-buster to v={version}.")
     if design_updated:
