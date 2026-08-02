@@ -792,6 +792,18 @@ window.__GALLERY_IMAGES__ = [
     "title": "線舞-30"
   },
   {
+    "category": "線舞",
+    "src": "images/線舞/線舞-31.png",
+    "hasDescription": true,
+    "title": "線舞-31"
+  },
+  {
+    "category": "線舞",
+    "src": "images/線舞/線舞-32.png",
+    "hasDescription": true,
+    "title": "線舞-32"
+  },
+  {
     "category": "元素",
     "src": "images/元素/元素-01.png",
     "hasDescription": true,
@@ -1180,5 +1192,35 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-30.png",
     "hasDescription": true,
     "title": "民族-30"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-31.png",
+    "hasDescription": true,
+    "title": "民族-31"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-32.png",
+    "hasDescription": true,
+    "title": "民族-32"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-33.png",
+    "hasDescription": true,
+    "title": "民族-33"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-34.png",
+    "hasDescription": true,
+    "title": "民族-34"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-35.png",
+    "hasDescription": true,
+    "title": "民族-35"
   }
 ];
