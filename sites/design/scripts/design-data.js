@@ -822,6 +822,84 @@ window.__GALLERY_IMAGES__ = [
     "title": "元素-22"
   },
   {
+    "category": "元素",
+    "src": "images/元素/元素-23.png",
+    "hasDescription": true,
+    "title": "元素-23"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-24.png",
+    "hasDescription": true,
+    "title": "元素-24"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-25.png",
+    "hasDescription": true,
+    "title": "元素-25"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-26.png",
+    "hasDescription": true,
+    "title": "元素-26"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-27.png",
+    "hasDescription": true,
+    "title": "元素-27"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-28.png",
+    "hasDescription": true,
+    "title": "元素-28"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-29.png",
+    "hasDescription": true,
+    "title": "元素-29"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-30.png",
+    "hasDescription": true,
+    "title": "元素-30"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-31.png",
+    "hasDescription": true,
+    "title": "元素-31"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-32.png",
+    "hasDescription": true,
+    "title": "元素-32"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-33.png",
+    "hasDescription": true,
+    "title": "元素-33"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-34.png",
+    "hasDescription": true,
+    "title": "元素-34"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-35.png",
+    "hasDescription": true,
+    "title": "元素-35"
+  },
+  {
     "category": "民族",
     "src": "images/民族/民族-01.png",
     "hasDescription": true,
