@@ -210,6 +210,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "現代-35"
   },
   {
+    "category": "現代",
+    "src": "images/現代/現代-36.png",
+    "hasDescription": true,
+    "title": "現代-36"
+  },
+  {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
@@ -388,6 +394,36 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-30.png",
     "hasDescription": true,
     "title": "雲紗-30"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-31.png",
+    "hasDescription": true,
+    "title": "雲紗-31"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-32.png",
+    "hasDescription": true,
+    "title": "雲紗-32"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-33.png",
+    "hasDescription": true,
+    "title": "雲紗-33"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-34.png",
+    "hasDescription": true,
+    "title": "雲紗-34"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-35.png",
+    "hasDescription": true,
+    "title": "雲紗-35"
   },
   {
     "category": "雅裁",

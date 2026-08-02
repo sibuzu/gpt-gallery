@@ -2,9 +2,9 @@
 from __future__ import annotations
 
 import hashlib
+import argparse
 import json
 import re
-import random
 import time
 from pathlib import Path
 
@@ -413,7 +413,7 @@ def scan_gallery_images() -> tuple[list[dict[str, str]], dict[str, object]]:
                 "title": title_for(path),
             })
 
-    random.shuffle(items)
+    items.sort(key=lambda item: hashlib.sha256(item["src"].encode("utf-8")).hexdigest())
 
     category_counts: dict[str, int] = {}
     for item in items:
@@ -425,6 +425,14 @@ def scan_gallery_images() -> tuple[list[dict[str, str]], dict[str, object]]:
         "skipped": skipped,
     }
     return items, report
+
+
+def write_text_if_changed(path: Path, content: str) -> bool:
+    if path.exists() and path.read_text(encoding="utf-8") == content:
+        return False
+
+    path.write_text(content, encoding="utf-8")
+    return True
 
 
 def scan_design_images() -> list[dict[str, str]]:
@@ -476,21 +484,57 @@ def update_asset_cache_bust(index_path: Path, assets: list[str], version: str) -
     return True
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Build gallery/design image data.")
+    parser.add_argument(
+        "--site",
+        choices=("all", "gallery", "design"),
+        default="all",
+        help="Limit generated data and cache-busting to one site.",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
-    renamed = rename_special_filenames()
-    normalized = normalize_zero_variant_filenames()
-    regrouped = normalize_grouped_filenames()
-    separated = normalize_group_sequence_separator()
-    padded = normalize_number_padding()
-    gallery_items, report = scan_gallery_images()
-    design_items = scan_design_images()
-    GALLERY_DATA_JS.write_text(render_data_block(gallery_items), encoding="utf-8")
-    DESIGN_DATA_JS.write_text(render_data_block(design_items), encoding="utf-8")
-    REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    args = parse_args()
+    build_gallery = args.site in {"all", "gallery"}
+    build_design = args.site in {"all", "design"}
+
+    renamed = normalized = regrouped = separated = padded = 0
+    if build_gallery:
+        renamed = rename_special_filenames()
+        normalized = normalize_zero_variant_filenames()
+        regrouped = normalize_grouped_filenames()
+        separated = normalize_group_sequence_separator()
+        padded = normalize_number_padding()
+
+    gallery_items: list[dict[str, str]] = []
+    design_items: list[dict[str, str]] = []
+    report: dict[str, object] | None = None
+    gallery_data_updated = False
+    design_data_updated = False
+    report_updated = False
+
+    if build_gallery:
+        gallery_items, report = scan_gallery_images()
+        gallery_data_updated = write_text_if_changed(GALLERY_DATA_JS, render_data_block(gallery_items))
+        report_updated = write_text_if_changed(REPORT_JSON, json.dumps(report, ensure_ascii=False, indent=2) + "\n")
+
+    if build_design:
+        design_items = scan_design_images()
+        design_data_updated = write_text_if_changed(DESIGN_DATA_JS, render_data_block(design_items))
 
     version = int(time.time())
-    gallery_updated = update_asset_cache_bust(GALLERY_INDEX_HTML, GALLERY_BUILT_ASSETS, str(version))
-    design_updated = update_asset_cache_bust(DESIGN_INDEX_HTML, DESIGN_BUILT_ASSETS, str(version))
+    gallery_updated = (
+        update_asset_cache_bust(GALLERY_INDEX_HTML, GALLERY_BUILT_ASSETS, str(version))
+        if build_gallery
+        else False
+    )
+    design_updated = (
+        update_asset_cache_bust(DESIGN_INDEX_HTML, DESIGN_BUILT_ASSETS, str(version))
+        if build_design
+        else False
+    )
 
     if renamed:
         print(f"Renamed {renamed} file(s).")
@@ -502,9 +546,14 @@ def main() -> None:
         print(f"Separated {separated} grouped sequence filename(s).")
     if padded:
         print(f"Zero-padded {padded} numbered filename(s).")
-    print(f"Updated {GALLERY_DATA_JS.relative_to(ROOT)} with {len(gallery_items)} images.")
-    print(f"Updated {DESIGN_DATA_JS.relative_to(ROOT)} with {len(design_items)} images.")
-    print(f"Updated {REPORT_JSON.relative_to(ROOT)}.")
+    if build_gallery:
+        action = "Updated" if gallery_data_updated else "Checked"
+        print(f"{action} {GALLERY_DATA_JS.relative_to(ROOT)} with {len(gallery_items)} images.")
+        report_action = "Updated" if report_updated else "Checked"
+        print(f"{report_action} {REPORT_JSON.relative_to(ROOT)}.")
+    if build_design:
+        action = "Updated" if design_data_updated else "Checked"
+        print(f"{action} {DESIGN_DATA_JS.relative_to(ROOT)} with {len(design_items)} images.")
     if gallery_updated:
         print(f"Updated {GALLERY_INDEX_HTML.relative_to(ROOT)} cache-buster to v={version}.")
     if design_updated:
