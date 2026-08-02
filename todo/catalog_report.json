@@ -3,10 +3,10 @@
   "category_counts": {
     "Folk": 142,
     "日常": 189,
-    "Theme": 299,
-    "Dress": 344,
     "時尚": 54,
-    "奇幻": 67
+    "奇幻": 67,
+    "Dress": 344,
+    "Theme": 299
   },
   "skipped": [
     {
