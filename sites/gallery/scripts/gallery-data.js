@@ -1422,6 +1422,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "圍裙b-01"
   },
   {
+    "category": "Dress",
+    "src": "images/Dress/內衣b-01.png",
+    "hasDescription": true,
+    "title": "內衣b-01"
+  },
+  {
     "category": "Theme",
     "src": "images/Theme/塗鴉b-03.png",
     "hasDescription": true,
@@ -4156,6 +4162,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/臥室b-08.png",
     "hasDescription": true,
     "title": "臥室b-08"
+  },
+  {
+    "category": "Dress",
+    "src": "images/Dress/內衣b-02.png",
+    "hasDescription": true,
+    "title": "內衣b-02"
   },
   {
     "category": "Folk",
