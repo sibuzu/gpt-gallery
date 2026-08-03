@@ -942,6 +942,36 @@ window.__GALLERY_IMAGES__ = [
     "title": "線舞-37"
   },
   {
+    "category": "線舞",
+    "src": "images/線舞/線舞-38.png",
+    "hasDescription": true,
+    "title": "線舞-38"
+  },
+  {
+    "category": "線舞",
+    "src": "images/線舞/線舞-39.png",
+    "hasDescription": true,
+    "title": "線舞-39"
+  },
+  {
+    "category": "線舞",
+    "src": "images/線舞/線舞-40.png",
+    "hasDescription": true,
+    "title": "線舞-40"
+  },
+  {
+    "category": "線舞",
+    "src": "images/線舞/線舞-41.png",
+    "hasDescription": true,
+    "title": "線舞-41"
+  },
+  {
+    "category": "線舞",
+    "src": "images/線舞/線舞-42.png",
+    "hasDescription": true,
+    "title": "線舞-42"
+  },
+  {
     "category": "元素",
     "src": "images/元素/元素-01.png",
     "hasDescription": true,
