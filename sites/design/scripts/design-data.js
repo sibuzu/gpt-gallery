@@ -216,6 +216,24 @@ window.__GALLERY_IMAGES__ = [
     "title": "現代-36"
   },
   {
+    "category": "現代",
+    "src": "images/現代/現代-37.png",
+    "hasDescription": true,
+    "title": "現代-37"
+  },
+  {
+    "category": "現代",
+    "src": "images/現代/現代-38.png",
+    "hasDescription": true,
+    "title": "現代-38"
+  },
+  {
+    "category": "現代",
+    "src": "images/現代/現代-39.png",
+    "hasDescription": true,
+    "title": "現代-39"
+  },
+  {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
@@ -1222,5 +1240,35 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-35.png",
     "hasDescription": true,
     "title": "民族-35"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-36.png",
+    "hasDescription": true,
+    "title": "民族-36"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-37.png",
+    "hasDescription": true,
+    "title": "民族-37"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-38.png",
+    "hasDescription": true,
+    "title": "民族-38"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-39.png",
+    "hasDescription": true,
+    "title": "民族-39"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-40.png",
+    "hasDescription": true,
+    "title": "民族-40"
   }
 ];
