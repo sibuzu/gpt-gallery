@@ -246,6 +246,36 @@ window.__GALLERY_IMAGES__ = [
     "title": "現代-41"
   },
   {
+    "category": "現代",
+    "src": "images/現代/現代-42.png",
+    "hasDescription": true,
+    "title": "現代-42"
+  },
+  {
+    "category": "現代",
+    "src": "images/現代/現代-43.png",
+    "hasDescription": true,
+    "title": "現代-43"
+  },
+  {
+    "category": "現代",
+    "src": "images/現代/現代-44.png",
+    "hasDescription": true,
+    "title": "現代-44"
+  },
+  {
+    "category": "現代",
+    "src": "images/現代/現代-45.png",
+    "hasDescription": true,
+    "title": "現代-45"
+  },
+  {
+    "category": "現代",
+    "src": "images/現代/現代-46.png",
+    "hasDescription": true,
+    "title": "現代-46"
+  },
+  {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
