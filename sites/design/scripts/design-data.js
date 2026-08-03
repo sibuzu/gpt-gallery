@@ -1236,6 +1236,30 @@ window.__GALLERY_IMAGES__ = [
     "title": "元素-40"
   },
   {
+    "category": "元素",
+    "src": "images/元素/元素-41.png",
+    "hasDescription": true,
+    "title": "元素-41"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-42.png",
+    "hasDescription": true,
+    "title": "元素-42"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-43.png",
+    "hasDescription": true,
+    "title": "元素-43"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-44.png",
+    "hasDescription": true,
+    "title": "元素-44"
+  },
+  {
     "category": "民族",
     "src": "images/民族/民族-01.png",
     "hasDescription": true,
@@ -1480,29 +1504,5 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-41.png",
     "hasDescription": true,
     "title": "民族-41"
-  },
-  {
-    "category": "民族",
-    "src": "images/民族/民族-42.png",
-    "hasDescription": true,
-    "title": "民族-42"
-  },
-  {
-    "category": "民族",
-    "src": "images/民族/民族-43.png",
-    "hasDescription": true,
-    "title": "民族-43"
-  },
-  {
-    "category": "民族",
-    "src": "images/民族/民族-44.png",
-    "hasDescription": true,
-    "title": "民族-44"
-  },
-  {
-    "category": "民族",
-    "src": "images/民族/民族-45.png",
-    "hasDescription": true,
-    "title": "民族-45"
   }
 ];
