@@ -696,6 +696,30 @@ window.__GALLERY_IMAGES__ = [
     "title": "雅裁-38"
   },
   {
+    "category": "雅裁",
+    "src": "images/雅裁/雅裁-39.png",
+    "hasDescription": true,
+    "title": "雅裁-39"
+  },
+  {
+    "category": "雅裁",
+    "src": "images/雅裁/雅裁-40.png",
+    "hasDescription": true,
+    "title": "雅裁-40"
+  },
+  {
+    "category": "雅裁",
+    "src": "images/雅裁/雅裁-41.png",
+    "hasDescription": true,
+    "title": "雅裁-41"
+  },
+  {
+    "category": "雅裁",
+    "src": "images/雅裁/雅裁-42.png",
+    "hasDescription": true,
+    "title": "雅裁-42"
+  },
+  {
     "category": "線舞",
     "src": "images/線舞/線舞-01.png",
     "hasDescription": true,
