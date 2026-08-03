@@ -504,18 +504,6 @@ window.__GALLERY_IMAGES__ = [
     "title": "雲紗-38"
   },
   {
-    "category": "雲紗",
-    "src": "images/雲紗/雲紗-39.png",
-    "hasDescription": true,
-    "title": "雲紗-39"
-  },
-  {
-    "category": "雲紗",
-    "src": "images/雲紗/雲紗-40.png",
-    "hasDescription": true,
-    "title": "雲紗-40"
-  },
-  {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-01.png",
     "hasDescription": true,
@@ -604,6 +592,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-15.png",
     "hasDescription": true,
     "title": "雅裁-15"
+  },
+  {
+    "category": "雅裁",
+    "src": "images/雅裁/雅裁-16.png",
+    "hasDescription": true,
+    "title": "雅裁-16"
   },
   {
     "category": "雅裁",
@@ -760,6 +754,18 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-42.png",
     "hasDescription": true,
     "title": "雅裁-42"
+  },
+  {
+    "category": "雅裁",
+    "src": "images/雅裁/雅裁-43.png",
+    "hasDescription": true,
+    "title": "雅裁-43"
+  },
+  {
+    "category": "雅裁",
+    "src": "images/雅裁/雅裁-44.png",
+    "hasDescription": true,
+    "title": "雅裁-44"
   },
   {
     "category": "線舞",
@@ -1032,6 +1038,18 @@ window.__GALLERY_IMAGES__ = [
     "title": "線舞-45"
   },
   {
+    "category": "線舞",
+    "src": "images/線舞/線舞-46.png",
+    "hasDescription": true,
+    "title": "線舞-46"
+  },
+  {
+    "category": "線舞",
+    "src": "images/線舞/線舞-47.png",
+    "hasDescription": true,
+    "title": "線舞-47"
+  },
+  {
     "category": "元素",
     "src": "images/元素/元素-01.png",
     "hasDescription": true,
@@ -1294,6 +1312,18 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-44.png",
     "hasDescription": true,
     "title": "元素-44"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-45.png",
+    "hasDescription": true,
+    "title": "元素-45"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-46.png",
+    "hasDescription": true,
+    "title": "元素-46"
   },
   {
     "category": "民族",
