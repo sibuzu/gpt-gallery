@@ -504,6 +504,60 @@ window.__GALLERY_IMAGES__ = [
     "title": "雲紗-38"
   },
   {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-39.png",
+    "hasDescription": true,
+    "title": "雲紗-39"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-40.png",
+    "hasDescription": true,
+    "title": "雲紗-40"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-41.png",
+    "hasDescription": true,
+    "title": "雲紗-41"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-42.png",
+    "hasDescription": true,
+    "title": "雲紗-42"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-43.png",
+    "hasDescription": true,
+    "title": "雲紗-43"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-44.png",
+    "hasDescription": true,
+    "title": "雲紗-44"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-45.png",
+    "hasDescription": true,
+    "title": "雲紗-45"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-46.png",
+    "hasDescription": true,
+    "title": "雲紗-46"
+  },
+  {
+    "category": "雲紗",
+    "src": "images/雲紗/雲紗-47.png",
+    "hasDescription": true,
+    "title": "雲紗-47"
+  },
+  {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-01.png",
     "hasDescription": true,
@@ -1324,6 +1378,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-46.png",
     "hasDescription": true,
     "title": "元素-46"
+  },
+  {
+    "category": "元素",
+    "src": "images/元素/元素-47.png",
+    "hasDescription": true,
+    "title": "元素-47"
   },
   {
     "category": "民族",
