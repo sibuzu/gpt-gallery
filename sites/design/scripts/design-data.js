@@ -276,6 +276,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "現代-46"
   },
   {
+    "category": "現代",
+    "src": "images/現代/現代-47.png",
+    "hasDescription": true,
+    "title": "現代-47"
+  },
+  {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
@@ -1630,5 +1636,125 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-43.png",
     "hasDescription": true,
     "title": "民族-43"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-01.png",
+    "hasDescription": true,
+    "title": "日常-01"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-02.png",
+    "hasDescription": true,
+    "title": "日常-02"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-04.png",
+    "hasDescription": true,
+    "title": "日常-04"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-05.png",
+    "hasDescription": true,
+    "title": "日常-05"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-06.png",
+    "hasDescription": true,
+    "title": "日常-06"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-07.png",
+    "hasDescription": true,
+    "title": "日常-07"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-08.png",
+    "hasDescription": true,
+    "title": "日常-08"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-09.png",
+    "hasDescription": true,
+    "title": "日常-09"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-10.png",
+    "hasDescription": true,
+    "title": "日常-10"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-11.png",
+    "hasDescription": true,
+    "title": "日常-11"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-12.png",
+    "hasDescription": true,
+    "title": "日常-12"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-13.png",
+    "hasDescription": true,
+    "title": "日常-13"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-14.png",
+    "hasDescription": true,
+    "title": "日常-14"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-15.png",
+    "hasDescription": true,
+    "title": "日常-15"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-19.png",
+    "hasDescription": true,
+    "title": "日常-19"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-20.png",
+    "hasDescription": true,
+    "title": "日常-20"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-21.png",
+    "hasDescription": true,
+    "title": "日常-21"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-22.png",
+    "hasDescription": true,
+    "title": "日常-22"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-23.png",
+    "hasDescription": true,
+    "title": "日常-23"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-30.png",
+    "hasDescription": true,
+    "title": "日常-30"
   }
 ];
