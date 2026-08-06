@@ -18,7 +18,7 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-03.png",
     "hasDescription": true,
     "title": "現代-03",
-    "description": "[micro mini cheongsam with halter neckline]"
+    "description": "a ruffled halter bikini"
   },
   {
     "category": "現代",
@@ -81,7 +81,7 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-12.png",
     "hasDescription": true,
     "title": "現代-12",
-    "description": "[a blue micro-mini Kimono]"
+    "description": "[preppy V-neck blouse with miniskirt]"
   },
   {
     "category": "現代",
@@ -102,7 +102,7 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-15.png",
     "hasDescription": true,
     "title": "現代-15",
-    "description": "[micro mini dress made of milk]"
+    "description": "[cropped bolero with corset bralette and organza mini skirt]"
   },
   {
     "category": "現代",
@@ -130,7 +130,7 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-19.png",
     "hasDescription": true,
     "title": "現代-19",
-    "description": "[micro mini cheongsam with halter neckline]"
+    "description": "[off-shoulder crop top with side-tie mini skirt]"
   },
   {
     "category": "現代",
@@ -193,14 +193,14 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-28.png",
     "hasDescription": true,
     "title": "現代-28",
-    "description": "[kimono-inspired micro mini dress]"
+    "description": "[ruffled halter bikini with chiffon beach cover-up]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-29.png",
     "hasDescription": true,
     "title": "現代-29",
-    "description": "[kimono-inspired micro mini dress]"
+    "description": "[silk mini dress with openwork side panels]"
   },
   {
     "category": "現代",
@@ -228,7 +228,7 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-33.png",
     "hasDescription": true,
     "title": "現代-33",
-    "description": "[floral micro mini cheongsam with halter neckline]"
+    "description": "[baroque embroidered mini dress with sheer sleeves]"
   },
   {
     "category": "現代",
@@ -285,55 +285,6 @@ window.__GALLERY_IMAGES__ = [
     "hasDescription": true,
     "title": "現代-41",
     "description": "[Japanese maid-inspired top with apron mini skirt]"
-  },
-  {
-    "category": "現代",
-    "src": "images/現代/現代-42.png",
-    "hasDescription": true,
-    "title": "現代-42",
-    "description": "[ruffled halter bikini with chiffon beach cover-up]"
-  },
-  {
-    "category": "現代",
-    "src": "images/現代/現代-43.png",
-    "hasDescription": true,
-    "title": "現代-43",
-    "description": "[baroque embroidered mini dress with sheer sleeves]"
-  },
-  {
-    "category": "現代",
-    "src": "images/現代/現代-44.png",
-    "hasDescription": true,
-    "title": "現代-44",
-    "description": "[silk mini dress with openwork side panels]"
-  },
-  {
-    "category": "現代",
-    "src": "images/現代/現代-45.png",
-    "hasDescription": true,
-    "title": "現代-45",
-    "description": "[off-shoulder crop top with side-tie mini skirt]"
-  },
-  {
-    "category": "現代",
-    "src": "images/現代/現代-46.png",
-    "hasDescription": true,
-    "title": "現代-46",
-    "description": "[cropped bolero with corset bralette and organza mini skirt]"
-  },
-  {
-    "category": "現代",
-    "src": "images/現代/現代-47.png",
-    "hasDescription": true,
-    "title": "現代-47",
-    "description": "[preppy V-neck blouse with miniskirt]"
-  },
-  {
-    "category": "現代",
-    "src": "images/現代/現代-48.png",
-    "hasDescription": true,
-    "title": "現代-48",
-    "description": "a ruffled halter bikini"
   },
   {
     "category": "雲紗",
@@ -2098,6 +2049,41 @@ window.__GALLERY_IMAGES__ = [
     "hasDescription": true,
     "title": "民族-68",
     "description": "[saree-inspired corset mini dress with sheer draped skirt]"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-69.png",
+    "hasDescription": true,
+    "title": "民族-69",
+    "description": "[micro mini cheongsam with halter neckline]"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-70.png",
+    "hasDescription": true,
+    "title": "民族-70",
+    "description": "[a blue micro-mini Kimono]"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-71.png",
+    "hasDescription": true,
+    "title": "民族-71",
+    "description": "[micro mini cheongsam with halter neckline]"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-72.png",
+    "hasDescription": true,
+    "title": "民族-72",
+    "description": "[kimono-inspired micro mini dress]"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-73.png",
+    "hasDescription": true,
+    "title": "民族-73",
+    "description": "[floral micro mini cheongsam with halter neckline]"
   },
   {
     "category": "日常",
