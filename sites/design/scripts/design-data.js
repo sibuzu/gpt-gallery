@@ -9,7 +9,8 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-02.png",
     "hasDescription": true,
-    "title": "現代-02"
+    "title": "現代-02",
+    "description": "wearing a sheer soft red and ivory tones silk micro mini cheongsam with embroidered fine vintage floral patterns, a modern high-neck halter design with open-chest keyhole cleavage cut, dramatic side cutouts that accentuate the waist, dual high slits with elegant garter-style straps,"
   },
   {
     "category": "現代",
@@ -1389,25 +1390,29 @@ window.__GALLERY_IMAGES__ = [
     "category": "民族",
     "src": "images/民族/民族-01.png",
     "hasDescription": true,
-    "title": "民族-01"
+    "title": "民族-01",
+    "description": "a kimono."
   },
   {
     "category": "民族",
     "src": "images/民族/民族-02.png",
     "hasDescription": true,
-    "title": "民族-02"
+    "title": "民族-02",
+    "description": "a cheongsam"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-03.png",
     "hasDescription": true,
-    "title": "民族-03"
+    "title": "民族-03",
+    "description": "a Hanfu"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-04.png",
     "hasDescription": true,
-    "title": "民族-04"
+    "title": "民族-04",
+    "description": "a goddess dress"
   },
   {
     "category": "民族",
@@ -1644,11 +1649,34 @@ window.__GALLERY_IMAGES__ = [
     "title": "民族-43"
   },
   {
+    "category": "民族",
+    "src": "images/民族/民族-44.png",
+    "hasDescription": true,
+    "title": "民族-44"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-45.png",
+    "hasDescription": true,
+    "title": "民族-45"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-46.png",
+    "hasDescription": true,
+    "title": "民族-46"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-47.png",
+    "hasDescription": true,
+    "title": "民族-47"
+  },
+  {
     "category": "日常",
     "src": "images/日常/日常-01.png",
     "hasDescription": true,
-    "title": "日常-01",
-    "description": "a shirt and a skirt."
+    "title": "日常-01"
   },
   {
     "category": "日常",
@@ -1929,5 +1957,26 @@ window.__GALLERY_IMAGES__ = [
     "hasDescription": true,
     "title": "日常-41",
     "description": "a one-shoulder dress."
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-42.png",
+    "hasDescription": true,
+    "title": "日常-42",
+    "description": "a loose micro mini dress"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-43.png",
+    "hasDescription": true,
+    "title": "日常-43",
+    "description": "a oversized T-shirt over bodysuit."
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-44.png",
+    "hasDescription": true,
+    "title": "日常-44",
+    "description": "a bodysuit and skin-tight shorts."
   }
 ];
