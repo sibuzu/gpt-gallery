@@ -290,14 +290,14 @@ window.__GALLERY_IMAGES__ = [
     "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
-    "title": "雲紗-01"
+    "title": "雲紗-01",
+    "description": "[petal-inspired couture mini dress]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-02.png",
     "hasDescription": true,
-    "title": "雲紗-02",
-    "description": "[petal-inspired couture mini dress]"
+    "title": "雲紗-02"
   },
   {
     "category": "雲紗",
