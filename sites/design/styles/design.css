@@ -246,10 +246,26 @@ main {
   white-space: nowrap;
 }
 
+.category-line {
+  display: block;
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.caption-description {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+
 .caption-end {
   align-items: center;
   display: inline-flex;
-  flex: 1 1 auto;
+  flex: 0 0 auto;
   gap: 0;
   justify-content: flex-end;
   margin: 0;
@@ -263,17 +279,6 @@ main {
   font-size: 12px;
   margin-right: 6px;
   min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.prompt-line {
-  border-top: 1px solid rgba(234, 220, 203, 0.62);
-  color: var(--muted);
-  font-size: 12px;
-  line-height: 1.35;
-  margin: -4px 12px 12px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

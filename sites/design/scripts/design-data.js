@@ -288,6 +288,13 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "雲紗",
+    "src": "images/雲紗/日常-02.png",
+    "hasDescription": true,
+    "title": "日常-02",
+    "description": "a casual tea dress"
+  },
+  {
+    "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
     "title": "雲紗-01",
@@ -1896,7 +1903,7 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-02.png",
     "hasDescription": true,
     "title": "日常-02",
-    "description": "a casual tea dress"
+    "description": "a shirt and a skirt"
   },
   {
     "category": "日常",
@@ -2184,12 +2191,5 @@ window.__GALLERY_IMAGES__ = [
     "hasDescription": true,
     "title": "日常-43",
     "description": "a bodysuit and skin-tight shorts"
-  },
-  {
-    "category": "日常",
-    "src": "images/日常/日常-44.png",
-    "hasDescription": true,
-    "title": "日常-44",
-    "description": "a shirt and a skirt"
   }
 ];

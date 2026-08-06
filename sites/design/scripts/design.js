@@ -358,13 +358,21 @@ function toggleAllGroups() {
   render();
 }
 
+function captionDescriptionFor(description) {
+  if (!description) return "";
+  if (description.startsWith("[") && description.endsWith("]")) return description;
+  return `(${description})`;
+}
+
 function cardFor(item, index) {
   const { image } = item;
   const stackBadge = item.isCollapsedGroup ? `<span class="stack-badge">+${item.groupSize - 1}</span>` : "";
   const stackClass = item.isCollapsedGroup ? " stack" : "";
-  const promptLine = image.description
-    ? `<p class="prompt-line" title="${escapeHtml(image.description)}">${escapeHtml(image.description)}</p>`
-    : "";
+  const captionDescription = captionDescriptionFor(image.description);
+  const captionTitle = captionDescription ? `${image.category} ${captionDescription}` : image.category;
+  const categoryLabel = captionDescription
+    ? `<span class="category-line" title="${escapeHtml(captionTitle)}"><span class="category">${escapeHtml(image.category)}</span> <span class="caption-description">${escapeHtml(captionDescription)}</span></span>`
+    : `<span class="category">${escapeHtml(image.category)}</span>`;
   const article = document.createElement("article");
   article.className = "card";
   if (item.groupKey) {
@@ -379,7 +387,7 @@ function cardFor(item, index) {
       ${stackBadge}
     </div>
     <div class="caption">
-      <span class="category">${image.category}</span>
+      ${categoryLabel}
       <span class="caption-end">
         <span class="filename">${image.title}</span>
         <span class="card-actions">
@@ -388,7 +396,6 @@ function cardFor(item, index) {
         </span>
       </span>
     </div>
-    ${promptLine}
   `;
 
   const cardImage = article.querySelector("img");
