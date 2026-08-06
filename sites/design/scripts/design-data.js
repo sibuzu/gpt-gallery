@@ -1662,7 +1662,7 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-03.png",
     "hasDescription": true,
     "title": "日常-03",
-    "description": "an oversized shirt and denim shorts."
+    "description": "a casual tea dress."
   },
   {
     "category": "日常",
@@ -1907,7 +1907,7 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-38.png",
     "hasDescription": true,
     "title": "日常-38",
-    "description": "a bodysuit and high-waisted trousers."
+    "description": "a bodysuit and a high-waisted mini skirt."
   },
   {
     "category": "日常",
@@ -1929,12 +1929,5 @@ window.__GALLERY_IMAGES__ = [
     "hasDescription": true,
     "title": "日常-41",
     "description": "a one-shoulder dress."
-  },
-  {
-    "category": "日常",
-    "src": "images/日常/日常-42.png",
-    "hasDescription": true,
-    "title": "日常-42",
-    "description": "a casual tea dress."
   }
 ];
