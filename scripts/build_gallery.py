@@ -367,8 +367,9 @@ def single_line_description_for(path: Path) -> str | None:
         return None
 
     text = text.lstrip("\ufeff\u200b\u200c\u200d")
-    if text.startswith("She is wearing "):
-        text = text.removeprefix("She is wearing ")
+    cleaned = re.sub(r"^(?:(?:she\s+)?is\s+wearing|wearing)\s+", "", text, count=1, flags=re.IGNORECASE)
+    if cleaned != text:
+        text = cleaned
         text = text.removesuffix(".")
     if len(text.split()) > 15:
         return None
