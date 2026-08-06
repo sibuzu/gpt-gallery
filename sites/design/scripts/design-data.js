@@ -3,8 +3,7 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-01.png",
     "hasDescription": true,
-    "title": "現代-01",
-    "description": "wearing a sheer soft red and ivory tones silk micro mini cheongsam with embroidered fine vintage floral patterns, a modern high-neck halter design with open-chest keyhole cleavage cut, dramatic side cutouts that accentuate the waist, dual high slits with elegant garter-style straps,"
+    "title": "現代-01"
   },
   {
     "category": "現代",
@@ -24,8 +23,7 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-04.png",
     "hasDescription": true,
-    "title": "現代-04",
-    "description": "white lace dress, floral embroidery, sheer layered chiffon skirt, sheer off-shoulder sleeves, lace thigh-high stockings, pearl earrings,"
+    "title": "現代-04"
   },
   {
     "category": "現代",
@@ -38,15 +36,13 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-06.png",
     "hasDescription": true,
-    "title": "現代-06",
-    "description": "wearing a lightweight linen apron with embroidered lace, ​slender halter shoulder straps with small metal button accents, ​thin waist ribbons tied gracefully at the side, high side cutouts extending along the hips."
+    "title": "現代-06"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-07.png",
     "hasDescription": true,
-    "title": "現代-07",
-    "description": "wearing a sheer embroidered haute couture fabric short dress with delicate red floral embroidery, high slit, elegant red ribbon around waist"
+    "title": "現代-07"
   },
   {
     "category": "現代",
@@ -59,22 +55,19 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-09.png",
     "hasDescription": true,
-    "title": "現代-09",
-    "description": "wearing a shimmering blush-pink halter crop top made of sparkling translucent fabric with a large handcrafted rose choker at the neckline, paired with a matching asymmetrical ruffled mini wrap skirt featuring a high slit and a large fabric rose accent at the hip."
+    "title": "現代-09"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-10.png",
     "hasDescription": true,
-    "title": "現代-10",
-    "description": "with fair glowing skin and a slender, elegant figure is wearing a ivory-white chiffon beach dress with an ultra-deep plunging neckline, high side slits secured by delicate gold rings, subtle gold jewelry including a fine necklace, arm chain, and bracelet, her soft ash-brown hair styled in a loose messy bun with wispy strands framing her face."
+    "title": "現代-10"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-11.png",
     "hasDescription": true,
-    "title": "現代-11",
-    "description": "wearing a fitted pastel pink off-shoulder crop top with a delicate floral graphic print, one shoulder gracefully slipping down to reveal her collarbone, paired with white side-tie bikini bottoms featuring adjustable ribbon ties."
+    "title": "現代-11"
   },
   {
     "category": "現代",
@@ -296,29 +289,25 @@ window.__GALLERY_IMAGES__ = [
     "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
-    "title": "雲紗-01",
-    "description": "an avant-garde summer mini dress featuring a sculptural asymmetric crop top composed of layered transparent magnolia-inspired organza petals that elegantly embrace the bust and shoulders"
+    "title": "雲紗-01"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-02.png",
     "hasDescription": true,
-    "title": "雲紗-02",
-    "description": "an avant-garde couture summer mini dress inspired by the moment soft petal clouds bloom and twist into the air"
+    "title": "雲紗-02"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-03.png",
     "hasDescription": true,
-    "title": "雲紗-03",
-    "description": "an avant-garde couture summer mini dress inspired by the moment soft ocean clouds bloom and twist into the air"
+    "title": "雲紗-03"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-04.png",
     "hasDescription": true,
-    "title": "雲紗-04",
-    "description": "an avant-garde couture summer mini dress inspired by the moment soft fire clouds bloom and twist into the air"
+    "title": "雲紗-04"
   },
   {
     "category": "雲紗",
@@ -571,19 +560,21 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-01.png",
     "hasDescription": true,
     "title": "雅裁-01",
-    "description": "an elegant contemporary mini outfit inspired by apron construction and delicate summer chiffon tailoring"
+    "description": "[asymmetric crop top with high-waisted draped mini skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-02.png",
     "hasDescription": true,
-    "title": "雅裁-02"
+    "title": "雅裁-02",
+    "description": "[an apron-inspired mini outfit with chiffon]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-03.png",
     "hasDescription": true,
-    "title": "雅裁-03"
+    "title": "雅裁-03",
+    "description": "[sleeveless cut-out mini dress with flared chiffon skirt]"
   },
   {
     "category": "雅裁",
@@ -1117,22 +1108,19 @@ window.__GALLERY_IMAGES__ = [
     "category": "元素",
     "src": "images/元素/元素-01.png",
     "hasDescription": true,
-    "title": "元素-01",
-    "description": "an avant-garde couture summer mini dress inspired by wind currents and soft steam blooming into the air"
+    "title": "元素-01"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-02.png",
     "hasDescription": true,
-    "title": "元素-02",
-    "description": "an avant-garde couture summer mini dress inspired by the moment fire flames bloom and twist into the air"
+    "title": "元素-02"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-03.png",
     "hasDescription": true,
-    "title": "元素-03",
-    "description": "an avant-garde couture summer mini dress inspired by the moment soft lightning clouds bloom and twist into the air"
+    "title": "元素-03"
   },
   {
     "category": "元素",
@@ -2149,6 +2137,7 @@ window.__GALLERY_IMAGES__ = [
     "category": "日常",
     "src": "images/日常/日常-44.png",
     "hasDescription": true,
-    "title": "日常-44"
+    "title": "日常-44",
+    "description": "a shirt and a skirt"
   }
 ];
