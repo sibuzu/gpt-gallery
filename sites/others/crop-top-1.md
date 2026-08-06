@@ -1,0 +1,1 @@
+off shoulder white chiffon crop top, lace trim, ribbon bow, sheer puffy sleeves,  leather mini skirt
