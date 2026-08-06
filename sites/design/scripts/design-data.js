@@ -887,277 +887,323 @@ window.__GALLERY_IMAGES__ = [
     "category": "線舞",
     "src": "images/線舞/線舞-02.png",
     "hasDescription": true,
-    "title": "線舞-02"
+    "title": "線舞-02",
+    "description": "[iridescent thread mini outfit]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-03.png",
     "hasDescription": true,
-    "title": "線舞-03"
+    "title": "線舞-03",
+    "description": "[metallic thread couture dress]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-04.png",
     "hasDescription": true,
-    "title": "線舞-04"
+    "title": "線舞-04",
+    "description": "[silk thread petal mini dress]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-05.png",
     "hasDescription": true,
-    "title": "線舞-05"
+    "title": "線舞-05",
+    "description": "[spiraling silk thread mini outfit]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-06.png",
     "hasDescription": true,
-    "title": "線舞-06"
+    "title": "線舞-06",
+    "description": "[silk ribbon stripe mini outfit]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-07.png",
     "hasDescription": true,
-    "title": "線舞-07"
+    "title": "線舞-07",
+    "description": "[summer dress with translucent fabric stripes]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-08.png",
     "hasDescription": true,
-    "title": "線舞-08"
+    "title": "線舞-08",
+    "description": "[resort-inspired mini dress with curved silk stripes]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-09.png",
     "hasDescription": true,
-    "title": "線舞-09"
+    "title": "線舞-09",
+    "description": "[couture outfit with sculptural satin stripes]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-10.png",
     "hasDescription": true,
-    "title": "線舞-10"
+    "title": "線舞-10",
+    "description": "[mini dress with floating organza stripes]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-11.png",
     "hasDescription": true,
-    "title": "線舞-11"
+    "title": "線舞-11",
+    "description": "[summer outfit with layered translucent chiffon bands]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-12.png",
     "hasDescription": true,
-    "title": "線舞-12"
+    "title": "線舞-12",
+    "description": "[mini dress with silk chiffon stripes]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-13.png",
     "hasDescription": true,
-    "title": "線舞-13"
+    "title": "線舞-13",
+    "description": "[architectural mini dress with curved organza stripes]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-14.png",
     "hasDescription": true,
-    "title": "線舞-14"
+    "title": "線舞-14",
+    "description": "[mini outfit with petal-like sheer ribbon stripes]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-15.png",
     "hasDescription": true,
-    "title": "線舞-15"
+    "title": "線舞-15",
+    "description": "[organza stripe mini dress with floating silk threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-16.png",
     "hasDescription": true,
-    "title": "線舞-16"
+    "title": "線舞-16",
+    "description": "[couture outfit with chiffon stripes and iridescent silk threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-17.png",
     "hasDescription": true,
-    "title": "線舞-17"
+    "title": "線舞-17",
+    "description": "[mini outfit with sheer ribbon stripes and floating silk threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-18.png",
     "hasDescription": true,
-    "title": "線舞-18"
+    "title": "線舞-18",
+    "description": "[mini dress with spiraling sheer stripes and silk threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-19.png",
     "hasDescription": true,
-    "title": "線舞-19"
+    "title": "線舞-19",
+    "description": "[organza stripe mini dress with light-trail silk threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-20.png",
     "hasDescription": true,
-    "title": "線舞-20"
+    "title": "線舞-20",
+    "description": "[mini dress with organza stripes and translucent flower petals]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-21.png",
     "hasDescription": true,
-    "title": "線舞-21"
+    "title": "線舞-21",
+    "description": "[mini outfit with chiffon stripes and iridescent flower petals]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-22.png",
     "hasDescription": true,
-    "title": "線舞-22"
+    "title": "線舞-22",
+    "description": "[mini dress with silk threads and miniature flower petals]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-23.png",
     "hasDescription": true,
-    "title": "線舞-23"
+    "title": "線舞-23",
+    "description": "[asymmetric mini dress with silk threads and translucent flower petals]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-24.png",
     "hasDescription": true,
-    "title": "線舞-24"
+    "title": "線舞-24",
+    "description": "[mini dress with sculptural thread ribbons and organza petals]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-25.png",
     "hasDescription": true,
-    "title": "線舞-25"
+    "title": "線舞-25",
+    "description": "[asymmetric mini dress with contouring silk threads and organza petals]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-26.png",
     "hasDescription": true,
-    "title": "線舞-26"
+    "title": "線舞-26",
+    "description": "[mini dress with water-wave silk threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-27.png",
     "hasDescription": true,
-    "title": "線舞-27"
+    "title": "線舞-27",
+    "description": "[mini outfit with star-trail luminous silk threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-28.png",
     "hasDescription": true,
-    "title": "線舞-28"
+    "title": "線舞-28",
+    "description": "[couture dress with silk threads and mist-like fiber veils]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-29.png",
     "hasDescription": true,
-    "title": "線舞-29"
+    "title": "線舞-29",
+    "description": "[asymmetric mini dress with floral thread lace]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-30.png",
     "hasDescription": true,
-    "title": "線舞-30"
+    "title": "線舞-30",
+    "description": "[mini outfit with calligraphic metallic silk threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-31.png",
     "hasDescription": true,
-    "title": "線舞-31"
+    "title": "線舞-31",
+    "description": "[mini dress with layered crystal petals]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-32.png",
     "hasDescription": true,
-    "title": "線舞-32"
+    "title": "線舞-32",
+    "description": "[asymmetric mini dress with silk threads and crystal petals]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-33.png",
     "hasDescription": true,
-    "title": "線舞-33"
+    "title": "線舞-33",
+    "description": "[mini dress with cascading moonlit thread veils]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-34.png",
     "hasDescription": true,
-    "title": "線舞-34"
+    "title": "線舞-34",
+    "description": "[asymmetric mini outfit with floating ribbon-like threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-35.png",
     "hasDescription": true,
-    "title": "線舞-35"
+    "title": "線舞-35",
+    "description": "[mini dress with silver threads and transparent veil fibers]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-36.png",
     "hasDescription": true,
-    "title": "線舞-36"
+    "title": "線舞-36",
+    "description": "[mini dress with cloud-and-wave silk threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-37.png",
     "hasDescription": true,
-    "title": "線舞-37"
+    "title": "線舞-37",
+    "description": "[mini outfit with glowing fiber strands and crystal petals]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-38.png",
     "hasDescription": true,
-    "title": "線舞-38"
+    "title": "線舞-38",
+    "description": "[mini dress with glowing dawn-mist silk threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-39.png",
     "hasDescription": true,
-    "title": "線舞-39"
+    "title": "線舞-39",
+    "description": "[asymmetric mini outfit with cloud-ribbon silk threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-40.png",
     "hasDescription": true,
-    "title": "線舞-40"
+    "title": "線舞-40",
+    "description": "[mini dress with starlight threads and transparent fiber veils]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-41.png",
     "hasDescription": true,
-    "title": "線舞-41"
+    "title": "線舞-41",
+    "description": "[mini dress with silk threads and petal-shaped fiber loops]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-42.png",
     "hasDescription": true,
-    "title": "線舞-42"
+    "title": "線舞-42",
+    "description": "[mini outfit with moon-silver threads and gauze fibers]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-43.png",
     "hasDescription": true,
-    "title": "線舞-43"
+    "title": "線舞-43",
+    "description": "[mini outfit with moon-silver stripes and gauze fibers]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-44.png",
     "hasDescription": true,
-    "title": "線舞-44"
+    "title": "線舞-44",
+    "description": "[asymmetric mini outfit with floating ribbon-like threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-45.png",
     "hasDescription": true,
-    "title": "線舞-45"
+    "title": "線舞-45",
+    "description": "[asymmetric mini outfit with floating ribbon-like threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-46.png",
     "hasDescription": true,
-    "title": "線舞-46"
+    "title": "線舞-46",
+    "description": "[bandeau mini dress with organza stripes and silk threads]"
   },
   {
     "category": "線舞",
     "src": "images/線舞/線舞-47.png",
     "hasDescription": true,
-    "title": "線舞-47"
+    "title": "線舞-47",
+    "description": "[mini outfit with silk thread ribbons and petal-trimmed wrap skirt]"
   },
   {
     "category": "元素",

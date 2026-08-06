@@ -1032,6 +1032,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "中式庭園b-07"
   },
   {
+    "category": "日常",
+    "src": "images/日常/制服.png",
+    "hasDescription": true,
+    "title": "制服"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/透明PVCa-09.png",
     "hasDescription": false,
@@ -2832,6 +2838,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "地板a-06"
   },
   {
+    "category": "Dress",
+    "src": "images/Dress/短裙p-01.png",
+    "hasDescription": true,
+    "title": "短裙p-01"
+  },
+  {
     "category": "日常",
     "src": "images/日常/img-20260719-202311.png",
     "hasDescription": false,
@@ -3616,6 +3628,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/襯杉b-01.png",
     "hasDescription": true,
     "title": "襯杉b-01"
+  },
+  {
+    "category": "Dress",
+    "src": "images/Dress/海洋a-01.png",
+    "hasDescription": true,
+    "title": "海洋a-01"
   },
   {
     "category": "Folk",
