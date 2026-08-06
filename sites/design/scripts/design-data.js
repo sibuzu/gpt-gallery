@@ -1789,42 +1789,42 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-31.png",
     "hasDescription": true,
     "title": "民族-31",
-    "description": "[Baiana-inspired off-shoulder mini dress with chiffon skirt]"
+    "description": "a Grecian dress"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-32.png",
     "hasDescription": true,
     "title": "民族-32",
-    "description": "a Grecian dress"
+    "description": "a goddess dress"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-33.png",
     "hasDescription": true,
     "title": "民族-33",
-    "description": "a goddess dress"
+    "description": "an ancient Aegean drapery"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-34.png",
     "hasDescription": true,
     "title": "民族-34",
-    "description": "an ancient Aegean drapery"
+    "description": "a Peplos"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-35.png",
     "hasDescription": true,
     "title": "民族-35",
-    "description": "a Peplos"
+    "description": "[one-shoulder Grecian mini dress with layered chiffon skirt]"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-36.png",
     "hasDescription": true,
     "title": "民族-36",
-    "description": "[one-shoulder Grecian mini dress with layered chiffon skirt]"
+    "description": "[Greek-inspired halter mini dress with chiffon skirt]"
   },
   {
     "category": "民族",
@@ -1852,42 +1852,42 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-40.png",
     "hasDescription": true,
     "title": "民族-40",
-    "description": "[Greek-inspired halter mini dress with chiffon skirt]"
+    "description": "a Priest robes"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-41.png",
     "hasDescription": true,
     "title": "民族-41",
-    "description": "a Priest robes"
+    "description": "a ceremonial robes"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-42.png",
     "hasDescription": true,
     "title": "民族-42",
-    "description": "a ceremonial robes"
+    "description": "a Bunad"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-43.png",
     "hasDescription": true,
     "title": "民族-43",
-    "description": "a Bunad"
+    "description": "[Bunad-inspired camisole mini dress with organza apron skirt]"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-44.png",
     "hasDescription": true,
     "title": "民族-44",
-    "description": "[Bunad-inspired camisole mini dress with organza apron skirt]"
+    "description": "a Sverigedräkt"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-45.png",
     "hasDescription": true,
     "title": "民族-45",
-    "description": "a Sverigedräkt"
+    "description": "[Swedish-inspired eyelet mini dress with wrap organza skirt]"
   },
   {
     "category": "民族",
@@ -1936,112 +1936,112 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-52.png",
     "hasDescription": true,
     "title": "民族-52",
-    "description": "an ancient Egyptian kalasiris"
+    "description": "a tartan dress"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-53.png",
     "hasDescription": true,
     "title": "民族-53",
-    "description": "a China Poblana"
+    "description": "a Scottish arisaid"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-54.png",
     "hasDescription": true,
     "title": "民族-54",
-    "description": "a Tehuana"
+    "description": "[Scottish-inspired corset crop top with wrap mini skirt]"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-55.png",
     "hasDescription": true,
     "title": "民族-55",
-    "description": "a bindallı"
+    "description": "a flamenco dress"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-56.png",
     "hasDescription": true,
     "title": "民族-56",
-    "description": "a kalasiris"
+    "description": "[flamenco-inspired corset mini dress with ruffled organza skirt]"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-57.png",
     "hasDescription": true,
     "title": "民族-57",
-    "description": "a pollera"
+    "description": "a China Poblana"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-58.png",
     "hasDescription": true,
     "title": "民族-58",
-    "description": "[Pollera-inspired lace crop top with layered mini skirt]"
+    "description": "a Tehuana"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-59.png",
     "hasDescription": true,
     "title": "民族-59",
-    "description": "a flamenco dress"
+    "description": "[Mexico-inspired embroidered crop top with chiffon mini skirt]"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-60.png",
     "hasDescription": true,
     "title": "民族-60",
-    "description": "[Andean-inspired sweetheart mini dress with pleated chiffon skirt]"
+    "description": "a pollera"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-61.png",
     "hasDescription": true,
     "title": "民族-61",
-    "description": "a Polynesian pareo"
+    "description": "[Pollera-inspired lace crop top with layered mini skirt]"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-62.png",
     "hasDescription": true,
     "title": "民族-62",
-    "description": "[Cholita-inspired off-shoulder blouse with layered mini skirt]"
+    "description": "[Andean-inspired sweetheart mini dress with pleated chiffon skirt]"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-63.png",
     "hasDescription": true,
     "title": "民族-63",
-    "description": "[flamenco-inspired corset mini dress with ruffled organza skirt]"
+    "description": "[Cholita-inspired off-shoulder blouse with layered mini skirt]"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-64.png",
     "hasDescription": true,
     "title": "民族-64",
-    "description": "[Amazigh-inspired jeweled mini dress with wrap chiffon skirt]"
+    "description": "[Baiana-inspired off-shoulder mini dress with chiffon skirt]"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-65.png",
     "hasDescription": true,
     "title": "民族-65",
-    "description": "a Moroccan kaftan"
+    "description": "[Amazigh-inspired jeweled mini dress with wrap chiffon skirt]"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-66.png",
     "hasDescription": true,
     "title": "民族-66",
-    "description": "a tartan dress"
+    "description": "a Moroccan kaftan"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-67.png",
     "hasDescription": true,
     "title": "民族-67",
-    "description": "[Egyptian-inspired bandeau mini dress with pleated linen skirt]"
+    "description": "a bindallı"
   },
   {
     "category": "民族",
@@ -2055,35 +2055,35 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-69.png",
     "hasDescription": true,
     "title": "民族-69",
-    "description": "[Mexico-inspired embroidered crop top with chiffon mini skirt]"
+    "description": "a Polynesian pareo"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-70.png",
     "hasDescription": true,
     "title": "民族-70",
-    "description": "a Scottish arisaid"
+    "description": "[Polynesian-inspired bandeau mini dress with pareo wrap skirt]"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-71.png",
     "hasDescription": true,
     "title": "民族-71",
-    "description": "[Scottish-inspired corset crop top with wrap mini skirt]"
+    "description": "an ancient Egyptian kalasiris"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-72.png",
     "hasDescription": true,
     "title": "民族-72",
-    "description": "[Swedish-inspired eyelet mini dress with wrap organza skirt]"
+    "description": "a kalasiris"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-73.png",
     "hasDescription": true,
     "title": "民族-73",
-    "description": "[Polynesian-inspired bandeau mini dress with pareo wrap skirt]"
+    "description": "[Egyptian-inspired bandeau mini dress with pleated linen skirt]"
   },
   {
     "category": "日常",
