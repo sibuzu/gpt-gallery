@@ -325,7 +325,8 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-47.png",
     "hasDescription": true,
-    "title": "現代-47"
+    "title": "現代-47",
+    "description": "[preppy V-neck blouse with miniskirt]"
   },
   {
     "category": "雲紗",
