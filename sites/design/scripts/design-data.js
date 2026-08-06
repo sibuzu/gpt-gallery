@@ -3,27 +3,28 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-01.png",
     "hasDescription": true,
-    "title": "現代-01"
+    "title": "現代-01",
+    "description": "a ultra-lightweight light blue micro-mini Kimono dress"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-02.png",
     "hasDescription": true,
     "title": "現代-02",
-    "description": "wearing a pastel pink floral fantasy bodysuit with embroidered lace."
+    "description": "a pastel pink floral fantasy bodysuit with embroidered lace"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-03.png",
     "hasDescription": true,
-    "title": "現代-03",
-    "description": "wearing a ultra-lightweight light blue micro-mini Kimono dress."
+    "title": "現代-03"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-04.png",
     "hasDescription": true,
-    "title": "現代-04"
+    "title": "現代-04",
+    "description": "[white lace dress with sheer chiffon skirt]"
   },
   {
     "category": "現代",
@@ -826,7 +827,8 @@ window.__GALLERY_IMAGES__ = [
     "category": "線舞",
     "src": "images/線舞/線舞-01.png",
     "hasDescription": true,
-    "title": "線舞-01"
+    "title": "線舞-01",
+    "description": "[floating silk thread couture mini outfit]"
   },
   {
     "category": "線舞",
