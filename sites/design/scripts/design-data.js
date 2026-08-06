@@ -3,7 +3,8 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-01.png",
     "hasDescription": true,
-    "title": "現代-01"
+    "title": "現代-01",
+    "description": "[cropped camisole with gathered mini skirt]"
   },
   {
     "category": "現代",
@@ -16,7 +17,8 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-03.png",
     "hasDescription": true,
-    "title": "現代-03"
+    "title": "現代-03",
+    "description": "[micro mini cheongsam with halter neckline]"
   },
   {
     "category": "現代",
@@ -36,38 +38,43 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-06.png",
     "hasDescription": true,
-    "title": "現代-06"
+    "title": "現代-06",
+    "description": "[apron-inspired linen halter mini outfit]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-07.png",
     "hasDescription": true,
-    "title": "現代-07"
+    "title": "現代-07",
+    "description": "[embroidered short dress with red floral details]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-08.png",
     "hasDescription": true,
     "title": "現代-08",
-    "description": "an off-the-shoulder, sleeveless, wide neckline, embroidered lace pink shirt and embroidered lace micro mini skirt"
+    "description": "[off-shoulder lace shirt with micro mini skirt]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-09.png",
     "hasDescription": true,
-    "title": "現代-09"
+    "title": "現代-09",
+    "description": "[halter crop top with ruffled mini wrap skirt]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-10.png",
     "hasDescription": true,
-    "title": "現代-10"
+    "title": "現代-10",
+    "description": "[chiffon beach dress with plunging neckline]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-11.png",
     "hasDescription": true,
-    "title": "現代-11"
+    "title": "現代-11",
+    "description": "[off-shoulder crop top with side-tie bikini bottoms]"
   },
   {
     "category": "現代",
@@ -80,205 +87,239 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-13.png",
     "hasDescription": true,
-    "title": "現代-13"
+    "title": "現代-13",
+    "description": "[off-shoulder couture mini dress with plunging neckline]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-14.png",
     "hasDescription": true,
-    "title": "現代-14"
+    "title": "現代-14",
+    "description": "[snowflake-inspired crystalline lace couture dress]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-15.png",
     "hasDescription": true,
-    "title": "現代-15"
+    "title": "現代-15",
+    "description": "[micro mini dress made of milk]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-16.png",
     "hasDescription": true,
-    "title": "現代-16"
+    "title": "現代-16",
+    "description": "[wagasa-inspired evening mini dress]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-17.png",
     "hasDescription": true,
-    "title": "現代-17"
+    "title": "現代-17",
+    "description": "[wagasa-inspired evening mini dress]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-18.png",
     "hasDescription": true,
-    "title": "現代-18"
+    "title": "現代-18",
+    "description": "[athletic tank top with retro running shorts]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-19.png",
     "hasDescription": true,
-    "title": "現代-19"
+    "title": "現代-19",
+    "description": "[micro mini cheongsam with halter neckline]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-20.png",
     "hasDescription": true,
-    "title": "現代-20"
+    "title": "現代-20",
+    "description": "[triangle string bikini with ruffled trim]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-21.png",
     "hasDescription": true,
-    "title": "現代-21"
+    "title": "現代-21",
+    "description": "[sailor-inspired crop top with pleated mini skirt]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-22.png",
     "hasDescription": true,
-    "title": "現代-22"
+    "title": "現代-22",
+    "description": "[divine chiffon gown with sheer sleeves]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-23.png",
     "hasDescription": true,
-    "title": "現代-23"
+    "title": "現代-23",
+    "description": "[lace balconette bra with matching briefs]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-24.png",
     "hasDescription": true,
-    "title": "現代-24"
+    "title": "現代-24",
+    "description": "[rainbow-dyed white dress]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-25.png",
     "hasDescription": true,
-    "title": "現代-25"
+    "title": "現代-25",
+    "description": "[divine chiffon mini dress with gold embroidery]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-26.png",
     "hasDescription": true,
-    "title": "現代-26"
+    "title": "現代-26",
+    "description": "[kimono-inspired off-shoulder mini dress]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-27.png",
     "hasDescription": true,
-    "title": "現代-27"
+    "title": "現代-27",
+    "description": "[floral fantasy mini dress with lace]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-28.png",
     "hasDescription": true,
-    "title": "現代-28"
+    "title": "現代-28",
+    "description": "[kimono-inspired micro mini dress]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-29.png",
     "hasDescription": true,
-    "title": "現代-29"
+    "title": "現代-29",
+    "description": "[kimono-inspired micro mini dress]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-30.png",
     "hasDescription": true,
-    "title": "現代-30"
+    "title": "現代-30",
+    "description": "[football fan crop top with pleated micro skirt]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-31.png",
     "hasDescription": true,
-    "title": "現代-31"
+    "title": "現代-31",
+    "description": "[silk crop top with tie-side bikini bottoms]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-32.png",
     "hasDescription": true,
-    "title": "現代-32"
+    "title": "現代-32",
+    "description": "[off-shoulder crop top with high-cut mini skirt]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-33.png",
     "hasDescription": true,
-    "title": "現代-33"
+    "title": "現代-33",
+    "description": "[floral micro mini cheongsam with halter neckline]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-34.png",
     "hasDescription": true,
-    "title": "現代-34"
+    "title": "現代-34",
+    "description": "[organza halter crop top with layered chiffon mini skirt]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-35.png",
     "hasDescription": true,
-    "title": "現代-35"
+    "title": "現代-35",
+    "description": "[ribbed-knit sleeveless bodysuit with high-cut hips]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-36.png",
     "hasDescription": true,
-    "title": "現代-36"
+    "title": "現代-36",
+    "description": "[cutout bodice with satin mini skirt and sheer tulle]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-37.png",
     "hasDescription": true,
-    "title": "現代-37"
+    "title": "現代-37",
+    "description": "[one-shoulder chiffon mini dress with ruffled sleeves]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-38.png",
     "hasDescription": true,
-    "title": "現代-38"
+    "title": "現代-38",
+    "description": "[bohemian wrap-front mini dress with waist cutouts]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-39.png",
     "hasDescription": true,
-    "title": "現代-39"
+    "title": "現代-39",
+    "description": "[crystal royal mini dress with off-shoulder bodice]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-40.png",
     "hasDescription": true,
-    "title": "現代-40"
+    "title": "現代-40",
+    "description": "[chiffon beach mini dress with plunging neckline]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-41.png",
     "hasDescription": true,
-    "title": "現代-41"
+    "title": "現代-41",
+    "description": "[Japanese maid-inspired top with apron mini skirt]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-42.png",
     "hasDescription": true,
-    "title": "現代-42"
+    "title": "現代-42",
+    "description": "[ruffled halter bikini with chiffon beach cover-up]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-43.png",
     "hasDescription": true,
-    "title": "現代-43"
+    "title": "現代-43",
+    "description": "[baroque embroidered mini dress with sheer sleeves]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-44.png",
     "hasDescription": true,
-    "title": "現代-44"
+    "title": "現代-44",
+    "description": "[silk mini dress with openwork side panels]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-45.png",
     "hasDescription": true,
-    "title": "現代-45"
+    "title": "現代-45",
+    "description": "[off-shoulder crop top with side-tie mini skirt]"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-46.png",
     "hasDescription": true,
-    "title": "現代-46"
+    "title": "現代-46",
+    "description": "[cropped bolero with corset bralette and organza mini skirt]"
   },
   {
     "category": "現代",
