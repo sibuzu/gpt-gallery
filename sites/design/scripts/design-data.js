@@ -1471,79 +1471,92 @@ window.__GALLERY_IMAGES__ = [
     "category": "民族",
     "src": "images/民族/民族-10.png",
     "hasDescription": true,
-    "title": "民族-10"
+    "title": "民族-10",
+    "description": "a dirndl"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-11.png",
     "hasDescription": true,
-    "title": "民族-11"
+    "title": "民族-11",
+    "description": "a yukata"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-12.png",
     "hasDescription": true,
-    "title": "民族-12"
+    "title": "民族-12",
+    "description": "a vyshyvanka"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-13.png",
     "hasDescription": true,
-    "title": "民族-13"
+    "title": "民族-13",
+    "description": "a Áo dài"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-14.png",
     "hasDescription": true,
-    "title": "民族-14"
+    "title": "民族-14",
+    "description": "a China Poblana"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-15.png",
     "hasDescription": true,
-    "title": "民族-15"
+    "title": "民族-15",
+    "description": "a Tehuana"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-16.png",
     "hasDescription": true,
-    "title": "民族-16"
+    "title": "民族-16",
+    "description": "a pollera"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-17.png",
     "hasDescription": true,
-    "title": "民族-17"
+    "title": "民族-17",
+    "description": "Bolivian cholita attire"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-18.png",
     "hasDescription": true,
-    "title": "民族-18"
+    "title": "民族-18",
+    "description": "a Baiana attire"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-19.png",
     "hasDescription": true,
-    "title": "民族-19"
+    "title": "民族-19",
+    "description": "a Grecian dress"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-20.png",
     "hasDescription": true,
-    "title": "民族-20"
+    "title": "民族-20",
+    "description": "an ancient Aegean drapery"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-21.png",
     "hasDescription": true,
-    "title": "民族-21"
+    "title": "民族-21",
+    "description": "a Minoan priestess attire"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-22.png",
     "hasDescription": true,
-    "title": "民族-22"
+    "title": "民族-22",
+    "description": "a Peplos"
   },
   {
     "category": "民族",
@@ -1562,6 +1575,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-25.png",
     "hasDescription": true,
     "title": "民族-25"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-26.png",
+    "hasDescription": true,
+    "title": "民族-26"
   },
   {
     "category": "民族",
@@ -1687,8 +1706,73 @@ window.__GALLERY_IMAGES__ = [
     "category": "民族",
     "src": "images/民族/民族-47.png",
     "hasDescription": true,
-    "title": "民族-47",
-    "description": "a yukata"
+    "title": "民族-47"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-48.png",
+    "hasDescription": true,
+    "title": "民族-48"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-49.png",
+    "hasDescription": true,
+    "title": "民族-49"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-50.png",
+    "hasDescription": true,
+    "title": "民族-50"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-51.png",
+    "hasDescription": true,
+    "title": "民族-51"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-52.png",
+    "hasDescription": true,
+    "title": "民族-52"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-53.png",
+    "hasDescription": true,
+    "title": "民族-53"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-54.png",
+    "hasDescription": true,
+    "title": "民族-54"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-55.png",
+    "hasDescription": true,
+    "title": "民族-55"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-56.png",
+    "hasDescription": true,
+    "title": "民族-56"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-57.png",
+    "hasDescription": true,
+    "title": "民族-57"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-58.png",
+    "hasDescription": true,
+    "title": "民族-58"
   },
   {
     "category": "日常",
