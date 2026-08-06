@@ -1612,7 +1612,7 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-30.png",
     "hasDescription": true,
     "title": "民族-30",
-    "description": "a kalasiris"
+    "description": "a Scottish arisaid"
   },
   {
     "category": "民族",
@@ -1626,7 +1626,7 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-32.png",
     "hasDescription": true,
     "title": "民族-32",
-    "description": "a Scottish arisaid"
+    "description": "a kalasiris"
   },
   {
     "category": "民族",
