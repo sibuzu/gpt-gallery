@@ -355,6 +355,9 @@ def single_line_description_for(path: Path) -> str | None:
         for line in description_path.read_text(encoding="utf-8").splitlines()
         if line.strip()
     ]
+    if lines and lines[0].startswith("[") and lines[0].endswith("]"):
+        return lines[0]
+
     if len(lines) != 1:
         return None
 
@@ -367,6 +370,8 @@ def single_line_description_for(path: Path) -> str | None:
     if text.startswith("She is wearing "):
         text = text.removeprefix("She is wearing ")
         text = text.removesuffix(".")
+    if len(text.split()) > 15:
+        return None
     return text or None
 
 
