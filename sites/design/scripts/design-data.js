@@ -329,6 +329,13 @@ window.__GALLERY_IMAGES__ = [
     "description": "[preppy V-neck blouse with miniskirt]"
   },
   {
+    "category": "現代",
+    "src": "images/現代/現代-48.png",
+    "hasDescription": true,
+    "title": "現代-48",
+    "description": "a ruffled halter bikini"
+  },
+  {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
