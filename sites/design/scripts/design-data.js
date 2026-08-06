@@ -1177,277 +1177,323 @@ window.__GALLERY_IMAGES__ = [
     "category": "元素",
     "src": "images/元素/元素-03.png",
     "hasDescription": true,
-    "title": "元素-03"
+    "title": "元素-03",
+    "description": "[lightning cloud-inspired mini dress]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-04.png",
     "hasDescription": true,
-    "title": "元素-04"
+    "title": "元素-04",
+    "description": "[wind and steam-inspired mini dress]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-05.png",
     "hasDescription": true,
-    "title": "元素-05"
+    "title": "元素-05",
+    "description": "[liquid crystal mini dress with flower petals]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-06.png",
     "hasDescription": true,
-    "title": "元素-06"
+    "title": "元素-06",
+    "description": "[ice shard mini outfit with blue flame accents]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-07.png",
     "hasDescription": true,
-    "title": "元素-07"
+    "title": "元素-07",
+    "description": "[liquid milk mini dress with flower petals]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-08.png",
     "hasDescription": true,
-    "title": "元素-08"
+    "title": "元素-08",
+    "description": "[wind current mini dress with flower petals and light trails]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-09.png",
     "hasDescription": true,
-    "title": "元素-09"
+    "title": "元素-09",
+    "description": "[natural element mini dress with water, crystal, petals, and light]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-10.png",
     "hasDescription": true,
-    "title": "元素-10"
+    "title": "元素-10",
+    "description": "[lightning ribbon mini dress with organza layers]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-11.png",
     "hasDescription": true,
-    "title": "元素-11"
+    "title": "元素-11",
+    "description": "[molten glass mini dress with flower petals]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-12.png",
     "hasDescription": true,
-    "title": "元素-12"
+    "title": "元素-12",
+    "description": "[ocean water mini dress with shells and coral petals]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-13.png",
     "hasDescription": true,
-    "title": "元素-13"
+    "title": "元素-13",
+    "description": "[golden flame mini outfit with flower petals]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-14.png",
     "hasDescription": true,
-    "title": "元素-14"
+    "title": "元素-14",
+    "description": "[crystal rain mini dress with prism panels and refracted light]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-15.png",
     "hasDescription": true,
-    "title": "元素-15"
+    "title": "元素-15",
+    "description": "[ice shard mini outfit with red flame accents]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-16.png",
     "hasDescription": true,
-    "title": "元素-16"
+    "title": "元素-16",
+    "description": "[aurora light mini dress with stardust and chiffon skirt]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-17.png",
     "hasDescription": true,
-    "title": "元素-17"
+    "title": "元素-17",
+    "description": "[butterfly wing mini dress with petals and dewdrops]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-18.png",
     "hasDescription": true,
-    "title": "元素-18"
+    "title": "元素-18",
+    "description": "[golden honey mini dress with amber and flower petals]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-19.png",
     "hasDescription": true,
-    "title": "元素-19"
+    "title": "元素-19",
+    "description": "[obsidian mini dress with liquid gold and black mist]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-20.png",
     "hasDescription": true,
-    "title": "元素-20"
+    "title": "元素-20",
+    "description": "[moonlit sand mini dress with mother-of-pearl mica]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-21.png",
     "hasDescription": true,
-    "title": "元素-21"
+    "title": "元素-21",
+    "description": "[emerald gemstone mini dress with vines and organza skirt]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-22.png",
     "hasDescription": true,
-    "title": "元素-22"
+    "title": "元素-22",
+    "description": "[jellyfish-inspired mini dress with sea glass panels]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-23.png",
     "hasDescription": true,
-    "title": "元素-23"
+    "title": "元素-23",
+    "description": "[frost crystal mini dress with rose petals]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-24.png",
     "hasDescription": true,
-    "title": "元素-24"
+    "title": "元素-24",
+    "description": "[ferrofluid mini dress with liquid silver and mist]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-25.png",
     "hasDescription": true,
-    "title": "元素-25"
+    "title": "元素-25",
+    "description": "[flowing water mini dress with moonlight]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-26.png",
     "hasDescription": true,
-    "title": "元素-26"
+    "title": "元素-26",
+    "description": "[obsidian mini outfit with translucent mist skirt]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-27.png",
     "hasDescription": true,
-    "title": "元素-27"
+    "title": "元素-27",
+    "description": "[firelight mini dress with rose petals]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-28.png",
     "hasDescription": true,
-    "title": "元素-28"
+    "title": "元素-28",
+    "description": "[emerald leaf mini dress with crystal dew]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-29.png",
     "hasDescription": true,
-    "title": "元素-29"
+    "title": "元素-29",
+    "description": "[liquid silver mini outfit with air current skirt]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-30.png",
     "hasDescription": true,
-    "title": "元素-30"
+    "title": "元素-30",
+    "description": "[ice lace mini dress with aurora ribbons]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-31.png",
     "hasDescription": true,
-    "title": "元素-31"
+    "title": "元素-31",
+    "description": "[sunlight and desert sand mini outfit]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-32.png",
     "hasDescription": true,
-    "title": "元素-32"
+    "title": "元素-32",
+    "description": "[rose salt crystal mini dress with sunset light]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-33.png",
     "hasDescription": true,
-    "title": "元素-33"
+    "title": "元素-33",
+    "description": "[iridescent glass mini outfit with electric light]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-34.png",
     "hasDescription": true,
-    "title": "元素-34"
+    "title": "元素-34",
+    "description": "[iridescent glass mini outfit with electric light]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-35.png",
     "hasDescription": true,
-    "title": "元素-35"
+    "title": "元素-35",
+    "description": "[magnetic black sand mini outfit with liquid platinum]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-36.png",
     "hasDescription": true,
-    "title": "元素-36"
+    "title": "元素-36",
+    "description": "[feather mini dress with crystal rain]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-37.png",
     "hasDescription": true,
-    "title": "元素-37"
+    "title": "元素-37",
+    "description": "[jade vine mini dress with golden fire]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-38.png",
     "hasDescription": true,
-    "title": "元素-38"
+    "title": "元素-38",
+    "description": "[moonlit water mini dress with pearl foam]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-39.png",
     "hasDescription": true,
-    "title": "元素-39"
+    "title": "元素-39",
+    "description": "[aurora silk mini outfit with crystal mist skirt]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-40.png",
     "hasDescription": true,
-    "title": "元素-40"
+    "title": "元素-40",
+    "description": "[glass petal mini dress with flower wind]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-41.png",
     "hasDescription": true,
-    "title": "元素-41"
+    "title": "元素-41",
+    "description": "[starlight mini dress with silver sand skirt]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-42.png",
     "hasDescription": true,
-    "title": "元素-42"
+    "title": "元素-42",
+    "description": "[jade mist mini outfit with dew crystals]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-43.png",
     "hasDescription": true,
-    "title": "元素-43"
+    "title": "元素-43",
+    "description": "[forest elf-inspired mini dress with leaf bodice]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-44.png",
     "hasDescription": true,
-    "title": "元素-44"
+    "title": "元素-44",
+    "description": "[crystal fairy-inspired mini dress with petal chiffon skirt]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-45.png",
     "hasDescription": true,
-    "title": "元素-45"
+    "title": "元素-45",
+    "description": "[enchanted woodland mini outfit with vine bodice and organza skirt]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-46.png",
     "hasDescription": true,
-    "title": "元素-46"
+    "title": "元素-46",
+    "description": "[celestial dryad-inspired mini dress with flower petals]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-47.png",
     "hasDescription": true,
-    "title": "元素-47"
+    "title": "元素-47",
+    "description": "[milk flow-inspired dress with organza and chiffon]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-48.png",
     "hasDescription": true,
-    "title": "元素-48"
+    "title": "元素-48",
+    "description": "[flowing water gown with liquid crystal]"
   },
   {
     "category": "民族",
