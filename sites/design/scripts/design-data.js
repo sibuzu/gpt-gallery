@@ -1521,14 +1521,14 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-17.png",
     "hasDescription": true,
     "title": "民族-17",
-    "description": "Bolivian cholita attire"
+    "description": "a flamenco dress"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-18.png",
     "hasDescription": true,
     "title": "民族-18",
-    "description": "a Baiana attire"
+    "description": "a lehenga choli"
   },
   {
     "category": "民族",
@@ -1773,6 +1773,41 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-58.png",
     "hasDescription": true,
     "title": "民族-58"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-59.png",
+    "hasDescription": true,
+    "title": "民族-59",
+    "description": "a Moroccan kaftan"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-60.png",
+    "hasDescription": true,
+    "title": "民族-60",
+    "description": "a Chut Thai"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-61.png",
+    "hasDescription": true,
+    "title": "民族-61",
+    "description": "a kebaya"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-62.png",
+    "hasDescription": true,
+    "title": "民族-62",
+    "description": "a Polynesian pareo"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-63.png",
+    "hasDescription": true,
+    "title": "民族-63",
+    "description": "a Sverigedräkt"
   },
   {
     "category": "日常",
