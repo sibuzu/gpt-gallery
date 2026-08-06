@@ -345,6 +345,21 @@ def title_for(path: Path) -> str:
     return path.stem.removeprefix("ChatGPT Image ").strip()
 
 
+def daily_description_for(path: Path) -> str | None:
+    description_path = path.with_suffix(".md")
+    if path.parent.name != "日常" or not description_path.exists():
+        return None
+
+    lines = [
+        " ".join(line.split())
+        for line in description_path.read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
+    text = lines[0] if lines else ""
+    text = text.removeprefix("She is wearing ")
+    return text or None
+
+
 def category_sort_key(path: Path) -> tuple[int, str]:
     design_values = {
         "現代": 1,
@@ -450,12 +465,16 @@ def scan_design_images() -> list[dict[str, str]]:
 
         for path in files:
             relative_path = path.relative_to(DESIGN_SITE_DIR).as_posix()
-            items.append({
+            item = {
                 "category": category_dir.name,
                 "src": relative_path,
                 "hasDescription": path.with_suffix(".md").exists(),
                 "title": title_for(path),
-            })
+            }
+            description = daily_description_for(path)
+            if description:
+                item["description"] = description
+            items.append(item)
 
     return items
 
