@@ -1457,13 +1457,15 @@ window.__GALLERY_IMAGES__ = [
     "category": "民族",
     "src": "images/民族/民族-08.png",
     "hasDescription": true,
-    "title": "民族-08"
+    "title": "民族-08",
+    "description": "a Bunad"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-09.png",
     "hasDescription": true,
-    "title": "民族-09"
+    "title": "民族-09",
+    "description": "a hanbok"
   },
   {
     "category": "民族",
@@ -1481,8 +1483,7 @@ window.__GALLERY_IMAGES__ = [
     "category": "民族",
     "src": "images/民族/民族-12.png",
     "hasDescription": true,
-    "title": "民族-12",
-    "description": "a hanbok"
+    "title": "民族-12"
   },
   {
     "category": "民族",
@@ -1692,25 +1693,8 @@ window.__GALLERY_IMAGES__ = [
     "category": "民族",
     "src": "images/民族/民族-47.png",
     "hasDescription": true,
-    "title": "民族-47"
-  },
-  {
-    "category": "民族",
-    "src": "images/民族/民族-48.png",
-    "hasDescription": true,
-    "title": "民族-48"
-  },
-  {
-    "category": "民族",
-    "src": "images/民族/民族-49.png",
-    "hasDescription": true,
-    "title": "民族-49"
-  },
-  {
-    "category": "民族",
-    "src": "images/民族/民族-50.png",
-    "hasDescription": true,
-    "title": "民族-50"
+    "title": "民族-47",
+    "description": "a yukata"
   },
   {
     "category": "日常",
