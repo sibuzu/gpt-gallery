@@ -3,8 +3,7 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-01.png",
     "hasDescription": true,
-    "title": "現代-01",
-    "description": "[a blue micro-mini Kimono]"
+    "title": "現代-01"
   },
   {
     "category": "現代",
@@ -74,7 +73,8 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-12.png",
     "hasDescription": true,
-    "title": "現代-12"
+    "title": "現代-12",
+    "description": "[a blue micro-mini Kimono]"
   },
   {
     "category": "現代",
