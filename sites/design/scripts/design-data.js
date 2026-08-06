@@ -415,199 +415,232 @@ window.__GALLERY_IMAGES__ = [
     "category": "雲紗",
     "src": "images/雲紗/雲紗-13.png",
     "hasDescription": true,
-    "title": "雲紗-13"
+    "title": "雲紗-13",
+    "description": "[off-shoulder chiffon crop top with cloud-like organza mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-14.png",
     "hasDescription": true,
-    "title": "雲紗-14"
+    "title": "雲紗-14",
+    "description": "[crystal-inspired crop top with asymmetric chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-15.png",
     "hasDescription": true,
-    "title": "雲紗-15"
+    "title": "雲紗-15",
+    "description": "[Aurora-inspired bandeau top with flowing chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-16.png",
     "hasDescription": true,
-    "title": "雲紗-16"
+    "title": "雲紗-16",
+    "description": "[cloud-sleeve organza crop blouse with layered chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-17.png",
     "hasDescription": true,
-    "title": "雲紗-17"
+    "title": "雲紗-17",
+    "description": "[lotus-inspired mini dress with layered petal bodice and skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-18.png",
     "hasDescription": true,
-    "title": "雲紗-18"
+    "title": "雲紗-18",
+    "description": "[wind-inspired one-shoulder crop top with spiraling chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-19.png",
     "hasDescription": true,
-    "title": "雲紗-19"
+    "title": "雲紗-19",
+    "description": "[feather organza crop top with layered chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-20.png",
     "hasDescription": true,
-    "title": "雲紗-20"
+    "title": "雲紗-20",
+    "description": "[bubble-inspired off-shoulder crop bodice with layered chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-21.png",
     "hasDescription": true,
-    "title": "雲紗-21"
+    "title": "雲紗-21",
+    "description": "[seashell organza crop top with asymmetric chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-22.png",
     "hasDescription": true,
-    "title": "雲紗-22"
+    "title": "雲紗-22",
+    "description": "[one-shoulder cloud bodice with cascading chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-23.png",
     "hasDescription": true,
-    "title": "雲紗-23"
+    "title": "雲紗-23",
+    "description": "[crystal-wing bandeau top with layered chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-24.png",
     "hasDescription": true,
-    "title": "雲紗-24"
+    "title": "雲紗-24",
+    "description": "[cloud-inspired one-shoulder crop top with spiraling chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-25.png",
     "hasDescription": true,
-    "title": "雲紗-25"
+    "title": "雲紗-25",
+    "description": "[off-shoulder organza petal crop top with chiffon petal mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-26.png",
     "hasDescription": true,
-    "title": "雲紗-26"
+    "title": "雲紗-26",
+    "description": "[magnolia petal crop top with layered chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-27.png",
     "hasDescription": true,
-    "title": "雲紗-27"
+    "title": "雲紗-27",
+    "description": "[crystal petal sweetheart crop top with asymmetric chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-28.png",
     "hasDescription": true,
-    "title": "雲紗-28"
+    "title": "雲紗-28",
+    "description": "[one-shoulder cloud ribbon crop top with chiffon petal mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-29.png",
     "hasDescription": true,
-    "title": "雲紗-29"
+    "title": "雲紗-29",
+    "description": "[Aurora-inspired bandeau top with spiraling organza mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-30.png",
     "hasDescription": true,
-    "title": "雲紗-30"
+    "title": "雲紗-30",
+    "description": "[wave-inspired off-shoulder crop top with layered chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-31.png",
     "hasDescription": true,
-    "title": "雲紗-31"
+    "title": "雲紗-31",
+    "description": "[cloud ribbon wrap bodice with layered chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-32.png",
     "hasDescription": true,
-    "title": "雲紗-32"
+    "title": "雲紗-32",
+    "description": "[halter draped gauze bodice with floating silk mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-33.png",
     "hasDescription": true,
-    "title": "雲紗-33"
+    "title": "雲紗-33",
+    "description": "[embroidered sheer-stripe mini dress with asymmetric chiffon skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-34.png",
     "hasDescription": true,
-    "title": "雲紗-34"
+    "title": "雲紗-34",
+    "description": "[sheer organza wrap mini dress with floral petal skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-35.png",
     "hasDescription": true,
-    "title": "雲紗-35"
+    "title": "雲紗-35",
+    "description": "[off-shoulder organza petal crop top with chiffon petal mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-36.png",
     "hasDescription": true,
-    "title": "雲紗-36"
+    "title": "雲紗-36",
+    "description": "[one-shoulder organza petal crop top with asymmetric chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-37.png",
     "hasDescription": true,
-    "title": "雲紗-37"
+    "title": "雲紗-37",
+    "description": "[square-neck petal crop top with layered petal mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-38.png",
     "hasDescription": true,
-    "title": "雲紗-38"
+    "title": "雲紗-38",
+    "description": "[halter organza petal bodice with chiffon petal mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-39.png",
     "hasDescription": true,
-    "title": "雲紗-39"
+    "title": "雲紗-39",
+    "description": "[bandeau organza petal crop top with flared chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-40.png",
     "hasDescription": true,
-    "title": "雲紗-40"
+    "title": "雲紗-40",
+    "description": "[off-shoulder cloud gauze bodice with layered petal mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-41.png",
     "hasDescription": true,
-    "title": "雲紗-41"
+    "title": "雲紗-41",
+    "description": "[one-shoulder cloud wrap bodice with asymmetric chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-42.png",
     "hasDescription": true,
-    "title": "雲紗-42"
+    "title": "雲紗-42",
+    "description": "[organza blossom bandeau top with layered petal mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-43.png",
     "hasDescription": true,
-    "title": "雲紗-43"
+    "title": "雲紗-43",
+    "description": "[off-shoulder organza top with wide-leg chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-44.png",
     "hasDescription": true,
-    "title": "雲紗-44"
+    "title": "雲紗-44",
+    "description": "[cloud chiffon wrap bodice with organza petal mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-45.png",
     "hasDescription": true,
-    "title": "雲紗-45"
+    "title": "雲紗-45",
+    "description": "[organza ribbon wrap bodice with cloud gauze petal mini skirt]"
   },
   {
     "category": "雅裁",
