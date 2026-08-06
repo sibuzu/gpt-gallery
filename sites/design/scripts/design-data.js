@@ -3,68 +3,78 @@ window.__GALLERY_IMAGES__ = [
     "category": "現代",
     "src": "images/現代/現代-01.png",
     "hasDescription": true,
-    "title": "現代-01"
+    "title": "現代-01",
+    "description": "wearing a sheer soft red and ivory tones silk micro mini cheongsam with embroidered fine vintage floral patterns, a modern high-neck halter design with open-chest keyhole cleavage cut, dramatic side cutouts that accentuate the waist, dual high slits with elegant garter-style straps,"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-02.png",
     "hasDescription": true,
     "title": "現代-02",
-    "description": "wearing a sheer soft red and ivory tones silk micro mini cheongsam with embroidered fine vintage floral patterns, a modern high-neck halter design with open-chest keyhole cleavage cut, dramatic side cutouts that accentuate the waist, dual high slits with elegant garter-style straps,"
+    "description": "wearing a pastel pink floral fantasy bodysuit with embroidered lace."
   },
   {
     "category": "現代",
     "src": "images/現代/現代-03.png",
     "hasDescription": true,
-    "title": "現代-03"
+    "title": "現代-03",
+    "description": "wearing a ultra-lightweight light blue micro-mini Kimono dress."
   },
   {
     "category": "現代",
     "src": "images/現代/現代-04.png",
     "hasDescription": true,
-    "title": "現代-04"
+    "title": "現代-04",
+    "description": "white lace dress, floral embroidery, sheer layered chiffon skirt, sheer off-shoulder sleeves, lace thigh-high stockings, pearl earrings,"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-05.png",
     "hasDescription": true,
-    "title": "現代-05"
+    "title": "現代-05",
+    "description": "She wears a white Deep V-neckline shirt and dark black hight slit mini skirt"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-06.png",
     "hasDescription": true,
-    "title": "現代-06"
+    "title": "現代-06",
+    "description": "wearing a lightweight linen apron with embroidered lace, ​slender halter shoulder straps with small metal button accents, ​thin waist ribbons tied gracefully at the side, high side cutouts extending along the hips."
   },
   {
     "category": "現代",
     "src": "images/現代/現代-07.png",
     "hasDescription": true,
-    "title": "現代-07"
+    "title": "現代-07",
+    "description": "wearing a sheer embroidered haute couture fabric short dress with delicate red floral embroidery, high slit, elegant red ribbon around waist"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-08.png",
     "hasDescription": true,
-    "title": "現代-08"
+    "title": "現代-08",
+    "description": "an off-the-shoulder, sleeveless, wide neckline, embroidered lace pink shirt and embroidered lace micro mini skirt"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-09.png",
     "hasDescription": true,
-    "title": "現代-09"
+    "title": "現代-09",
+    "description": "wearing a shimmering blush-pink halter crop top made of sparkling translucent fabric with a large handcrafted rose choker at the neckline, paired with a matching asymmetrical ruffled mini wrap skirt featuring a high slit and a large fabric rose accent at the hip."
   },
   {
     "category": "現代",
     "src": "images/現代/現代-10.png",
     "hasDescription": true,
-    "title": "現代-10"
+    "title": "現代-10",
+    "description": "with fair glowing skin and a slender, elegant figure is wearing a ivory-white chiffon beach dress with an ultra-deep plunging neckline, high side slits secured by delicate gold rings, subtle gold jewelry including a fine necklace, arm chain, and bracelet, her soft ash-brown hair styled in a loose messy bun with wispy strands framing her face."
   },
   {
     "category": "現代",
     "src": "images/現代/現代-11.png",
     "hasDescription": true,
-    "title": "現代-11"
+    "title": "現代-11",
+    "description": "wearing a fitted pastel pink off-shoulder crop top with a delicate floral graphic print, one shoulder gracefully slipping down to reveal her collarbone, paired with white side-tie bikini bottoms featuring adjustable ribbon ties."
   },
   {
     "category": "現代",
@@ -286,25 +296,29 @@ window.__GALLERY_IMAGES__ = [
     "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
-    "title": "雲紗-01"
+    "title": "雲紗-01",
+    "description": "an avant-garde summer mini dress featuring a sculptural asymmetric crop top composed of layered transparent magnolia-inspired organza petals that elegantly embrace the bust and shoulders"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-02.png",
     "hasDescription": true,
-    "title": "雲紗-02"
+    "title": "雲紗-02",
+    "description": "an avant-garde couture summer mini dress inspired by the moment soft petal clouds bloom and twist into the air"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-03.png",
     "hasDescription": true,
-    "title": "雲紗-03"
+    "title": "雲紗-03",
+    "description": "an avant-garde couture summer mini dress inspired by the moment soft ocean clouds bloom and twist into the air"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-04.png",
     "hasDescription": true,
-    "title": "雲紗-04"
+    "title": "雲紗-04",
+    "description": "an avant-garde couture summer mini dress inspired by the moment soft fire clouds bloom and twist into the air"
   },
   {
     "category": "雲紗",
@@ -556,7 +570,8 @@ window.__GALLERY_IMAGES__ = [
     "category": "雅裁",
     "src": "images/雅裁/雅裁-01.png",
     "hasDescription": true,
-    "title": "雅裁-01"
+    "title": "雅裁-01",
+    "description": "an elegant contemporary mini outfit inspired by apron construction and delicate summer chiffon tailoring"
   },
   {
     "category": "雅裁",
@@ -1102,19 +1117,22 @@ window.__GALLERY_IMAGES__ = [
     "category": "元素",
     "src": "images/元素/元素-01.png",
     "hasDescription": true,
-    "title": "元素-01"
+    "title": "元素-01",
+    "description": "an avant-garde couture summer mini dress inspired by wind currents and soft steam blooming into the air"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-02.png",
     "hasDescription": true,
-    "title": "元素-02"
+    "title": "元素-02",
+    "description": "an avant-garde couture summer mini dress inspired by the moment fire flames bloom and twist into the air"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-03.png",
     "hasDescription": true,
-    "title": "元素-03"
+    "title": "元素-03",
+    "description": "an avant-garde couture summer mini dress inspired by the moment soft lightning clouds bloom and twist into the air"
   },
   {
     "category": "元素",
@@ -1391,7 +1409,7 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-01.png",
     "hasDescription": true,
     "title": "民族-01",
-    "description": "a kimono."
+    "description": "a kimono"
   },
   {
     "category": "民族",
@@ -1418,19 +1436,22 @@ window.__GALLERY_IMAGES__ = [
     "category": "民族",
     "src": "images/民族/民族-05.png",
     "hasDescription": true,
-    "title": "民族-05"
+    "title": "民族-05",
+    "description": "a miko attire"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-06.png",
     "hasDescription": true,
-    "title": "民族-06"
+    "title": "民族-06",
+    "description": "a Priest robes"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-07.png",
     "hasDescription": true,
-    "title": "民族-07"
+    "title": "民族-07",
+    "description": "a ceremonial robes"
   },
   {
     "category": "民族",
@@ -1460,7 +1481,8 @@ window.__GALLERY_IMAGES__ = [
     "category": "民族",
     "src": "images/民族/民族-12.png",
     "hasDescription": true,
-    "title": "民族-12"
+    "title": "民族-12",
+    "description": "a hanbok"
   },
   {
     "category": "民族",
@@ -1673,310 +1695,328 @@ window.__GALLERY_IMAGES__ = [
     "title": "民族-47"
   },
   {
+    "category": "民族",
+    "src": "images/民族/民族-48.png",
+    "hasDescription": true,
+    "title": "民族-48"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-49.png",
+    "hasDescription": true,
+    "title": "民族-49"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-50.png",
+    "hasDescription": true,
+    "title": "民族-50"
+  },
+  {
     "category": "日常",
     "src": "images/日常/日常-01.png",
     "hasDescription": true,
-    "title": "日常-01"
+    "title": "日常-01",
+    "description": "a T-shirt and jeans"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-02.png",
     "hasDescription": true,
     "title": "日常-02",
-    "description": "a T-shirt and jeans."
+    "description": "a casual tea dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-03.png",
     "hasDescription": true,
     "title": "日常-03",
-    "description": "a casual tea dress."
+    "description": "a linen shirt and wide-leg pants"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-04.png",
     "hasDescription": true,
     "title": "日常-04",
-    "description": "a linen shirt and wide-leg pants."
+    "description": "a long-sleeve shirt and jeans"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-05.png",
     "hasDescription": true,
     "title": "日常-05",
-    "description": "a long-sleeve shirt and jeans."
+    "description": "a blouse and a midi skirt"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-06.png",
     "hasDescription": true,
     "title": "日常-06",
-    "description": "a blouse and a midi skirt."
+    "description": "a linen blouse and cropped pants"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-07.png",
     "hasDescription": true,
     "title": "日常-07",
-    "description": "a linen blouse and cropped pants."
+    "description": "a tank top and shorts"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-08.png",
     "hasDescription": true,
     "title": "日常-08",
-    "description": "a tank top and shorts."
+    "description": "a camisole and a skirt"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-09.png",
     "hasDescription": true,
     "title": "日常-09",
-    "description": "a camisole and a skirt."
+    "description": "a crop top and high-waisted jeans"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-10.png",
     "hasDescription": true,
     "title": "日常-10",
-    "description": "a crop top and high-waisted jeans."
+    "description": "a polo shirt and a pleated skirt"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-11.png",
     "hasDescription": true,
     "title": "日常-11",
-    "description": "a polo shirt and a pleated skirt."
+    "description": "a knit top and straight-leg pants"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-12.png",
     "hasDescription": true,
     "title": "日常-12",
-    "description": "a knit top and straight-leg pants."
+    "description": "a sweater and jeans"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-13.png",
     "hasDescription": true,
     "title": "日常-13",
-    "description": "a sweater and jeans."
+    "description": "a knit sweater and a skirt"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-14.png",
     "hasDescription": true,
     "title": "日常-14",
-    "description": "a knit sweater and a skirt."
+    "description": "a zip-up hoodie and shorts"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-15.png",
     "hasDescription": true,
     "title": "日常-15",
-    "description": "a zip-up hoodie and shorts."
+    "description": "a cardigan and a dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-16.png",
     "hasDescription": true,
     "title": "日常-16",
-    "description": "a cardigan and a dress."
+    "description": "a cropped cardigan and a mini skirt"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-17.png",
     "hasDescription": true,
     "title": "日常-17",
-    "description": "a cropped cardigan and a mini skirt."
+    "description": "a denim jacket and a dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-18.png",
     "hasDescription": true,
     "title": "日常-18",
-    "description": "a denim jacket and a dress."
+    "description": "a blazer and tailored shorts"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-19.png",
     "hasDescription": true,
     "title": "日常-19",
-    "description": "a blazer and tailored shorts."
+    "description": "off shoulder crop top, mini skirt"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-20.png",
     "hasDescription": true,
     "title": "日常-20",
-    "description": "off shoulder crop top, mini skirt"
+    "description": "a sports bra and jogger pants"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-21.png",
     "hasDescription": true,
     "title": "日常-21",
-    "description": "a sports bra and jogger pants."
+    "description": "a simple dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-22.png",
     "hasDescription": true,
     "title": "日常-22",
-    "description": "a simple dress."
+    "description": "a floral dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-23.png",
     "hasDescription": true,
     "title": "日常-23",
-    "description": "a floral dress."
+    "description": "a maxi dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-24.png",
     "hasDescription": true,
     "title": "日常-24",
-    "description": "a maxi dress."
+    "description": "a midi dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-25.png",
     "hasDescription": true,
     "title": "日常-25",
-    "description": "a midi dress."
+    "description": "a mini dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-26.png",
     "hasDescription": true,
     "title": "日常-26",
-    "description": "a mini dress."
+    "description": "a slip dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-27.png",
     "hasDescription": true,
     "title": "日常-27",
-    "description": "a slip dress."
+    "description": "a shirt dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-28.png",
     "hasDescription": true,
     "title": "日常-28",
-    "description": "a shirt dress."
+    "description": "a knit dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-29.png",
     "hasDescription": true,
     "title": "日常-29",
-    "description": "a knit dress."
+    "description": "a relaxed lounge gown"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-30.png",
     "hasDescription": true,
     "title": "日常-30",
-    "description": "a relaxed lounge gown."
+    "description": "a wrap dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-31.png",
     "hasDescription": true,
     "title": "日常-31",
-    "description": "a wrap dress."
+    "description": "a sweatshirt and leggings"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-32.png",
     "hasDescription": true,
     "title": "日常-32",
-    "description": "a sweatshirt and leggings."
+    "description": "a off-shoulder gown"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-33.png",
     "hasDescription": true,
     "title": "日常-33",
-    "description": "a off-shoulder gown."
+    "description": "a halter top and linen shorts"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-34.png",
     "hasDescription": true,
     "title": "日常-34",
-    "description": "a halter top and linen shorts."
+    "description": "an elegant ivory babydoll dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-35.png",
     "hasDescription": true,
     "title": "日常-35",
-    "description": "an elegant ivory babydoll dress"
+    "description": "a henley top and relaxed trousers"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-36.png",
     "hasDescription": true,
     "title": "日常-36",
-    "description": "a henley top and relaxed trousers."
+    "description": "a peasant blouse and denim overalls"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-37.png",
     "hasDescription": true,
     "title": "日常-37",
-    "description": "a peasant blouse and denim overalls."
+    "description": "a bodysuit and a high-waisted mini skirt"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-38.png",
     "hasDescription": true,
     "title": "日常-38",
-    "description": "a bodysuit and a high-waisted mini skirt."
+    "description": "a off-shoulder dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-39.png",
     "hasDescription": true,
     "title": "日常-39",
-    "description": "a off-shoulder dress"
+    "description": "a cropped sweatshirt and a tennis skirt"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-40.png",
     "hasDescription": true,
     "title": "日常-40",
-    "description": "a cropped sweatshirt and a tennis skirt."
+    "description": "a one-shoulder dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-41.png",
     "hasDescription": true,
     "title": "日常-41",
-    "description": "a one-shoulder dress."
+    "description": "a loose micro mini dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-42.png",
     "hasDescription": true,
     "title": "日常-42",
-    "description": "a loose micro mini dress"
+    "description": "a oversized T-shirt over bodysuit"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-43.png",
     "hasDescription": true,
     "title": "日常-43",
-    "description": "a oversized T-shirt over bodysuit."
+    "description": "a bodysuit and skin-tight shorts"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-44.png",
     "hasDescription": true,
-    "title": "日常-44",
-    "description": "a bodysuit and skin-tight shorts."
+    "title": "日常-44"
   }
 ];

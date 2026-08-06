@@ -359,7 +359,14 @@ def single_line_description_for(path: Path) -> str | None:
         return None
 
     text = lines[0]
-    text = text.removeprefix("She is wearing ")
+    sentence_endings = sum(text.count(mark) for mark in ".!?。！？")
+    if sentence_endings > 1:
+        return None
+
+    text = text.lstrip("\ufeff\u200b\u200c\u200d")
+    if text.startswith("She is wearing "):
+        text = text.removeprefix("She is wearing ")
+        text = text.removesuffix(".")
     return text or None
 
 
