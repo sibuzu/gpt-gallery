@@ -1565,12 +1565,6 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "民族",
-    "src": "images/民族/民族-26.png",
-    "hasDescription": true,
-    "title": "民族-26"
-  },
-  {
-    "category": "民族",
     "src": "images/民族/民族-27.png",
     "hasDescription": true,
     "title": "民族-27"
