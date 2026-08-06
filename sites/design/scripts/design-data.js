@@ -634,247 +634,288 @@ window.__GALLERY_IMAGES__ = [
     "category": "雅裁",
     "src": "images/雅裁/雅裁-04.png",
     "hasDescription": true,
-    "title": "雅裁-04"
+    "title": "雅裁-04",
+    "description": "[open-back boat-neck mini dress with layered chiffon skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-05.png",
     "hasDescription": true,
-    "title": "雅裁-05"
+    "title": "雅裁-05",
+    "description": "[draped halter top with high-waisted wrap mini skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-06.png",
     "hasDescription": true,
-    "title": "雅裁-06"
+    "title": "雅裁-06",
+    "description": "[halter crop top with asymmetric chiffon wrap mini skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-07.png",
     "hasDescription": true,
-    "title": "雅裁-07"
+    "title": "雅裁-07",
+    "description": "[butterfly-sleeve off-shoulder top with layered mini skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-08.png",
     "hasDescription": true,
-    "title": "雅裁-08"
+    "title": "雅裁-08",
+    "description": "[square-neck mini dress with layered chiffon skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-09.png",
     "hasDescription": true,
-    "title": "雅裁-09"
+    "title": "雅裁-09",
+    "description": "[sweetheart mini dress with layered tulip skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-10.png",
     "hasDescription": true,
-    "title": "雅裁-10"
+    "title": "雅裁-10",
+    "description": "[one-shoulder top with asymmetric layered mini skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-11.png",
     "hasDescription": true,
-    "title": "雅裁-11"
+    "title": "雅裁-11",
+    "description": "[sweetheart mini dress with cascading chiffon skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-12.png",
     "hasDescription": true,
-    "title": "雅裁-12"
+    "title": "雅裁-12",
+    "description": "[one-shoulder crop top with organza-layered mini skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-13.png",
     "hasDescription": true,
-    "title": "雅裁-13"
+    "title": "雅裁-13",
+    "description": "[square-neck mini dress with organza petal skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-14.png",
     "hasDescription": true,
-    "title": "雅裁-14"
+    "title": "雅裁-14",
+    "description": "[draped halter crop top with chiffon wrap mini skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-15.png",
     "hasDescription": true,
-    "title": "雅裁-15"
+    "title": "雅裁-15",
+    "description": "[off-shoulder mini dress with asymmetric layered skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-16.png",
     "hasDescription": true,
-    "title": "雅裁-16"
+    "title": "雅裁-16",
+    "description": "[asymmetric crop top with layered wrap mini skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-17.png",
     "hasDescription": true,
-    "title": "雅裁-17"
+    "title": "雅裁-17",
+    "description": "[square-neck open-back mini dress with asymmetric chiffon skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-18.png",
     "hasDescription": true,
-    "title": "雅裁-18"
+    "title": "雅裁-18",
+    "description": "[halter mini dress with petal-inspired bodice and wrap skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-19.png",
     "hasDescription": true,
-    "title": "雅裁-19"
+    "title": "雅裁-19",
+    "description": "[asymmetric bandeau mini dress with pleated chiffon skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-20.png",
     "hasDescription": true,
-    "title": "雅裁-20"
+    "title": "雅裁-20",
+    "description": "[sailor-inspired mini dress with pleated chiffon skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-21.png",
     "hasDescription": true,
-    "title": "雅裁-21"
+    "title": "雅裁-21",
+    "description": "[floral shirt-inspired wrap mini dress with asymmetric skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-22.png",
     "hasDescription": true,
-    "title": "雅裁-22"
+    "title": "雅裁-22",
+    "description": "[sleeveless blazer with high-waisted wrap mini skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-23.png",
     "hasDescription": true,
-    "title": "雅裁-23"
+    "title": "雅裁-23",
+    "description": "[racerback crop top with pleated chiffon mini skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-24.png",
     "hasDescription": true,
-    "title": "雅裁-24"
+    "title": "雅裁-24",
+    "description": "[oversized shirt-inspired mini dress with layered wrap skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-25.png",
     "hasDescription": true,
-    "title": "雅裁-25"
+    "title": "雅裁-25",
+    "description": "[knit-inspired mini dress with wrap skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-26.png",
     "hasDescription": true,
-    "title": "雅裁-26"
+    "title": "雅裁-26",
+    "description": "[polo-inspired mini outfit with A-line skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-27.png",
     "hasDescription": true,
-    "title": "雅裁-27"
+    "title": "雅裁-27",
+    "description": "[slip-inspired mini dress layered over sheer blouse]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-28.png",
     "hasDescription": true,
-    "title": "雅裁-28"
+    "title": "雅裁-28",
+    "description": "[oversized T-shirt-inspired mini dress with chiffon godet skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-29.png",
     "hasDescription": true,
-    "title": "雅裁-29"
+    "title": "雅裁-29",
+    "description": "[linen shirt-inspired mini dress with asymmetric skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-30.png",
     "hasDescription": true,
-    "title": "雅裁-30"
+    "title": "雅裁-30",
+    "description": "[oversized T-shirt-inspired mini dress with chiffon godet skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-31.png",
     "hasDescription": true,
-    "title": "雅裁-31"
+    "title": "雅裁-31",
+    "description": "[deconstructed T-shirt-inspired mini dress with chiffon godet skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-32.png",
     "hasDescription": true,
-    "title": "雅裁-32"
+    "title": "雅裁-32",
+    "description": "[swimwear-inspired halter mini dress with wrapped skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-33.png",
     "hasDescription": true,
-    "title": "雅裁-33"
+    "title": "雅裁-33",
+    "description": "[asymmetric bandeau mini dress with pleated chiffon skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-34.png",
     "hasDescription": true,
-    "title": "雅裁-34"
+    "title": "雅裁-34",
+    "description": "[beach-inspired chiffon mini dress with plunging neckline and wrap skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-35.png",
     "hasDescription": true,
-    "title": "雅裁-35"
+    "title": "雅裁-35",
+    "description": "[asymmetric crop top with pleated chiffon mini skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-36.png",
     "hasDescription": true,
-    "title": "雅裁-36"
+    "title": "雅裁-36",
+    "description": "[one-shoulder chiffon mini dress with draped skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-37.png",
     "hasDescription": true,
-    "title": "雅裁-37"
+    "title": "雅裁-37",
+    "description": "[bandeau chiffon mini dress with wrapped sarong skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-38.png",
     "hasDescription": true,
-    "title": "雅裁-38"
+    "title": "雅裁-38",
+    "description": "[off-shoulder chiffon mini dress with petal skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-39.png",
     "hasDescription": true,
-    "title": "雅裁-39"
+    "title": "雅裁-39",
+    "description": "[asymmetric bandeau mini dress with chiffon godet skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-40.png",
     "hasDescription": true,
-    "title": "雅裁-40"
+    "title": "雅裁-40",
+    "description": "[camisole mini dress with fitted skirt and waist cut-out]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-41.png",
     "hasDescription": true,
-    "title": "雅裁-41"
+    "title": "雅裁-41",
+    "description": "[asymmetric bandeau with high-waisted wrap mini skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-42.png",
     "hasDescription": true,
-    "title": "雅裁-42"
+    "title": "雅裁-42",
+    "description": "[V-neck mini dress with A-line voile skirt]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-43.png",
     "hasDescription": true,
-    "title": "雅裁-43"
+    "title": "雅裁-43",
+    "description": "[halter mini dress with straight skirt and keyhole cut-out]"
   },
   {
     "category": "雅裁",
     "src": "images/雅裁/雅裁-44.png",
     "hasDescription": true,
-    "title": "雅裁-44"
+    "title": "雅裁-44",
+    "description": "[apron-inspired halter mini couture with open-back and hip cut-outs]"
   },
   {
     "category": "線舞",
