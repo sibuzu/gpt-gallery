@@ -297,67 +297,78 @@ window.__GALLERY_IMAGES__ = [
     "category": "雲紗",
     "src": "images/雲紗/雲紗-02.png",
     "hasDescription": true,
-    "title": "雲紗-02"
+    "title": "雲紗-02",
+    "description": "[mini dress with magnolia petal crop top]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-03.png",
     "hasDescription": true,
-    "title": "雲紗-03"
+    "title": "雲紗-03",
+    "description": "[ocean cloud-inspired couture mini dress]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-04.png",
     "hasDescription": true,
-    "title": "雲紗-04"
+    "title": "雲紗-04",
+    "description": "[fire cloud-inspired couture mini dress]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-05.png",
     "hasDescription": true,
-    "title": "雲紗-05"
+    "title": "雲紗-05",
+    "description": "[off-shoulder organza top with wide-leg chiffon pants]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-06.png",
     "hasDescription": true,
-    "title": "雲紗-06"
+    "title": "雲紗-06",
+    "description": "[petal halter crop top with asymmetrical organza skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-07.png",
     "hasDescription": true,
-    "title": "雲紗-07"
+    "title": "雲紗-07",
+    "description": "[illusion mini dress with layered chiffon skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-08.png",
     "hasDescription": true,
-    "title": "雲紗-08"
+    "title": "雲紗-08",
+    "description": "[petal off-shoulder crop top with chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-09.png",
     "hasDescription": true,
-    "title": "雲紗-09"
+    "title": "雲紗-09",
+    "description": "[off-shoulder petal crop top with high-waisted chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-10.png",
     "hasDescription": true,
-    "title": "雲紗-10"
+    "title": "雲紗-10",
+    "description": "[asymmetric bandeau top with layered chiffon mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-11.png",
     "hasDescription": true,
-    "title": "雲紗-11"
+    "title": "雲紗-11",
+    "description": "[architectural crop top with asymmetrical mini skirt]"
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-12.png",
     "hasDescription": true,
-    "title": "雲紗-12"
+    "title": "雲紗-12",
+    "description": "[butterfly-inspired halter crop top with layered mini skirt]"
   },
   {
     "category": "雲紗",
