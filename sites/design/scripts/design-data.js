@@ -1562,61 +1562,71 @@ window.__GALLERY_IMAGES__ = [
     "category": "民族",
     "src": "images/民族/民族-23.png",
     "hasDescription": true,
-    "title": "民族-23"
+    "title": "民族-23",
+    "description": "a Moroccan kaftan"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-24.png",
     "hasDescription": true,
-    "title": "民族-24"
+    "title": "民族-24",
+    "description": "a Chut Thai"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-25.png",
     "hasDescription": true,
-    "title": "民族-25"
+    "title": "民族-25",
+    "description": "a kebaya"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-26.png",
     "hasDescription": true,
-    "title": "民族-26"
+    "title": "民族-26",
+    "description": "a Polynesian pareo"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-27.png",
     "hasDescription": true,
-    "title": "民族-27"
+    "title": "民族-27",
+    "description": "a Sverigedräkt"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-28.png",
     "hasDescription": true,
-    "title": "民族-28"
+    "title": "民族-28",
+    "description": "a bindallı"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-29.png",
     "hasDescription": true,
-    "title": "民族-29"
+    "title": "民族-29",
+    "description": "a tartan dress"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-30.png",
     "hasDescription": true,
-    "title": "民族-30"
+    "title": "民族-30",
+    "description": "a kalasiris"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-31.png",
     "hasDescription": true,
-    "title": "民族-31"
+    "title": "民族-31",
+    "description": "an ancient Egyptian kalasiris"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-32.png",
     "hasDescription": true,
-    "title": "民族-32"
+    "title": "民族-32",
+    "description": "a Scottish arisaid"
   },
   {
     "category": "民族",
@@ -1778,36 +1788,61 @@ window.__GALLERY_IMAGES__ = [
     "category": "民族",
     "src": "images/民族/民族-59.png",
     "hasDescription": true,
-    "title": "民族-59",
-    "description": "a Moroccan kaftan"
+    "title": "民族-59"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-60.png",
     "hasDescription": true,
-    "title": "民族-60",
-    "description": "a Chut Thai"
+    "title": "民族-60"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-61.png",
     "hasDescription": true,
-    "title": "民族-61",
-    "description": "a kebaya"
+    "title": "民族-61"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-62.png",
     "hasDescription": true,
-    "title": "民族-62",
-    "description": "a Polynesian pareo"
+    "title": "民族-62"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-63.png",
     "hasDescription": true,
-    "title": "民族-63",
-    "description": "a Sverigedräkt"
+    "title": "民族-63"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-64.png",
+    "hasDescription": true,
+    "title": "民族-64"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-65.png",
+    "hasDescription": true,
+    "title": "民族-65"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-66.png",
+    "hasDescription": true,
+    "title": "民族-66"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-67.png",
+    "hasDescription": true,
+    "title": "民族-67"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-68.png",
+    "hasDescription": true,
+    "title": "民族-68"
   },
   {
     "category": "日常",
