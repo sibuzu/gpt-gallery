@@ -288,13 +288,6 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "雲紗",
-    "src": "images/雲紗/日常-02.png",
-    "hasDescription": true,
-    "title": "日常-02",
-    "description": "a casual tea dress"
-  },
-  {
-    "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
     "title": "雲紗-01",
