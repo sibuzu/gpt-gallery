@@ -117,6 +117,15 @@ function showPreview(index) {
   previewCaption.textContent = `${image.category} · ${image.title}`;
 }
 
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
 function openPreview(index) {
   showPreview(index);
   lightbox.classList.add("open");
@@ -353,6 +362,9 @@ function cardFor(item, index) {
   const { image } = item;
   const stackBadge = item.isCollapsedGroup ? `<span class="stack-badge">+${item.groupSize - 1}</span>` : "";
   const stackClass = item.isCollapsedGroup ? " stack" : "";
+  const promptLine = image.description
+    ? `<p class="prompt-line" title="${escapeHtml(image.description)}">${escapeHtml(image.description)}</p>`
+    : "";
   const article = document.createElement("article");
   article.className = "card";
   if (item.groupKey) {
@@ -376,6 +388,7 @@ function cardFor(item, index) {
         </span>
       </span>
     </div>
+    ${promptLine}
   `;
 
   const cardImage = article.querySelector("img");

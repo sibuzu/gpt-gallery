@@ -1380,6 +1380,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "元素-47"
   },
   {
+    "category": "元素",
+    "src": "images/元素/元素-48.png",
+    "hasDescription": true,
+    "title": "元素-48"
+  },
+  {
     "category": "民族",
     "src": "images/民族/民族-01.png",
     "hasDescription": true,
@@ -1641,270 +1647,294 @@ window.__GALLERY_IMAGES__ = [
     "category": "日常",
     "src": "images/日常/日常-01.png",
     "hasDescription": true,
-    "title": "日常-01"
+    "title": "日常-01",
+    "description": "a shirt and a skirt."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-02.png",
     "hasDescription": true,
-    "title": "日常-02"
+    "title": "日常-02",
+    "description": "a T-shirt and jeans."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-03.png",
     "hasDescription": true,
-    "title": "日常-03"
+    "title": "日常-03",
+    "description": "an oversized shirt and denim shorts."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-04.png",
     "hasDescription": true,
-    "title": "日常-04"
+    "title": "日常-04",
+    "description": "a linen shirt and wide-leg pants."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-05.png",
     "hasDescription": true,
-    "title": "日常-05"
+    "title": "日常-05",
+    "description": "a long-sleeve shirt and jeans."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-06.png",
     "hasDescription": true,
-    "title": "日常-06"
+    "title": "日常-06",
+    "description": "a blouse and a midi skirt."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-07.png",
     "hasDescription": true,
-    "title": "日常-07"
+    "title": "日常-07",
+    "description": "a linen blouse and cropped pants."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-08.png",
     "hasDescription": true,
-    "title": "日常-08"
+    "title": "日常-08",
+    "description": "a tank top and shorts."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-09.png",
     "hasDescription": true,
-    "title": "日常-09"
+    "title": "日常-09",
+    "description": "a camisole and a skirt."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-10.png",
     "hasDescription": true,
-    "title": "日常-10"
+    "title": "日常-10",
+    "description": "a crop top and high-waisted jeans."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-11.png",
     "hasDescription": true,
-    "title": "日常-11"
+    "title": "日常-11",
+    "description": "a polo shirt and a pleated skirt."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-12.png",
     "hasDescription": true,
-    "title": "日常-12"
+    "title": "日常-12",
+    "description": "a knit top and straight-leg pants."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-13.png",
     "hasDescription": true,
-    "title": "日常-13"
+    "title": "日常-13",
+    "description": "a sweater and jeans."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-14.png",
     "hasDescription": true,
-    "title": "日常-14"
+    "title": "日常-14",
+    "description": "a knit sweater and a skirt."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-15.png",
     "hasDescription": true,
-    "title": "日常-15"
+    "title": "日常-15",
+    "description": "a zip-up hoodie and shorts."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-16.png",
     "hasDescription": true,
-    "title": "日常-16"
+    "title": "日常-16",
+    "description": "a cardigan and a dress."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-17.png",
     "hasDescription": true,
-    "title": "日常-17"
+    "title": "日常-17",
+    "description": "a cropped cardigan and a mini skirt."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-18.png",
     "hasDescription": true,
-    "title": "日常-18"
+    "title": "日常-18",
+    "description": "a denim jacket and a dress."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-19.png",
     "hasDescription": true,
-    "title": "日常-19"
+    "title": "日常-19",
+    "description": "a blazer and tailored shorts."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-20.png",
     "hasDescription": true,
-    "title": "日常-20"
+    "title": "日常-20",
+    "description": "off shoulder crop top, mini skirt"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-21.png",
     "hasDescription": true,
-    "title": "日常-21"
+    "title": "日常-21",
+    "description": "a sports bra and jogger pants."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-22.png",
     "hasDescription": true,
-    "title": "日常-22"
+    "title": "日常-22",
+    "description": "a simple dress."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-23.png",
     "hasDescription": true,
-    "title": "日常-23"
+    "title": "日常-23",
+    "description": "a floral dress."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-24.png",
     "hasDescription": true,
-    "title": "日常-24"
+    "title": "日常-24",
+    "description": "a maxi dress."
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-25.png",
+    "hasDescription": true,
+    "title": "日常-25",
+    "description": "a midi dress."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-26.png",
     "hasDescription": true,
-    "title": "日常-26"
+    "title": "日常-26",
+    "description": "a mini dress."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-27.png",
     "hasDescription": true,
-    "title": "日常-27"
+    "title": "日常-27",
+    "description": "a slip dress."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-28.png",
     "hasDescription": true,
-    "title": "日常-28"
+    "title": "日常-28",
+    "description": "a shirt dress."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-29.png",
     "hasDescription": true,
-    "title": "日常-29"
+    "title": "日常-29",
+    "description": "a knit dress."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-30.png",
     "hasDescription": true,
-    "title": "日常-30"
+    "title": "日常-30",
+    "description": "a relaxed lounge gown."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-31.png",
     "hasDescription": true,
-    "title": "日常-31"
+    "title": "日常-31",
+    "description": "a wrap dress."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-32.png",
     "hasDescription": true,
-    "title": "日常-32"
+    "title": "日常-32",
+    "description": "a sweatshirt and leggings."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-33.png",
     "hasDescription": true,
-    "title": "日常-33"
+    "title": "日常-33",
+    "description": "a off-shoulder gown."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-34.png",
     "hasDescription": true,
-    "title": "日常-34"
+    "title": "日常-34",
+    "description": "a halter top and linen shorts."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-35.png",
     "hasDescription": true,
-    "title": "日常-35"
+    "title": "日常-35",
+    "description": "an elegant ivory babydoll dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-36.png",
     "hasDescription": true,
-    "title": "日常-36"
+    "title": "日常-36",
+    "description": "a henley top and relaxed trousers."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-37.png",
     "hasDescription": true,
-    "title": "日常-37"
+    "title": "日常-37",
+    "description": "a peasant blouse and denim overalls."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-38.png",
     "hasDescription": true,
-    "title": "日常-38"
+    "title": "日常-38",
+    "description": "a bodysuit and high-waisted trousers."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-39.png",
     "hasDescription": true,
-    "title": "日常-39"
+    "title": "日常-39",
+    "description": "a off-shoulder dress"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-40.png",
     "hasDescription": true,
-    "title": "日常-40"
+    "title": "日常-40",
+    "description": "a cropped sweatshirt and a tennis skirt."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-41.png",
     "hasDescription": true,
-    "title": "日常-41"
+    "title": "日常-41",
+    "description": "a one-shoulder dress."
   },
   {
     "category": "日常",
     "src": "images/日常/日常-42.png",
     "hasDescription": true,
-    "title": "日常-42"
-  },
-  {
-    "category": "日常",
-    "src": "images/日常/日常-43.png",
-    "hasDescription": true,
-    "title": "日常-43"
-  },
-  {
-    "category": "日常",
-    "src": "images/日常/日常-44.png",
-    "hasDescription": true,
-    "title": "日常-44"
-  },
-  {
-    "category": "日常",
-    "src": "images/日常/日常-45.png",
-    "hasDescription": true,
-    "title": "日常-45"
-  },
-  {
-    "category": "日常",
-    "src": "images/日常/日常-46.png",
-    "hasDescription": true,
-    "title": "日常-46"
+    "title": "日常-42",
+    "description": "a casual tea dress."
   }
 ];
