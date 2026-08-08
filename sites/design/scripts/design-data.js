@@ -2502,6 +2502,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "風姿",
+    "src": "images/風姿/風姿卓約-20.png",
+    "hasDescription": false,
+    "title": "風姿卓約-20"
+  },
+  {
+    "category": "風姿",
     "src": "images/風姿/風姿卓約-21.png",
     "hasDescription": false,
     "title": "風姿卓約-21"
