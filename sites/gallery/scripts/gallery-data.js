@@ -2341,6 +2341,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Theme",
+    "src": "images/Theme/地中海a-01.png",
+    "hasDescription": true,
+    "title": "地中海a-01"
+  },
+  {
+    "category": "Theme",
     "src": "images/Theme/鋼琴a-01.png",
     "hasDescription": true,
     "title": "鋼琴a-01"
@@ -2464,6 +2470,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/愛琴海a-05.png",
     "hasDescription": true,
     "title": "愛琴海a-05"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/地中海a-09.png",
+    "hasDescription": false,
+    "title": "地中海a-09"
   },
   {
     "category": "Dress",
@@ -2784,6 +2796,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "演奏a-03"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/地中海a-05.png",
+    "hasDescription": false,
+    "title": "地中海a-05"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/短褲c-01.png",
     "hasDescription": true,
@@ -2878,6 +2896,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Folk/英國格子裙a-02.png",
     "hasDescription": false,
     "title": "英國格子裙a-02"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/地中海a-02.png",
+    "hasDescription": false,
+    "title": "地中海a-02"
   },
   {
     "category": "日常",
@@ -3918,6 +3942,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "塗鴉b-01"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/地中海a-06.png",
+    "hasDescription": false,
+    "title": "地中海a-06"
+  },
+  {
     "category": "日常",
     "src": "images/日常/img-20260720-000852.png",
     "hasDescription": false,
@@ -3964,6 +3994,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/愛琴海a-03.png",
     "hasDescription": true,
     "title": "愛琴海a-03"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/地中海a-04.png",
+    "hasDescription": false,
+    "title": "地中海a-04"
   },
   {
     "category": "Folk",
@@ -4144,6 +4180,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/奇幻/img-20260720-202349.png",
     "hasDescription": false,
     "title": "img-20260720-202349"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/地中海a-08.png",
+    "hasDescription": false,
+    "title": "地中海a-08"
   },
   {
     "category": "Theme",
@@ -4660,6 +4702,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/img-20260722-104746.png",
     "hasDescription": false,
     "title": "img-20260722-104746"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/地中海a-03.png",
+    "hasDescription": false,
+    "title": "地中海a-03"
   },
   {
     "category": "Dress",
@@ -5778,6 +5826,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "襯杉a-01"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/地中海a-10.png",
+    "hasDescription": false,
+    "title": "地中海a-10"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/水晶e-02.png",
     "hasDescription": false,
@@ -6532,6 +6586,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/比基尼e-05.png",
     "hasDescription": false,
     "title": "比基尼e-05"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/地中海a-07.png",
+    "hasDescription": false,
+    "title": "地中海a-07"
   },
   {
     "category": "Theme",
