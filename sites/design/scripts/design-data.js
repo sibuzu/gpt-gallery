@@ -2250,8 +2250,7 @@ window.__GALLERY_IMAGES__ = [
     "category": "公仔",
     "src": "images/公仔/公仔-21.png",
     "hasDescription": true,
-    "title": "公仔-21",
-    "description": "[draped halter top with high-waisted wrap mini skirt]"
+    "title": "公仔-21"
   },
   {
     "category": "公仔",
@@ -2270,6 +2269,60 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/公仔/公仔-24.png",
     "hasDescription": true,
     "title": "公仔-24"
+  },
+  {
+    "category": "公仔",
+    "src": "images/公仔/公仔-25.png",
+    "hasDescription": true,
+    "title": "公仔-25"
+  },
+  {
+    "category": "公仔",
+    "src": "images/公仔/公仔-26.png",
+    "hasDescription": true,
+    "title": "公仔-26"
+  },
+  {
+    "category": "公仔",
+    "src": "images/公仔/公仔-27.png",
+    "hasDescription": true,
+    "title": "公仔-27"
+  },
+  {
+    "category": "公仔",
+    "src": "images/公仔/公仔-28.png",
+    "hasDescription": true,
+    "title": "公仔-28"
+  },
+  {
+    "category": "公仔",
+    "src": "images/公仔/公仔-29.png",
+    "hasDescription": true,
+    "title": "公仔-29"
+  },
+  {
+    "category": "公仔",
+    "src": "images/公仔/公仔-30.png",
+    "hasDescription": true,
+    "title": "公仔-30"
+  },
+  {
+    "category": "公仔",
+    "src": "images/公仔/公仔-31.png",
+    "hasDescription": true,
+    "title": "公仔-31"
+  },
+  {
+    "category": "公仔",
+    "src": "images/公仔/公仔-32.png",
+    "hasDescription": true,
+    "title": "公仔-32"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/ChatGPT Image 2026年8月12日 上午02_32_20.png",
+    "hasDescription": false,
+    "title": "2026年8月12日 上午02_32_20"
   },
   {
     "category": "日常",
@@ -2571,6 +2624,12 @@ window.__GALLERY_IMAGES__ = [
     "hasDescription": true,
     "title": "日常-43",
     "description": "a bodysuit and skin-tight shorts"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-44.png",
+    "hasDescription": true,
+    "title": "日常-44"
   },
   {
     "category": "風姿",
