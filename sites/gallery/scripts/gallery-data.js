@@ -60,6 +60,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "哥倫比亞b-02"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-g-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-g-01"
+  },
+  {
     "category": "日常",
     "src": "images/日常/img-20260719-193329.png",
     "hasDescription": false,
@@ -846,6 +852,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "窄裙c-03"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-j-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-j-01"
+  },
+  {
     "category": "日常",
     "src": "images/日常/img-20260720-162619.png",
     "hasDescription": false,
@@ -1404,6 +1416,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "波斯a-01"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-w-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-w-01"
+  },
+  {
     "category": "Folk",
     "src": "images/Folk/日本和服f-01.png",
     "hasDescription": true,
@@ -1818,6 +1836,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "童話書a-02"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-e-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-e-01"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/薄紗裙h-02.png",
     "hasDescription": false,
@@ -1894,6 +1918,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/圍裙a-02.png",
     "hasDescription": true,
     "title": "圍裙a-02"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-m-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-m-01"
   },
   {
     "category": "Theme",
@@ -2004,10 +2034,22 @@ window.__GALLERY_IMAGES__ = [
     "title": "連身裙a-02"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-t-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-t-01"
+  },
+  {
     "category": "Folk",
     "src": "images/Folk/哥倫比亞a-01.png",
     "hasDescription": true,
     "title": "哥倫比亞a-01"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-h-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-h-01"
   },
   {
     "category": "日常",
@@ -2256,6 +2298,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "運動a-01"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-k-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-k-01"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/百褶短裙b-02.png",
     "hasDescription": false,
@@ -2496,6 +2544,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "img-20260727-094249"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-n-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-n-01"
+  },
+  {
     "category": "Folk",
     "src": "images/Folk/中國旗袍f-02.png",
     "hasDescription": true,
@@ -2659,6 +2713,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Theme",
+    "src": "images/Theme/宮殿畫像-p-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-p-01"
+  },
+  {
+    "category": "Theme",
     "src": "images/Theme/演奏a-05.png",
     "hasDescription": true,
     "title": "演奏a-05"
@@ -2740,6 +2800,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/香水a-06.png",
     "hasDescription": true,
     "title": "香水a-06"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-a-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-a-01"
   },
   {
     "category": "日常",
@@ -2950,6 +3016,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/img-20260719-232704.png",
     "hasDescription": false,
     "title": "img-20260719-232704"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-u-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-u-01"
   },
   {
     "category": "Folk",
@@ -3372,6 +3444,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "img-20260720-060640"
   },
   {
+    "category": "奇幻",
+    "src": "images/奇幻/光衣-a-01.png",
+    "hasDescription": true,
+    "title": "光衣-a-01"
+  },
+  {
     "category": "Theme",
     "src": "images/Theme/森林a-05.png",
     "hasDescription": true,
@@ -3558,6 +3636,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "運動e-01"
   },
   {
+    "category": "Dress",
+    "src": "images/Dress/Venus-02.png",
+    "hasDescription": true,
+    "title": "Venus-02"
+  },
+  {
     "category": "Theme",
     "src": "images/Theme/日式庭園b-06.png",
     "hasDescription": true,
@@ -3660,6 +3744,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "海洋a-01"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-i-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-i-01"
+  },
+  {
     "category": "Folk",
     "src": "images/Folk/波希米亞b-02.png",
     "hasDescription": false,
@@ -3739,6 +3829,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Theme",
+    "src": "images/Theme/宮殿畫像-s-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-s-01"
+  },
+  {
+    "category": "Theme",
     "src": "images/Theme/地板a-01.png",
     "hasDescription": true,
     "title": "地板a-01"
@@ -3754,6 +3850,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/奇幻/img-20260721-093610.png",
     "hasDescription": false,
     "title": "img-20260721-093610"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-l-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-l-01"
   },
   {
     "category": "Dress",
@@ -3910,6 +4012,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/海洋a-06.png",
     "hasDescription": true,
     "title": "海洋a-06"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/曬衣服-a-01.png",
+    "hasDescription": true,
+    "title": "曬衣服-a-01"
   },
   {
     "category": "日常",
@@ -4374,6 +4482,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "碎花裙b-01"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-q-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-q-01"
+  },
+  {
     "category": "日常",
     "src": "images/日常/img-20260720-114340.png",
     "hasDescription": false,
@@ -4468,6 +4582,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/塗鴉a-02.png",
     "hasDescription": true,
     "title": "塗鴉a-02"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-v-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-v-01"
   },
   {
     "category": "奇幻",
@@ -4777,6 +4897,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Dress",
+    "src": "images/Dress/Venus-01.png",
+    "hasDescription": true,
+    "title": "Venus-01"
+  },
+  {
+    "category": "Dress",
     "src": "images/Dress/碎花裙a-01.png",
     "hasDescription": true,
     "title": "碎花裙a-01"
@@ -5005,6 +5131,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Theme",
+    "src": "images/Theme/宮殿畫像-d-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-d-01"
+  },
+  {
+    "category": "Theme",
     "src": "images/Theme/日式庭園b-03.png",
     "hasDescription": true,
     "title": "日式庭園b-03"
@@ -5083,6 +5215,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Theme",
+    "src": "images/Theme/宮殿畫像-b-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-b-01"
+  },
+  {
+    "category": "Theme",
     "src": "images/Theme/畫廊a-04.png",
     "hasDescription": true,
     "title": "畫廊a-04"
@@ -5106,6 +5244,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "中式庭園b-09"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-f-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-f-01"
+  },
+  {
     "category": "時尚",
     "src": "images/時尚/img-20260719-235827.png",
     "hasDescription": false,
@@ -5122,6 +5266,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Folk/波麗維亞a-01.png",
     "hasDescription": true,
     "title": "波麗維亞a-01"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-r-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-r-01"
   },
   {
     "category": "Theme",
@@ -5766,6 +5916,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "鏡子b-05"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-o-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-o-01"
+  },
+  {
     "category": "Folk",
     "src": "images/Folk/巴西b-02.png",
     "hasDescription": false,
@@ -6112,6 +6268,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/百褶短裙d-01.png",
     "hasDescription": true,
     "title": "百褶短裙d-01"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/泡湯-a-01.png",
+    "hasDescription": true,
+    "title": "泡湯-a-01"
   },
   {
     "category": "Dress",
@@ -6550,6 +6712,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/水晶h-01.png",
     "hasDescription": true,
     "title": "水晶h-01"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/宮殿畫像-c-01.png",
+    "hasDescription": true,
+    "title": "宮殿畫像-c-01"
   },
   {
     "category": "Dress",
