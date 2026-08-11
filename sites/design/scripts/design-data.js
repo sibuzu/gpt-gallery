@@ -2146,6 +2146,18 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "公仔",
+    "src": "images/公仔/公仔-04.png",
+    "hasDescription": true,
+    "title": "公仔-04"
+  },
+  {
+    "category": "公仔",
+    "src": "images/公仔/公仔-05.png",
+    "hasDescription": true,
+    "title": "公仔-05"
+  },
+  {
+    "category": "公仔",
     "src": "images/公仔/公仔-06.png",
     "hasDescription": true,
     "title": "公仔-06"
@@ -2258,18 +2270,6 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/公仔/公仔-24.png",
     "hasDescription": true,
     "title": "公仔-24"
-  },
-  {
-    "category": "公仔",
-    "src": "images/公仔/公仔-25.png",
-    "hasDescription": true,
-    "title": "公仔-25"
-  },
-  {
-    "category": "公仔",
-    "src": "images/公仔/公仔-26.png",
-    "hasDescription": true,
-    "title": "公仔-26"
   },
   {
     "category": "日常",
