@@ -40,6 +40,8 @@ DATE_STEM_PATTERN = re.compile(r"^img-\d{8}-\d{6}(?:-\d+)?$")
 OLD_GROUPED_STEM_PATTERN = re.compile(r"^(.+?)(\d+)([a-z]?)(?:-(\d+))?$", re.IGNORECASE)
 NEW_GROUPED_STEM_PATTERN = re.compile(r"^(.+[a-z])-\d+$")
 UNDASHED_GROUPED_STEM_PATTERN = re.compile(r"^(.+[a-z])(\d+)$")
+FLAT_NUMBERED_PREFIXES = {"宮殿畫像", "曬衣服", "泡湯"}
+GROUPED_FILENAME_NORMALIZATION_ENABLED = False
 
 
 def number_to_letters(number: int) -> str:
@@ -166,6 +168,7 @@ def grouped_filename_key(stem: str) -> tuple[str, int, str, int] | None:
         or DATE_STEM_PATTERN.match(stem)
         or NEW_GROUPED_STEM_PATTERN.match(stem)
         or UNDASHED_GROUPED_STEM_PATTERN.match(stem)
+        or any(re.fullmatch(rf"{re.escape(prefix)}-\d+", stem) for prefix in FLAT_NUMBERED_PREFIXES)
     ):
         return None
 
@@ -539,7 +542,8 @@ def main() -> None:
     if build_gallery:
         renamed = rename_special_filenames()
         normalized = normalize_zero_variant_filenames()
-        regrouped = normalize_grouped_filenames()
+        if GROUPED_FILENAME_NORMALIZATION_ENABLED:
+            regrouped = normalize_grouped_filenames()
         separated = normalize_group_sequence_separator()
         padded = normalize_number_padding()
 
