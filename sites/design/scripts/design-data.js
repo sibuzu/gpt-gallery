@@ -315,6 +315,13 @@ window.__GALLERY_IMAGES__ = [
     "description": "a light yellow tiny floral micro mini dress."
   },
   {
+    "category": "現代",
+    "src": "images/現代/現代-46.png",
+    "hasDescription": true,
+    "title": "現代-46",
+    "description": "融合東京優雅與首爾街頭時尚的精緻高端服飾，半透明黑色蕾絲，金色點綴，俏皮中又不失大膽性感。"
+  },
+  {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
@@ -2133,6 +2140,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "民族-75"
   },
   {
+    "category": "民族",
+    "src": "images/民族/民族-76.png",
+    "hasDescription": true,
+    "title": "民族-76"
+  },
+  {
     "category": "公仔",
     "src": "images/公仔/公仔-01.png",
     "hasDescription": true,
@@ -2335,6 +2348,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/公仔/公仔-34.png",
     "hasDescription": true,
     "title": "公仔-34"
+  },
+  {
+    "category": "公仔",
+    "src": "images/公仔/公仔-35.png",
+    "hasDescription": true,
+    "title": "公仔-35"
   },
   {
     "category": "日常",

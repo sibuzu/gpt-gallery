@@ -3432,12 +3432,6 @@ window.__GALLERY_IMAGES__ = [
     "title": "img-20260720-060640"
   },
   {
-    "category": "奇幻",
-    "src": "images/奇幻/光衣-a-01.png",
-    "hasDescription": true,
-    "title": "光衣-a-01"
-  },
-  {
     "category": "Theme",
     "src": "images/Theme/森林a-05.png",
     "hasDescription": true,
@@ -4902,12 +4896,6 @@ window.__GALLERY_IMAGES__ = [
     "title": "img-20260720-061755"
   },
   {
-    "category": "奇幻",
-    "src": "images/奇幻/女神-a-01.png",
-    "hasDescription": true,
-    "title": "女神-a-01"
-  },
-  {
     "category": "Dress",
     "src": "images/Dress/比基尼f-01.png",
     "hasDescription": true,
@@ -4918,6 +4906,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/透明PVCa-11.png",
     "hasDescription": false,
     "title": "透明PVCa-11"
+  },
+  {
+    "category": "奇幻",
+    "src": "images/奇幻/女神-01.png",
+    "hasDescription": true,
+    "title": "女神-01"
   },
   {
     "category": "Dress",
@@ -5778,6 +5772,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "迷你裙o-01"
   },
   {
+    "category": "奇幻",
+    "src": "images/奇幻/光衣-01.png",
+    "hasDescription": true,
+    "title": "光衣-01"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/水晶g-02.png",
     "hasDescription": false,
@@ -6094,6 +6094,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Folk/巴西b-01.png",
     "hasDescription": true,
     "title": "巴西b-01"
+  },
+  {
+    "category": "奇幻",
+    "src": "images/奇幻/女神-02.png",
+    "hasDescription": true,
+    "title": "女神-02"
   },
   {
     "category": "Theme",
