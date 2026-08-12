@@ -2127,6 +2127,12 @@ window.__GALLERY_IMAGES__ = [
     "description": "[Egyptian-inspired bandeau mini dress with pleated linen skirt]"
   },
   {
+    "category": "民族",
+    "src": "images/民族/民族-75.png",
+    "hasDescription": true,
+    "title": "民族-75"
+  },
+  {
     "category": "公仔",
     "src": "images/公仔/公仔-01.png",
     "hasDescription": true,
@@ -2317,6 +2323,18 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/公仔/公仔-32.png",
     "hasDescription": true,
     "title": "公仔-32"
+  },
+  {
+    "category": "公仔",
+    "src": "images/公仔/公仔-33.png",
+    "hasDescription": true,
+    "title": "公仔-33"
+  },
+  {
+    "category": "公仔",
+    "src": "images/公仔/公仔-34.png",
+    "hasDescription": true,
+    "title": "公仔-34"
   },
   {
     "category": "日常",
