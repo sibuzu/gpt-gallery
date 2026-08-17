@@ -322,6 +322,31 @@ window.__GALLERY_IMAGES__ = [
     "description": "融合東京優雅與首爾街頭時尚的精緻高端服飾，半透明黑色蕾絲，金色點綴，俏皮中又不失大膽性感。"
   },
   {
+    "category": "現代",
+    "src": "images/現代/現代-47.png",
+    "hasDescription": true,
+    "title": "現代-47"
+  },
+  {
+    "category": "現代",
+    "src": "images/現代/現代-48.png",
+    "hasDescription": true,
+    "title": "現代-48",
+    "description": "蕾絲短版襯衫"
+  },
+  {
+    "category": "現代",
+    "src": "images/現代/現代-49.png",
+    "hasDescription": true,
+    "title": "現代-49"
+  },
+  {
+    "category": "現代",
+    "src": "images/現代/現代-50.png",
+    "hasDescription": true,
+    "title": "現代-50"
+  },
+  {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
@@ -2146,6 +2171,27 @@ window.__GALLERY_IMAGES__ = [
     "title": "民族-76"
   },
   {
+    "category": "民族",
+    "src": "images/民族/民族-77.png",
+    "hasDescription": true,
+    "title": "民族-77",
+    "description": "Rococo 服飾"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-78.png",
+    "hasDescription": true,
+    "title": "民族-78",
+    "description": "อีโมจิ 🥹👘⛩️🕊️💮🌸🪾🎀☂️ ใส่แสงมุมกล้องเพิ่ม ผลลัพธ์ แตกต่างกันออกไป"
+  },
+  {
+    "category": "民族",
+    "src": "images/民族/民族-79.png",
+    "hasDescription": true,
+    "title": "民族-79",
+    "description": "百合幽香：金碧宮廷裡的清雅佳人"
+  },
+  {
     "category": "公仔",
     "src": "images/公仔/公仔-01.png",
     "hasDescription": true,
@@ -2354,6 +2400,20 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/公仔/公仔-35.png",
     "hasDescription": true,
     "title": "公仔-35"
+  },
+  {
+    "category": "其他",
+    "src": "images/其他/弓手-01.png",
+    "hasDescription": true,
+    "title": "弓手-01",
+    "description": "科幻女弓手"
+  },
+  {
+    "category": "其他",
+    "src": "images/其他/海邊-01.png",
+    "hasDescription": true,
+    "title": "海邊-01",
+    "description": "Model坐在海邊拍照時，浪剛好打上來，model被水花整個包住，表情又剛好抓到。"
   },
   {
     "category": "日常",

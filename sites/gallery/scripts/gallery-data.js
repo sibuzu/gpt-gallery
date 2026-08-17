@@ -144,6 +144,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "韓國a-01"
   },
   {
+    "category": "Dress",
+    "src": "images/Dress/比基尼k-03.png",
+    "hasDescription": true,
+    "title": "比基尼k-03"
+  },
+  {
     "category": "日常",
     "src": "images/日常/img-20260719-201604.png",
     "hasDescription": false,
@@ -661,6 +667,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Dress",
+    "src": "images/Dress/比基尼k-02.png",
+    "hasDescription": true,
+    "title": "比基尼k-02"
+  },
+  {
+    "category": "Dress",
     "src": "images/Dress/薄紗裙a-07.png",
     "hasDescription": true,
     "title": "薄紗裙a-07"
@@ -996,6 +1008,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "img-20260720-062444"
   },
   {
+    "category": "日常",
+    "src": "images/日常/海邊-01.png",
+    "hasDescription": true,
+    "title": "海邊-01"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/迷你裙j-03.png",
     "hasDescription": false,
@@ -1144,6 +1162,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/迷你裙j-01.png",
     "hasDescription": true,
     "title": "迷你裙j-01"
+  },
+  {
+    "category": "Dress",
+    "src": "images/Dress/金碧宮廷佳人-01.png",
+    "hasDescription": true,
+    "title": "金碧宮廷佳人-01"
   },
   {
     "category": "Theme",
@@ -1693,6 +1717,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Dress",
+    "src": "images/Dress/比基尼k-01.png",
+    "hasDescription": true,
+    "title": "比基尼k-01"
+  },
+  {
+    "category": "Dress",
     "src": "images/Dress/內衣a-03.png",
     "hasDescription": true,
     "title": "內衣a-03"
@@ -1938,6 +1968,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "中式庭園a-01"
   },
   {
+    "category": "日常",
+    "src": "images/日常/蕾絲短版襯衫-01.png",
+    "hasDescription": true,
+    "title": "蕾絲短版襯衫-01"
+  },
+  {
     "category": "Theme",
     "src": "images/Theme/森林a-08.png",
     "hasDescription": true,
@@ -2077,6 +2113,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "日常",
+    "src": "images/日常/隔壁老婆-02.png",
+    "hasDescription": false,
+    "title": "隔壁老婆-02"
+  },
+  {
+    "category": "日常",
     "src": "images/日常/img-20260722-112343.png",
     "hasDescription": false,
     "title": "img-20260722-112343"
@@ -2166,6 +2208,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "宮殿畫像-15"
   },
   {
+    "category": "日常",
+    "src": "images/日常/海邊-02.png",
+    "hasDescription": false,
+    "title": "海邊-02"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/薄紗裙a-06.png",
     "hasDescription": true,
@@ -2248,6 +2296,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/內衣a-05.png",
     "hasDescription": true,
     "title": "內衣a-05"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/隔壁大姐-01.png",
+    "hasDescription": true,
+    "title": "隔壁大姐-01"
   },
   {
     "category": "Theme",
@@ -2424,6 +2478,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "img-20260719-213644"
   },
   {
+    "category": "Dress",
+    "src": "images/Dress/梅香傘影佳人-01.png",
+    "hasDescription": true,
+    "title": "梅香傘影佳人-01"
+  },
+  {
     "category": "Theme",
     "src": "images/Theme/紙雕a-03.png",
     "hasDescription": true,
@@ -2482,6 +2542,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/img-20260720-061036.png",
     "hasDescription": false,
     "title": "img-20260720-061036"
+  },
+  {
+    "category": "奇幻",
+    "src": "images/奇幻/月光-02.png",
+    "hasDescription": true,
+    "title": "月光-02"
   },
   {
     "category": "Theme",
@@ -2700,10 +2766,22 @@ window.__GALLERY_IMAGES__ = [
     "title": "演奏a-05"
   },
   {
+    "category": "奇幻",
+    "src": "images/奇幻/月光-01.png",
+    "hasDescription": true,
+    "title": "月光-01"
+  },
+  {
     "category": "Folk",
     "src": "images/Folk/中國漢服e-03.png",
     "hasDescription": false,
     "title": "中國漢服e-03"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/img-20260817-090945.png",
+    "hasDescription": true,
+    "title": "img-20260817-090945"
   },
   {
     "category": "Dress",
@@ -2728,6 +2806,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/薄紗裙a-01.png",
     "hasDescription": true,
     "title": "薄紗裙a-01"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/古手川唯-01.png",
+    "hasDescription": true,
+    "title": "古手川唯-01"
   },
   {
     "category": "奇幻",
@@ -3142,6 +3226,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/愛琴海a-02.png",
     "hasDescription": true,
     "title": "愛琴海a-02"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/泳池畔-03.png",
+    "hasDescription": true,
+    "title": "泳池畔-03"
   },
   {
     "category": "日常",
@@ -3726,6 +3816,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "襯杉b-01"
   },
   {
+    "category": "日常",
+    "src": "images/日常/泳池畔-01.png",
+    "hasDescription": true,
+    "title": "泳池畔-01"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/海洋a-01.png",
     "hasDescription": true,
@@ -3864,6 +3960,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "img-20260720-093558"
   },
   {
+    "category": "Dress",
+    "src": "images/Dress/長裙m-01.png",
+    "hasDescription": true,
+    "title": "長裙m-01"
+  },
+  {
     "category": "Theme",
     "src": "images/Theme/宮殿畫像-10.png",
     "hasDescription": true,
@@ -3898,6 +4000,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/森林a-09.png",
     "hasDescription": true,
     "title": "森林a-09"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/湖邊-01.png",
+    "hasDescription": true,
+    "title": "湖邊-01"
   },
   {
     "category": "Theme",
@@ -4024,6 +4132,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/時尚/img-20260720-075046.png",
     "hasDescription": false,
     "title": "img-20260720-075046"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/古手川唯-02.png",
+    "hasDescription": true,
+    "title": "古手川唯-02"
   },
   {
     "category": "Dress",
@@ -4204,6 +4318,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/站立b-01.png",
     "hasDescription": true,
     "title": "站立b-01"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/海邊-05.png",
+    "hasDescription": false,
+    "title": "海邊-05"
   },
   {
     "category": "Folk",
@@ -4714,6 +4834,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/連身裙m-02.png",
     "hasDescription": true,
     "title": "連身裙m-02"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/海邊-03.png",
+    "hasDescription": false,
+    "title": "海邊-03"
   },
   {
     "category": "Folk",
@@ -5232,6 +5358,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "波麗維亞a-01"
   },
   {
+    "category": "奇幻",
+    "src": "images/奇幻/和服-01.png",
+    "hasDescription": true,
+    "title": "和服-01"
+  },
+  {
     "category": "Theme",
     "src": "images/Theme/森林a-04.png",
     "hasDescription": true,
@@ -5742,6 +5874,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "宮殿畫像-13"
   },
   {
+    "category": "日常",
+    "src": "images/日常/隔壁大姐-02.png",
+    "hasDescription": false,
+    "title": "隔壁大姐-02"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/短裙i-02.png",
     "hasDescription": false,
@@ -5814,6 +5952,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "img-20260719-145101"
   },
   {
+    "category": "日常",
+    "src": "images/日常/泳池畔-02.png",
+    "hasDescription": true,
+    "title": "泳池畔-02"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/短褲c-04.png",
     "hasDescription": false,
@@ -5878,6 +6022,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/花園b-10.png",
     "hasDescription": true,
     "title": "花園b-10"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/隔壁老婆-01.png",
+    "hasDescription": true,
+    "title": "隔壁老婆-01"
   },
   {
     "category": "Dress",
@@ -5974,6 +6124,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/水晶e-02.png",
     "hasDescription": false,
     "title": "水晶e-02"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/海邊-04.png",
+    "hasDescription": false,
+    "title": "海邊-04"
   },
   {
     "category": "Dress",
@@ -6718,6 +6874,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/水晶h-01.png",
     "hasDescription": true,
     "title": "水晶h-01"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/img-20260817-090909.png",
+    "hasDescription": true,
+    "title": "img-20260817-090909"
   },
   {
     "category": "Dress",

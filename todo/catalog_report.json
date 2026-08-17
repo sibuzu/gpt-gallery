@@ -1,12 +1,12 @@
 {
-  "total_categorized": 1156,
+  "total_categorized": 1183,
   "category_counts": {
-    "Dress": 366,
+    "Dress": 372,
     "Folk": 142,
     "Theme": 332,
-    "日常": 192,
+    "日常": 210,
     "時尚": 54,
-    "奇幻": 70
+    "奇幻": 73
   },
   "skipped": [
     {
@@ -42,6 +42,11 @@
     {
       "path": "images/日常/img-20260721-010202.png",
       "duplicate_of": "images/日常/img-20260720-091816.png",
+      "reason": "duplicate_hash"
+    },
+    {
+      "path": "images/日常/湖邊-02.png",
+      "duplicate_of": "images/Dress/梅香傘影佳人-01.png",
       "reason": "duplicate_hash"
     },
     {
