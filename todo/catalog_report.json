@@ -1,7 +1,7 @@
 {
-  "total_categorized": 1183,
+  "total_categorized": 1246,
   "category_counts": {
-    "Dress": 372,
+    "Dress": 435,
     "Folk": 142,
     "Theme": 332,
     "日常": 210,
@@ -12,6 +12,16 @@
     {
       "path": "images/Dress/迷你裙k-01.png",
       "duplicate_of": "images/Dress/迷你裙g-01.png",
+      "reason": "duplicate_hash"
+    },
+    {
+      "path": "images/Dress/金碧宮廷佳人-41.png",
+      "duplicate_of": "images/Dress/金碧宮廷佳人-39.png",
+      "reason": "duplicate_hash"
+    },
+    {
+      "path": "images/Dress/金碧宮廷佳人-47.png",
+      "duplicate_of": "images/Dress/金碧宮廷佳人-45.png",
       "reason": "duplicate_hash"
     },
     {
