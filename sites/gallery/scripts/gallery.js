@@ -6,6 +6,7 @@ const images = window.__GALLERY_IMAGES__ || [];
     const categoryMenu = document.querySelector("#categoryMenu");
     const search = document.querySelector("#search");
     const empty = document.querySelector("#empty");
+    const pagination = document.querySelector("#pagination");
     const visibleCount = document.querySelector("#visibleCount");
     const totalCount = document.querySelector("#totalCount");
     const expandAllToggle = document.querySelector("#expandAllToggle");
@@ -16,11 +17,13 @@ const images = window.__GALLERY_IMAGES__ || [];
     let descriptionDialog = null;
     const DEFAULT_CATEGORY = "Folk";
     const CATEGORY_STORAGE_KEY = "gpt-gallery-active-category";
+    const PAGE_SIZE = 50;
     const categories = ["全部", ...new Set(images.map((image) => image.category))];
     let activeCategory = initialCategory();
     let currentImages = images;
     let currentGroups = [];
     let previewIndex = -1;
+    let currentPage = 1;
     let touchStartX = 0;
     let touchStartY = 0;
     const expandedGroups = new Set();
@@ -56,8 +59,41 @@ const images = window.__GALLERY_IMAGES__ || [];
 
     function setActiveCategory(category) {
       activeCategory = category;
+      currentPage = 1;
       rememberCategory(category);
       render();
+    }
+
+    function pageButton(label, page, options = {}) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "page-button";
+      button.textContent = label;
+      button.disabled = options.disabled || false;
+      if (options.active) {
+        button.classList.add("active");
+        button.setAttribute("aria-current", "page");
+      }
+      button.addEventListener("click", () => {
+        currentPage = page;
+        render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+      return button;
+    }
+
+    function renderPagination(totalPages) {
+      if (totalPages <= 1) {
+        pagination.replaceChildren();
+        return;
+      }
+
+      const controls = [pageButton("‹", currentPage - 1, { disabled: currentPage === 1 })];
+      for (let page = 1; page <= totalPages; page += 1) {
+        controls.push(pageButton(`PAGE ${page}`, page, { active: page === currentPage }));
+      }
+      controls.push(pageButton("›", currentPage + 1, { disabled: currentPage === totalPages }));
+      pagination.replaceChildren(...controls);
     }
 
     function basenameKey(title) {
@@ -486,7 +522,11 @@ const images = window.__GALLERY_IMAGES__ || [];
         return matchCategory && matchQuery;
       });
       currentGroups = groupByBasename(filtered);
-      currentImages = displayItemsFor(currentGroups);
+      const displayItems = displayItemsFor(currentGroups);
+      const totalPages = Math.max(1, Math.ceil(displayItems.length / PAGE_SIZE));
+      currentPage = Math.min(currentPage, totalPages);
+      const pageStart = (currentPage - 1) * PAGE_SIZE;
+      currentImages = displayItems.slice(pageStart, pageStart + PAGE_SIZE);
 
       document.querySelectorAll(".chip").forEach((chip) => {
         chip.classList.toggle("active", chip.dataset.category === activeCategory);
@@ -498,6 +538,7 @@ const images = window.__GALLERY_IMAGES__ || [];
       visibleCount.textContent = currentImages.length;
       totalCount.textContent = images.length;
       syncExpandAllToggle(currentGroups);
+      renderPagination(totalPages);
     }
 
     filters.replaceChildren(...categories.map(makeChip));
@@ -505,7 +546,10 @@ const images = window.__GALLERY_IMAGES__ || [];
     categoryMenu.addEventListener("change", () => {
       setActiveCategory(categoryMenu.value);
     });
-    search.addEventListener("input", render);
+    search.addEventListener("input", () => {
+      currentPage = 1;
+      render();
+    });
     expandAllToggle.addEventListener("click", toggleAllGroups);
     window.addEventListener("resize", resizeMasonry);
     close.addEventListener("click", closePreview);
