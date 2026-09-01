@@ -6474,6 +6474,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "巴西b-02"
   },
   {
+    "category": "日常",
+    "src": "images/日常/電車-01.png",
+    "hasDescription": true,
+    "title": "電車-01"
+  },
+  {
     "category": "Theme",
     "src": "images/Theme/日式庭園b-01.png",
     "hasDescription": true,
