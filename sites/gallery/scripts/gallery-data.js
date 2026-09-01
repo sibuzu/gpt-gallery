@@ -1524,6 +1524,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "波斯a-01"
   },
   {
+    "category": "奇幻",
+    "src": "images/奇幻/ShowGirl-02.png",
+    "hasDescription": false,
+    "title": "ShowGirl-02"
+  },
+  {
     "category": "Folk",
     "src": "images/Folk/日本和服f-01.png",
     "hasDescription": true,
@@ -6522,6 +6528,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "襯杉a-01"
   },
   {
+    "category": "奇幻",
+    "src": "images/奇幻/ShowGirl-03.png",
+    "hasDescription": false,
+    "title": "ShowGirl-03"
+  },
+  {
     "category": "Theme",
     "src": "images/Theme/地中海a-10.png",
     "hasDescription": false,
@@ -7288,6 +7300,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/宮殿畫像-23.png",
     "hasDescription": true,
     "title": "宮殿畫像-23"
+  },
+  {
+    "category": "奇幻",
+    "src": "images/奇幻/ShowGirl-01.png",
+    "hasDescription": true,
+    "title": "ShowGirl-01"
   },
   {
     "category": "時尚",
