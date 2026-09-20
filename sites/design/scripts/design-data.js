@@ -2204,6 +2204,12 @@ window.__GALLERY_IMAGES__ = [
     "description": "百合幽香：金碧宮廷裡的清雅佳人"
   },
   {
+    "category": "民族",
+    "src": "images/民族/民族-80.png",
+    "hasDescription": true,
+    "title": "民族-80"
+  },
+  {
     "category": "公仔",
     "src": "images/公仔/公仔-01.png",
     "hasDescription": true,
