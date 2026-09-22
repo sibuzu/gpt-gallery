@@ -2034,6 +2034,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "金碧宮廷佳人-74"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/視角構圖-02.png",
+    "hasDescription": false,
+    "title": "視角構圖-02"
+  },
+  {
     "category": "Folk",
     "src": "images/Folk/日本和服j-01.png",
     "hasDescription": true,
@@ -2713,6 +2719,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Theme",
+    "src": "images/Theme/手繪構圖-01.png",
+    "hasDescription": false,
+    "title": "手繪構圖-01"
+  },
+  {
+    "category": "Theme",
     "src": "images/Theme/日式庭園b-09.png",
     "hasDescription": true,
     "title": "日式庭園b-09"
@@ -3022,6 +3034,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/古手川唯-01.png",
     "hasDescription": true,
     "title": "古手川唯-01"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/視角構圖-06.png",
+    "hasDescription": false,
+    "title": "視角構圖-06"
   },
   {
     "category": "奇幻",
@@ -3984,6 +4002,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "油畫a-07"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/視角構圖-01.png",
+    "hasDescription": false,
+    "title": "視角構圖-01"
+  },
+  {
     "category": "日常",
     "src": "images/日常/運動e-01.png",
     "hasDescription": true,
@@ -4354,6 +4378,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/花園b-05.png",
     "hasDescription": true,
     "title": "花園b-05"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/視角構圖-07.png",
+    "hasDescription": false,
+    "title": "視角構圖-07"
   },
   {
     "category": "奇幻",
@@ -5376,6 +5406,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "連身裙l-03"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/手繪構圖-06.png",
+    "hasDescription": false,
+    "title": "手繪構圖-06"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/女神服f-03.png",
     "hasDescription": false,
@@ -5904,6 +5940,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "日本和服g-01"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/手繪構圖-05.png",
+    "hasDescription": false,
+    "title": "手繪構圖-05"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/連身裙a-01.png",
     "hasDescription": true,
@@ -6144,6 +6186,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "直坐a-01"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/手繪構圖-02.png",
+    "hasDescription": false,
+    "title": "手繪構圖-02"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/金碧宮廷佳人-16.png",
     "hasDescription": false,
@@ -6238,6 +6286,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/手機a-08.png",
     "hasDescription": true,
     "title": "手機a-08"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/手繪構圖-04.png",
+    "hasDescription": false,
+    "title": "手繪構圖-04"
   },
   {
     "category": "Theme",
@@ -6727,6 +6781,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Theme",
+    "src": "images/Theme/手繪構圖-03.png",
+    "hasDescription": false,
+    "title": "手繪構圖-03"
+  },
+  {
+    "category": "Theme",
     "src": "images/Theme/臥室a-08.png",
     "hasDescription": true,
     "title": "臥室a-08"
@@ -7074,6 +7134,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "中式庭園b-05"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/視角構圖-03.png",
+    "hasDescription": false,
+    "title": "視角構圖-03"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/比基尼e-06.png",
     "hasDescription": false,
@@ -7146,6 +7212,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "禮服a-02"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/視角構圖-05.png",
+    "hasDescription": false,
+    "title": "視角構圖-05"
+  },
+  {
     "category": "Folk",
     "src": "images/Folk/英國格子裙a-03.png",
     "hasDescription": false,
@@ -7204,6 +7276,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/海底a-07.png",
     "hasDescription": true,
     "title": "海底a-07"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/視角構圖-04.png",
+    "hasDescription": false,
+    "title": "視角構圖-04"
   },
   {
     "category": "Dress",
