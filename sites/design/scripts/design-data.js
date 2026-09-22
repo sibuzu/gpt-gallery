@@ -2420,20 +2420,6 @@ window.__GALLERY_IMAGES__ = [
     "title": "公仔-35"
   },
   {
-    "category": "其他",
-    "src": "images/其他/弓手-01.png",
-    "hasDescription": true,
-    "title": "弓手-01",
-    "description": "科幻女弓手"
-  },
-  {
-    "category": "其他",
-    "src": "images/其他/海邊-01.png",
-    "hasDescription": true,
-    "title": "海邊-01",
-    "description": "Model坐在海邊拍照時，浪剛好打上來，model被水花整個包住，表情又剛好抓到。"
-  },
-  {
     "category": "手繪",
     "src": "images/手繪/手繪-01.png",
     "hasDescription": true,
