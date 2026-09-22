@@ -2434,6 +2434,270 @@ window.__GALLERY_IMAGES__ = [
     "description": "Model坐在海邊拍照時，浪剛好打上來，model被水花整個包住，表情又剛好抓到。"
   },
   {
+    "category": "手繪",
+    "src": "images/手繪/手繪-01.png",
+    "hasDescription": true,
+    "title": "手繪-01"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-02.png",
+    "hasDescription": false,
+    "title": "手繪-02"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-03.png",
+    "hasDescription": false,
+    "title": "手繪-03"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-04.png",
+    "hasDescription": false,
+    "title": "手繪-04"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-05.png",
+    "hasDescription": false,
+    "title": "手繪-05"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-06.png",
+    "hasDescription": false,
+    "title": "手繪-06"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-07.png",
+    "hasDescription": false,
+    "title": "手繪-07"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-08.png",
+    "hasDescription": false,
+    "title": "手繪-08"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-09.png",
+    "hasDescription": false,
+    "title": "手繪-09"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-10.png",
+    "hasDescription": false,
+    "title": "手繪-10"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-11.png",
+    "hasDescription": false,
+    "title": "手繪-11"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-12.png",
+    "hasDescription": false,
+    "title": "手繪-12"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-13.png",
+    "hasDescription": false,
+    "title": "手繪-13"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-14.png",
+    "hasDescription": false,
+    "title": "手繪-14"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-15.png",
+    "hasDescription": false,
+    "title": "手繪-15"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-16.png",
+    "hasDescription": false,
+    "title": "手繪-16"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-17.png",
+    "hasDescription": false,
+    "title": "手繪-17"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-18.png",
+    "hasDescription": false,
+    "title": "手繪-18"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-19.png",
+    "hasDescription": false,
+    "title": "手繪-19"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-20.png",
+    "hasDescription": false,
+    "title": "手繪-20"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-21.png",
+    "hasDescription": false,
+    "title": "手繪-21"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-22.png",
+    "hasDescription": false,
+    "title": "手繪-22"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-23.png",
+    "hasDescription": false,
+    "title": "手繪-23"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-24.png",
+    "hasDescription": false,
+    "title": "手繪-24"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-25.png",
+    "hasDescription": false,
+    "title": "手繪-25"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-26.png",
+    "hasDescription": false,
+    "title": "手繪-26"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-27.png",
+    "hasDescription": false,
+    "title": "手繪-27"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-28.png",
+    "hasDescription": false,
+    "title": "手繪-28"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-29.png",
+    "hasDescription": false,
+    "title": "手繪-29"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-30.png",
+    "hasDescription": false,
+    "title": "手繪-30"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-31.png",
+    "hasDescription": false,
+    "title": "手繪-31"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-32.png",
+    "hasDescription": false,
+    "title": "手繪-32"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-33.png",
+    "hasDescription": false,
+    "title": "手繪-33"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-34.png",
+    "hasDescription": false,
+    "title": "手繪-34"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-35.png",
+    "hasDescription": false,
+    "title": "手繪-35"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-36.png",
+    "hasDescription": false,
+    "title": "手繪-36"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-37.png",
+    "hasDescription": false,
+    "title": "手繪-37"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-38.png",
+    "hasDescription": false,
+    "title": "手繪-38"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-39.png",
+    "hasDescription": false,
+    "title": "手繪-39"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-40.png",
+    "hasDescription": false,
+    "title": "手繪-40"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-41.png",
+    "hasDescription": false,
+    "title": "手繪-41"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-42.png",
+    "hasDescription": false,
+    "title": "手繪-42"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-43.png",
+    "hasDescription": false,
+    "title": "手繪-43"
+  },
+  {
+    "category": "手繪",
+    "src": "images/手繪/手繪-44.png",
+    "hasDescription": false,
+    "title": "手繪-44"
+  },
+  {
     "category": "日常",
     "src": "images/日常/ChatGPT Image 2026年8月12日 上午02_32_20.png",
     "hasDescription": false,

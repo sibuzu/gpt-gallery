@@ -6522,6 +6522,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "宮殿畫像-20"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/視角構圖-08.png",
+    "hasDescription": false,
+    "title": "視角構圖-08"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/迷你裙n-05.png",
     "hasDescription": false,
