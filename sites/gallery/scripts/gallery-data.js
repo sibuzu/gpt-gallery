@@ -780,6 +780,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "img-20260719-164608"
   },
   {
+    "category": "日常",
+    "src": "images/日常/日常-03.png",
+    "hasDescription": true,
+    "title": "日常-03"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/宮廷貴族a-02.png",
     "hasDescription": true,
@@ -1102,6 +1108,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/短裙m-01.png",
     "hasDescription": true,
     "title": "短裙m-01"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-01.png",
+    "hasDescription": true,
+    "title": "日常-01"
   },
   {
     "category": "時尚",
@@ -6778,6 +6790,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Folk/波蘭a-03.png",
     "hasDescription": false,
     "title": "波蘭a-03"
+  },
+  {
+    "category": "日常",
+    "src": "images/日常/日常-02.png",
+    "hasDescription": true,
+    "title": "日常-02"
   },
   {
     "category": "Dress",
