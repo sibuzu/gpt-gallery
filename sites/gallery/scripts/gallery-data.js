@@ -642,6 +642,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "圍裙a-10"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/人像攝影構圖-01.png",
+    "hasDescription": true,
+    "title": "人像攝影構圖-01"
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/窄裙b-01.png",
     "hasDescription": true,
@@ -1050,6 +1056,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "金碧宮廷佳人-12"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/人像攝影構圖-04.png",
+    "hasDescription": true,
+    "title": "人像攝影構圖-04"
+  },
+  {
     "category": "時尚",
     "src": "images/時尚/img-20260719-195029.png",
     "hasDescription": false,
@@ -1267,6 +1279,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Theme",
+    "src": "images/Theme/人像攝影構圖-05.png",
+    "hasDescription": true,
+    "title": "人像攝影構圖-05"
+  },
+  {
+    "category": "Theme",
     "src": "images/Theme/海邊a-05.png",
     "hasDescription": true,
     "title": "海邊a-05"
@@ -1414,6 +1432,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/運動b-02.png",
     "hasDescription": false,
     "title": "運動b-02"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/人像攝影構圖-10.png",
+    "hasDescription": true,
+    "title": "人像攝影構圖-10"
   },
   {
     "category": "Theme",
@@ -2754,6 +2778,12 @@ window.__GALLERY_IMAGES__ = [
     "title": "中式庭園a-07"
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/人像攝影構圖-06.png",
+    "hasDescription": true,
+    "title": "人像攝影構圖-06"
+  },
+  {
     "category": "日常",
     "src": "images/日常/img-20260720-061036.png",
     "hasDescription": false,
@@ -2908,6 +2938,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/鏡子b-10.png",
     "hasDescription": true,
     "title": "鏡子b-10"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/人像攝影構圖-09.png",
+    "hasDescription": true,
+    "title": "人像攝影構圖-09"
   },
   {
     "category": "日常",
@@ -3190,6 +3226,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/宮殿畫像-21.png",
     "hasDescription": true,
     "title": "宮殿畫像-21"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/人像攝影構圖-03.png",
+    "hasDescription": true,
+    "title": "人像攝影構圖-03"
   },
   {
     "category": "Dress",
@@ -4552,6 +4594,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Theme/海邊a-07.png",
     "hasDescription": true,
     "title": "海邊a-07"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/人像攝影構圖-08.png",
+    "hasDescription": true,
+    "title": "人像攝影構圖-08"
   },
   {
     "category": "Theme",
@@ -6313,6 +6361,12 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Theme",
+    "src": "images/Theme/人像攝影構圖-07.png",
+    "hasDescription": true,
+    "title": "人像攝影構圖-07"
+  },
+  {
+    "category": "Theme",
     "src": "images/Theme/塗鴉a-06.png",
     "hasDescription": true,
     "title": "塗鴉a-06"
@@ -7486,6 +7540,12 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/時尚/img-20260719-164827.png",
     "hasDescription": false,
     "title": "img-20260719-164827"
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/人像攝影構圖-02.png",
+    "hasDescription": true,
+    "title": "人像攝影構圖-02"
   },
   {
     "category": "Dress",
