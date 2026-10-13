@@ -8,6 +8,8 @@ import re
 import time
 from pathlib import Path
 
+from PIL import Image
+
 
 ROOT = Path(__file__).resolve().parents[1]
 GALLERY_SITE_DIR = ROOT / "sites" / "gallery"
@@ -348,6 +350,13 @@ def title_for(path: Path) -> str:
     return path.stem.removeprefix("ChatGPT Image ").strip()
 
 
+def image_dimensions(path: Path) -> dict[str, int]:
+    # Read only the header; reserve layout space before downloading the image.
+    with Image.open(path) as image:
+        width, height = image.size
+    return {"width": width, "height": height}
+
+
 def single_line_description_for(path: Path) -> str | None:
     description_path = path.with_suffix(".md")
     if not description_path.exists():
@@ -445,6 +454,7 @@ def scan_gallery_images() -> tuple[list[dict[str, str]], dict[str, object]]:
                 "src": relative_path,
                 "hasDescription": path.with_suffix(".md").exists(),
                 "title": title_for(path),
+                **image_dimensions(path),
             })
 
     items.sort(key=lambda item: hashlib.sha256(item["src"].encode("utf-8")).hexdigest())
@@ -489,6 +499,7 @@ def scan_design_images() -> list[dict[str, str]]:
                 "src": relative_path,
                 "hasDescription": path.with_suffix(".md").exists(),
                 "title": title_for(path),
+                **image_dimensions(path),
             }
             description = single_line_description_for(path)
             if description:
