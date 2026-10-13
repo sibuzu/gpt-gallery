@@ -4,6 +4,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-01.png",
     "hasDescription": true,
     "title": "現代-01",
+    "width": 1672,
+    "height": 941,
     "description": "[cropped camisole with gathered mini skirt]"
   },
   {
@@ -11,6 +13,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-02.png",
     "hasDescription": true,
     "title": "現代-02",
+    "width": 1672,
+    "height": 941,
     "description": "a pastel pink floral fantasy bodysuit with embroidered lace"
   },
   {
@@ -18,6 +22,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-03.png",
     "hasDescription": true,
     "title": "現代-03",
+    "width": 1672,
+    "height": 941,
     "description": "a ruffled halter bikini"
   },
   {
@@ -25,6 +31,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-04.png",
     "hasDescription": true,
     "title": "現代-04",
+    "width": 1672,
+    "height": 941,
     "description": "[white lace dress with sheer chiffon skirt]"
   },
   {
@@ -32,6 +40,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-05.png",
     "hasDescription": true,
     "title": "現代-05",
+    "width": 1672,
+    "height": 941,
     "description": "She wears a white Deep V-neckline shirt and dark black hight slit mini skirt"
   },
   {
@@ -39,6 +49,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-06.png",
     "hasDescription": true,
     "title": "現代-06",
+    "width": 1672,
+    "height": 941,
     "description": "[apron-inspired linen halter mini outfit]"
   },
   {
@@ -46,6 +58,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-07.png",
     "hasDescription": true,
     "title": "現代-07",
+    "width": 1672,
+    "height": 941,
     "description": "[embroidered short dress with red floral details]"
   },
   {
@@ -53,6 +67,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-08.png",
     "hasDescription": true,
     "title": "現代-08",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder lace shirt with micro mini skirt]"
   },
   {
@@ -60,6 +76,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-09.png",
     "hasDescription": true,
     "title": "現代-09",
+    "width": 1672,
+    "height": 941,
     "description": "[halter crop top with ruffled mini wrap skirt]"
   },
   {
@@ -67,6 +85,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-10.png",
     "hasDescription": true,
     "title": "現代-10",
+    "width": 1672,
+    "height": 941,
     "description": "[chiffon beach dress with plunging neckline]"
   },
   {
@@ -74,6 +94,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-11.png",
     "hasDescription": true,
     "title": "現代-11",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder crop top with side-tie bikini bottoms]"
   },
   {
@@ -81,6 +103,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-12.png",
     "hasDescription": true,
     "title": "現代-12",
+    "width": 1672,
+    "height": 941,
     "description": "[preppy V-neck blouse with miniskirt]"
   },
   {
@@ -88,6 +112,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-13.png",
     "hasDescription": true,
     "title": "現代-13",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder couture mini dress with plunging neckline]"
   },
   {
@@ -95,6 +121,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-14.png",
     "hasDescription": true,
     "title": "現代-14",
+    "width": 1672,
+    "height": 941,
     "description": "[snowflake-inspired crystalline lace couture dress]"
   },
   {
@@ -102,6 +130,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-15.png",
     "hasDescription": true,
     "title": "現代-15",
+    "width": 1672,
+    "height": 941,
     "description": "[cropped bolero with corset bralette and organza mini skirt]"
   },
   {
@@ -109,6 +139,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-16.png",
     "hasDescription": true,
     "title": "現代-16",
+    "width": 1672,
+    "height": 941,
     "description": "[wagasa-inspired evening mini dress]"
   },
   {
@@ -116,6 +148,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-17.png",
     "hasDescription": true,
     "title": "現代-17",
+    "width": 1672,
+    "height": 941,
     "description": "[wagasa-inspired evening mini dress]"
   },
   {
@@ -123,6 +157,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-18.png",
     "hasDescription": true,
     "title": "現代-18",
+    "width": 1672,
+    "height": 941,
     "description": "[athletic tank top with retro running shorts]"
   },
   {
@@ -130,6 +166,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-19.png",
     "hasDescription": true,
     "title": "現代-19",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder crop top with side-tie mini skirt]"
   },
   {
@@ -137,6 +175,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-20.png",
     "hasDescription": true,
     "title": "現代-20",
+    "width": 1672,
+    "height": 941,
     "description": "[triangle string bikini with ruffled trim]"
   },
   {
@@ -144,6 +184,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-21.png",
     "hasDescription": true,
     "title": "現代-21",
+    "width": 1672,
+    "height": 941,
     "description": "[sailor-inspired crop top with pleated mini skirt]"
   },
   {
@@ -151,6 +193,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-22.png",
     "hasDescription": true,
     "title": "現代-22",
+    "width": 1672,
+    "height": 941,
     "description": "[divine chiffon gown with sheer sleeves]"
   },
   {
@@ -158,6 +202,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-23.png",
     "hasDescription": true,
     "title": "現代-23",
+    "width": 1672,
+    "height": 941,
     "description": "[lace balconette bra with matching briefs]"
   },
   {
@@ -165,6 +211,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-24.png",
     "hasDescription": true,
     "title": "現代-24",
+    "width": 1672,
+    "height": 941,
     "description": "[rainbow-dyed white dress]"
   },
   {
@@ -172,6 +220,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-25.png",
     "hasDescription": true,
     "title": "現代-25",
+    "width": 1672,
+    "height": 941,
     "description": "[divine chiffon mini dress with gold embroidery]"
   },
   {
@@ -179,6 +229,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-26.png",
     "hasDescription": true,
     "title": "現代-26",
+    "width": 1672,
+    "height": 941,
     "description": "[kimono-inspired off-shoulder mini dress]"
   },
   {
@@ -186,6 +238,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-27.png",
     "hasDescription": true,
     "title": "現代-27",
+    "width": 1672,
+    "height": 941,
     "description": "[floral fantasy mini dress with lace]"
   },
   {
@@ -193,6 +247,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-28.png",
     "hasDescription": true,
     "title": "現代-28",
+    "width": 1672,
+    "height": 941,
     "description": "[ruffled halter bikini with chiffon beach cover-up]"
   },
   {
@@ -200,6 +256,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-29.png",
     "hasDescription": true,
     "title": "現代-29",
+    "width": 1672,
+    "height": 941,
     "description": "[silk mini dress with openwork side panels]"
   },
   {
@@ -207,6 +265,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-30.png",
     "hasDescription": true,
     "title": "現代-30",
+    "width": 1672,
+    "height": 941,
     "description": "[football fan crop top with pleated micro skirt]"
   },
   {
@@ -214,6 +274,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-31.png",
     "hasDescription": true,
     "title": "現代-31",
+    "width": 1672,
+    "height": 941,
     "description": "[silk crop top with tie-side bikini bottoms]"
   },
   {
@@ -221,6 +283,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-32.png",
     "hasDescription": true,
     "title": "現代-32",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder crop top with high-cut mini skirt]"
   },
   {
@@ -228,6 +292,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-33.png",
     "hasDescription": true,
     "title": "現代-33",
+    "width": 1672,
+    "height": 941,
     "description": "[baroque embroidered mini dress with sheer sleeves]"
   },
   {
@@ -235,6 +301,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-34.png",
     "hasDescription": true,
     "title": "現代-34",
+    "width": 1672,
+    "height": 941,
     "description": "[organza halter crop top with layered chiffon mini skirt]"
   },
   {
@@ -242,6 +310,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-35.png",
     "hasDescription": true,
     "title": "現代-35",
+    "width": 1672,
+    "height": 941,
     "description": "[ribbed-knit sleeveless bodysuit with high-cut hips]"
   },
   {
@@ -249,6 +319,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-36.png",
     "hasDescription": true,
     "title": "現代-36",
+    "width": 1672,
+    "height": 941,
     "description": "[cutout bodice with satin mini skirt and sheer tulle]"
   },
   {
@@ -256,6 +328,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-37.png",
     "hasDescription": true,
     "title": "現代-37",
+    "width": 1672,
+    "height": 941,
     "description": "[one-shoulder chiffon mini dress with ruffled sleeves]"
   },
   {
@@ -263,6 +337,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-38.png",
     "hasDescription": true,
     "title": "現代-38",
+    "width": 1672,
+    "height": 941,
     "description": "[bohemian wrap-front mini dress with waist cutouts]"
   },
   {
@@ -270,6 +346,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-39.png",
     "hasDescription": true,
     "title": "現代-39",
+    "width": 1672,
+    "height": 941,
     "description": "[crystal royal mini dress with off-shoulder bodice]"
   },
   {
@@ -277,6 +355,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-40.png",
     "hasDescription": true,
     "title": "現代-40",
+    "width": 1672,
+    "height": 941,
     "description": "[chiffon beach mini dress with plunging neckline]"
   },
   {
@@ -284,6 +364,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-41.png",
     "hasDescription": true,
     "title": "現代-41",
+    "width": 1672,
+    "height": 941,
     "description": "[Japanese maid-inspired top with apron mini skirt]"
   },
   {
@@ -291,6 +373,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-42.png",
     "hasDescription": true,
     "title": "現代-42",
+    "width": 1672,
+    "height": 941,
     "description": "a skyblue venus mini dress"
   },
   {
@@ -298,6 +382,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-43.png",
     "hasDescription": true,
     "title": "現代-43",
+    "width": 1672,
+    "height": 941,
     "description": "a pastel pink Bodycon mini dress."
   },
   {
@@ -305,6 +391,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-44.png",
     "hasDescription": true,
     "title": "現代-44",
+    "width": 1672,
+    "height": 941,
     "description": "a light green Ruched mini dress."
   },
   {
@@ -312,6 +400,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-45.png",
     "hasDescription": true,
     "title": "現代-45",
+    "width": 1672,
+    "height": 941,
     "description": "a light yellow tiny floral micro mini dress."
   },
   {
@@ -319,62 +409,82 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/現代/現代-46.png",
     "hasDescription": true,
     "title": "現代-46",
+    "width": 1672,
+    "height": 941,
     "description": "融合東京優雅與首爾街頭時尚的精緻高端服飾，半透明黑色蕾絲，金色點綴，俏皮中又不失大膽性感。"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-47.png",
     "hasDescription": true,
-    "title": "現代-47"
+    "title": "現代-47",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "現代",
     "src": "images/現代/現代-48.png",
     "hasDescription": true,
     "title": "現代-48",
+    "width": 1672,
+    "height": 941,
     "description": "蕾絲短版襯衫"
   },
   {
     "category": "現代",
     "src": "images/現代/現代-49.png",
     "hasDescription": true,
-    "title": "現代-49"
+    "title": "現代-49",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "現代",
     "src": "images/現代/現代-50.png",
     "hasDescription": true,
-    "title": "現代-50"
+    "title": "現代-50",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "現代",
     "src": "images/現代/現代-51.png",
     "hasDescription": true,
-    "title": "現代-51"
+    "title": "現代-51",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "現代",
     "src": "images/現代/現代-52.png",
     "hasDescription": true,
-    "title": "現代-52"
+    "title": "現代-52",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "現代",
     "src": "images/現代/現代-53.png",
     "hasDescription": false,
-    "title": "現代-53"
+    "title": "現代-53",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "現代",
     "src": "images/現代/現代-54.png",
     "hasDescription": false,
-    "title": "現代-54"
+    "title": "現代-54",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "雲紗",
     "src": "images/雲紗/雲紗-01.png",
     "hasDescription": true,
     "title": "雲紗-01",
+    "width": 1672,
+    "height": 941,
     "description": "[petal-inspired couture mini dress]"
   },
   {
@@ -382,6 +492,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-02.png",
     "hasDescription": true,
     "title": "雲紗-02",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with magnolia petal crop top]"
   },
   {
@@ -389,6 +501,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-03.png",
     "hasDescription": true,
     "title": "雲紗-03",
+    "width": 1672,
+    "height": 941,
     "description": "[ocean cloud-inspired couture mini dress]"
   },
   {
@@ -396,6 +510,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-04.png",
     "hasDescription": true,
     "title": "雲紗-04",
+    "width": 1672,
+    "height": 941,
     "description": "[fire cloud-inspired couture mini dress]"
   },
   {
@@ -403,6 +519,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-05.png",
     "hasDescription": true,
     "title": "雲紗-05",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder organza top with wide-leg chiffon pants]"
   },
   {
@@ -410,6 +528,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-06.png",
     "hasDescription": true,
     "title": "雲紗-06",
+    "width": 1672,
+    "height": 941,
     "description": "[petal halter crop top with asymmetrical organza skirt]"
   },
   {
@@ -417,6 +537,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-07.png",
     "hasDescription": true,
     "title": "雲紗-07",
+    "width": 1672,
+    "height": 941,
     "description": "[illusion mini dress with layered chiffon skirt]"
   },
   {
@@ -424,6 +546,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-08.png",
     "hasDescription": true,
     "title": "雲紗-08",
+    "width": 1773,
+    "height": 887,
     "description": "[petal off-shoulder crop top with chiffon mini skirt]"
   },
   {
@@ -431,6 +555,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-09.png",
     "hasDescription": true,
     "title": "雲紗-09",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder petal crop top with high-waisted chiffon mini skirt]"
   },
   {
@@ -438,6 +564,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-10.png",
     "hasDescription": true,
     "title": "雲紗-10",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric bandeau top with layered chiffon mini skirt]"
   },
   {
@@ -445,6 +573,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-11.png",
     "hasDescription": true,
     "title": "雲紗-11",
+    "width": 1672,
+    "height": 941,
     "description": "[architectural crop top with asymmetrical mini skirt]"
   },
   {
@@ -452,6 +582,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-12.png",
     "hasDescription": true,
     "title": "雲紗-12",
+    "width": 1672,
+    "height": 941,
     "description": "[butterfly-inspired halter crop top with layered mini skirt]"
   },
   {
@@ -459,6 +591,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-13.png",
     "hasDescription": true,
     "title": "雲紗-13",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder chiffon crop top with cloud-like organza mini skirt]"
   },
   {
@@ -466,6 +600,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-14.png",
     "hasDescription": true,
     "title": "雲紗-14",
+    "width": 1672,
+    "height": 941,
     "description": "[crystal-inspired crop top with asymmetric chiffon mini skirt]"
   },
   {
@@ -473,6 +609,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-15.png",
     "hasDescription": true,
     "title": "雲紗-15",
+    "width": 1672,
+    "height": 941,
     "description": "[Aurora-inspired bandeau top with flowing chiffon mini skirt]"
   },
   {
@@ -480,6 +618,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-16.png",
     "hasDescription": true,
     "title": "雲紗-16",
+    "width": 1672,
+    "height": 941,
     "description": "[cloud-sleeve organza crop blouse with layered chiffon mini skirt]"
   },
   {
@@ -487,6 +627,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-17.png",
     "hasDescription": true,
     "title": "雲紗-17",
+    "width": 1672,
+    "height": 941,
     "description": "[lotus-inspired mini dress with layered petal bodice and skirt]"
   },
   {
@@ -494,6 +636,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-18.png",
     "hasDescription": true,
     "title": "雲紗-18",
+    "width": 1672,
+    "height": 941,
     "description": "[wind-inspired one-shoulder crop top with spiraling chiffon mini skirt]"
   },
   {
@@ -501,6 +645,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-19.png",
     "hasDescription": true,
     "title": "雲紗-19",
+    "width": 1672,
+    "height": 941,
     "description": "[feather organza crop top with layered chiffon mini skirt]"
   },
   {
@@ -508,6 +654,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-20.png",
     "hasDescription": true,
     "title": "雲紗-20",
+    "width": 1672,
+    "height": 941,
     "description": "[bubble-inspired off-shoulder crop bodice with layered chiffon mini skirt]"
   },
   {
@@ -515,6 +663,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-21.png",
     "hasDescription": true,
     "title": "雲紗-21",
+    "width": 1672,
+    "height": 941,
     "description": "[seashell organza crop top with asymmetric chiffon mini skirt]"
   },
   {
@@ -522,6 +672,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-22.png",
     "hasDescription": true,
     "title": "雲紗-22",
+    "width": 1672,
+    "height": 941,
     "description": "[one-shoulder cloud bodice with cascading chiffon mini skirt]"
   },
   {
@@ -529,6 +681,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-23.png",
     "hasDescription": true,
     "title": "雲紗-23",
+    "width": 1672,
+    "height": 941,
     "description": "[crystal-wing bandeau top with layered chiffon mini skirt]"
   },
   {
@@ -536,6 +690,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-24.png",
     "hasDescription": true,
     "title": "雲紗-24",
+    "width": 1672,
+    "height": 941,
     "description": "[cloud-inspired one-shoulder crop top with spiraling chiffon mini skirt]"
   },
   {
@@ -543,6 +699,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-25.png",
     "hasDescription": true,
     "title": "雲紗-25",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder organza petal crop top with chiffon petal mini skirt]"
   },
   {
@@ -550,6 +708,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-26.png",
     "hasDescription": true,
     "title": "雲紗-26",
+    "width": 1672,
+    "height": 941,
     "description": "[magnolia petal crop top with layered chiffon mini skirt]"
   },
   {
@@ -557,6 +717,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-27.png",
     "hasDescription": true,
     "title": "雲紗-27",
+    "width": 1672,
+    "height": 941,
     "description": "[crystal petal sweetheart crop top with asymmetric chiffon mini skirt]"
   },
   {
@@ -564,6 +726,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-28.png",
     "hasDescription": true,
     "title": "雲紗-28",
+    "width": 1672,
+    "height": 941,
     "description": "[one-shoulder cloud ribbon crop top with chiffon petal mini skirt]"
   },
   {
@@ -571,6 +735,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-29.png",
     "hasDescription": true,
     "title": "雲紗-29",
+    "width": 1672,
+    "height": 941,
     "description": "[Aurora-inspired bandeau top with spiraling organza mini skirt]"
   },
   {
@@ -578,6 +744,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-30.png",
     "hasDescription": true,
     "title": "雲紗-30",
+    "width": 1672,
+    "height": 941,
     "description": "[wave-inspired off-shoulder crop top with layered chiffon mini skirt]"
   },
   {
@@ -585,6 +753,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-31.png",
     "hasDescription": true,
     "title": "雲紗-31",
+    "width": 1672,
+    "height": 941,
     "description": "[cloud ribbon wrap bodice with layered chiffon mini skirt]"
   },
   {
@@ -592,6 +762,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-32.png",
     "hasDescription": true,
     "title": "雲紗-32",
+    "width": 1672,
+    "height": 941,
     "description": "[halter draped gauze bodice with floating silk mini skirt]"
   },
   {
@@ -599,6 +771,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-33.png",
     "hasDescription": true,
     "title": "雲紗-33",
+    "width": 1672,
+    "height": 941,
     "description": "[embroidered sheer-stripe mini dress with asymmetric chiffon skirt]"
   },
   {
@@ -606,6 +780,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-34.png",
     "hasDescription": true,
     "title": "雲紗-34",
+    "width": 1672,
+    "height": 941,
     "description": "[sheer organza wrap mini dress with floral petal skirt]"
   },
   {
@@ -613,6 +789,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-35.png",
     "hasDescription": true,
     "title": "雲紗-35",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder organza petal crop top with chiffon petal mini skirt]"
   },
   {
@@ -620,6 +798,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-36.png",
     "hasDescription": true,
     "title": "雲紗-36",
+    "width": 1672,
+    "height": 941,
     "description": "[one-shoulder organza petal crop top with asymmetric chiffon mini skirt]"
   },
   {
@@ -627,6 +807,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-37.png",
     "hasDescription": true,
     "title": "雲紗-37",
+    "width": 1672,
+    "height": 941,
     "description": "[square-neck petal crop top with layered petal mini skirt]"
   },
   {
@@ -634,6 +816,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-38.png",
     "hasDescription": true,
     "title": "雲紗-38",
+    "width": 1672,
+    "height": 941,
     "description": "[halter organza petal bodice with chiffon petal mini skirt]"
   },
   {
@@ -641,6 +825,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-39.png",
     "hasDescription": true,
     "title": "雲紗-39",
+    "width": 1672,
+    "height": 941,
     "description": "[bandeau organza petal crop top with flared chiffon mini skirt]"
   },
   {
@@ -648,6 +834,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-40.png",
     "hasDescription": true,
     "title": "雲紗-40",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder cloud gauze bodice with layered petal mini skirt]"
   },
   {
@@ -655,6 +843,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-41.png",
     "hasDescription": true,
     "title": "雲紗-41",
+    "width": 1672,
+    "height": 941,
     "description": "[one-shoulder cloud wrap bodice with asymmetric chiffon mini skirt]"
   },
   {
@@ -662,6 +852,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-42.png",
     "hasDescription": true,
     "title": "雲紗-42",
+    "width": 1672,
+    "height": 941,
     "description": "[organza blossom bandeau top with layered petal mini skirt]"
   },
   {
@@ -669,6 +861,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-43.png",
     "hasDescription": true,
     "title": "雲紗-43",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder organza top with wide-leg chiffon mini skirt]"
   },
   {
@@ -676,6 +870,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-44.png",
     "hasDescription": true,
     "title": "雲紗-44",
+    "width": 1672,
+    "height": 941,
     "description": "[cloud chiffon wrap bodice with organza petal mini skirt]"
   },
   {
@@ -683,6 +879,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雲紗/雲紗-45.png",
     "hasDescription": true,
     "title": "雲紗-45",
+    "width": 1672,
+    "height": 941,
     "description": "[organza ribbon wrap bodice with cloud gauze petal mini skirt]"
   },
   {
@@ -690,6 +888,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-01.png",
     "hasDescription": true,
     "title": "雅裁-01",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric crop top with high-waisted draped mini skirt]"
   },
   {
@@ -697,6 +897,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-02.png",
     "hasDescription": true,
     "title": "雅裁-02",
+    "width": 1672,
+    "height": 941,
     "description": "[an apron-inspired mini outfit with chiffon]"
   },
   {
@@ -704,6 +906,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-03.png",
     "hasDescription": true,
     "title": "雅裁-03",
+    "width": 1672,
+    "height": 941,
     "description": "[sleeveless cut-out mini dress with flared chiffon skirt]"
   },
   {
@@ -711,6 +915,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-04.png",
     "hasDescription": true,
     "title": "雅裁-04",
+    "width": 1672,
+    "height": 941,
     "description": "[open-back boat-neck mini dress with layered chiffon skirt]"
   },
   {
@@ -718,6 +924,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-05.png",
     "hasDescription": true,
     "title": "雅裁-05",
+    "width": 1672,
+    "height": 941,
     "description": "[draped halter top with high-waisted wrap mini skirt]"
   },
   {
@@ -725,6 +933,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-06.png",
     "hasDescription": true,
     "title": "雅裁-06",
+    "width": 1672,
+    "height": 941,
     "description": "[halter crop top with asymmetric chiffon wrap mini skirt]"
   },
   {
@@ -732,6 +942,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-07.png",
     "hasDescription": true,
     "title": "雅裁-07",
+    "width": 1672,
+    "height": 941,
     "description": "[butterfly-sleeve off-shoulder top with layered mini skirt]"
   },
   {
@@ -739,6 +951,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-08.png",
     "hasDescription": true,
     "title": "雅裁-08",
+    "width": 1672,
+    "height": 941,
     "description": "[square-neck mini dress with layered chiffon skirt]"
   },
   {
@@ -746,6 +960,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-09.png",
     "hasDescription": true,
     "title": "雅裁-09",
+    "width": 1672,
+    "height": 941,
     "description": "[sweetheart mini dress with layered tulip skirt]"
   },
   {
@@ -753,6 +969,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-10.png",
     "hasDescription": true,
     "title": "雅裁-10",
+    "width": 1672,
+    "height": 941,
     "description": "[one-shoulder top with asymmetric layered mini skirt]"
   },
   {
@@ -760,6 +978,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-11.png",
     "hasDescription": true,
     "title": "雅裁-11",
+    "width": 1672,
+    "height": 941,
     "description": "[sweetheart mini dress with cascading chiffon skirt]"
   },
   {
@@ -767,6 +987,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-12.png",
     "hasDescription": true,
     "title": "雅裁-12",
+    "width": 1672,
+    "height": 941,
     "description": "[one-shoulder crop top with organza-layered mini skirt]"
   },
   {
@@ -774,6 +996,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-13.png",
     "hasDescription": true,
     "title": "雅裁-13",
+    "width": 1672,
+    "height": 941,
     "description": "[square-neck mini dress with organza petal skirt]"
   },
   {
@@ -781,6 +1005,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-14.png",
     "hasDescription": true,
     "title": "雅裁-14",
+    "width": 1672,
+    "height": 941,
     "description": "[draped halter crop top with chiffon wrap mini skirt]"
   },
   {
@@ -788,6 +1014,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-15.png",
     "hasDescription": true,
     "title": "雅裁-15",
+    "width": 1672,
+    "height": 941,
     "description": "[off-shoulder mini dress with asymmetric layered skirt]"
   },
   {
@@ -795,6 +1023,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-16.png",
     "hasDescription": true,
     "title": "雅裁-16",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric crop top with layered wrap mini skirt]"
   },
   {
@@ -802,6 +1032,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-17.png",
     "hasDescription": true,
     "title": "雅裁-17",
+    "width": 1672,
+    "height": 941,
     "description": "[square-neck open-back mini dress with asymmetric chiffon skirt]"
   },
   {
@@ -809,6 +1041,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-18.png",
     "hasDescription": true,
     "title": "雅裁-18",
+    "width": 1672,
+    "height": 941,
     "description": "[halter mini dress with petal-inspired bodice and wrap skirt]"
   },
   {
@@ -816,6 +1050,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-19.png",
     "hasDescription": true,
     "title": "雅裁-19",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric bandeau mini dress with pleated chiffon skirt]"
   },
   {
@@ -823,6 +1059,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-20.png",
     "hasDescription": true,
     "title": "雅裁-20",
+    "width": 1672,
+    "height": 941,
     "description": "[sailor-inspired mini dress with pleated chiffon skirt]"
   },
   {
@@ -830,6 +1068,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-21.png",
     "hasDescription": true,
     "title": "雅裁-21",
+    "width": 1672,
+    "height": 941,
     "description": "[floral shirt-inspired wrap mini dress with asymmetric skirt]"
   },
   {
@@ -837,6 +1077,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-22.png",
     "hasDescription": true,
     "title": "雅裁-22",
+    "width": 1672,
+    "height": 941,
     "description": "[sleeveless blazer with high-waisted wrap mini skirt]"
   },
   {
@@ -844,6 +1086,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-23.png",
     "hasDescription": true,
     "title": "雅裁-23",
+    "width": 1672,
+    "height": 941,
     "description": "[racerback crop top with pleated chiffon mini skirt]"
   },
   {
@@ -851,6 +1095,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-24.png",
     "hasDescription": true,
     "title": "雅裁-24",
+    "width": 1672,
+    "height": 941,
     "description": "[oversized shirt-inspired mini dress with layered wrap skirt]"
   },
   {
@@ -858,6 +1104,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-25.png",
     "hasDescription": true,
     "title": "雅裁-25",
+    "width": 1672,
+    "height": 941,
     "description": "[knit-inspired mini dress with wrap skirt]"
   },
   {
@@ -865,6 +1113,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-26.png",
     "hasDescription": true,
     "title": "雅裁-26",
+    "width": 1672,
+    "height": 941,
     "description": "[polo-inspired mini outfit with A-line skirt]"
   },
   {
@@ -872,6 +1122,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-27.png",
     "hasDescription": true,
     "title": "雅裁-27",
+    "width": 1672,
+    "height": 941,
     "description": "[slip-inspired mini dress layered over sheer blouse]"
   },
   {
@@ -879,6 +1131,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-28.png",
     "hasDescription": true,
     "title": "雅裁-28",
+    "width": 1672,
+    "height": 941,
     "description": "[oversized T-shirt-inspired mini dress with chiffon godet skirt]"
   },
   {
@@ -886,6 +1140,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-29.png",
     "hasDescription": true,
     "title": "雅裁-29",
+    "width": 1672,
+    "height": 941,
     "description": "[linen shirt-inspired mini dress with asymmetric skirt]"
   },
   {
@@ -893,6 +1149,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-30.png",
     "hasDescription": true,
     "title": "雅裁-30",
+    "width": 1672,
+    "height": 941,
     "description": "[oversized T-shirt-inspired mini dress with chiffon godet skirt]"
   },
   {
@@ -900,6 +1158,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-31.png",
     "hasDescription": true,
     "title": "雅裁-31",
+    "width": 1672,
+    "height": 941,
     "description": "[deconstructed T-shirt-inspired mini dress with chiffon godet skirt]"
   },
   {
@@ -907,6 +1167,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-32.png",
     "hasDescription": true,
     "title": "雅裁-32",
+    "width": 1672,
+    "height": 941,
     "description": "[swimwear-inspired halter mini dress with wrapped skirt]"
   },
   {
@@ -914,6 +1176,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-33.png",
     "hasDescription": true,
     "title": "雅裁-33",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric bandeau mini dress with pleated chiffon skirt]"
   },
   {
@@ -921,6 +1185,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-34.png",
     "hasDescription": true,
     "title": "雅裁-34",
+    "width": 1672,
+    "height": 941,
     "description": "[beach-inspired chiffon mini dress with plunging neckline and wrap skirt]"
   },
   {
@@ -928,6 +1194,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-35.png",
     "hasDescription": true,
     "title": "雅裁-35",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric crop top with pleated chiffon mini skirt]"
   },
   {
@@ -935,6 +1203,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-36.png",
     "hasDescription": true,
     "title": "雅裁-36",
+    "width": 1672,
+    "height": 941,
     "description": "[one-shoulder chiffon mini dress with draped skirt]"
   },
   {
@@ -942,6 +1212,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-37.png",
     "hasDescription": true,
     "title": "雅裁-37",
+    "width": 1672,
+    "height": 941,
     "description": "[bandeau chiffon mini dress with wrapped sarong skirt]"
   },
   {
@@ -949,6 +1221,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-38.png",
     "hasDescription": true,
     "title": "雅裁-38",
+    "width": 1774,
+    "height": 887,
     "description": "[off-shoulder chiffon mini dress with petal skirt]"
   },
   {
@@ -956,6 +1230,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-39.png",
     "hasDescription": true,
     "title": "雅裁-39",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric bandeau mini dress with chiffon godet skirt]"
   },
   {
@@ -963,6 +1239,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-40.png",
     "hasDescription": true,
     "title": "雅裁-40",
+    "width": 1672,
+    "height": 941,
     "description": "[camisole mini dress with fitted skirt and waist cut-out]"
   },
   {
@@ -970,6 +1248,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-41.png",
     "hasDescription": true,
     "title": "雅裁-41",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric bandeau with high-waisted wrap mini skirt]"
   },
   {
@@ -977,6 +1257,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-42.png",
     "hasDescription": true,
     "title": "雅裁-42",
+    "width": 1672,
+    "height": 941,
     "description": "[V-neck mini dress with A-line voile skirt]"
   },
   {
@@ -984,6 +1266,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-43.png",
     "hasDescription": true,
     "title": "雅裁-43",
+    "width": 1672,
+    "height": 941,
     "description": "[halter mini dress with straight skirt and keyhole cut-out]"
   },
   {
@@ -991,6 +1275,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/雅裁/雅裁-44.png",
     "hasDescription": true,
     "title": "雅裁-44",
+    "width": 1672,
+    "height": 941,
     "description": "[apron-inspired halter mini couture with open-back and hip cut-outs]"
   },
   {
@@ -998,6 +1284,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-01.png",
     "hasDescription": true,
     "title": "線舞-01",
+    "width": 1672,
+    "height": 941,
     "description": "[floating silk thread couture mini outfit]"
   },
   {
@@ -1005,6 +1293,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-02.png",
     "hasDescription": true,
     "title": "線舞-02",
+    "width": 1672,
+    "height": 941,
     "description": "[iridescent thread mini outfit]"
   },
   {
@@ -1012,6 +1302,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-03.png",
     "hasDescription": true,
     "title": "線舞-03",
+    "width": 1672,
+    "height": 941,
     "description": "[metallic thread couture dress]"
   },
   {
@@ -1019,6 +1311,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-04.png",
     "hasDescription": true,
     "title": "線舞-04",
+    "width": 1672,
+    "height": 941,
     "description": "[silk thread petal mini dress]"
   },
   {
@@ -1026,6 +1320,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-05.png",
     "hasDescription": true,
     "title": "線舞-05",
+    "width": 1672,
+    "height": 941,
     "description": "[spiraling silk thread mini outfit]"
   },
   {
@@ -1033,6 +1329,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-06.png",
     "hasDescription": true,
     "title": "線舞-06",
+    "width": 1672,
+    "height": 941,
     "description": "[silk ribbon stripe mini outfit]"
   },
   {
@@ -1040,6 +1338,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-07.png",
     "hasDescription": true,
     "title": "線舞-07",
+    "width": 1672,
+    "height": 941,
     "description": "[summer dress with translucent fabric stripes]"
   },
   {
@@ -1047,6 +1347,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-08.png",
     "hasDescription": true,
     "title": "線舞-08",
+    "width": 1672,
+    "height": 941,
     "description": "[resort-inspired mini dress with curved silk stripes]"
   },
   {
@@ -1054,6 +1356,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-09.png",
     "hasDescription": true,
     "title": "線舞-09",
+    "width": 1672,
+    "height": 941,
     "description": "[couture outfit with sculptural satin stripes]"
   },
   {
@@ -1061,6 +1365,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-10.png",
     "hasDescription": true,
     "title": "線舞-10",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with floating organza stripes]"
   },
   {
@@ -1068,6 +1374,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-11.png",
     "hasDescription": true,
     "title": "線舞-11",
+    "width": 1672,
+    "height": 941,
     "description": "[summer outfit with layered translucent chiffon bands]"
   },
   {
@@ -1075,6 +1383,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-12.png",
     "hasDescription": true,
     "title": "線舞-12",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with silk chiffon stripes]"
   },
   {
@@ -1082,6 +1392,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-13.png",
     "hasDescription": true,
     "title": "線舞-13",
+    "width": 1672,
+    "height": 941,
     "description": "[architectural mini dress with curved organza stripes]"
   },
   {
@@ -1089,6 +1401,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-14.png",
     "hasDescription": true,
     "title": "線舞-14",
+    "width": 1672,
+    "height": 941,
     "description": "[mini outfit with petal-like sheer ribbon stripes]"
   },
   {
@@ -1096,6 +1410,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-15.png",
     "hasDescription": true,
     "title": "線舞-15",
+    "width": 1672,
+    "height": 941,
     "description": "[organza stripe mini dress with floating silk threads]"
   },
   {
@@ -1103,6 +1419,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-16.png",
     "hasDescription": true,
     "title": "線舞-16",
+    "width": 1672,
+    "height": 941,
     "description": "[couture outfit with chiffon stripes and iridescent silk threads]"
   },
   {
@@ -1110,6 +1428,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-17.png",
     "hasDescription": true,
     "title": "線舞-17",
+    "width": 1672,
+    "height": 941,
     "description": "[mini outfit with sheer ribbon stripes and floating silk threads]"
   },
   {
@@ -1117,6 +1437,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-18.png",
     "hasDescription": true,
     "title": "線舞-18",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with spiraling sheer stripes and silk threads]"
   },
   {
@@ -1124,6 +1446,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-19.png",
     "hasDescription": true,
     "title": "線舞-19",
+    "width": 1672,
+    "height": 941,
     "description": "[organza stripe mini dress with light-trail silk threads]"
   },
   {
@@ -1131,6 +1455,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-20.png",
     "hasDescription": true,
     "title": "線舞-20",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with organza stripes and translucent flower petals]"
   },
   {
@@ -1138,6 +1464,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-21.png",
     "hasDescription": true,
     "title": "線舞-21",
+    "width": 1672,
+    "height": 941,
     "description": "[mini outfit with chiffon stripes and iridescent flower petals]"
   },
   {
@@ -1145,6 +1473,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-22.png",
     "hasDescription": true,
     "title": "線舞-22",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with silk threads and miniature flower petals]"
   },
   {
@@ -1152,6 +1482,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-23.png",
     "hasDescription": true,
     "title": "線舞-23",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric mini dress with silk threads and translucent flower petals]"
   },
   {
@@ -1159,6 +1491,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-24.png",
     "hasDescription": true,
     "title": "線舞-24",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with sculptural thread ribbons and organza petals]"
   },
   {
@@ -1166,6 +1500,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-25.png",
     "hasDescription": true,
     "title": "線舞-25",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric mini dress with contouring silk threads and organza petals]"
   },
   {
@@ -1173,6 +1509,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-26.png",
     "hasDescription": true,
     "title": "線舞-26",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with water-wave silk threads]"
   },
   {
@@ -1180,6 +1518,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-27.png",
     "hasDescription": true,
     "title": "線舞-27",
+    "width": 1672,
+    "height": 941,
     "description": "[mini outfit with star-trail luminous silk threads]"
   },
   {
@@ -1187,6 +1527,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-28.png",
     "hasDescription": true,
     "title": "線舞-28",
+    "width": 1672,
+    "height": 941,
     "description": "[couture dress with silk threads and mist-like fiber veils]"
   },
   {
@@ -1194,6 +1536,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-29.png",
     "hasDescription": true,
     "title": "線舞-29",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric mini dress with floral thread lace]"
   },
   {
@@ -1201,6 +1545,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-30.png",
     "hasDescription": true,
     "title": "線舞-30",
+    "width": 1672,
+    "height": 941,
     "description": "[mini outfit with calligraphic metallic silk threads]"
   },
   {
@@ -1208,6 +1554,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-31.png",
     "hasDescription": true,
     "title": "線舞-31",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with layered crystal petals]"
   },
   {
@@ -1215,6 +1563,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-32.png",
     "hasDescription": true,
     "title": "線舞-32",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric mini dress with silk threads and crystal petals]"
   },
   {
@@ -1222,6 +1572,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-33.png",
     "hasDescription": true,
     "title": "線舞-33",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with cascading moonlit thread veils]"
   },
   {
@@ -1229,6 +1581,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-34.png",
     "hasDescription": true,
     "title": "線舞-34",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric mini outfit with floating ribbon-like threads]"
   },
   {
@@ -1236,6 +1590,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-35.png",
     "hasDescription": true,
     "title": "線舞-35",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with silver threads and transparent veil fibers]"
   },
   {
@@ -1243,6 +1599,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-36.png",
     "hasDescription": true,
     "title": "線舞-36",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with cloud-and-wave silk threads]"
   },
   {
@@ -1250,6 +1608,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-37.png",
     "hasDescription": true,
     "title": "線舞-37",
+    "width": 1672,
+    "height": 941,
     "description": "[mini outfit with glowing fiber strands and crystal petals]"
   },
   {
@@ -1257,6 +1617,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-38.png",
     "hasDescription": true,
     "title": "線舞-38",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with glowing dawn-mist silk threads]"
   },
   {
@@ -1264,6 +1626,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-39.png",
     "hasDescription": true,
     "title": "線舞-39",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric mini outfit with cloud-ribbon silk threads]"
   },
   {
@@ -1271,6 +1635,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-40.png",
     "hasDescription": true,
     "title": "線舞-40",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with starlight threads and transparent fiber veils]"
   },
   {
@@ -1278,6 +1644,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-41.png",
     "hasDescription": true,
     "title": "線舞-41",
+    "width": 1672,
+    "height": 941,
     "description": "[mini dress with silk threads and petal-shaped fiber loops]"
   },
   {
@@ -1285,6 +1653,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-42.png",
     "hasDescription": true,
     "title": "線舞-42",
+    "width": 1672,
+    "height": 941,
     "description": "[mini outfit with moon-silver threads and gauze fibers]"
   },
   {
@@ -1292,6 +1662,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-43.png",
     "hasDescription": true,
     "title": "線舞-43",
+    "width": 1672,
+    "height": 941,
     "description": "[mini outfit with moon-silver stripes and gauze fibers]"
   },
   {
@@ -1299,6 +1671,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-44.png",
     "hasDescription": true,
     "title": "線舞-44",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric mini outfit with floating ribbon-like threads]"
   },
   {
@@ -1306,6 +1680,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-45.png",
     "hasDescription": true,
     "title": "線舞-45",
+    "width": 1672,
+    "height": 941,
     "description": "[asymmetric mini outfit with floating ribbon-like threads]"
   },
   {
@@ -1313,6 +1689,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-46.png",
     "hasDescription": true,
     "title": "線舞-46",
+    "width": 1672,
+    "height": 941,
     "description": "[bandeau mini dress with organza stripes and silk threads]"
   },
   {
@@ -1320,6 +1698,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/線舞/線舞-47.png",
     "hasDescription": true,
     "title": "線舞-47",
+    "width": 1672,
+    "height": 941,
     "description": "[mini outfit with silk thread ribbons and petal-trimmed wrap skirt]"
   },
   {
@@ -1327,6 +1707,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-01.png",
     "hasDescription": true,
     "title": "元素-01",
+    "width": 1672,
+    "height": 940,
     "description": "[ice shard mini outfit with blue flame accents]"
   },
   {
@@ -1334,6 +1716,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-02.png",
     "hasDescription": true,
     "title": "元素-02",
+    "width": 1672,
+    "height": 941,
     "description": "[fire-inspired couture mini dress]"
   },
   {
@@ -1341,6 +1725,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-03.png",
     "hasDescription": true,
     "title": "元素-03",
+    "width": 1672,
+    "height": 941,
     "description": "[lightning cloud-inspired mini dress]"
   },
   {
@@ -1348,6 +1734,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-04.png",
     "hasDescription": true,
     "title": "元素-04",
+    "width": 1672,
+    "height": 941,
     "description": "[wind and steam-inspired mini dress]"
   },
   {
@@ -1355,6 +1743,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-05.png",
     "hasDescription": true,
     "title": "元素-05",
+    "width": 1672,
+    "height": 941,
     "description": "[liquid crystal mini dress with flower petals]"
   },
   {
@@ -1362,6 +1752,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-06.png",
     "hasDescription": true,
     "title": "元素-06",
+    "width": 1672,
+    "height": 941,
     "description": "[ice shard mini outfit with blue flame accents]"
   },
   {
@@ -1369,6 +1761,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-07.png",
     "hasDescription": true,
     "title": "元素-07",
+    "width": 1672,
+    "height": 941,
     "description": "[liquid milk mini dress with flower petals]"
   },
   {
@@ -1376,6 +1770,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-08.png",
     "hasDescription": true,
     "title": "元素-08",
+    "width": 1672,
+    "height": 941,
     "description": "[wind current mini dress with flower petals and light trails]"
   },
   {
@@ -1383,6 +1779,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-09.png",
     "hasDescription": true,
     "title": "元素-09",
+    "width": 1672,
+    "height": 941,
     "description": "[natural element mini dress with water, crystal, petals, and light]"
   },
   {
@@ -1390,6 +1788,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-10.png",
     "hasDescription": true,
     "title": "元素-10",
+    "width": 1672,
+    "height": 941,
     "description": "[lightning ribbon mini dress with organza layers]"
   },
   {
@@ -1397,6 +1797,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-11.png",
     "hasDescription": true,
     "title": "元素-11",
+    "width": 1672,
+    "height": 941,
     "description": "[molten glass mini dress with flower petals]"
   },
   {
@@ -1404,6 +1806,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-12.png",
     "hasDescription": true,
     "title": "元素-12",
+    "width": 1672,
+    "height": 941,
     "description": "[ocean water mini dress with shells and coral petals]"
   },
   {
@@ -1411,6 +1815,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-13.png",
     "hasDescription": true,
     "title": "元素-13",
+    "width": 1672,
+    "height": 941,
     "description": "[golden flame mini outfit with flower petals]"
   },
   {
@@ -1418,6 +1824,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-14.png",
     "hasDescription": true,
     "title": "元素-14",
+    "width": 1672,
+    "height": 941,
     "description": "[crystal rain mini dress with prism panels and refracted light]"
   },
   {
@@ -1425,6 +1833,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-15.png",
     "hasDescription": true,
     "title": "元素-15",
+    "width": 1672,
+    "height": 941,
     "description": "[ice shard mini outfit with red flame accents]"
   },
   {
@@ -1432,6 +1842,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-16.png",
     "hasDescription": true,
     "title": "元素-16",
+    "width": 1672,
+    "height": 941,
     "description": "[aurora light mini dress with stardust and chiffon skirt]"
   },
   {
@@ -1439,6 +1851,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-17.png",
     "hasDescription": true,
     "title": "元素-17",
+    "width": 1672,
+    "height": 941,
     "description": "[butterfly wing mini dress with petals and dewdrops]"
   },
   {
@@ -1446,6 +1860,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-18.png",
     "hasDescription": true,
     "title": "元素-18",
+    "width": 1672,
+    "height": 941,
     "description": "[golden honey mini dress with amber and flower petals]"
   },
   {
@@ -1453,6 +1869,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-19.png",
     "hasDescription": true,
     "title": "元素-19",
+    "width": 1672,
+    "height": 941,
     "description": "[obsidian mini dress with liquid gold and black mist]"
   },
   {
@@ -1460,6 +1878,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-20.png",
     "hasDescription": true,
     "title": "元素-20",
+    "width": 1672,
+    "height": 941,
     "description": "[moonlit sand mini dress with mother-of-pearl mica]"
   },
   {
@@ -1467,6 +1887,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-21.png",
     "hasDescription": true,
     "title": "元素-21",
+    "width": 1672,
+    "height": 941,
     "description": "[emerald gemstone mini dress with vines and organza skirt]"
   },
   {
@@ -1474,6 +1896,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-22.png",
     "hasDescription": true,
     "title": "元素-22",
+    "width": 1672,
+    "height": 941,
     "description": "[jellyfish-inspired mini dress with sea glass panels]"
   },
   {
@@ -1481,6 +1905,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-23.png",
     "hasDescription": true,
     "title": "元素-23",
+    "width": 1672,
+    "height": 941,
     "description": "[frost crystal mini dress with rose petals]"
   },
   {
@@ -1488,6 +1914,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-24.png",
     "hasDescription": true,
     "title": "元素-24",
+    "width": 1672,
+    "height": 941,
     "description": "[ferrofluid mini dress with liquid silver and mist]"
   },
   {
@@ -1495,6 +1923,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-25.png",
     "hasDescription": true,
     "title": "元素-25",
+    "width": 1672,
+    "height": 941,
     "description": "[flowing water mini dress with moonlight]"
   },
   {
@@ -1502,6 +1932,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-26.png",
     "hasDescription": true,
     "title": "元素-26",
+    "width": 1672,
+    "height": 941,
     "description": "[obsidian mini outfit with translucent mist skirt]"
   },
   {
@@ -1509,6 +1941,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-27.png",
     "hasDescription": true,
     "title": "元素-27",
+    "width": 1672,
+    "height": 941,
     "description": "[firelight mini dress with rose petals]"
   },
   {
@@ -1516,6 +1950,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-28.png",
     "hasDescription": true,
     "title": "元素-28",
+    "width": 1672,
+    "height": 941,
     "description": "[emerald leaf mini dress with crystal dew]"
   },
   {
@@ -1523,6 +1959,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-29.png",
     "hasDescription": true,
     "title": "元素-29",
+    "width": 1672,
+    "height": 941,
     "description": "[liquid silver mini outfit with air current skirt]"
   },
   {
@@ -1530,6 +1968,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-30.png",
     "hasDescription": true,
     "title": "元素-30",
+    "width": 1672,
+    "height": 941,
     "description": "[ice lace mini dress with aurora ribbons]"
   },
   {
@@ -1537,6 +1977,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-31.png",
     "hasDescription": true,
     "title": "元素-31",
+    "width": 1672,
+    "height": 941,
     "description": "[sunlight and desert sand mini outfit]"
   },
   {
@@ -1544,6 +1986,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-32.png",
     "hasDescription": true,
     "title": "元素-32",
+    "width": 1672,
+    "height": 941,
     "description": "[rose salt crystal mini dress with sunset light]"
   },
   {
@@ -1551,6 +1995,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-33.png",
     "hasDescription": true,
     "title": "元素-33",
+    "width": 1672,
+    "height": 941,
     "description": "[iridescent glass mini outfit with electric light]"
   },
   {
@@ -1558,6 +2004,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-34.png",
     "hasDescription": true,
     "title": "元素-34",
+    "width": 1672,
+    "height": 941,
     "description": "[iridescent glass mini outfit with electric light]"
   },
   {
@@ -1565,6 +2013,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-35.png",
     "hasDescription": true,
     "title": "元素-35",
+    "width": 1672,
+    "height": 941,
     "description": "[magnetic black sand mini outfit with liquid platinum]"
   },
   {
@@ -1572,6 +2022,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-36.png",
     "hasDescription": true,
     "title": "元素-36",
+    "width": 1672,
+    "height": 941,
     "description": "[feather mini dress with crystal rain]"
   },
   {
@@ -1579,6 +2031,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-37.png",
     "hasDescription": true,
     "title": "元素-37",
+    "width": 1672,
+    "height": 941,
     "description": "[jade vine mini dress with golden fire]"
   },
   {
@@ -1586,6 +2040,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-38.png",
     "hasDescription": true,
     "title": "元素-38",
+    "width": 1672,
+    "height": 941,
     "description": "[moonlit water mini dress with pearl foam]"
   },
   {
@@ -1593,6 +2049,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-39.png",
     "hasDescription": true,
     "title": "元素-39",
+    "width": 1672,
+    "height": 941,
     "description": "[aurora silk mini outfit with crystal mist skirt]"
   },
   {
@@ -1600,6 +2058,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-40.png",
     "hasDescription": true,
     "title": "元素-40",
+    "width": 1672,
+    "height": 941,
     "description": "[glass petal mini dress with flower wind]"
   },
   {
@@ -1607,6 +2067,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-41.png",
     "hasDescription": true,
     "title": "元素-41",
+    "width": 1672,
+    "height": 941,
     "description": "[starlight mini dress with silver sand skirt]"
   },
   {
@@ -1614,6 +2076,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-42.png",
     "hasDescription": true,
     "title": "元素-42",
+    "width": 1672,
+    "height": 941,
     "description": "[jade mist mini outfit with dew crystals]"
   },
   {
@@ -1621,6 +2085,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-43.png",
     "hasDescription": true,
     "title": "元素-43",
+    "width": 1672,
+    "height": 941,
     "description": "[forest elf-inspired mini dress with leaf bodice]"
   },
   {
@@ -1628,6 +2094,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-44.png",
     "hasDescription": true,
     "title": "元素-44",
+    "width": 1672,
+    "height": 941,
     "description": "[crystal fairy-inspired mini dress with petal chiffon skirt]"
   },
   {
@@ -1635,6 +2103,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-45.png",
     "hasDescription": true,
     "title": "元素-45",
+    "width": 1672,
+    "height": 941,
     "description": "[enchanted woodland mini outfit with vine bodice and organza skirt]"
   },
   {
@@ -1642,6 +2112,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-46.png",
     "hasDescription": true,
     "title": "元素-46",
+    "width": 1672,
+    "height": 941,
     "description": "[celestial dryad-inspired mini dress with flower petals]"
   },
   {
@@ -1649,6 +2121,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-47.png",
     "hasDescription": true,
     "title": "元素-47",
+    "width": 1672,
+    "height": 941,
     "description": "[milk flow-inspired dress with organza and chiffon]"
   },
   {
@@ -1656,19 +2130,25 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/元素/元素-48.png",
     "hasDescription": true,
     "title": "元素-48",
+    "width": 1672,
+    "height": 941,
     "description": "[flowing water gown with liquid crystal]"
   },
   {
     "category": "元素",
     "src": "images/元素/元素-49.png",
     "hasDescription": true,
-    "title": "元素-49"
+    "title": "元素-49",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "民族",
     "src": "images/民族/民族-01.png",
     "hasDescription": true,
     "title": "民族-01",
+    "width": 1672,
+    "height": 941,
     "description": "a kimono"
   },
   {
@@ -1676,6 +2156,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-02.png",
     "hasDescription": true,
     "title": "民族-02",
+    "width": 1672,
+    "height": 941,
     "description": "[kimono-inspired wrap mini dress with obi belt]"
   },
   {
@@ -1683,6 +2165,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-03.png",
     "hasDescription": true,
     "title": "民族-03",
+    "width": 1672,
+    "height": 941,
     "description": "[a blue micro-mini Kimono]"
   },
   {
@@ -1690,6 +2174,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-04.png",
     "hasDescription": true,
     "title": "民族-04",
+    "width": 1672,
+    "height": 941,
     "description": "a yukata"
   },
   {
@@ -1697,6 +2183,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-05.png",
     "hasDescription": true,
     "title": "民族-05",
+    "width": 1672,
+    "height": 940,
     "description": "[yukata-inspired wrap mini dress with asymmetrical silk skirt]"
   },
   {
@@ -1704,6 +2192,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-06.png",
     "hasDescription": true,
     "title": "民族-06",
+    "width": 1672,
+    "height": 941,
     "description": "a miko attire"
   },
   {
@@ -1711,6 +2201,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-07.png",
     "hasDescription": true,
     "title": "民族-07",
+    "width": 1672,
+    "height": 941,
     "description": "a cheongsam"
   },
   {
@@ -1718,6 +2210,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-08.png",
     "hasDescription": true,
     "title": "民族-08",
+    "width": 1672,
+    "height": 941,
     "description": "[cheongsam-inspired wrap mini dress with layered organza skirt]"
   },
   {
@@ -1725,6 +2219,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-09.png",
     "hasDescription": true,
     "title": "民族-09",
+    "width": 1672,
+    "height": 941,
     "description": "[floral micro mini cheongsam with halter neckline]"
   },
   {
@@ -1732,6 +2228,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-10.png",
     "hasDescription": true,
     "title": "民族-10",
+    "width": 1327,
+    "height": 1185,
     "description": "[micro mini cheongsam with halter neckline]"
   },
   {
@@ -1739,6 +2237,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-11.png",
     "hasDescription": true,
     "title": "民族-11",
+    "width": 1672,
+    "height": 941,
     "description": "溫婉高訂迷你旗袍"
   },
   {
@@ -1746,6 +2246,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-12.png",
     "hasDescription": true,
     "title": "民族-12",
+    "width": 1402,
+    "height": 1122,
     "description": "[micro mini cheongsam with halter neckline]"
   },
   {
@@ -1753,6 +2255,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-13.png",
     "hasDescription": true,
     "title": "民族-13",
+    "width": 1672,
+    "height": 941,
     "description": "a Hanfu"
   },
   {
@@ -1760,6 +2264,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-14.png",
     "hasDescription": true,
     "title": "民族-14",
+    "width": 1672,
+    "height": 941,
     "description": "[Hanfu-inspired wrap top with layered chiffon mini skirt]"
   },
   {
@@ -1767,6 +2273,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-15.png",
     "hasDescription": true,
     "title": "民族-15",
+    "width": 1672,
+    "height": 941,
     "description": "[oriental robe-inspired wrap mini dress with silk sash]"
   },
   {
@@ -1774,6 +2282,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-16.png",
     "hasDescription": true,
     "title": "民族-16",
+    "width": 1672,
+    "height": 941,
     "description": "[Chang'e-inspired wrap mini dress with layered chiffon skirt]"
   },
   {
@@ -1781,6 +2291,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-17.png",
     "hasDescription": true,
     "title": "民族-17",
+    "width": 1672,
+    "height": 941,
     "description": "[Xiwangmu-inspired bandeau mini dress with layered organza skirt]"
   },
   {
@@ -1788,6 +2300,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-18.png",
     "hasDescription": true,
     "title": "民族-18",
+    "width": 1672,
+    "height": 941,
     "description": "[Mazu-inspired halter mini dress with layered chiffon skirt]"
   },
   {
@@ -1795,6 +2309,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-19.png",
     "hasDescription": true,
     "title": "民族-19",
+    "width": 1672,
+    "height": 941,
     "description": "[Nuwa-inspired crop bodice with asymmetrical chiffon mini skirt]"
   },
   {
@@ -1802,6 +2318,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-20.png",
     "hasDescription": true,
     "title": "民族-20",
+    "width": 1672,
+    "height": 941,
     "description": "a Áo dài"
   },
   {
@@ -1809,6 +2327,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-21.png",
     "hasDescription": true,
     "title": "民族-21",
+    "width": 1672,
+    "height": 941,
     "description": "[ao dai-inspired sleeveless mini dress with layered silk skirt]"
   },
   {
@@ -1816,6 +2336,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-22.png",
     "hasDescription": true,
     "title": "民族-22",
+    "width": 1672,
+    "height": 941,
     "description": "a hanbok"
   },
   {
@@ -1823,6 +2345,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-23.png",
     "hasDescription": true,
     "title": "民族-23",
+    "width": 1672,
+    "height": 941,
     "description": "[hanbok-inspired wrap mini dress with flared organza skirt]"
   },
   {
@@ -1830,6 +2354,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-24.png",
     "hasDescription": true,
     "title": "民族-24",
+    "width": 1672,
+    "height": 941,
     "description": "a Chut Thai"
   },
   {
@@ -1837,6 +2363,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-25.png",
     "hasDescription": true,
     "title": "民族-25",
+    "width": 1672,
+    "height": 941,
     "description": "[Thai-inspired bandeau mini dress with wrapped silk skirt]"
   },
   {
@@ -1844,6 +2372,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-26.png",
     "hasDescription": true,
     "title": "民族-26",
+    "width": 1672,
+    "height": 941,
     "description": "a kebaya"
   },
   {
@@ -1851,6 +2381,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-27.png",
     "hasDescription": true,
     "title": "民族-27",
+    "width": 1672,
+    "height": 941,
     "description": "[Balinese kebaya-inspired crop top with batik chiffon mini skirt]"
   },
   {
@@ -1858,6 +2390,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-28.png",
     "hasDescription": true,
     "title": "民族-28",
+    "width": 1672,
+    "height": 941,
     "description": "a saree"
   },
   {
@@ -1865,6 +2399,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-29.png",
     "hasDescription": true,
     "title": "民族-29",
+    "width": 1672,
+    "height": 941,
     "description": "[saree-inspired corset mini dress with sheer draped skirt]"
   },
   {
@@ -1872,6 +2408,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-30.png",
     "hasDescription": true,
     "title": "民族-30",
+    "width": 1672,
+    "height": 941,
     "description": "a lehenga choli"
   },
   {
@@ -1879,6 +2417,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-31.png",
     "hasDescription": true,
     "title": "民族-31",
+    "width": 1672,
+    "height": 941,
     "description": "[lehenga choli-inspired crop top with layered mini skirt]"
   },
   {
@@ -1886,6 +2426,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-32.png",
     "hasDescription": true,
     "title": "民族-32",
+    "width": 1672,
+    "height": 941,
     "description": "a Grecian dress"
   },
   {
@@ -1893,6 +2435,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-33.png",
     "hasDescription": true,
     "title": "民族-33",
+    "width": 1672,
+    "height": 941,
     "description": "a goddess dress"
   },
   {
@@ -1900,6 +2444,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-34.png",
     "hasDescription": true,
     "title": "民族-34",
+    "width": 1672,
+    "height": 941,
     "description": "an ancient Aegean drapery"
   },
   {
@@ -1907,6 +2453,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-35.png",
     "hasDescription": true,
     "title": "民族-35",
+    "width": 1672,
+    "height": 941,
     "description": "a Peplos"
   },
   {
@@ -1914,6 +2462,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-36.png",
     "hasDescription": true,
     "title": "民族-36",
+    "width": 1672,
+    "height": 941,
     "description": "[one-shoulder Grecian mini dress with layered chiffon skirt]"
   },
   {
@@ -1921,6 +2471,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-37.png",
     "hasDescription": true,
     "title": "民族-37",
+    "width": 1672,
+    "height": 941,
     "description": "[Greek-inspired halter mini dress with chiffon skirt]"
   },
   {
@@ -1928,6 +2480,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-38.png",
     "hasDescription": true,
     "title": "民族-38",
+    "width": 1672,
+    "height": 941,
     "description": "[Athena-inspired crop bodice with pleated chiffon mini skirt]"
   },
   {
@@ -1935,6 +2489,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-39.png",
     "hasDescription": true,
     "title": "民族-39",
+    "width": 1672,
+    "height": 941,
     "description": "[Artemis-inspired bandeau mini dress with layered chiffon skirt]"
   },
   {
@@ -1942,6 +2498,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-40.png",
     "hasDescription": true,
     "title": "民族-40",
+    "width": 1672,
+    "height": 941,
     "description": "a Minoan priestess attire"
   },
   {
@@ -1949,6 +2507,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-41.png",
     "hasDescription": true,
     "title": "民族-41",
+    "width": 1672,
+    "height": 941,
     "description": "a Priest robes"
   },
   {
@@ -1956,6 +2516,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-42.png",
     "hasDescription": true,
     "title": "民族-42",
+    "width": 1672,
+    "height": 941,
     "description": "a ceremonial robes"
   },
   {
@@ -1963,6 +2525,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-43.png",
     "hasDescription": true,
     "title": "民族-43",
+    "width": 1672,
+    "height": 941,
     "description": "a Bunad"
   },
   {
@@ -1970,6 +2534,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-44.png",
     "hasDescription": true,
     "title": "民族-44",
+    "width": 1672,
+    "height": 941,
     "description": "[Bunad-inspired camisole mini dress with organza apron skirt]"
   },
   {
@@ -1977,6 +2543,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-45.png",
     "hasDescription": true,
     "title": "民族-45",
+    "width": 1672,
+    "height": 941,
     "description": "a Sverigedräkt"
   },
   {
@@ -1984,6 +2552,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-46.png",
     "hasDescription": true,
     "title": "民族-46",
+    "width": 1672,
+    "height": 941,
     "description": "[Swedish-inspired eyelet mini dress with wrap organza skirt]"
   },
   {
@@ -1991,6 +2561,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-47.png",
     "hasDescription": true,
     "title": "民族-47",
+    "width": 1672,
+    "height": 941,
     "description": "a dirndl"
   },
   {
@@ -1998,6 +2570,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-48.png",
     "hasDescription": true,
     "title": "民族-48",
+    "width": 1672,
+    "height": 941,
     "description": "[Dirndl-inspired lace blouse with gathered mini skirt]"
   },
   {
@@ -2005,6 +2579,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-49.png",
     "hasDescription": true,
     "title": "民族-49",
+    "width": 1672,
+    "height": 941,
     "description": "a vyshyvanka"
   },
   {
@@ -2012,6 +2588,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-50.png",
     "hasDescription": true,
     "title": "民族-50",
+    "width": 1672,
+    "height": 941,
     "description": "[Vyshyvanka-inspired off-shoulder mini dress with chiffon skirt]"
   },
   {
@@ -2019,6 +2597,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-51.png",
     "hasDescription": true,
     "title": "民族-51",
+    "width": 1672,
+    "height": 941,
     "description": "[Matyó-inspired crop top with flutter mini skirt]"
   },
   {
@@ -2026,6 +2606,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-52.png",
     "hasDescription": true,
     "title": "民族-52",
+    "width": 1672,
+    "height": 941,
     "description": "[Kraków-inspired embroidered bodice with flared mini skirt]"
   },
   {
@@ -2033,6 +2615,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-53.png",
     "hasDescription": true,
     "title": "民族-53",
+    "width": 1672,
+    "height": 941,
     "description": "a tartan dress"
   },
   {
@@ -2040,6 +2624,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-54.png",
     "hasDescription": true,
     "title": "民族-54",
+    "width": 1672,
+    "height": 941,
     "description": "a Scottish arisaid"
   },
   {
@@ -2047,6 +2633,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-55.png",
     "hasDescription": true,
     "title": "民族-55",
+    "width": 1672,
+    "height": 941,
     "description": "[Scottish-inspired corset crop top with wrap mini skirt]"
   },
   {
@@ -2054,6 +2642,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-56.png",
     "hasDescription": true,
     "title": "民族-56",
+    "width": 1672,
+    "height": 941,
     "description": "a flamenco dress"
   },
   {
@@ -2061,6 +2651,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-57.png",
     "hasDescription": true,
     "title": "民族-57",
+    "width": 1672,
+    "height": 941,
     "description": "[flamenco-inspired corset mini dress with ruffled organza skirt]"
   },
   {
@@ -2068,6 +2660,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-58.png",
     "hasDescription": true,
     "title": "民族-58",
+    "width": 1672,
+    "height": 941,
     "description": "a China Poblana"
   },
   {
@@ -2075,6 +2669,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-59.png",
     "hasDescription": true,
     "title": "民族-59",
+    "width": 1672,
+    "height": 941,
     "description": "a Tehuana"
   },
   {
@@ -2082,6 +2678,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-60.png",
     "hasDescription": true,
     "title": "民族-60",
+    "width": 1672,
+    "height": 941,
     "description": "[Mexico-inspired embroidered crop top with chiffon mini skirt]"
   },
   {
@@ -2089,6 +2687,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-61.png",
     "hasDescription": true,
     "title": "民族-61",
+    "width": 1672,
+    "height": 941,
     "description": "a pollera"
   },
   {
@@ -2096,6 +2696,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-62.png",
     "hasDescription": true,
     "title": "民族-62",
+    "width": 1672,
+    "height": 941,
     "description": "[Pollera-inspired lace crop top with layered mini skirt]"
   },
   {
@@ -2103,6 +2705,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-63.png",
     "hasDescription": true,
     "title": "民族-63",
+    "width": 1672,
+    "height": 941,
     "description": "[Andean-inspired sweetheart mini dress with pleated chiffon skirt]"
   },
   {
@@ -2110,6 +2714,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-64.png",
     "hasDescription": true,
     "title": "民族-64",
+    "width": 1672,
+    "height": 941,
     "description": "[Cholita-inspired off-shoulder blouse with layered mini skirt]"
   },
   {
@@ -2117,6 +2723,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-65.png",
     "hasDescription": true,
     "title": "民族-65",
+    "width": 1672,
+    "height": 941,
     "description": "[Baiana-inspired off-shoulder mini dress with chiffon skirt]"
   },
   {
@@ -2124,6 +2732,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-66.png",
     "hasDescription": true,
     "title": "民族-66",
+    "width": 1672,
+    "height": 941,
     "description": "[Amazigh-inspired jeweled mini dress with wrap chiffon skirt]"
   },
   {
@@ -2131,6 +2741,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-67.png",
     "hasDescription": true,
     "title": "民族-67",
+    "width": 1672,
+    "height": 941,
     "description": "a Moroccan kaftan"
   },
   {
@@ -2138,6 +2750,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-68.png",
     "hasDescription": true,
     "title": "民族-68",
+    "width": 1672,
+    "height": 941,
     "description": "a bindallı"
   },
   {
@@ -2145,6 +2759,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-69.png",
     "hasDescription": true,
     "title": "民族-69",
+    "width": 1672,
+    "height": 941,
     "description": "[Turkish-inspired bandeau mini dress with chiffon wrap skirt]"
   },
   {
@@ -2152,6 +2768,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-70.png",
     "hasDescription": true,
     "title": "民族-70",
+    "width": 1672,
+    "height": 941,
     "description": "a Polynesian pareo"
   },
   {
@@ -2159,6 +2777,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-71.png",
     "hasDescription": true,
     "title": "民族-71",
+    "width": 1672,
+    "height": 941,
     "description": "[Polynesian-inspired bandeau mini dress with pareo wrap skirt]"
   },
   {
@@ -2166,6 +2786,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-72.png",
     "hasDescription": true,
     "title": "民族-72",
+    "width": 1672,
+    "height": 941,
     "description": "an ancient Egyptian kalasiris"
   },
   {
@@ -2173,6 +2795,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-73.png",
     "hasDescription": true,
     "title": "民族-73",
+    "width": 1672,
+    "height": 941,
     "description": "a kalasiris"
   },
   {
@@ -2180,25 +2804,33 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-74.png",
     "hasDescription": true,
     "title": "民族-74",
+    "width": 1672,
+    "height": 941,
     "description": "[Egyptian-inspired bandeau mini dress with pleated linen skirt]"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-75.png",
     "hasDescription": true,
-    "title": "民族-75"
+    "title": "民族-75",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "民族",
     "src": "images/民族/民族-76.png",
     "hasDescription": true,
-    "title": "民族-76"
+    "title": "民族-76",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "民族",
     "src": "images/民族/民族-77.png",
     "hasDescription": true,
     "title": "民族-77",
+    "width": 1672,
+    "height": 941,
     "description": "Rococo 服飾"
   },
   {
@@ -2206,6 +2838,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-78.png",
     "hasDescription": true,
     "title": "民族-78",
+    "width": 1672,
+    "height": 941,
     "description": "อีโมจิ 🥹👘⛩️🕊️💮🌸🪾🎀☂️ ใส่แสงมุมกล้องเพิ่ม ผลลัพธ์ แตกต่างกันออกไป"
   },
   {
@@ -2213,499 +2847,665 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/民族/民族-79.png",
     "hasDescription": true,
     "title": "民族-79",
+    "width": 1672,
+    "height": 941,
     "description": "百合幽香：金碧宮廷裡的清雅佳人"
   },
   {
     "category": "民族",
     "src": "images/民族/民族-80.png",
     "hasDescription": true,
-    "title": "民族-80"
+    "title": "民族-80",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-01.png",
     "hasDescription": true,
-    "title": "公仔-01"
+    "title": "公仔-01",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-02.png",
     "hasDescription": true,
-    "title": "公仔-02"
+    "title": "公仔-02",
+    "width": 1659,
+    "height": 948
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-03.png",
     "hasDescription": true,
-    "title": "公仔-03"
+    "title": "公仔-03",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-04.png",
     "hasDescription": true,
-    "title": "公仔-04"
+    "title": "公仔-04",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-05.png",
     "hasDescription": true,
-    "title": "公仔-05"
+    "title": "公仔-05",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-06.png",
     "hasDescription": true,
-    "title": "公仔-06"
+    "title": "公仔-06",
+    "width": 1659,
+    "height": 948
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-07.png",
     "hasDescription": true,
-    "title": "公仔-07"
+    "title": "公仔-07",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-08.png",
     "hasDescription": true,
-    "title": "公仔-08"
+    "title": "公仔-08",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-09.png",
     "hasDescription": true,
-    "title": "公仔-09"
+    "title": "公仔-09",
+    "width": 1915,
+    "height": 821
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-10.png",
     "hasDescription": true,
-    "title": "公仔-10"
+    "title": "公仔-10",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-11.png",
     "hasDescription": true,
-    "title": "公仔-11"
+    "title": "公仔-11",
+    "width": 1659,
+    "height": 948
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-12.png",
     "hasDescription": true,
-    "title": "公仔-12"
+    "title": "公仔-12",
+    "width": 1512,
+    "height": 1040
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-13.png",
     "hasDescription": true,
-    "title": "公仔-13"
+    "title": "公仔-13",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-14.png",
     "hasDescription": true,
-    "title": "公仔-14"
+    "title": "公仔-14",
+    "width": 1661,
+    "height": 947
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-15.png",
     "hasDescription": true,
-    "title": "公仔-15"
+    "title": "公仔-15",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-16.png",
     "hasDescription": true,
-    "title": "公仔-16"
+    "title": "公仔-16",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-17.png",
     "hasDescription": true,
-    "title": "公仔-17"
+    "title": "公仔-17",
+    "width": 1643,
+    "height": 957
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-18.png",
     "hasDescription": true,
-    "title": "公仔-18"
+    "title": "公仔-18",
+    "width": 1498,
+    "height": 1050
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-19.png",
     "hasDescription": true,
-    "title": "公仔-19"
+    "title": "公仔-19",
+    "width": 1499,
+    "height": 1049
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-20.png",
     "hasDescription": true,
-    "title": "公仔-20"
+    "title": "公仔-20",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-21.png",
     "hasDescription": true,
-    "title": "公仔-21"
+    "title": "公仔-21",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-22.png",
     "hasDescription": true,
-    "title": "公仔-22"
+    "title": "公仔-22",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-23.png",
     "hasDescription": true,
-    "title": "公仔-23"
+    "title": "公仔-23",
+    "width": 1498,
+    "height": 1050
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-24.png",
     "hasDescription": true,
-    "title": "公仔-24"
+    "title": "公仔-24",
+    "width": 1642,
+    "height": 958
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-25.png",
     "hasDescription": true,
-    "title": "公仔-25"
+    "title": "公仔-25",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-26.png",
     "hasDescription": true,
-    "title": "公仔-26"
+    "title": "公仔-26",
+    "width": 1662,
+    "height": 946
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-27.png",
     "hasDescription": true,
-    "title": "公仔-27"
+    "title": "公仔-27",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-28.png",
     "hasDescription": true,
-    "title": "公仔-28"
+    "title": "公仔-28",
+    "width": 1662,
+    "height": 946
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-29.png",
     "hasDescription": true,
-    "title": "公仔-29"
+    "title": "公仔-29",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-30.png",
     "hasDescription": true,
-    "title": "公仔-30"
+    "title": "公仔-30",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-31.png",
     "hasDescription": true,
-    "title": "公仔-31"
+    "title": "公仔-31",
+    "width": 1657,
+    "height": 949
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-32.png",
     "hasDescription": true,
-    "title": "公仔-32"
+    "title": "公仔-32",
+    "width": 1912,
+    "height": 823
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-33.png",
     "hasDescription": true,
-    "title": "公仔-33"
+    "title": "公仔-33",
+    "width": 1492,
+    "height": 1054
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-34.png",
     "hasDescription": true,
-    "title": "公仔-34"
+    "title": "公仔-34",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "公仔",
     "src": "images/公仔/公仔-35.png",
     "hasDescription": true,
-    "title": "公仔-35"
+    "title": "公仔-35",
+    "width": 1640,
+    "height": 959
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-01.png",
     "hasDescription": true,
-    "title": "手繪-01"
+    "title": "手繪-01",
+    "width": 1055,
+    "height": 1491
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-02.png",
     "hasDescription": false,
-    "title": "手繪-02"
+    "title": "手繪-02",
+    "width": 1055,
+    "height": 1491
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-03.png",
     "hasDescription": false,
-    "title": "手繪-03"
+    "title": "手繪-03",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-04.png",
     "hasDescription": false,
-    "title": "手繪-04"
+    "title": "手繪-04",
+    "width": 1122,
+    "height": 1402
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-05.png",
     "hasDescription": false,
-    "title": "手繪-05"
+    "title": "手繪-05",
+    "width": 1122,
+    "height": 1402
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-06.png",
     "hasDescription": false,
-    "title": "手繪-06"
+    "title": "手繪-06",
+    "width": 1122,
+    "height": 1402
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-07.png",
     "hasDescription": false,
-    "title": "手繪-07"
+    "title": "手繪-07",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-08.png",
     "hasDescription": false,
-    "title": "手繪-08"
+    "title": "手繪-08",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-09.png",
     "hasDescription": false,
-    "title": "手繪-09"
+    "title": "手繪-09",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-10.png",
     "hasDescription": false,
-    "title": "手繪-10"
+    "title": "手繪-10",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-11.png",
     "hasDescription": false,
-    "title": "手繪-11"
+    "title": "手繪-11",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-12.png",
     "hasDescription": false,
-    "title": "手繪-12"
+    "title": "手繪-12",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-13.png",
     "hasDescription": false,
-    "title": "手繪-13"
+    "title": "手繪-13",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-14.png",
     "hasDescription": false,
-    "title": "手繪-14"
+    "title": "手繪-14",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-15.png",
     "hasDescription": false,
-    "title": "手繪-15"
+    "title": "手繪-15",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-16.png",
     "hasDescription": false,
-    "title": "手繪-16"
+    "title": "手繪-16",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-17.png",
     "hasDescription": false,
-    "title": "手繪-17"
+    "title": "手繪-17",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-18.png",
     "hasDescription": false,
-    "title": "手繪-18"
+    "title": "手繪-18",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-19.png",
     "hasDescription": false,
-    "title": "手繪-19"
+    "title": "手繪-19",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-20.png",
     "hasDescription": false,
-    "title": "手繪-20"
+    "title": "手繪-20",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-21.png",
     "hasDescription": false,
-    "title": "手繪-21"
+    "title": "手繪-21",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-22.png",
     "hasDescription": false,
-    "title": "手繪-22"
+    "title": "手繪-22",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-23.png",
     "hasDescription": false,
-    "title": "手繪-23"
+    "title": "手繪-23",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-24.png",
     "hasDescription": false,
-    "title": "手繪-24"
+    "title": "手繪-24",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-25.png",
     "hasDescription": false,
-    "title": "手繪-25"
+    "title": "手繪-25",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-26.png",
     "hasDescription": false,
-    "title": "手繪-26"
+    "title": "手繪-26",
+    "width": 1448,
+    "height": 1086
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-27.png",
     "hasDescription": false,
-    "title": "手繪-27"
+    "title": "手繪-27",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-28.png",
     "hasDescription": false,
-    "title": "手繪-28"
+    "title": "手繪-28",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-29.png",
     "hasDescription": false,
-    "title": "手繪-29"
+    "title": "手繪-29",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-30.png",
     "hasDescription": false,
-    "title": "手繪-30"
+    "title": "手繪-30",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-31.png",
     "hasDescription": false,
-    "title": "手繪-31"
+    "title": "手繪-31",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-32.png",
     "hasDescription": false,
-    "title": "手繪-32"
+    "title": "手繪-32",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-33.png",
     "hasDescription": false,
-    "title": "手繪-33"
+    "title": "手繪-33",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-34.png",
     "hasDescription": false,
-    "title": "手繪-34"
+    "title": "手繪-34",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-35.png",
     "hasDescription": false,
-    "title": "手繪-35"
+    "title": "手繪-35",
+    "width": 1448,
+    "height": 1086
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-36.png",
     "hasDescription": false,
-    "title": "手繪-36"
+    "title": "手繪-36",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-37.png",
     "hasDescription": false,
-    "title": "手繪-37"
+    "title": "手繪-37",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-38.png",
     "hasDescription": false,
-    "title": "手繪-38"
+    "title": "手繪-38",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-39.png",
     "hasDescription": false,
-    "title": "手繪-39"
+    "title": "手繪-39",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-40.png",
     "hasDescription": false,
-    "title": "手繪-40"
+    "title": "手繪-40",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-41.png",
     "hasDescription": false,
-    "title": "手繪-41"
+    "title": "手繪-41",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-42.png",
     "hasDescription": false,
-    "title": "手繪-42"
+    "title": "手繪-42",
+    "width": 1536,
+    "height": 1024
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-43.png",
     "hasDescription": false,
-    "title": "手繪-43"
+    "title": "手繪-43",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "手繪",
     "src": "images/手繪/手繪-44.png",
     "hasDescription": false,
-    "title": "手繪-44"
+    "title": "手繪-44",
+    "width": 1312,
+    "height": 1199
   },
   {
     "category": "日常",
     "src": "images/日常/ChatGPT Image 2026年8月12日 上午02_32_20.png",
     "hasDescription": false,
-    "title": "2026年8月12日 上午02_32_20"
+    "title": "2026年8月12日 上午02_32_20",
+    "width": 1492,
+    "height": 1054
   },
   {
     "category": "日常",
     "src": "images/日常/日常-01.png",
     "hasDescription": true,
     "title": "日常-01",
+    "width": 1672,
+    "height": 941,
     "description": "a T-shirt and jeans"
   },
   {
@@ -2713,6 +3513,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-02.png",
     "hasDescription": true,
     "title": "日常-02",
+    "width": 1672,
+    "height": 941,
     "description": "a shirt and a skirt"
   },
   {
@@ -2720,6 +3522,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-03.png",
     "hasDescription": true,
     "title": "日常-03",
+    "width": 1672,
+    "height": 941,
     "description": "a linen shirt and wide-leg pants"
   },
   {
@@ -2727,6 +3531,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-04.png",
     "hasDescription": true,
     "title": "日常-04",
+    "width": 1672,
+    "height": 941,
     "description": "a long-sleeve shirt and jeans"
   },
   {
@@ -2734,6 +3540,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-05.png",
     "hasDescription": true,
     "title": "日常-05",
+    "width": 1672,
+    "height": 941,
     "description": "a blouse and a midi skirt"
   },
   {
@@ -2741,6 +3549,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-06.png",
     "hasDescription": true,
     "title": "日常-06",
+    "width": 1672,
+    "height": 941,
     "description": "a linen blouse and cropped pants"
   },
   {
@@ -2748,6 +3558,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-07.png",
     "hasDescription": true,
     "title": "日常-07",
+    "width": 1672,
+    "height": 941,
     "description": "a tank top and shorts"
   },
   {
@@ -2755,6 +3567,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-08.png",
     "hasDescription": true,
     "title": "日常-08",
+    "width": 1672,
+    "height": 941,
     "description": "a camisole and a skirt"
   },
   {
@@ -2762,6 +3576,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-09.png",
     "hasDescription": true,
     "title": "日常-09",
+    "width": 1672,
+    "height": 941,
     "description": "a crop top and high-waisted jeans"
   },
   {
@@ -2769,6 +3585,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-10.png",
     "hasDescription": true,
     "title": "日常-10",
+    "width": 1672,
+    "height": 941,
     "description": "a polo shirt and a pleated skirt"
   },
   {
@@ -2776,6 +3594,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-11.png",
     "hasDescription": true,
     "title": "日常-11",
+    "width": 1672,
+    "height": 941,
     "description": "a knit top and straight-leg pants"
   },
   {
@@ -2783,6 +3603,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-12.png",
     "hasDescription": true,
     "title": "日常-12",
+    "width": 1672,
+    "height": 941,
     "description": "a sweater and jeans"
   },
   {
@@ -2790,6 +3612,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-13.png",
     "hasDescription": true,
     "title": "日常-13",
+    "width": 1672,
+    "height": 941,
     "description": "a knit sweater and a skirt"
   },
   {
@@ -2797,6 +3621,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-14.png",
     "hasDescription": true,
     "title": "日常-14",
+    "width": 1672,
+    "height": 940,
     "description": "a zip-up hoodie and shorts"
   },
   {
@@ -2804,6 +3630,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-15.png",
     "hasDescription": true,
     "title": "日常-15",
+    "width": 1672,
+    "height": 941,
     "description": "a cardigan and a dress"
   },
   {
@@ -2811,6 +3639,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-16.png",
     "hasDescription": true,
     "title": "日常-16",
+    "width": 1672,
+    "height": 941,
     "description": "a cropped cardigan and a mini skirt"
   },
   {
@@ -2818,6 +3648,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-17.png",
     "hasDescription": true,
     "title": "日常-17",
+    "width": 1672,
+    "height": 941,
     "description": "a denim jacket and a dress"
   },
   {
@@ -2825,6 +3657,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-18.png",
     "hasDescription": true,
     "title": "日常-18",
+    "width": 1672,
+    "height": 941,
     "description": "a blazer and tailored shorts"
   },
   {
@@ -2832,6 +3666,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-19.png",
     "hasDescription": true,
     "title": "日常-19",
+    "width": 1672,
+    "height": 941,
     "description": "off shoulder crop top, mini skirt"
   },
   {
@@ -2839,6 +3675,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-20.png",
     "hasDescription": true,
     "title": "日常-20",
+    "width": 1672,
+    "height": 941,
     "description": "a sports bra and jogger pants"
   },
   {
@@ -2846,6 +3684,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-21.png",
     "hasDescription": true,
     "title": "日常-21",
+    "width": 1672,
+    "height": 941,
     "description": "a simple dress"
   },
   {
@@ -2853,6 +3693,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-22.png",
     "hasDescription": true,
     "title": "日常-22",
+    "width": 1672,
+    "height": 941,
     "description": "a floral dress"
   },
   {
@@ -2860,6 +3702,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-23.png",
     "hasDescription": true,
     "title": "日常-23",
+    "width": 1672,
+    "height": 941,
     "description": "a maxi dress"
   },
   {
@@ -2867,6 +3711,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-24.png",
     "hasDescription": true,
     "title": "日常-24",
+    "width": 1672,
+    "height": 941,
     "description": "a midi dress"
   },
   {
@@ -2874,6 +3720,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-25.png",
     "hasDescription": true,
     "title": "日常-25",
+    "width": 1672,
+    "height": 941,
     "description": "a mini dress"
   },
   {
@@ -2881,6 +3729,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-26.png",
     "hasDescription": true,
     "title": "日常-26",
+    "width": 1672,
+    "height": 941,
     "description": "a slip dress"
   },
   {
@@ -2888,6 +3738,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-27.png",
     "hasDescription": true,
     "title": "日常-27",
+    "width": 1672,
+    "height": 941,
     "description": "a shirt dress"
   },
   {
@@ -2895,6 +3747,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-28.png",
     "hasDescription": true,
     "title": "日常-28",
+    "width": 1672,
+    "height": 941,
     "description": "a knit dress"
   },
   {
@@ -2902,6 +3756,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-29.png",
     "hasDescription": true,
     "title": "日常-29",
+    "width": 1672,
+    "height": 941,
     "description": "a relaxed lounge gown"
   },
   {
@@ -2909,6 +3765,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-30.png",
     "hasDescription": true,
     "title": "日常-30",
+    "width": 1672,
+    "height": 941,
     "description": "a wrap dress"
   },
   {
@@ -2916,6 +3774,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-31.png",
     "hasDescription": true,
     "title": "日常-31",
+    "width": 1672,
+    "height": 941,
     "description": "a sports bra and leggings"
   },
   {
@@ -2923,6 +3783,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-32.png",
     "hasDescription": true,
     "title": "日常-32",
+    "width": 1672,
+    "height": 941,
     "description": "a off-shoulder gown"
   },
   {
@@ -2930,6 +3792,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-33.png",
     "hasDescription": true,
     "title": "日常-33",
+    "width": 1672,
+    "height": 941,
     "description": "a halter top and linen shorts"
   },
   {
@@ -2937,6 +3801,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-34.png",
     "hasDescription": true,
     "title": "日常-34",
+    "width": 1672,
+    "height": 941,
     "description": "an elegant ivory babydoll dress"
   },
   {
@@ -2944,6 +3810,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-35.png",
     "hasDescription": true,
     "title": "日常-35",
+    "width": 1672,
+    "height": 941,
     "description": "a henley top and relaxed trousers"
   },
   {
@@ -2951,6 +3819,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-36.png",
     "hasDescription": true,
     "title": "日常-36",
+    "width": 1672,
+    "height": 941,
     "description": "a peasant blouse and denim overalls"
   },
   {
@@ -2958,6 +3828,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-37.png",
     "hasDescription": true,
     "title": "日常-37",
+    "width": 1672,
+    "height": 941,
     "description": "a bodysuit and a high-waisted mini skirt"
   },
   {
@@ -2965,6 +3837,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-38.png",
     "hasDescription": true,
     "title": "日常-38",
+    "width": 1870,
+    "height": 841,
     "description": "a off-shoulder dress"
   },
   {
@@ -2972,6 +3846,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-39.png",
     "hasDescription": true,
     "title": "日常-39",
+    "width": 1672,
+    "height": 941,
     "description": "a cropped sweatshirt and a tennis skirt"
   },
   {
@@ -2979,6 +3855,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-40.png",
     "hasDescription": true,
     "title": "日常-40",
+    "width": 1672,
+    "height": 941,
     "description": "a one-shoulder dress"
   },
   {
@@ -2986,6 +3864,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-41.png",
     "hasDescription": true,
     "title": "日常-41",
+    "width": 1672,
+    "height": 941,
     "description": "a loose micro mini dress"
   },
   {
@@ -2993,6 +3873,8 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-42.png",
     "hasDescription": true,
     "title": "日常-42",
+    "width": 1672,
+    "height": 941,
     "description": "a oversized T-shirt over bodysuit"
   },
   {
@@ -3000,408 +3882,544 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/日常-43.png",
     "hasDescription": true,
     "title": "日常-43",
+    "width": 1672,
+    "height": 941,
     "description": "a bodysuit and skin-tight shorts"
   },
   {
     "category": "日常",
     "src": "images/日常/日常-44.png",
     "hasDescription": true,
-    "title": "日常-44"
+    "title": "日常-44",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-01.png",
     "hasDescription": false,
-    "title": "風姿卓約-01"
+    "title": "風姿卓約-01",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-02.png",
     "hasDescription": false,
-    "title": "風姿卓約-02"
+    "title": "風姿卓約-02",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-03.png",
     "hasDescription": false,
-    "title": "風姿卓約-03"
+    "title": "風姿卓約-03",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-04.png",
     "hasDescription": false,
-    "title": "風姿卓約-04"
+    "title": "風姿卓約-04",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-05.png",
     "hasDescription": false,
-    "title": "風姿卓約-05"
+    "title": "風姿卓約-05",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-06.png",
     "hasDescription": false,
-    "title": "風姿卓約-06"
+    "title": "風姿卓約-06",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-07.png",
     "hasDescription": false,
-    "title": "風姿卓約-07"
+    "title": "風姿卓約-07",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-08.png",
     "hasDescription": false,
-    "title": "風姿卓約-08"
+    "title": "風姿卓約-08",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-09.png",
     "hasDescription": false,
-    "title": "風姿卓約-09"
+    "title": "風姿卓約-09",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-10.png",
     "hasDescription": false,
-    "title": "風姿卓約-10"
+    "title": "風姿卓約-10",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-11.png",
     "hasDescription": false,
-    "title": "風姿卓約-11"
+    "title": "風姿卓約-11",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-12.png",
     "hasDescription": false,
-    "title": "風姿卓約-12"
+    "title": "風姿卓約-12",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-13.png",
     "hasDescription": false,
-    "title": "風姿卓約-13"
+    "title": "風姿卓約-13",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-14.png",
     "hasDescription": false,
-    "title": "風姿卓約-14"
+    "title": "風姿卓約-14",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-15.png",
     "hasDescription": false,
-    "title": "風姿卓約-15"
+    "title": "風姿卓約-15",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-16.png",
     "hasDescription": false,
-    "title": "風姿卓約-16"
+    "title": "風姿卓約-16",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-17.png",
     "hasDescription": false,
-    "title": "風姿卓約-17"
+    "title": "風姿卓約-17",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-18.png",
     "hasDescription": false,
-    "title": "風姿卓約-18"
+    "title": "風姿卓約-18",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-19.png",
     "hasDescription": false,
-    "title": "風姿卓約-19"
+    "title": "風姿卓約-19",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-20.png",
     "hasDescription": false,
-    "title": "風姿卓約-20"
+    "title": "風姿卓約-20",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-21.png",
     "hasDescription": false,
-    "title": "風姿卓約-21"
+    "title": "風姿卓約-21",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-22.png",
     "hasDescription": false,
-    "title": "風姿卓約-22"
+    "title": "風姿卓約-22",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-23.png",
     "hasDescription": false,
-    "title": "風姿卓約-23"
+    "title": "風姿卓約-23",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-24.png",
     "hasDescription": false,
-    "title": "風姿卓約-24"
+    "title": "風姿卓約-24",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-25.png",
     "hasDescription": false,
-    "title": "風姿卓約-25"
+    "title": "風姿卓約-25",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-26.png",
     "hasDescription": false,
-    "title": "風姿卓約-26"
+    "title": "風姿卓約-26",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-27.png",
     "hasDescription": false,
-    "title": "風姿卓約-27"
+    "title": "風姿卓約-27",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-28.png",
     "hasDescription": false,
-    "title": "風姿卓約-28"
+    "title": "風姿卓約-28",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-29.png",
     "hasDescription": false,
-    "title": "風姿卓約-29"
+    "title": "風姿卓約-29",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-30.png",
     "hasDescription": false,
-    "title": "風姿卓約-30"
+    "title": "風姿卓約-30",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-31.png",
     "hasDescription": false,
-    "title": "風姿卓約-31"
+    "title": "風姿卓約-31",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-32.png",
     "hasDescription": false,
-    "title": "風姿卓約-32"
+    "title": "風姿卓約-32",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-33.png",
     "hasDescription": false,
-    "title": "風姿卓約-33"
+    "title": "風姿卓約-33",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-34.png",
     "hasDescription": false,
-    "title": "風姿卓約-34"
+    "title": "風姿卓約-34",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-35.png",
     "hasDescription": false,
-    "title": "風姿卓約-35"
+    "title": "風姿卓約-35",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-36.png",
     "hasDescription": false,
-    "title": "風姿卓約-36"
+    "title": "風姿卓約-36",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-37.png",
     "hasDescription": false,
-    "title": "風姿卓約-37"
+    "title": "風姿卓約-37",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-38.png",
     "hasDescription": false,
-    "title": "風姿卓約-38"
+    "title": "風姿卓約-38",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-39.png",
     "hasDescription": false,
-    "title": "風姿卓約-39"
+    "title": "風姿卓約-39",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-40.png",
     "hasDescription": false,
-    "title": "風姿卓約-40"
+    "title": "風姿卓約-40",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-41.png",
     "hasDescription": false,
-    "title": "風姿卓約-41"
+    "title": "風姿卓約-41",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-42.png",
     "hasDescription": false,
-    "title": "風姿卓約-42"
+    "title": "風姿卓約-42",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-43.png",
     "hasDescription": false,
-    "title": "風姿卓約-43"
+    "title": "風姿卓約-43",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-44.png",
     "hasDescription": false,
-    "title": "風姿卓約-44"
+    "title": "風姿卓約-44",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-45.png",
     "hasDescription": false,
-    "title": "風姿卓約-45"
+    "title": "風姿卓約-45",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-46.png",
     "hasDescription": false,
-    "title": "風姿卓約-46"
+    "title": "風姿卓約-46",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-47.png",
     "hasDescription": false,
-    "title": "風姿卓約-47"
+    "title": "風姿卓約-47",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-48.png",
     "hasDescription": false,
-    "title": "風姿卓約-48"
+    "title": "風姿卓約-48",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-49.png",
     "hasDescription": false,
-    "title": "風姿卓約-49"
+    "title": "風姿卓約-49",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-50.png",
     "hasDescription": false,
-    "title": "風姿卓約-50"
+    "title": "風姿卓約-50",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-51.png",
     "hasDescription": false,
-    "title": "風姿卓約-51"
+    "title": "風姿卓約-51",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-52.png",
     "hasDescription": false,
-    "title": "風姿卓約-52"
+    "title": "風姿卓約-52",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-53.png",
     "hasDescription": false,
-    "title": "風姿卓約-53"
+    "title": "風姿卓約-53",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-54.png",
     "hasDescription": false,
-    "title": "風姿卓約-54"
+    "title": "風姿卓約-54",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-55.png",
     "hasDescription": false,
-    "title": "風姿卓約-55"
+    "title": "風姿卓約-55",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-56.png",
     "hasDescription": false,
-    "title": "風姿卓約-56"
+    "title": "風姿卓約-56",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-57.png",
     "hasDescription": false,
-    "title": "風姿卓約-57"
+    "title": "風姿卓約-57",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-58.png",
     "hasDescription": false,
-    "title": "風姿卓約-58"
+    "title": "風姿卓約-58",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-59.png",
     "hasDescription": false,
-    "title": "風姿卓約-59"
+    "title": "風姿卓約-59",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-60.png",
     "hasDescription": false,
-    "title": "風姿卓約-60"
+    "title": "風姿卓約-60",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-61.png",
     "hasDescription": false,
-    "title": "風姿卓約-61"
+    "title": "風姿卓約-61",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-62.png",
     "hasDescription": false,
-    "title": "風姿卓約-62"
+    "title": "風姿卓約-62",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-63.png",
     "hasDescription": false,
-    "title": "風姿卓約-63"
+    "title": "風姿卓約-63",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-64.png",
     "hasDescription": false,
-    "title": "風姿卓約-64"
+    "title": "風姿卓約-64",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-65.png",
     "hasDescription": false,
-    "title": "風姿卓約-65"
+    "title": "風姿卓約-65",
+    "width": 1672,
+    "height": 941
   },
   {
     "category": "風姿",
     "src": "images/風姿/風姿卓約-66.png",
     "hasDescription": false,
-    "title": "風姿卓約-66"
+    "title": "風姿卓約-66",
+    "width": 1672,
+    "height": 941
   }
 ];

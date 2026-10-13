@@ -1,5 +1,39 @@
 const images = window.__GALLERY_IMAGES__ || [];
 
+// Only assign a URL once an image reaches the viewport. Native lazy loading
+// may fetch images several screens away, competing with visible images.
+const imageObserver = "IntersectionObserver" in window
+  ? new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        loadCardImage(entry.target);
+        imageObserver.unobserve(entry.target);
+      });
+    })
+  : null;
+
+function loadCardImage(image) {
+  if (!image.dataset.src) return;
+  image.loading = "eager";
+  image.setAttribute("fetchpriority", "high");
+  image.src = image.dataset.src;
+  delete image.dataset.src;
+}
+
+function observeCardImages() {
+  grid.querySelectorAll(".card-media > img[data-src]").forEach((image) => {
+    const bounds = image.getBoundingClientRect();
+    if (bounds.bottom > 0 && bounds.top < window.innerHeight
+        && bounds.right > 0 && bounds.left < window.innerWidth) {
+      loadCardImage(image);
+    } else if (imageObserver) {
+      imageObserver.observe(image);
+    } else {
+      image.src = image.dataset.src;
+      delete image.dataset.src;
+    }
+  });
+}
 
     const grid = document.querySelector("#grid");
     const filters = document.querySelector("#filters");
@@ -454,13 +488,14 @@ const images = window.__GALLERY_IMAGES__ || [];
       const stackClass = item.isCollapsedGroup ? " stack" : "";
       const article = document.createElement("article");
       article.className = "card";
+      article.classList.toggle("landscape", image.width > image.height);
       article.dataset.groupKey = item.groupKey;
       if (item.isCollapsedGroup || item.groupIndex === 0) {
         article.id = idForGroupKey(item.groupKey);
       }
       article.innerHTML = `
         <div class="card-media${stackClass}">
-          <img loading="lazy" src="${encodeURI(image.src)}" alt="${image.category}" tabindex="0">
+          <img loading="lazy" decoding="async" width="${image.width || 1024}" height="${image.height || 1536}" data-src="${encodeURI(image.src)}" alt="${image.category}" tabindex="0">
           ${stackBadge}
         </div>
         <div class="caption">
@@ -476,7 +511,7 @@ const images = window.__GALLERY_IMAGES__ || [];
       `;
       const cardImage = article.querySelector("img");
       cardImage.addEventListener("load", () => syncCardOrientation(article, cardImage));
-      if (cardImage.complete) {
+      if (cardImage.complete && cardImage.naturalWidth) {
         syncCardOrientation(article, cardImage);
       }
       cardImage.addEventListener("click", () => {
@@ -515,6 +550,7 @@ const images = window.__GALLERY_IMAGES__ || [];
     }
 
     function render() {
+      imageObserver?.disconnect();
       const query = search.value.trim().toLowerCase();
       const filtered = images.filter((image) => {
         const matchCategory = activeCategory === "全部" || image.category === activeCategory;
@@ -534,6 +570,7 @@ const images = window.__GALLERY_IMAGES__ || [];
       categoryMenu.value = activeCategory;
       grid.replaceChildren(...currentImages.map(cardFor));
       resizeMasonry();
+      observeCardImages();
       empty.style.display = currentImages.length ? "none" : "block";
       visibleCount.textContent = currentImages.length;
       totalCount.textContent = images.length;
