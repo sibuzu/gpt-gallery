@@ -11803,7 +11803,6 @@ window.__GALLERY_IMAGES__ = [
   const branch = "main";
   const prefix = "sites/gallery/images/";
   const cacheKey = `gpt-gallery-catalog:${repository}:${branch}`;
-  const cacheLifetime = 5 * 60 * 1000;
   const status = document.createElement("p");
   status.className = "meta";
   status.setAttribute("role", "status");
@@ -11813,29 +11812,44 @@ window.__GALLERY_IMAGES__ = [
   let cached = null;
   try {
     const saved = JSON.parse(window.localStorage.getItem(cacheKey));
-    if (saved && Array.isArray(saved.images) && Number.isFinite(saved.savedAt)) {
+    if (saved && Array.isArray(saved.images)) {
       cached = saved;
     }
   } catch (error) {
     // Storage may be unavailable in private browsing.
   }
 
-  async function readCatalog() {
-    const response = await fetch(
-      `https://api.github.com/repos/${repository}/git/trees/${encodeURIComponent(branch)}?recursive=1`,
-      {
-        headers: { Accept: "application/vnd.github+json" },
-        cache: "no-cache",
-        signal: AbortSignal.timeout(15000),
-      },
-    );
+  async function githubJSON(path) {
+    const response = await fetch(`https://api.github.com/repos/${repository}/${path}`, {
+      headers: { Accept: "application/vnd.github+json" },
+      cache: "no-cache",
+      signal: AbortSignal.timeout(15000),
+    });
     if (!response.ok) throw new Error(`GitHub catalogue: HTTP ${response.status}`);
-    const listing = await response.json();
+    return response.json();
+  }
+
+  async function imageDirectoryHash() {
+    const parent = prefix.replace(/images\/$/, "").replace(/\/$/, "");
+    const entries = await githubJSON(`contents/${parent}?ref=${encodeURIComponent(branch)}`);
+    const directory = Array.isArray(entries)
+      && entries.find((entry) => entry.name === "images" && entry.type === "dir");
+    if (!directory || !/^[a-f0-9]{40}$/.test(directory.sha)) {
+      throw new Error("GitHub did not return an images directory hash");
+    }
+    return directory.sha;
+  }
+
+  async function readCatalog(hash) {
+    // Fetch this exact directory tree so a later push cannot mix listing versions.
+    const listing = await githubJSON(`git/trees/${hash}?recursive=1`);
     if (listing.truncated || !Array.isArray(listing.tree)) {
       throw new Error("GitHub returned an incomplete directory listing");
     }
 
-    const files = listing.tree.filter((entry) => entry.type === "blob" && entry.mode !== "120000");
+    const files = listing.tree
+      .filter((entry) => entry.type === "blob" && entry.mode !== "120000")
+      .map((entry) => ({ ...entry, path: prefix + entry.path }));
     const descriptions = new Set(files.map((entry) => entry.path));
     const dimensions = new Map(snapshot.map((image) => [image.src, image]));
     const seen = new Set();
@@ -11876,14 +11890,13 @@ window.__GALLERY_IMAGES__ = [
       window.__GALLERY_IMAGES__ = snapshot;
       status.remove();
     } else {
-      const freshCache = cached && Date.now() - cached.savedAt < cacheLifetime;
-      window.__GALLERY_IMAGES__ = freshCache ? cached.images : await readCatalog();
-      if (!freshCache) {
-        try {
-          window.localStorage.setItem(cacheKey, JSON.stringify({ savedAt: Date.now(), images: window.__GALLERY_IMAGES__ }));
-        } catch (error) {
-          // A full or disabled storage must not prevent rendering.
-        }
+      // Check on every page load; only download the listing when its hash changes.
+      const hash = await imageDirectoryHash();
+      window.__GALLERY_IMAGES__ = cached && cached.hash === hash ? cached.images : await readCatalog(hash);
+      try {
+        window.localStorage.setItem(cacheKey, JSON.stringify({ hash, images: window.__GALLERY_IMAGES__ }));
+      } catch (error) {
+        // A full or disabled storage must not prevent rendering.
       }
       status.remove();
     }
