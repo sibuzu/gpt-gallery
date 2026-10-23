@@ -501,6 +501,11 @@ def scan_design_images() -> list[dict[str, str]]:
                 "title": title_for(path),
                 **image_dimensions(path),
             }
+            description_path = path.with_suffix(".md")
+            if description_path.exists():
+                content = description_path.read_bytes()
+                blob = f"blob {len(content)}\0".encode("ascii") + content
+                item["descriptionSha"] = hashlib.sha1(blob).hexdigest()
             description = single_line_description_for(path)
             if description:
                 item["description"] = description
@@ -518,12 +523,12 @@ def render_data_block(items: list[dict[str, str]]) -> str:
     return f"window.__GALLERY_IMAGES__ = {data};\n"
 
 
-def render_gallery_data(items: list[dict[str, str]]) -> str:
+def render_runtime_data(items: list[dict[str, str]], data_path: Path, site: str) -> str:
     # Refresh the optional offline snapshot without replacing the runtime loader.
-    marker = "// Runtime gallery loader\n"
-    _, separator, loader = GALLERY_DATA_JS.read_text(encoding="utf-8").partition(marker)
+    marker = f"// Runtime {site} loader\n"
+    _, separator, loader = data_path.read_text(encoding="utf-8").partition(marker)
     if not separator:
-        raise RuntimeError("Missing runtime loader in gallery-data.js")
+        raise RuntimeError(f"Missing runtime loader in {data_path.name}")
     return render_data_block(items) + "\n" + separator + loader
 
 
@@ -576,12 +581,12 @@ def main() -> None:
 
     if build_gallery:
         gallery_items, report = scan_gallery_images()
-        gallery_data_updated = write_text_if_changed(GALLERY_DATA_JS, render_gallery_data(gallery_items))
+        gallery_data_updated = write_text_if_changed(GALLERY_DATA_JS, render_runtime_data(gallery_items, GALLERY_DATA_JS, "gallery"))
         report_updated = write_text_if_changed(REPORT_JSON, json.dumps(report, ensure_ascii=False, indent=2) + "\n")
 
     if build_design:
         design_items = scan_design_images()
-        design_data_updated = write_text_if_changed(DESIGN_DATA_JS, render_data_block(design_items))
+        design_data_updated = write_text_if_changed(DESIGN_DATA_JS, render_runtime_data(design_items, DESIGN_DATA_JS, "design"))
 
     version = int(time.time())
     gallery_updated = (
