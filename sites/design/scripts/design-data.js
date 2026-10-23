@@ -4831,6 +4831,18 @@ window.__GALLERY_IMAGES__ = [
   const branch = "main";
   const prefix = "sites/design/images/";
   const cacheKey = `gpt-design-catalog:${repository}:${branch}`;
+
+  // The GitHub listing may update before Netlify finishes deploying its files.
+  // Retry missing site images from GitHub; remote failures cannot loop here.
+  const imageRoot = new URL("../images/", sourceScript);
+  document.addEventListener("error", (event) => {
+    const image = event.target;
+    if (window.location.protocol === "file:" || image?.tagName !== "IMG") return;
+    const failed = new URL(image.src, sourceScript);
+    if (failed.origin !== imageRoot.origin || !failed.pathname.startsWith(imageRoot.pathname)) return;
+    const path = failed.pathname.slice(imageRoot.pathname.length);
+    image.src = `https://raw.githubusercontent.com/${repository}/${encodeURIComponent(branch)}/${prefix}${path}`;
+  }, true);
   const status = document.createElement("p");
   status.className = "meta";
   status.setAttribute("role", "status");
