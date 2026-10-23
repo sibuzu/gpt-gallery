@@ -518,6 +518,15 @@ def render_data_block(items: list[dict[str, str]]) -> str:
     return f"window.__GALLERY_IMAGES__ = {data};\n"
 
 
+def render_gallery_data(items: list[dict[str, str]]) -> str:
+    # Refresh the optional offline snapshot without replacing the runtime loader.
+    marker = "// Runtime gallery loader\n"
+    _, separator, loader = GALLERY_DATA_JS.read_text(encoding="utf-8").partition(marker)
+    if not separator:
+        raise RuntimeError("Missing runtime loader in gallery-data.js")
+    return render_data_block(items) + "\n" + separator + loader
+
+
 def update_asset_cache_bust(index_path: Path, assets: list[str], version: str) -> bool:
     html = index_path.read_text(encoding="utf-8")
     original = html
@@ -567,7 +576,7 @@ def main() -> None:
 
     if build_gallery:
         gallery_items, report = scan_gallery_images()
-        gallery_data_updated = write_text_if_changed(GALLERY_DATA_JS, render_data_block(gallery_items))
+        gallery_data_updated = write_text_if_changed(GALLERY_DATA_JS, render_gallery_data(gallery_items))
         report_updated = write_text_if_changed(REPORT_JSON, json.dumps(report, ensure_ascii=False, indent=2) + "\n")
 
     if build_design:

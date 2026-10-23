@@ -11792,3 +11792,114 @@ window.__GALLERY_IMAGES__ = [
     "height": 1821
   }
 ];
+
+// Runtime gallery loader
+// Netlify serves the image files; GitHub supplies the directory listing.
+// The array above is an offline fallback and dimension cache, not a required build output.
+(async () => {
+  const sourceScript = new URL(document.currentScript.src);
+  const snapshot = window.__GALLERY_IMAGES__;
+  const repository = "sibuzu/gpt-gallery";
+  const branch = "main";
+  const prefix = "sites/gallery/images/";
+  const cacheKey = `gpt-gallery-catalog:${repository}:${branch}`;
+  const cacheLifetime = 5 * 60 * 1000;
+  const status = document.createElement("p");
+  status.className = "meta";
+  status.setAttribute("role", "status");
+  status.textContent = "正在載入圖片清單…";
+  document.querySelector("main").prepend(status);
+
+  let cached = null;
+  try {
+    const saved = JSON.parse(window.localStorage.getItem(cacheKey));
+    if (saved && Array.isArray(saved.images) && Number.isFinite(saved.savedAt)) {
+      cached = saved;
+    }
+  } catch (error) {
+    // Storage may be unavailable in private browsing.
+  }
+
+  async function readCatalog() {
+    const response = await fetch(
+      `https://api.github.com/repos/${repository}/git/trees/${encodeURIComponent(branch)}?recursive=1`,
+      {
+        headers: { Accept: "application/vnd.github+json" },
+        cache: "no-cache",
+        signal: AbortSignal.timeout(15000),
+      },
+    );
+    if (!response.ok) throw new Error(`GitHub catalogue: HTTP ${response.status}`);
+    const listing = await response.json();
+    if (listing.truncated || !Array.isArray(listing.tree)) {
+      throw new Error("GitHub returned an incomplete directory listing");
+    }
+
+    const files = listing.tree.filter((entry) => entry.type === "blob" && entry.mode !== "120000");
+    const descriptions = new Set(files.map((entry) => entry.path));
+    const dimensions = new Map(snapshot.map((image) => [image.src, image]));
+    const seen = new Set();
+    const images = [];
+    files.sort((left, right) => left.path < right.path ? -1 : left.path > right.path ? 1 : 0);
+    for (const file of files) {
+      if (!file.path.startsWith(prefix)) continue;
+      const parts = file.path.slice(prefix.length).split("/");
+      if (parts.length !== 2) continue;
+      const [category, filename] = parts;
+      if (["all", "Design"].includes(category) || !/\.(png|jpe?g|webp|gif)$/i.test(filename)) continue;
+      if (seen.has(file.sha)) continue;
+      seen.add(file.sha);
+      const src = `images/${category}/${filename}`;
+      const known = dimensions.get(src);
+      images.push({
+        category,
+        src,
+        title: filename.replace(/\.[^.]+$/, "").replace(/^ChatGPT Image /, "").trim(),
+        hasDescription: descriptions.has(file.path.replace(/\.[^.]+$/, ".md")),
+        ...(known ? { width: known.width, height: known.height } : {}),
+      });
+    }
+
+    // Keep the same deterministic shuffle as the optional Python build.
+    const encoder = new TextEncoder();
+    const ordered = await Promise.all(images.map(async (image) => {
+      const digest = await crypto.subtle.digest("SHA-256", encoder.encode(image.src));
+      const key = Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, "0")).join("");
+      return { image, key };
+    }));
+    ordered.sort((left, right) => left.key.localeCompare(right.key));
+    return ordered.map(({ image }) => image);
+  }
+
+  try {
+    if (window.location.protocol === "file:") {
+      window.__GALLERY_IMAGES__ = snapshot;
+      status.remove();
+    } else {
+      const freshCache = cached && Date.now() - cached.savedAt < cacheLifetime;
+      window.__GALLERY_IMAGES__ = freshCache ? cached.images : await readCatalog();
+      if (!freshCache) {
+        try {
+          window.localStorage.setItem(cacheKey, JSON.stringify({ savedAt: Date.now(), images: window.__GALLERY_IMAGES__ }));
+        } catch (error) {
+          // A full or disabled storage must not prevent rendering.
+        }
+      }
+      status.remove();
+    }
+  } catch (error) {
+    console.warn("Could not refresh the gallery catalogue:", error);
+    window.__GALLERY_IMAGES__ = cached ? cached.images : snapshot;
+    status.textContent = "目前顯示已儲存的圖片清單，稍後重新整理以取得更新。";
+  }
+
+  const galleryScript = document.createElement("script");
+  const galleryURL = new URL("gallery.js", sourceScript);
+  galleryURL.search = sourceScript.search;
+  galleryScript.src = galleryURL.href;
+  galleryScript.onerror = () => {
+    status.textContent = "圖片庫載入失敗，請重新整理頁面。";
+    document.querySelector("main").prepend(status);
+  };
+  document.head.append(galleryScript);
+})();
