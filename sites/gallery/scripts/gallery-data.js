@@ -168,6 +168,14 @@ window.__GALLERY_IMAGES__ = [
     "height": 1536
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/手機少女-07.png",
+    "hasDescription": false,
+    "title": "手機少女-07",
+    "width": 1024,
+    "height": 1536
+  },
+  {
     "category": "時尚",
     "src": "images/時尚/img-20260719-214839.png",
     "hasDescription": false,
@@ -3537,6 +3545,14 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Theme",
+    "src": "images/Theme/手機少女-01.png",
+    "hasDescription": true,
+    "title": "手機少女-01",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "category": "Theme",
     "src": "images/Theme/高視角手繪圖-16.png",
     "hasDescription": false,
     "title": "高視角手繪圖-16",
@@ -4520,6 +4536,14 @@ window.__GALLERY_IMAGES__ = [
     "height": 1536
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/手機少女-14.png",
+    "hasDescription": false,
+    "title": "手機少女-14",
+    "width": 1024,
+    "height": 1536
+  },
+  {
     "category": "Folk",
     "src": "images/Folk/馬雅b-02.png",
     "hasDescription": false,
@@ -4550,6 +4574,14 @@ window.__GALLERY_IMAGES__ = [
     "title": "img-20260720-084233",
     "width": 1024,
     "height": 1535
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/手機少女-04.png",
+    "hasDescription": false,
+    "title": "手機少女-04",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "Theme",
@@ -5852,6 +5884,14 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/日常/img-20260720-060640.png",
     "hasDescription": false,
     "title": "img-20260720-060640",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/手機少女-03.png",
+    "hasDescription": false,
+    "title": "手機少女-03",
     "width": 1024,
     "height": 1536
   },
@@ -8280,6 +8320,14 @@ window.__GALLERY_IMAGES__ = [
     "height": 1536
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/手機少女-05.png",
+    "hasDescription": false,
+    "title": "手機少女-05",
+    "width": 1024,
+    "height": 1536
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/碎花裙a-01.png",
     "hasDescription": true,
@@ -10017,6 +10065,14 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Theme",
+    "src": "images/Theme/手機少女-06.png",
+    "hasDescription": false,
+    "title": "手機少女-06",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "category": "Theme",
     "src": "images/Theme/三人a-07.png",
     "hasDescription": true,
     "title": "三人a-07",
@@ -10606,6 +10662,14 @@ window.__GALLERY_IMAGES__ = [
     "title": "展示間-04",
     "width": 1672,
     "height": 941
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/手機少女-21.png",
+    "hasDescription": false,
+    "title": "手機少女-21",
+    "width": 1122,
+    "height": 1402
   },
   {
     "category": "Theme",
