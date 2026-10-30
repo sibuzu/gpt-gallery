@@ -136,6 +136,22 @@ window.__GALLERY_IMAGES__ = [
     "height": 1536
   },
   {
+    "category": "Dress",
+    "src": "images/Dress/細肩帶洋裝-08.png",
+    "hasDescription": true,
+    "title": "細肩帶洋裝-08",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/不知火舞-04.png",
+    "hasDescription": true,
+    "title": "不知火舞-04",
+    "width": 1024,
+    "height": 1536
+  },
+  {
     "category": "日常",
     "src": "images/日常/ChatGPT Image Jul 31, 2026, 04_19_51 PM.png",
     "hasDescription": true,
@@ -673,6 +689,14 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Dress",
+    "src": "images/Dress/細肩帶洋裝-06.png",
+    "hasDescription": true,
+    "title": "細肩帶洋裝-06",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "category": "Dress",
     "src": "images/Dress/碎花裙b-07.png",
     "hasDescription": true,
     "title": "碎花裙b-07",
@@ -726,6 +750,14 @@ window.__GALLERY_IMAGES__ = [
     "title": "埃及舞姬-01",
     "width": 1145,
     "height": 1374
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/不知火舞-05.png",
+    "hasDescription": true,
+    "title": "不知火舞-05",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "日常",
@@ -2504,6 +2536,14 @@ window.__GALLERY_IMAGES__ = [
     "height": 1448
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/不知火舞-08.png",
+    "hasDescription": true,
+    "title": "不知火舞-08",
+    "width": 1024,
+    "height": 1536
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/生成迷你裙-16.png",
     "hasDescription": false,
@@ -3784,6 +3824,14 @@ window.__GALLERY_IMAGES__ = [
     "height": 1536
   },
   {
+    "category": "Dress",
+    "src": "images/Dress/細肩帶洋裝-03.png",
+    "hasDescription": true,
+    "title": "細肩帶洋裝-03",
+    "width": 941,
+    "height": 1672
+  },
+  {
     "category": "奇幻",
     "src": "images/奇幻/img-20260720-083608.png",
     "hasDescription": false,
@@ -4380,6 +4428,14 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/短裙j-03.png",
     "hasDescription": false,
     "title": "短裙j-03",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/不知火舞-07.png",
+    "hasDescription": true,
+    "title": "不知火舞-07",
     "width": 1024,
     "height": 1536
   },
@@ -5118,6 +5174,14 @@ window.__GALLERY_IMAGES__ = [
     "title": "宮廷貴族a-01",
     "width": 864,
     "height": 1821
+  },
+  {
+    "category": "Dress",
+    "src": "images/Dress/細肩帶洋裝-02.png",
+    "hasDescription": true,
+    "title": "細肩帶洋裝-02",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "Theme",
@@ -5904,6 +5968,14 @@ window.__GALLERY_IMAGES__ = [
     "height": 1535
   },
   {
+    "category": "Dress",
+    "src": "images/Dress/細肩帶洋裝-01.png",
+    "hasDescription": true,
+    "title": "細肩帶洋裝-01",
+    "width": 1024,
+    "height": 1536
+  },
+  {
     "category": "Folk",
     "src": "images/Folk/英國格子裙a-01.png",
     "hasDescription": true,
@@ -6518,6 +6590,14 @@ window.__GALLERY_IMAGES__ = [
     "title": "油畫a-07",
     "width": 941,
     "height": 1672
+  },
+  {
+    "category": "Dress",
+    "src": "images/Dress/細肩帶洋裝-05.png",
+    "hasDescription": true,
+    "title": "細肩帶洋裝-05",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "Theme",
@@ -7696,6 +7776,14 @@ window.__GALLERY_IMAGES__ = [
     "height": 1535
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/不知火舞-03.png",
+    "hasDescription": true,
+    "title": "不知火舞-03",
+    "width": 1086,
+    "height": 1448
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/金碧宮廷佳人-14.png",
     "hasDescription": false,
@@ -7768,6 +7856,14 @@ window.__GALLERY_IMAGES__ = [
     "height": 1535
   },
   {
+    "category": "Theme",
+    "src": "images/Theme/不知火舞-06.png",
+    "hasDescription": true,
+    "title": "不知火舞-06",
+    "width": 1024,
+    "height": 1536
+  },
+  {
     "category": "Dress",
     "src": "images/Dress/萬聖節水墨-04.png",
     "hasDescription": false,
@@ -7830,6 +7926,14 @@ window.__GALLERY_IMAGES__ = [
     "title": "塗鴉c-01",
     "width": 941,
     "height": 1672
+  },
+  {
+    "category": "Dress",
+    "src": "images/Dress/細肩帶洋裝-07.png",
+    "hasDescription": true,
+    "title": "細肩帶洋裝-07",
+    "width": 1024,
+    "height": 1536
   },
   {
     "category": "Dress",
@@ -9585,6 +9689,14 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Dress",
+    "src": "images/Dress/細肩帶洋裝-04.png",
+    "hasDescription": true,
+    "title": "細肩帶洋裝-04",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "category": "Dress",
     "src": "images/Dress/圍裙a-07.png",
     "hasDescription": true,
     "title": "圍裙a-07",
@@ -10817,6 +10929,14 @@ window.__GALLERY_IMAGES__ = [
   },
   {
     "category": "Theme",
+    "src": "images/Theme/不知火舞-01.png",
+    "hasDescription": true,
+    "title": "不知火舞-01",
+    "width": 1122,
+    "height": 1402
+  },
+  {
+    "category": "Theme",
     "src": "images/Theme/地板a-07.png",
     "hasDescription": true,
     "title": "地板a-07",
@@ -10836,6 +10956,14 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Folk/印度紗麗e-02.png",
     "hasDescription": false,
     "title": "印度紗麗e-02",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/不知火舞-02.png",
+    "hasDescription": true,
+    "title": "不知火舞-02",
     "width": 1024,
     "height": 1536
   },
@@ -11206,6 +11334,14 @@ window.__GALLERY_IMAGES__ = [
     "title": "手機少女-21",
     "width": 1122,
     "height": 1402
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/不知火舞-09.png",
+    "hasDescription": true,
+    "title": "不知火舞-09",
+    "width": 948,
+    "height": 1659
   },
   {
     "category": "Theme",
@@ -12068,6 +12204,14 @@ window.__GALLERY_IMAGES__ = [
     "src": "images/Dress/水晶h-01.png",
     "hasDescription": true,
     "title": "水晶h-01",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "category": "Theme",
+    "src": "images/Theme/不知火舞-10.png",
+    "hasDescription": true,
+    "title": "不知火舞-10",
     "width": 1024,
     "height": 1536
   },
