@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-02",
+  "mirror_probability": 0.5,
+  "random_selection": "Independent secrets.randbelow(2) draw per image; no parity rule or fixed quota.",
+  "summary": {
+    "美麗性感": {
+      "added": 7,
+      "mirrored": 4,
+      "present_at_final_verification": 7,
+      "present_mirrored": 4
+    }
+  },
+  "images": [
+    {
+      "image": "sites/gallery/images/生成/美麗性感20261101-24.png",
+      "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
+      "source_file_id": "file_00000000b54c82068b652d67ce022366",
+      "horizontal_mirror": true,
+      "original_sha256": "f1dbf256be885a1c8c7c5d844e361b8f0abed064104cc59608869cdaf0e68c35",
+      "output_sha256": "91a9e7f1de74887de63cd374e85c6951ffaf367bb5c6eb7d228bdcae23695e52",
+      "width": 941,
+      "height": 1672,
+      "image_at_import": "sites/gallery/images/生成/美麗性感20261101-39.png",
+      "present_at_final_verification": true,
+      "status": "retained"
+    },
+    {
+      "image": "sites/gallery/images/生成/美麗性感20261101-25.png",
+      "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
+      "source_file_id": "file_00000000345c8206b290bb4069a7b130",
+      "horizontal_mirror": false,
+      "original_sha256": "114a6b3fe6a8d7e44713742286a20453989a5d24ce729cb66ba10c62355ef633",
+      "output_sha256": "114a6b3fe6a8d7e44713742286a20453989a5d24ce729cb66ba10c62355ef633",
+      "width": 941,
+      "height": 1672,
+      "image_at_import": "sites/gallery/images/生成/美麗性感20261101-40.png",
+      "present_at_final_verification": true,
+      "status": "retained"
+    },
+    {
+      "image": "sites/gallery/images/生成/美麗性感20261101-26.png",
+      "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
+      "source_file_id": "file_000000002db88206acfb408374e933b9",
+      "horizontal_mirror": true,
+      "original_sha256": "0459433e1254841d0c7830889c6d68fd15b8e2a751b390acfa47d314783efd0d",
+      "output_sha256": "1195ae091014959261c935350a76c81bba8de641fb1973d172ffe882d9da9d7a",
+      "width": 941,
+      "height": 1672,
+      "image_at_import": "sites/gallery/images/生成/美麗性感20261101-41.png",
+      "present_at_final_verification": true,
+      "status": "retained"
+    },
+    {
+      "image": "sites/gallery/images/生成/美麗性感20261101-27.png",
+      "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
+      "source_file_id": "file_0000000000f88206b9098a06ae55fb1f",
+      "horizontal_mirror": true,
+      "original_sha256": "dc2cc495b4cc986021622d461aa6ffe9a9ed3fb963db554addd806e6f541ddb4",
+      "output_sha256": "d2e3f2ccafbb0c98fe83279d87ac7394de8b3c161b636526e3767334806f15d3",
+      "width": 941,
+      "height": 1672,
+      "image_at_import": "sites/gallery/images/生成/美麗性感20261101-42.png",
+      "present_at_final_verification": true,
+      "status": "retained"
+    },
+    {
+      "image": "sites/gallery/images/生成/美麗性感20261101-28.png",
+      "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
+      "source_file_id": "file_000000006b5c8206bb4dceb771b1ad11",
+      "horizontal_mirror": false,
+      "original_sha256": "d690f9b26219cc4f46900d1e9177bbf7d2d479b24ec7f141086bc2e0bdd1971b",
+      "output_sha256": "d690f9b26219cc4f46900d1e9177bbf7d2d479b24ec7f141086bc2e0bdd1971b",
+      "width": 941,
+      "height": 1672,
+      "image_at_import": "sites/gallery/images/生成/美麗性感20261101-43.png",
+      "present_at_final_verification": true,
+      "status": "retained"
+    },
+    {
+      "image": "sites/gallery/images/生成/美麗性感20261101-29.png",
+      "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
+      "source_file_id": "file_0000000007308206b9875d045f0ef095",
+      "horizontal_mirror": true,
+      "original_sha256": "74e7d76a6e356ed9795beedbc47f266900c5395203d221d50b3897c04ccd80d8",
+      "output_sha256": "d6a7c4a2b4316b6774f492292e0cd77541e2568d3c864f87492b11540d349ac8",
+      "width": 941,
+      "height": 1672,
+      "image_at_import": "sites/gallery/images/生成/美麗性感20261101-44.png",
+      "present_at_final_verification": true,
+      "status": "retained"
+    },
+    {
+      "image": "sites/gallery/images/生成/美麗性感20261101-30.png",
+      "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
+      "source_file_id": "file_00000000c3a08206abc801dbeaa4e12d",
+      "horizontal_mirror": false,
+      "original_sha256": "9c72ae22159fd7fe0a46af6516295f7e91865eaf2c58b3402475ecf424367740",
+      "output_sha256": "9c72ae22159fd7fe0a46af6516295f7e91865eaf2c58b3402475ecf424367740",
+      "width": 941,
+      "height": 1672,
+      "image_at_import": "sites/gallery/images/生成/美麗性感20261101-45.png",
+      "present_at_final_verification": true,
+      "status": "retained"
+    }
+  ],
+  "renumbered_on": "2026-11-02",
+  "final_verification": {
+    "present_pairs": 7,
+    "present_mirrored_pairs": 4,
+    "absent_after_import": []
+  }
+}
