@@ -2176,14 +2176,6 @@ window.__GALLERY_IMAGES__ = [
     "height": 1537
   },
   {
-    "category": "生成",
-    "src": "images/生成/自然清新20261101-29.png",
-    "hasDescription": true,
-    "title": "自然清新20261101-29",
-    "width": 941,
-    "height": 1671
-  },
-  {
     "category": "日常",
     "src": "images/日常/制服.png",
     "hasDescription": true,
@@ -5086,14 +5078,6 @@ window.__GALLERY_IMAGES__ = [
     "title": "動漫角色20261101-21",
     "width": 941,
     "height": 1672
-  },
-  {
-    "category": "生成",
-    "src": "images/生成/自然清新20261101-08.png",
-    "hasDescription": true,
-    "title": "自然清新20261101-08",
-    "width": 941,
-    "height": 1671
   },
   {
     "category": "Folk",
