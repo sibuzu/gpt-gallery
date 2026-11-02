@@ -2,4 +2,6 @@
 dist/
 __pycache__/
 *.py[cod]
+/sites/gallery1/
 /sites/gallery2/
+/sites/gallery3/
