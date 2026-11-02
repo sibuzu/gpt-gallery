@@ -2,7 +2,7 @@
 各獨立站台的發布目錄均為 repository 根目錄（.）。
 
 本機 checkouts：
-- sites/gallery1/：原 gallery；標題 Gallery 1。
+- sites/gallery1/：原 gallery；標題 Galley 1。
 - sites/gallery2/：生成圖片站；標題 提示詞生成。
 - sites/gallery3/：原 design；標題 Design。
 
