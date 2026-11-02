@@ -12,7 +12,7 @@
   },
   "images": [
     {
-      "image": "sites/gallery/images/生成/美麗性感20261101-24.png",
+      "image": "sites/gallery2/images/性感/條紋上衣+長褲-01.png",
       "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
       "source_file_id": "file_00000000b54c82068b652d67ce022366",
       "horizontal_mirror": true,
@@ -22,10 +22,11 @@
       "height": 1672,
       "image_at_import": "sites/gallery/images/生成/美麗性感20261101-39.png",
       "present_at_final_verification": true,
-      "status": "retained"
+      "status": "retained",
+      "image_before_clothing_rename": "sites/gallery2/images/性感/美麗性感20261101-24.png"
     },
     {
-      "image": "sites/gallery/images/生成/美麗性感20261101-25.png",
+      "image": "sites/gallery2/images/性感/細肩帶上衣+高腰A字短裙-02.png",
       "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
       "source_file_id": "file_00000000345c8206b290bb4069a7b130",
       "horizontal_mirror": false,
@@ -35,10 +36,11 @@
       "height": 1672,
       "image_at_import": "sites/gallery/images/生成/美麗性感20261101-40.png",
       "present_at_final_verification": true,
-      "status": "retained"
+      "status": "retained",
+      "image_before_clothing_rename": "sites/gallery2/images/性感/美麗性感20261101-25.png"
     },
     {
-      "image": "sites/gallery/images/生成/美麗性感20261101-26.png",
+      "image": "sites/gallery2/images/性感/馬甲式短上衣+高腰百褶迷你裙-01.png",
       "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
       "source_file_id": "file_000000002db88206acfb408374e933b9",
       "horizontal_mirror": true,
@@ -48,10 +50,11 @@
       "height": 1672,
       "image_at_import": "sites/gallery/images/生成/美麗性感20261101-41.png",
       "present_at_final_verification": true,
-      "status": "retained"
+      "status": "retained",
+      "image_before_clothing_rename": "sites/gallery2/images/性感/美麗性感20261101-26.png"
     },
     {
-      "image": "sites/gallery/images/生成/美麗性感20261101-27.png",
+      "image": "sites/gallery2/images/性感/細肩帶短上衣+高腰短褲-01.png",
       "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
       "source_file_id": "file_0000000000f88206b9098a06ae55fb1f",
       "horizontal_mirror": true,
@@ -61,10 +64,11 @@
       "height": 1672,
       "image_at_import": "sites/gallery/images/生成/美麗性感20261101-42.png",
       "present_at_final_verification": true,
-      "status": "retained"
+      "status": "retained",
+      "image_before_clothing_rename": "sites/gallery2/images/性感/美麗性感20261101-27.png"
     },
     {
-      "image": "sites/gallery/images/生成/美麗性感20261101-28.png",
+      "image": "sites/gallery2/images/性感/側腰鏤空短洋裝-01.png",
       "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
       "source_file_id": "file_000000006b5c8206bb4dceb771b1ad11",
       "horizontal_mirror": false,
@@ -74,10 +78,11 @@
       "height": 1672,
       "image_at_import": "sites/gallery/images/生成/美麗性感20261101-43.png",
       "present_at_final_verification": true,
-      "status": "retained"
+      "status": "retained",
+      "image_before_clothing_rename": "sites/gallery2/images/性感/美麗性感20261101-28.png"
     },
     {
-      "image": "sites/gallery/images/生成/美麗性感20261101-29.png",
+      "image": "sites/gallery2/images/性感/短上衣+高腰短裙-02.png",
       "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
       "source_file_id": "file_0000000007308206b9875d045f0ef095",
       "horizontal_mirror": true,
@@ -87,10 +92,11 @@
       "height": 1672,
       "image_at_import": "sites/gallery/images/生成/美麗性感20261101-44.png",
       "present_at_final_verification": true,
-      "status": "retained"
+      "status": "retained",
+      "image_before_clothing_rename": "sites/gallery2/images/性感/美麗性感20261101-29.png"
     },
     {
-      "image": "sites/gallery/images/生成/美麗性感20261101-30.png",
+      "image": "sites/gallery2/images/性感/短版旗袍-04.png",
       "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
       "source_file_id": "file_00000000c3a08206abc801dbeaa4e12d",
       "horizontal_mirror": false,
@@ -100,7 +106,8 @@
       "height": 1672,
       "image_at_import": "sites/gallery/images/生成/美麗性感20261101-45.png",
       "present_at_final_verification": true,
-      "status": "retained"
+      "status": "retained",
+      "image_before_clothing_rename": "sites/gallery2/images/性感/美麗性感20261101-30.png"
     }
   ],
   "renumbered_on": "2026-11-02",

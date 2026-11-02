@@ -55,9 +55,9 @@ def number_to_letters(number: int) -> str:
     return letters
 
 
-def category_dirs() -> list[Path]:
+def category_dirs(images_dir: Path = IMAGES_DIR) -> list[Path]:
     return sorted(
-        [path for path in IMAGES_DIR.iterdir() if path.is_dir() and path.name not in SKIP_DIRS],
+        [path for path in images_dir.iterdir() if path.is_dir() and path.name not in SKIP_DIRS],
         key=lambda path: path.name,
     )
 
@@ -426,12 +426,12 @@ def category_sort_key(path: Path) -> tuple[int, str]:
     return (10_000, path.name)
 
 
-def scan_gallery_images() -> tuple[list[dict[str, str]], dict[str, object]]:
+def scan_gallery_images(site_dir: Path = GALLERY_SITE_DIR) -> tuple[list[dict[str, str]], dict[str, object]]:
     items: list[dict[str, str]] = []
     skipped: list[dict[str, str]] = []
     seen: dict[str, str] = {}
 
-    for category_dir in category_dirs():
+    for category_dir in category_dirs(site_dir / "images"):
         files = sorted(
             [path for path in category_dir.iterdir() if path.is_file() and path.suffix.lower() in IMAGE_EXTENSIONS],
             key=lambda path: path.name,
@@ -439,7 +439,7 @@ def scan_gallery_images() -> tuple[list[dict[str, str]], dict[str, object]]:
 
         for path in files:
             hash_value = digest(path)
-            relative_path = path.relative_to(GALLERY_SITE_DIR).as_posix()
+            relative_path = path.relative_to(site_dir).as_posix()
             if hash_value in seen:
                 skipped.append({
                     "path": relative_path,
@@ -560,6 +560,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    version = int(time.time())
     build_gallery = args.site in {"all", "gallery"}
     build_design = args.site in {"all", "design"}
 
@@ -588,7 +589,6 @@ def main() -> None:
         design_items = scan_design_images()
         design_data_updated = write_text_if_changed(DESIGN_DATA_JS, render_runtime_data(design_items, DESIGN_DATA_JS, "design"))
 
-    version = int(time.time())
     gallery_updated = (
         update_asset_cache_bust(GALLERY_INDEX_HTML, GALLERY_BUILT_ASSETS, str(version))
         if build_gallery

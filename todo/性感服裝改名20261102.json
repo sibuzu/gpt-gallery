@@ -1,0 +1,836 @@
+{
+  "date": "2026-11-02",
+  "pairs": 92,
+  "clothing_groups": 57,
+  "naming": "Clothing style plus a two-digit sequence per style, in original filename order. Use + between garments. Omit colors, fit adjectives, selected material/strap details and belts; keep full original prompts unchanged.",
+  "renamed": [
+    {
+      "old_stem": "美麗性感20261101-01",
+      "outfit_in_prompt": "墨綠色修身短版旗袍",
+      "clothing": "短版旗袍",
+      "sequence": 1,
+      "new_stem": "短版旗袍-01",
+      "sha256.png": "d6014f29b20116f68764f6980d3b62517af46976f607f9638c19fc2314f87d8b",
+      "sha256.md": "04e2ef93b4f2baf7a83129b82ef5cbf63c8545c17ff0c3ec3185dba83beafeae"
+    },
+    {
+      "old_stem": "美麗性感20261101-02",
+      "outfit_in_prompt": "淺藍色削肩上衣搭配米白色高腰百褶短裙",
+      "clothing": "削肩上衣+高腰百褶短裙",
+      "sequence": 1,
+      "new_stem": "削肩上衣+高腰百褶短裙-01",
+      "sha256.png": "fe4143f4f1714f8aa09aed110e2429f6172f7564140b0f4969705611f2153806",
+      "sha256.md": "6a0cc4e000225df9588219d2e1d1d60c899552b3e06d10a3dcb3b115eeb9662a"
+    },
+    {
+      "old_stem": "美麗性感20261101-03",
+      "outfit_in_prompt": "奶油白色交叉繫帶短上衣搭配玫瑰粉色高腰短裙",
+      "clothing": "短上衣+高腰短裙",
+      "sequence": 1,
+      "new_stem": "短上衣+高腰短裙-01",
+      "sha256.png": "89656510389aea19df154473ae7531e0892f4228d0744e4be41d459744ebfa27",
+      "sha256.md": "cc2b23c003d56103bff7cb6390ad434bd4f22f56c5e83d42b612a2f4f43d61d0"
+    },
+    {
+      "old_stem": "美麗性感20261101-04",
+      "outfit_in_prompt": "淡紫色削肩上衣搭配霧灰色高腰百褶短裙",
+      "clothing": "削肩上衣+高腰百褶短裙",
+      "sequence": 2,
+      "new_stem": "削肩上衣+高腰百褶短裙-02",
+      "sha256.png": "721f8a07dbfb997fbbe7de5baf580c8e2958e9053f0cb4e6b218922456460fc7",
+      "sha256.md": "0360fb64b2b4747c22a5557a54a58728520ea0ebc0d7d635d93a493ff111503f"
+    },
+    {
+      "old_stem": "美麗性感20261101-05",
+      "outfit_in_prompt": "酒紅色修身短版旗袍",
+      "clothing": "短版旗袍",
+      "sequence": 2,
+      "new_stem": "短版旗袍-02",
+      "sha256.png": "b086bbe58ccfeab89d26bf075bff1b5e2b957739f928b6e8edd409262893b291",
+      "sha256.md": "88f66c9bf83a093960742e86a946bad953562a53a9488617984e863991f641e5"
+    },
+    {
+      "old_stem": "美麗性感20261101-06",
+      "outfit_in_prompt": "櫻花粉色細肩帶上衣搭配奶油白色高腰A字短裙",
+      "clothing": "細肩帶上衣+高腰A字短裙",
+      "sequence": 1,
+      "new_stem": "細肩帶上衣+高腰A字短裙-01",
+      "sha256.png": "d013f39c8ae83814c86763eb79aca72cf43eac25776a0cc14dfcd182897ae569",
+      "sha256.md": "7d5c5623ca4640cafb3b2205d918b49f66604324edc9a92ce7001a43a86e079c"
+    },
+    {
+      "old_stem": "美麗性感20261101-07",
+      "outfit_in_prompt": "淡紫色掛脖短上衣搭配霧灰色高腰側開衩短裙",
+      "clothing": "掛脖短上衣+高腰側開衩短裙",
+      "sequence": 1,
+      "new_stem": "掛脖短上衣+高腰側開衩短裙-01",
+      "sha256.png": "0466a8ebf38e9045149477b4263f879b985c2c1fc5da7ecb300abd3cf9765bc9",
+      "sha256.md": "c37b4ec519ad7e0e34aee97a5b85c4e94179ea1121a9153ba73ddff0e7ca1267"
+    },
+    {
+      "old_stem": "美麗性感20261101-08",
+      "outfit_in_prompt": "墨綠色深V領長袖短上衣搭配象牙白色高腰修身短褲",
+      "clothing": "深V領長袖短上衣+高腰短褲",
+      "sequence": 1,
+      "new_stem": "深V領長袖短上衣+高腰短褲-01",
+      "sha256.png": "bb79be04768d1bc4d655ae58ab20feabce16929e18b908b60b048abc3c2981ef",
+      "sha256.md": "afff7895a1d0220b7bf0a887a386657df073064dccca749583e1df1ffc550e7e"
+    },
+    {
+      "old_stem": "美麗性感20261101-09",
+      "outfit_in_prompt": "深藍色單肩斜領短上衣搭配銀灰色不對稱迷你裙",
+      "clothing": "單肩斜領短上衣+不對稱迷你裙",
+      "sequence": 1,
+      "new_stem": "單肩斜領短上衣+不對稱迷你裙-01",
+      "sha256.png": "2dd320b9b3d026d10e2c2b4d79bd900da5efaabfbfebdacea6b8ba0133716af5",
+      "sha256.md": "20fb0a7ecd2eba4a4d75331364461dd9ed0552ea96f16657d00faf25d285d116"
+    },
+    {
+      "old_stem": "美麗性感20261101-10",
+      "outfit_in_prompt": "紫紅色腰側鏤空無袖連身短褲",
+      "clothing": "腰側鏤空無袖連身短褲",
+      "sequence": 1,
+      "new_stem": "腰側鏤空無袖連身短褲-01",
+      "sha256.png": "75ad0879906a3bd2efa35b275a9344f71a0ccde9d45253addc50cb3b76caa9cc",
+      "sha256.md": "0e00c946c210242259149165397fc049d806dcb0c6ec70386f3061e3745775b5"
+    },
+    {
+      "old_stem": "美麗性感20261101-11",
+      "outfit_in_prompt": "黑色腰側鏤空無袖連身短褲",
+      "clothing": "腰側鏤空無袖連身短褲",
+      "sequence": 2,
+      "new_stem": "腰側鏤空無袖連身短褲-02",
+      "sha256.png": "83bedf1db0b941d76310353e30d7d423972b8b61941e30f8843d99195ddaee36",
+      "sha256.md": "9f47fe241ea57ade2f95e58b429e50b769df91c6d9e710137b02e137b9087699"
+    },
+    {
+      "old_stem": "美麗性感20261101-12",
+      "outfit_in_prompt": "墨藍色改良式短版和服",
+      "clothing": "短版和服",
+      "sequence": 1,
+      "new_stem": "短版和服-01",
+      "sha256.png": "3bf46ea75b2fb9882ad4322c4a9027137de063b1df2fff81e5103f01ac4c5728",
+      "sha256.md": "c18b5fc434105558490bed5b5e940f785314bd14c8e07387c78cc0a158d97de8"
+    },
+    {
+      "old_stem": "美麗性感20261101-13",
+      "outfit_in_prompt": "淺卡其色露背繫帶上衣搭配象牙白色高腰皮質A字迷你裙",
+      "clothing": "露背繫帶上衣+高腰A字迷你裙",
+      "sequence": 1,
+      "new_stem": "露背繫帶上衣+高腰A字迷你裙-01",
+      "sha256.png": "d488f467b7f5516bd5a817091a120b417c9aabdac373c8406e855e45a55dad99",
+      "sha256.md": "00e1a3802f945260be5c6c5693578fdb1ba6c0c1513f1bf8fa8de20961478f58"
+    },
+    {
+      "old_stem": "美麗性感20261101-14",
+      "outfit_in_prompt": "蜜桃粉色掛脖短上衣搭配深咖啡色高腰側開衩短裙",
+      "clothing": "掛脖短上衣+高腰側開衩短裙",
+      "sequence": 2,
+      "new_stem": "掛脖短上衣+高腰側開衩短裙-02",
+      "sha256.png": "ae43cb4cbe740b5e6054b2233ec920d2c187fa6e8978dbd61e5f2dece2f838d4",
+      "sha256.md": "21fd83eb8134805c70fbb5af9fd475d7b7c0272cb5eb8de5cab788e7fa410ec4"
+    },
+    {
+      "old_stem": "美麗性感20261101-15",
+      "outfit_in_prompt": "霧灰色短版西裝外套、黑色背心搭配霧灰色高腰短裙",
+      "clothing": "短版西裝外套+背心+高腰短裙",
+      "sequence": 1,
+      "new_stem": "短版西裝外套+背心+高腰短裙-01",
+      "sha256.png": "3770e8cd778b2f3da9b26f575b62c11c23e9c878e19a9536fe8c82c35192593f",
+      "sha256.md": "d0f1d51ce74345cc97deede75ec1b1089c927cbd3db1da531b20f046f33e6514"
+    },
+    {
+      "old_stem": "美麗性感20261101-16",
+      "outfit_in_prompt": "霧藍色無袖短版連身褲",
+      "clothing": "無袖短版連身褲",
+      "sequence": 1,
+      "new_stem": "無袖短版連身褲-01",
+      "sha256.png": "48496261613bad3b2aa9c43fc3e5e5f24474846f481fd2001957e58a7cfba716",
+      "sha256.md": "8072b64e6cb9ed9014a3da68dac0a9eba5cf0f2b91dfccfccc93ee8899cd2906"
+    },
+    {
+      "old_stem": "美麗性感20261101-17",
+      "outfit_in_prompt": "黑色無袖短版連身褲",
+      "clothing": "無袖短版連身褲",
+      "sequence": 2,
+      "new_stem": "無袖短版連身褲-02",
+      "sha256.png": "b1d90e9c55aab5373691d48a220a79ef87d846cf9fe61632cea02b7be3e4926e",
+      "sha256.md": "00f50ac76a20e149e248dc2c9dc02ebefeed5a26196535a1e3a2753fac51b93e"
+    },
+    {
+      "old_stem": "美麗性感20261101-18",
+      "outfit_in_prompt": "薄荷綠色改良式短版和服",
+      "clothing": "短版和服",
+      "sequence": 2,
+      "new_stem": "短版和服-02",
+      "sha256.png": "b03695033907665a7785592f4757751615476b4e334a7c78311db617b82404e7",
+      "sha256.md": "17940d30d4a62fca4cc8e2ed8873f34aeb61cd5fa8fdf2bb2bfb5fafebcd80f1"
+    },
+    {
+      "old_stem": "美麗性感20261101-19",
+      "outfit_in_prompt": "寶藍色修身短版旗袍",
+      "clothing": "短版旗袍",
+      "sequence": 3,
+      "new_stem": "短版旗袍-03",
+      "sha256.png": "7a7d1fea04b1d655f7ae675f8c168812f6bea844f956e5f93f1b3cc84c410f65",
+      "sha256.md": "450d71414309de53c695bde5e5a926253272bf3b545d4298b16b1e563971ae06"
+    },
+    {
+      "old_stem": "美麗性感20261101-20",
+      "outfit_in_prompt": "淺卡其色短版西裝外套、奶油白色背心搭配淺卡其色高腰短裙",
+      "clothing": "短版西裝外套+背心+高腰短裙",
+      "sequence": 2,
+      "new_stem": "短版西裝外套+背心+高腰短裙-02",
+      "sha256.png": "2cee0c6db23d874efb3f917aee8ff56b2374fd0b614c02462988161d8e38c774",
+      "sha256.md": "f7541e06d62fd105a60c645d5f006e6bc54f1a7f884f560335ca2453b299838d"
+    },
+    {
+      "old_stem": "美麗性感20261101-21",
+      "outfit_in_prompt": "奶油白色露肩短上衣搭配玫瑰粉色側綁帶迷你裙",
+      "clothing": "露肩短上衣+側綁帶迷你裙",
+      "sequence": 1,
+      "new_stem": "露肩短上衣+側綁帶迷你裙-01",
+      "sha256.png": "42cd7ba1a81bdeab7c9a2a1017407c26a7e0a1238bbdfca02ff2d7f3f6f6347a",
+      "sha256.md": "823f8bb9c7b4b2cf1675e1cb6f8229def088f1110b230b33ff8feab63c510104"
+    },
+    {
+      "old_stem": "美麗性感20261101-22",
+      "outfit_in_prompt": "淺灰色露肩針織上衣搭配黑色高腰西裝短褲",
+      "clothing": "露肩針織上衣+高腰西裝短褲",
+      "sequence": 1,
+      "new_stem": "露肩針織上衣+高腰西裝短褲-01",
+      "sha256.png": "7d2d6cdde307555158b1b7b57832a8318f3bcd5cbf8bbb95b3305c89f5f905c1",
+      "sha256.md": "ed1d02182c67c8100d15dc15a9b4b10f1192c506794218368e01731a8de929f7"
+    },
+    {
+      "old_stem": "美麗性感20261101-23",
+      "outfit_in_prompt": "霧藍色露肩短上衣搭配米白色側綁帶迷你裙",
+      "clothing": "露肩短上衣+側綁帶迷你裙",
+      "sequence": 2,
+      "new_stem": "露肩短上衣+側綁帶迷你裙-02",
+      "sha256.png": "c8a61c6167f7e48c3eaef84bd0ea0a14597bef2e2cec76f0083338fc17ff43bf",
+      "sha256.md": "16276e73cfd27786206ba377cf0eddd2065926da565307e7e64dbc846e16fa3b"
+    },
+    {
+      "old_stem": "美麗性感20261101-24",
+      "outfit_in_prompt": "藍白條紋上衣與米色長褲",
+      "clothing": "條紋上衣+長褲",
+      "sequence": 1,
+      "new_stem": "條紋上衣+長褲-01",
+      "sha256.png": "91a9e7f1de74887de63cd374e85c6951ffaf367bb5c6eb7d228bdcae23695e52",
+      "sha256.md": "a6152e656957497ce114075c6f54668159156beb25bf10e3d82ef61fc5e90154"
+    },
+    {
+      "old_stem": "美麗性感20261101-25",
+      "outfit_in_prompt": "奶油白色細肩帶上衣搭配藏青色高腰A字短裙",
+      "clothing": "細肩帶上衣+高腰A字短裙",
+      "sequence": 2,
+      "new_stem": "細肩帶上衣+高腰A字短裙-02",
+      "sha256.png": "114a6b3fe6a8d7e44713742286a20453989a5d24ce729cb66ba10c62355ef633",
+      "sha256.md": "0f146e61f396ccb3a0bdf79779fb019e260adf2106c79ef6a397dd1dec681547"
+    },
+    {
+      "old_stem": "美麗性感20261101-26",
+      "outfit_in_prompt": "霧藍色馬甲式短上衣搭配米白色高腰百褶迷你裙",
+      "clothing": "馬甲式短上衣+高腰百褶迷你裙",
+      "sequence": 1,
+      "new_stem": "馬甲式短上衣+高腰百褶迷你裙-01",
+      "sha256.png": "1195ae091014959261c935350a76c81bba8de641fb1973d172ffe882d9da9d7a",
+      "sha256.md": "9ca613ffea52f563e0cae4bd6b68d2f1dfa11b3db852ee885c6131a359a35e06"
+    },
+    {
+      "old_stem": "美麗性感20261101-27",
+      "outfit_in_prompt": "墨綠色緞面細肩帶短上衣搭配象牙白色高腰皮質短褲",
+      "clothing": "細肩帶短上衣+高腰短褲",
+      "sequence": 1,
+      "new_stem": "細肩帶短上衣+高腰短褲-01",
+      "sha256.png": "d2e3f2ccafbb0c98fe83279d87ac7394de8b3c161b636526e3767334806f15d3",
+      "sha256.md": "421a39168f41575933a95601b31aa5fd08182209e6a70a44380f9dde64172188"
+    },
+    {
+      "old_stem": "美麗性感20261101-28",
+      "outfit_in_prompt": "墨綠色側腰鏤空合身短洋裝",
+      "clothing": "側腰鏤空短洋裝",
+      "sequence": 1,
+      "new_stem": "側腰鏤空短洋裝-01",
+      "sha256.png": "d690f9b26219cc4f46900d1e9177bbf7d2d479b24ec7f141086bc2e0bdd1971b",
+      "sha256.md": "2aa63b747c42b8cc398000688c78364db987d204de818bc2b9895e8ce00f1f08"
+    },
+    {
+      "old_stem": "美麗性感20261101-29",
+      "outfit_in_prompt": "淺卡其色交叉繫帶短上衣搭配象牙白色高腰短裙",
+      "clothing": "短上衣+高腰短裙",
+      "sequence": 2,
+      "new_stem": "短上衣+高腰短裙-02",
+      "sha256.png": "d6a7c4a2b4316b6774f492292e0cd77541e2568d3c864f87492b11540d349ac8",
+      "sha256.md": "1fbed4be8774727baa3450e155d52bd9c2a96341e7beaa185aefc8705b099953"
+    },
+    {
+      "old_stem": "美麗性感20261101-30",
+      "outfit_in_prompt": "寶藍色修身短版旗袍",
+      "clothing": "短版旗袍",
+      "sequence": 4,
+      "new_stem": "短版旗袍-04",
+      "sha256.png": "9c72ae22159fd7fe0a46af6516295f7e91865eaf2c58b3402475ecf424367740",
+      "sha256.md": "89becde1ea4f09ab00b245c2aee7f0bc1941a0755d0748b05951c8e08281a512"
+    },
+    {
+      "old_stem": "美麗性感20261102-01",
+      "outfit_in_prompt": "淡紫色露肩短上衣+霧灰色高腰短裙",
+      "clothing": "露肩短上衣+高腰短裙",
+      "sequence": 1,
+      "new_stem": "露肩短上衣+高腰短裙-01",
+      "sha256.png": "1fbbf4219b00159509dfbf7368403877e5187be929e1b086683f8437274ab012",
+      "sha256.md": "36af9f894cf032cd54c637698e652e613954f00a7027975fec0a757d51b14740"
+    },
+    {
+      "old_stem": "美麗性感20261102-02",
+      "outfit_in_prompt": "霧藍色細肩帶短洋裝+銀灰色細腰帶",
+      "clothing": "細肩帶短洋裝",
+      "sequence": 1,
+      "new_stem": "細肩帶短洋裝-01",
+      "sha256.png": "0193dbb953e202b91cbf677b1ca61a3dc200f1cac331b4605870ff347f592e0b",
+      "sha256.md": "a9496cc86a209157903b97b7c7bd10ae7ac27cc715bbac255b417ae06ce365a9"
+    },
+    {
+      "old_stem": "美麗性感20261102-03",
+      "outfit_in_prompt": "淺卡其色露肩短上衣+象牙白色皮質迷你裙",
+      "clothing": "露肩短上衣+迷你裙",
+      "sequence": 1,
+      "new_stem": "露肩短上衣+迷你裙-01",
+      "sha256.png": "46188bdcaadbb682cc29ca4b0751f85024389aa09b44cb0d27d1155083e638ad",
+      "sha256.md": "d3fa45f194859fb4a6c327663b61d6751dab220a228bfa543266be24908e706e"
+    },
+    {
+      "old_stem": "美麗性感20261102-05",
+      "outfit_in_prompt": "蜜桃粉色胸罩式上衣+深咖啡色百褶迷你裙",
+      "clothing": "胸罩式上衣+百褶迷你裙",
+      "sequence": 1,
+      "new_stem": "胸罩式上衣+百褶迷你裙-01",
+      "sha256.png": "dd10773c43faa010df08967e64fd6c90fa8f14a11de32eb329ee0ce00ff1f09f",
+      "sha256.md": "e1a3871dfbb7f00edd115678b9653c10e4e930a3215a411e2ff967077c92d443"
+    },
+    {
+      "old_stem": "美麗性感20261102-06",
+      "outfit_in_prompt": "蜜桃粉色露肩短上衣+深咖啡色側開衩短裙",
+      "clothing": "露肩短上衣+側開衩短裙",
+      "sequence": 1,
+      "new_stem": "露肩短上衣+側開衩短裙-01",
+      "sha256.png": "0f5fb0355f8610c2f2d13271dc1bf2263ddb97d900e11bc052f9e22da8d779bf",
+      "sha256.md": "1f5876c70569d66b79bbd5ee330208d82ccdce80223d6ed0201edbc2085c47af"
+    },
+    {
+      "old_stem": "美麗性感20261102-07",
+      "outfit_in_prompt": "蜜桃粉色露肩短上衣+深咖啡色側開衩短裙",
+      "clothing": "露肩短上衣+側開衩短裙",
+      "sequence": 2,
+      "new_stem": "露肩短上衣+側開衩短裙-02",
+      "sha256.png": "de534e82c9ac662980622be8b99975972f77555ca66a2257577c2b4d6ee8fb6f",
+      "sha256.md": "1f5876c70569d66b79bbd5ee330208d82ccdce80223d6ed0201edbc2085c47af"
+    },
+    {
+      "old_stem": "美麗性感20261102-08",
+      "outfit_in_prompt": "紫紅色側腰鏤空短洋裝",
+      "clothing": "側腰鏤空短洋裝",
+      "sequence": 2,
+      "new_stem": "側腰鏤空短洋裝-02",
+      "sha256.png": "2d37cd638a38498aa65059af4265861b86b3ff1ab94794a8af56ca21e65494be",
+      "sha256.md": "72af3c1bdd410db60aa9fb204a9622a7d2cf23fa4b8e183183b89b29412e3ad8"
+    },
+    {
+      "old_stem": "美麗性感20261102-09",
+      "outfit_in_prompt": "紫紅色單肩上衣+炭灰色皮質迷你裙",
+      "clothing": "單肩上衣+迷你裙",
+      "sequence": 1,
+      "new_stem": "單肩上衣+迷你裙-01",
+      "sha256.png": "b2247ee1bfac0d5c6ce286adad3daf509a362f2ac9a81104b082c47efecb1e44",
+      "sha256.md": "e0e2f20039839ae06509982e79c12db80d5d9b45fd77c8ed2148ae934f443939"
+    },
+    {
+      "old_stem": "美麗性感20261102-10",
+      "outfit_in_prompt": "淡青綠色短版旗袍",
+      "clothing": "短版旗袍",
+      "sequence": 5,
+      "new_stem": "短版旗袍-05",
+      "sha256.png": "efb21d1c6b92dc46bfcf045d6e647e9cad5accebb7d727f0d13276e236d00a8d",
+      "sha256.md": "48428642fb827b515ef5a0d473f697ed9a83177169dcf8b1a581372c7960c044"
+    },
+    {
+      "old_stem": "美麗性感20261102-11",
+      "outfit_in_prompt": "紫紅色深V短上衣+炭灰色皮質迷你裙",
+      "clothing": "深V短上衣+迷你裙",
+      "sequence": 1,
+      "new_stem": "深V短上衣+迷你裙-01",
+      "sha256.png": "56fc541f465ca558a78d5ea891c20b73a83a1479bb6081d497a4e899387d39a9",
+      "sha256.md": "04eef45d1b25c5f6a5d872cbed6096b62c6077050743fb0da75132f7ba1ca6fb"
+    },
+    {
+      "old_stem": "美麗性感20261102-12",
+      "outfit_in_prompt": "淡紫色細肩帶背心+霧灰色側綁帶迷你裙",
+      "clothing": "細肩帶背心+側綁帶迷你裙",
+      "sequence": 1,
+      "new_stem": "細肩帶背心+側綁帶迷你裙-01",
+      "sha256.png": "6f14b79eac7fbf232f900366eb31781b5f848fc9930f13606354e2dbdb6031c4",
+      "sha256.md": "7ebc5dafe9ae5be87f7269619f849691f34c95b60ec32f4be8d1e8ad7b271727"
+    },
+    {
+      "old_stem": "美麗性感20261102-13",
+      "outfit_in_prompt": "深藍色單肩上衣+銀灰色百褶迷你裙",
+      "clothing": "單肩上衣+百褶迷你裙",
+      "sequence": 1,
+      "new_stem": "單肩上衣+百褶迷你裙-01",
+      "sha256.png": "db968c366153f1a1ec80e9bb545bb4bb0586039999902c2d6fe7310a23e36a34",
+      "sha256.md": "e88ba745628a2185aec03f0834a74f478959518810686a7cef7feb76a02ee809"
+    },
+    {
+      "old_stem": "美麗性感20261102-14",
+      "outfit_in_prompt": "煙粉色薄紗襯衫+炭灰色高腰A字短裙",
+      "clothing": "薄紗襯衫+高腰A字短裙",
+      "sequence": 1,
+      "new_stem": "薄紗襯衫+高腰A字短裙-01",
+      "sha256.png": "d20feda12e2deb40523c46ca9f617b6a0b150ab2f74a03806be1e0858d255246",
+      "sha256.md": "e1cf3a6acd3109d5d06b90cbf0c66698bbe8892ccc65270136ffe14fdbdebe1a"
+    },
+    {
+      "old_stem": "美麗性感20261102-15",
+      "outfit_in_prompt": "酒紅色短版上衣+黑色高腰迷你裙",
+      "clothing": "短版上衣+高腰迷你裙",
+      "sequence": 1,
+      "new_stem": "短版上衣+高腰迷你裙-01",
+      "sha256.png": "bf111ae6ac5635934006c933d0b2cda8d97a9094a692a2b9134eefb84e586f96",
+      "sha256.md": "ce44a7955a70a2b61dacc9909ee3dd8a88d1779861673edc171e050ad656ba4c"
+    },
+    {
+      "old_stem": "美麗性感20261102-16",
+      "outfit_in_prompt": "黑色肩帶短上衣+香檳金色高腰短裙",
+      "clothing": "肩帶短上衣+高腰短裙",
+      "sequence": 1,
+      "new_stem": "肩帶短上衣+高腰短裙-01",
+      "sha256.png": "238fed3af52930930e35e323fbbb8b4eaae4ef4fb7759d15232e32044a182cc8",
+      "sha256.md": "18d6b208504fe24709607567367c7880be7e641013ff669f37d4496d798c8b01"
+    },
+    {
+      "old_stem": "美麗性感20261102-17",
+      "outfit_in_prompt": "奶油白色掛脖上衣+玫瑰粉色百褶短裙",
+      "clothing": "掛脖上衣+百褶短裙",
+      "sequence": 1,
+      "new_stem": "掛脖上衣+百褶短裙-01",
+      "sha256.png": "955b1b6543ab6e0c366f04fc4da884ef32d2e9508f2b91b0cc72e05bd388987c",
+      "sha256.md": "1e56f6a8ba4d0f38dd7e91196314e60ef78f7a83039b2fff9e3acadc148b880c"
+    },
+    {
+      "old_stem": "美麗性感20261102-18",
+      "outfit_in_prompt": "深藍色側腰鏤空短洋裝",
+      "clothing": "側腰鏤空短洋裝",
+      "sequence": 3,
+      "new_stem": "側腰鏤空短洋裝-03",
+      "sha256.png": "ca55d423ae239a3e6d7f02da9f40d492a6da069c4cc207bb4c1863aa7c44e4a1",
+      "sha256.md": "373ad2c6ad0c18eec53df8852c19b4d18564018ba708e935cd9c4aa96a4bb0bb"
+    },
+    {
+      "old_stem": "美麗性感20261102-19",
+      "outfit_in_prompt": "淺卡其色掛脖上衣+象牙白色迷你裙",
+      "clothing": "掛脖上衣+迷你裙",
+      "sequence": 1,
+      "new_stem": "掛脖上衣+迷你裙-01",
+      "sha256.png": "307cf50c0874933ed58b17e8e8828a0510e42de1af79b0829062b86f6f6ea935",
+      "sha256.md": "4127e263f6f5dc40e706cbed86b67179f4eabd9632405e763e727d5b6a9da224"
+    },
+    {
+      "old_stem": "美麗性感20261102-20",
+      "outfit_in_prompt": "黑色削肩上衣+象牙白色迷你裙",
+      "clothing": "削肩上衣+迷你裙",
+      "sequence": 1,
+      "new_stem": "削肩上衣+迷你裙-01",
+      "sha256.png": "b022df4ef15f643f7cac30d05ede2d2018748c99abb8bcb77b5091d929a02319",
+      "sha256.md": "eeb7d0b32629e56bc9e7f461f0305e33cdd07665c9dd73efd2d459d19bb62838"
+    },
+    {
+      "old_stem": "美麗性感20261102-21",
+      "outfit_in_prompt": "霧灰色掛脖上衣+黑色高腰短裙",
+      "clothing": "掛脖上衣+高腰短裙",
+      "sequence": 1,
+      "new_stem": "掛脖上衣+高腰短裙-01",
+      "sha256.png": "8b18bc8387f228006a1b25dcece476d60e48c5be2243ae68aa37fba7ee1fa1e8",
+      "sha256.md": "d5914435cc135577df06f15a95d704d5ba54d807b590d00adc7b88d72a3059ae"
+    },
+    {
+      "old_stem": "美麗性感20261102-22",
+      "outfit_in_prompt": "淡粉色短袖上衣+靛藍色高腰A字短裙",
+      "clothing": "短袖上衣+高腰A字短裙",
+      "sequence": 1,
+      "new_stem": "短袖上衣+高腰A字短裙-01",
+      "sha256.png": "5f99d91261ee878ffd25527d5a5fd04ccc8e0d229e26a83b9412634853b3b7df",
+      "sha256.md": "ba53812167c2d56a152a3a29638e27fc262dc75fa5f568e1c61371934c5f24a1"
+    },
+    {
+      "old_stem": "美麗性感20261102-23",
+      "outfit_in_prompt": "煙粉色掛脖上衣+淺灰色百褶短裙",
+      "clothing": "掛脖上衣+百褶短裙",
+      "sequence": 2,
+      "new_stem": "掛脖上衣+百褶短裙-02",
+      "sha256.png": "64a13facba774a0e9e14e9cb0d5419095b916041a4c579075adef817621e545f",
+      "sha256.md": "2d7a2786189e6b6cec3d4c2d58b593022423bc73c243e4d8d11fcda8cf0368fe"
+    },
+    {
+      "old_stem": "美麗性感20261102-24",
+      "outfit_in_prompt": "淡紫色交叉繫帶短上衣+霧灰色高腰迷你裙",
+      "clothing": "短上衣+高腰迷你裙",
+      "sequence": 1,
+      "new_stem": "短上衣+高腰迷你裙-01",
+      "sha256.png": "54fb2982020e874b0a03533aef65e0408350723968bcdb48cbd26421d8d2607b",
+      "sha256.md": "995a24cf359d4b0c716c09a616d49def7100908bc491e5d35189a8902e9fa886"
+    },
+    {
+      "old_stem": "美麗性感20261102-25",
+      "outfit_in_prompt": "黑色V形領口腰側鏤空無袖連身裙+香檳金色細腰帶",
+      "clothing": "V領腰側鏤空無袖連身裙",
+      "sequence": 1,
+      "new_stem": "V領腰側鏤空無袖連身裙-01",
+      "sha256.png": "72a4075ca5bce92f3f70326e6a452d0a388c756c2dd319e1f0e907b4a69dcfb0",
+      "sha256.md": "f6c0beb802833c549279987954c50f2991d8b593505344d60250e95f471bd6c4"
+    },
+    {
+      "old_stem": "美麗性感20261102-26",
+      "outfit_in_prompt": "薄荷綠色細肩帶上衣+淺卡其色百褶短裙",
+      "clothing": "細肩帶上衣+百褶短裙",
+      "sequence": 1,
+      "new_stem": "細肩帶上衣+百褶短裙-01",
+      "sha256.png": "064c804d573c52f8b4e9bb8279e0db5542e8bb8d7bfa28d7ac454a5c60791c76",
+      "sha256.md": "2de6313c20d2d21e38ee10d1880adadbd203cc5bb237e4fcb5b986052e821b5f"
+    },
+    {
+      "old_stem": "美麗性感20261102-27",
+      "outfit_in_prompt": "玫瑰粉色細肩帶短洋裝+奶油白色細腰帶",
+      "clothing": "細肩帶短洋裝",
+      "sequence": 2,
+      "new_stem": "細肩帶短洋裝-02",
+      "sha256.png": "3ce1cfc60b4088528276683860db81ded99a7d6805b9118d7b8d690d4f72cbe4",
+      "sha256.md": "36f3eb994e78a16de95cf19648eb05a1dde51dba64133896694ab31e6c78a707"
+    },
+    {
+      "old_stem": "美麗性感20261102-28",
+      "outfit_in_prompt": "奶油白色細肩帶背心+玫瑰粉色牛仔迷你裙",
+      "clothing": "細肩帶背心+迷你裙",
+      "sequence": 1,
+      "new_stem": "細肩帶背心+迷你裙-01",
+      "sha256.png": "cdd5f1b1e6b453721e950892ba2cddefc5af0bc7f76c2af892bc23e17907c24f",
+      "sha256.md": "151134b2f40056b235bfdcd3198bd9a6528da602a3a6cfe0ac00679b294e6bf8"
+    },
+    {
+      "old_stem": "美麗性感20261102-29",
+      "outfit_in_prompt": "墨綠色肩帶短上衣+象牙白色側綁帶迷你裙",
+      "clothing": "肩帶短上衣+側綁帶迷你裙",
+      "sequence": 1,
+      "new_stem": "肩帶短上衣+側綁帶迷你裙-01",
+      "sha256.png": "57fbcb32146cab839390390662a88397983cfbe05b9ce1a2671ffa7f0fa70655",
+      "sha256.md": "84682631b15bb16be9b1d4bd2870a9d16960b819c6a95727a85b177df0af6ebc"
+    },
+    {
+      "old_stem": "美麗性感20261102-30",
+      "outfit_in_prompt": "霧藍色掛脖上衣+米白色比基尼泳褲",
+      "clothing": "掛脖上衣+比基尼泳褲",
+      "sequence": 1,
+      "new_stem": "掛脖上衣+比基尼泳褲-01",
+      "sha256.png": "4afbe04cddf90638624cd20b5107a94f7b3fc5b36cb6ca641f3ab123d4526aee",
+      "sha256.md": "e4c361ee8527715d57d22aefb5131ca6415e4d4a803a11f5e1a329ed8012abc4"
+    },
+    {
+      "old_stem": "美麗性感20261102-32",
+      "outfit_in_prompt": "米白色絲綢改良和服",
+      "clothing": "和服",
+      "sequence": 1,
+      "new_stem": "和服-01",
+      "sha256.png": "60ecb73539e2946efac5193363493515360757ad27749bd878dd758e26f95646",
+      "sha256.md": "0b40ea13551d88b1fe36e870820650a1860ad0e18dff0c3d242619c5d75d631e"
+    },
+    {
+      "old_stem": "美麗性感20261102-33",
+      "outfit_in_prompt": "香檳白色細肩帶緞面短洋裝",
+      "clothing": "細肩帶短洋裝",
+      "sequence": 3,
+      "new_stem": "細肩帶短洋裝-03",
+      "sha256.png": "2cd587ab50e4bafc2d492df12f124a568bfef0d12f5f5f0e52710dbd68f24681",
+      "sha256.md": "0046588732466787c9fa02d9b8bdc795bd7673141abf848fe764ec42501d080d"
+    },
+    {
+      "old_stem": "美麗性感20261102-34",
+      "outfit_in_prompt": "象牙白色雪紡海灘短洋裝",
+      "clothing": "雪紡海灘短洋裝",
+      "sequence": 1,
+      "new_stem": "雪紡海灘短洋裝-01",
+      "sha256.png": "661ec063cb029304b9de88a830bb45b07e0b9150579b47cc3d3fe9b3330485fc",
+      "sha256.md": "cd3565954121108655e874c848a2e937039626d519006f9a31c275da7a3b4813"
+    },
+    {
+      "old_stem": "美麗性感20261102-35",
+      "outfit_in_prompt": "黑色側腰鏤空短洋裝",
+      "clothing": "側腰鏤空短洋裝",
+      "sequence": 4,
+      "new_stem": "側腰鏤空短洋裝-04",
+      "sha256.png": "eb3a7b6b8094df1f7fa68e45530597f72aab7e12c136869608b3050da82d461e",
+      "sha256.md": "0dabb832b771efac4b3d8b8e20af684ef06212764a7ef9036c3dabf59419c1bf"
+    },
+    {
+      "old_stem": "美麗性感20261102-36",
+      "outfit_in_prompt": "紫紅色側腰鏤空短洋裝",
+      "clothing": "側腰鏤空短洋裝",
+      "sequence": 5,
+      "new_stem": "側腰鏤空短洋裝-05",
+      "sha256.png": "7dbee2761c4d4916ad3621b6e90298cd6ca96d1763077813a48365a7e8b1e495",
+      "sha256.md": "5072afa1317cb1b7b3f31564bedf67ada0d31992f5362e7639be1a724f477912"
+    },
+    {
+      "old_stem": "美麗性感20261102-37",
+      "outfit_in_prompt": "煙粉色露肩上衣+深藍色高腰A字短裙",
+      "clothing": "露肩上衣+高腰A字短裙",
+      "sequence": 1,
+      "new_stem": "露肩上衣+高腰A字短裙-01",
+      "sha256.png": "d15f0487d91c2c01d3f9c52a483d4711c09ec799c22e998d438a718503fe1a0d",
+      "sha256.md": "0ef20dc6099c2d8951e980467d056ccbfccd5df188779908442faa566debb96c"
+    },
+    {
+      "old_stem": "美麗性感20261102-38",
+      "outfit_in_prompt": "墨綠色側腰鏤空短洋裝",
+      "clothing": "側腰鏤空短洋裝",
+      "sequence": 6,
+      "new_stem": "側腰鏤空短洋裝-06",
+      "sha256.png": "fc08603186aa17c525cc804c608e168136832c7043377bddbaeeb2e4c9f35608",
+      "sha256.md": "22e26b2c9852e2987a7038f3eb394a2cada44cd7e83928bc61baaf4e0d0e4911"
+    },
+    {
+      "old_stem": "美麗性感20261102-39",
+      "outfit_in_prompt": "蜜桃粉色削肩上衣+奶茶色皮質迷你裙",
+      "clothing": "削肩上衣+迷你裙",
+      "sequence": 2,
+      "new_stem": "削肩上衣+迷你裙-02",
+      "sha256.png": "479a0945fd4b2bef9a8b6954f6bcc0579c2cb20c1576e0e1b93c85b058b4b92c",
+      "sha256.md": "5e8b826785b7d03ec24bd09c4c5803e77f1729de9ebec27da0c3ad9ef07f9a3f"
+    },
+    {
+      "old_stem": "美麗性感20261102-40",
+      "outfit_in_prompt": "淺卡其色細肩帶背心+象牙白色比基尼泳褲",
+      "clothing": "細肩帶背心+比基尼泳褲",
+      "sequence": 1,
+      "new_stem": "細肩帶背心+比基尼泳褲-01",
+      "sha256.png": "c8b7aecb2387ecb0958a64f2ad1ef2d4d58f8ba7db50cf7301d415625f7055ac",
+      "sha256.md": "c6735fe616bdc2fea11647f2f57fbc28d063a88fb69e090e6a78661cc97705b8"
+    },
+    {
+      "old_stem": "美麗性感20261102-41",
+      "outfit_in_prompt": "淡紫色短版和服+奶油白色絲綢腰帶",
+      "clothing": "短版和服",
+      "sequence": 3,
+      "new_stem": "短版和服-03",
+      "sha256.png": "ad40479f2530a6573db62b80b982d493e15d7b0586bebba30ad1ba611a06a23a",
+      "sha256.md": "d9e4f739561c336bffbaac05cb0cd532b19b0286a3235ffcdbf78cf8d9a763dc"
+    },
+    {
+      "old_stem": "美麗性感20261102-42",
+      "outfit_in_prompt": "蜜桃粉色馬甲式短上衣+深咖啡色高腰迷你裙",
+      "clothing": "馬甲式短上衣+高腰迷你裙",
+      "sequence": 1,
+      "new_stem": "馬甲式短上衣+高腰迷你裙-01",
+      "sha256.png": "0ceb4a6643d1e4965820b4a9bbc0102a0a96e8d282cd035997b25f00ebefac10",
+      "sha256.md": "caee24d1421d328859d9897edcccb5eba062912baba1971b4d18e7f818f6eb68"
+    },
+    {
+      "old_stem": "美麗性感20261102-43",
+      "outfit_in_prompt": "深藍色短版上衣+銀灰色迷你裙",
+      "clothing": "短版上衣+迷你裙",
+      "sequence": 1,
+      "new_stem": "短版上衣+迷你裙-01",
+      "sha256.png": "f05090b03dfa6dacba447179b76495683a8a29962d7a6f5853db9f1b583d8f12",
+      "sha256.md": "59a61c9d8971a3a6e5f61e47ffb939b567b841af23cf05236016dfc7d1766def"
+    },
+    {
+      "old_stem": "美麗性感20261102-44",
+      "outfit_in_prompt": "霧藍色細肩帶背心+米白色皮質迷你裙",
+      "clothing": "細肩帶背心+迷你裙",
+      "sequence": 2,
+      "new_stem": "細肩帶背心+迷你裙-02",
+      "sha256.png": "2fcda7ba29a03acc9653de0d83b6886d49396bd0964d57c9ef21ddad2aae7492",
+      "sha256.md": "7a5f3de80e348b7a83021fac3837141d15368d3146d857323d5803c04b62957e"
+    },
+    {
+      "old_stem": "美麗性感20261102-45",
+      "outfit_in_prompt": "米白色短袖上衣+淺藍色百褶迷你裙",
+      "clothing": "短袖上衣+百褶迷你裙",
+      "sequence": 1,
+      "new_stem": "短袖上衣+百褶迷你裙-01",
+      "sha256.png": "1119b50c9dab81ba27058ed6e6401085b59cd39c29f1b0f316b92a0b00bab0ba",
+      "sha256.md": "3d9ac42dd960163003fe5c38e8d0ebd6e84ec038835cc0cfd517ff5eee4e57eb"
+    },
+    {
+      "old_stem": "美麗性感20261102-46",
+      "outfit_in_prompt": "紫紅色V形領口腰側鏤空無袖連身裙+炭灰色細腰帶",
+      "clothing": "V領腰側鏤空無袖連身裙",
+      "sequence": 2,
+      "new_stem": "V領腰側鏤空無袖連身裙-02",
+      "sha256.png": "ec99bef039272fb1c59677f91215173ecfb31c5ab84da3ba7f3d7ab72d0116bb",
+      "sha256.md": "08c626cddc351a2bbeb2edf6bd5b4e8a5db23bbb571493712cd509ecb7938121"
+    },
+    {
+      "old_stem": "美麗性感20261102-47",
+      "outfit_in_prompt": "黑色V形領口腰側鏤空無袖連身裙+香檳金色細腰帶",
+      "clothing": "V領腰側鏤空無袖連身裙",
+      "sequence": 3,
+      "new_stem": "V領腰側鏤空無袖連身裙-03",
+      "sha256.png": "ec367d6f31b210e9b9198dc07e5c69c946e88999c99a5ac7d66dcd83140f0b70",
+      "sha256.md": "64c02ebcadd7688cdfbea1377105aa4d092f1ebfb2d92ddd299d4dc8ecd6a72d"
+    },
+    {
+      "old_stem": "美麗性感20261102-48",
+      "outfit_in_prompt": "淺卡其色掛脖上衣+奶油白色迷你裙",
+      "clothing": "掛脖上衣+迷你裙",
+      "sequence": 2,
+      "new_stem": "掛脖上衣+迷你裙-02",
+      "sha256.png": "37d2948c80e624b5f42b447e571810daa2aa279c8e64dcfbab7fb6bd24f00e72",
+      "sha256.md": "50dd73e639b91a37b8e95784c3a02b1bc0cceeadd7a86007afb27953e19ce23f"
+    },
+    {
+      "old_stem": "美麗性感20261102-49",
+      "outfit_in_prompt": "象牙白色短版旗袍",
+      "clothing": "短版旗袍",
+      "sequence": 6,
+      "new_stem": "短版旗袍-06",
+      "sha256.png": "b38981fd302f85bd8d581437668a3f802486792fa9be48fc13b3f567d0fddf89",
+      "sha256.md": "e7c0e7df18dbdf775616df5dac0fa5766f7beec774284f9eadb7dc316e05a605"
+    },
+    {
+      "old_stem": "美麗性感20261102-50",
+      "outfit_in_prompt": "墨綠色短版旗袍",
+      "clothing": "短版旗袍",
+      "sequence": 7,
+      "new_stem": "短版旗袍-07",
+      "sha256.png": "2a980fece5ab310920d34b909ca66e61e6f2663da00c8911d677bfdebd617c61",
+      "sha256.md": "ff109f6c3d32111fb835701c7239ffdb2da5960c965558c3069ffdfe88fe65c8"
+    },
+    {
+      "old_stem": "美麗性感20261102-51",
+      "outfit_in_prompt": "淡紫色露肩上衣+米白色迷你裙",
+      "clothing": "露肩上衣+迷你裙",
+      "sequence": 1,
+      "new_stem": "露肩上衣+迷你裙-01",
+      "sha256.png": "6536de27f6d71ef6a082b607cbd6f481dd466c3a731b11d7cbc94cb1d9cb9ca7",
+      "sha256.md": "59aaaf9d9fd96661d95da7e42c9d038210901fdbaf14b8b6f0c63d5b012f5282"
+    },
+    {
+      "old_stem": "美麗性感20261102-52",
+      "outfit_in_prompt": "霧藍色掛脖上衣+米白色側綁帶迷你裙",
+      "clothing": "掛脖上衣+側綁帶迷你裙",
+      "sequence": 1,
+      "new_stem": "掛脖上衣+側綁帶迷你裙-01",
+      "sha256.png": "d30114d0693c35ca1062cbba9b93483d9ba78cc90e00535beb29ee6cdfe62b19",
+      "sha256.md": "a00584d08a11c827f8a07f1fc668e62cc6dbb01483677eabf275abd2068fab3d"
+    },
+    {
+      "old_stem": "美麗性感20261102-53",
+      "outfit_in_prompt": "蜜桃粉色細肩帶背心+深咖啡色百褶迷你裙",
+      "clothing": "細肩帶背心+百褶迷你裙",
+      "sequence": 1,
+      "new_stem": "細肩帶背心+百褶迷你裙-01",
+      "sha256.png": "a80a1b93f9fffc46012344aa65526f274a4e961423f75cf39d7ed5d22e81efa3",
+      "sha256.md": "b66fcbba5fd38a66c9ea27292246f66d033c46ab69e2182970de4882b8648253"
+    },
+    {
+      "old_stem": "美麗性感20261102-54",
+      "outfit_in_prompt": "黑色深V短上衣+香檳金色高腰A字短裙",
+      "clothing": "深V短上衣+高腰A字短裙",
+      "sequence": 1,
+      "new_stem": "深V短上衣+高腰A字短裙-01",
+      "sha256.png": "d88e205679ff1eeae76495a6aceac343873ce6a7da7e594c40b9e90d00199c56",
+      "sha256.md": "27d9c9b4ba34885636a536a3b252143c5240ced7c6b6a2c149e1e4f0002cb911"
+    },
+    {
+      "old_stem": "美麗性感20261102-55",
+      "outfit_in_prompt": "煙粉色掛脖上衣+淺灰色比基尼泳褲",
+      "clothing": "掛脖上衣+比基尼泳褲",
+      "sequence": 2,
+      "new_stem": "掛脖上衣+比基尼泳褲-02",
+      "sha256.png": "02f1bf0efaaa5c70bb53bfb1dcf0b98f5600d40238f5f3ac8b8cf24ebd168356",
+      "sha256.md": "c2891221527575aff926921365c78906b9fe958a3ddd0de9b42eccafa7948199"
+    },
+    {
+      "old_stem": "美麗性感20261102-56",
+      "outfit_in_prompt": "淡紫色露肩上衣+米白色不對稱迷你裙",
+      "clothing": "露肩上衣+不對稱迷你裙",
+      "sequence": 1,
+      "new_stem": "露肩上衣+不對稱迷你裙-01",
+      "sha256.png": "059d56ba875bdc8d83e3bac5390f0e90c674f28881f325f9f266d792acdbedd3",
+      "sha256.md": "38476bfae511b2b94dbbc37e2f1862240af7420f0938c65e957a2fcd63e45ff5"
+    },
+    {
+      "old_stem": "美麗性感20261102-57",
+      "outfit_in_prompt": "蜜桃粉色露肩短上衣+深咖啡色不對稱迷你裙",
+      "clothing": "露肩短上衣+不對稱迷你裙",
+      "sequence": 1,
+      "new_stem": "露肩短上衣+不對稱迷你裙-01",
+      "sha256.png": "ed64fc1ac9341b5ad76f301b786db03f3e5ac690eea78fa843d737f94d29bbfc",
+      "sha256.md": "68cf986e42f8f5338c6962504e07b45a64be0c2ee8c4b081c4ff334f085e15a5"
+    },
+    {
+      "old_stem": "美麗性感20261102-58",
+      "outfit_in_prompt": "香檳色薄紗襯衫+深咖啡色高腰迷你裙",
+      "clothing": "薄紗襯衫+高腰迷你裙",
+      "sequence": 1,
+      "new_stem": "薄紗襯衫+高腰迷你裙-01",
+      "sha256.png": "04ca1a0a5e1606c320e0e402506361125b038d9548042a5636ec26626161e559",
+      "sha256.md": "feae18687d6036879248baf8fe95dcd9a722e39bbad24a01f6a1eef655ac7fa1"
+    },
+    {
+      "old_stem": "美麗性感20261102-59",
+      "outfit_in_prompt": "紫紅色側腰鏤空短洋裝",
+      "clothing": "側腰鏤空短洋裝",
+      "sequence": 7,
+      "new_stem": "側腰鏤空短洋裝-07",
+      "sha256.png": "a7eb5133bf50bf90fc5fc7945feab6bdbd735f925c1d57b542cc6332d72e242d",
+      "sha256.md": "2c43d0fd433fe4a6b068cbedf1fa3c209d3ec230050b0b2065202716a6709a87"
+    },
+    {
+      "old_stem": "美麗性感20261102-60",
+      "outfit_in_prompt": "米白色露肩上衣+炭灰色迷你裙",
+      "clothing": "露肩上衣+迷你裙",
+      "sequence": 2,
+      "new_stem": "露肩上衣+迷你裙-02",
+      "sha256.png": "5ca21c237633f79913b1fbccc98e3613d99a340f8da7e53d26c574edd122d3d0",
+      "sha256.md": "9c7f88e30de1e7a04ebe0a6cdc6329fe18febfa7b04b2a39be558088dffd1b00"
+    },
+    {
+      "old_stem": "美麗性感20261102-61",
+      "outfit_in_prompt": "深藍色V形領口腰側鏤空無袖連身裙+銀灰色細腰帶",
+      "clothing": "V領腰側鏤空無袖連身裙",
+      "sequence": 4,
+      "new_stem": "V領腰側鏤空無袖連身裙-04",
+      "sha256.png": "532e8c5ec929df8ea7133a007ededc2e7c4de7b27338cd4d013f8c0d44856408",
+      "sha256.md": "d321085e64bff29a5870387184192aaacef9bffe360a48906146aacf200b1c8a"
+    },
+    {
+      "old_stem": "美麗性感20261102-62",
+      "outfit_in_prompt": "奶油白色露肩短上衣+玫瑰粉色比基尼泳褲",
+      "clothing": "露肩短上衣+比基尼泳褲",
+      "sequence": 1,
+      "new_stem": "露肩短上衣+比基尼泳褲-01",
+      "sha256.png": "e630be554f7626dafb40a69d2062e04f5f1fea30b647a9ffbdba17bd91381a07",
+      "sha256.md": "6a2173bb318b3fb75c2d6de04791ffe6fbe2b7162c1c03c543666bc6e8cfc26c"
+    },
+    {
+      "old_stem": "美麗性感20261102-63",
+      "outfit_in_prompt": "奶油白色掛脖上衣+玫瑰粉色高腰短裙",
+      "clothing": "掛脖上衣+高腰短裙",
+      "sequence": 2,
+      "new_stem": "掛脖上衣+高腰短裙-02",
+      "sha256.png": "a08c6acbf3b6a01364f6a799adc688af89632b0d66cf538534595986fc2780b6",
+      "sha256.md": "43b24989c9f59baf5ad45ab9e930670bfde4ab800e51d6ebd44ae86c54877838"
+    },
+    {
+      "old_stem": "美麗性感20261102-64",
+      "outfit_in_prompt": "奶油白色交叉繫帶短上衣+玫瑰粉色比基尼泳褲",
+      "clothing": "短上衣+比基尼泳褲",
+      "sequence": 1,
+      "new_stem": "短上衣+比基尼泳褲-01",
+      "sha256.png": "527eba771f844e340c0455d5c1ac804dff541ccd1a0b6019a42a47ffc0588b2b",
+      "sha256.md": "270dea585ca64e877480352dd7ce32bc8e1839caec90de25af95b1cb4c31aeec"
+    }
+  ]
+}

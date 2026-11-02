@@ -1,0 +1,350 @@
+{
+  "date": "2026-11-02",
+  "pairs": 38,
+  "clothing_groups": 33,
+  "naming": "Clothing style plus a two-digit sequence per style, in original filename order. Use + between garments. Omit colors, general descriptive adjectives, hats and footwear; preserve garment styles and layers. Keep full original prompts unchanged.",
+  "renamed": [
+    {
+      "old_stem": "自然清新20261101-01",
+      "outfit_in_prompt": "整齊優雅的學院風制服",
+      "clothing": "學院風制服",
+      "sequence": 1,
+      "new_stem": "學院風制服-01",
+      "sha256.png": "c94324cd094d982054dfa003d5e82692ca8d3d348dde278315a7831ad3a26b14",
+      "sha256.md": "0e604ede0bf05cb143cdb7e2f81a6e7030465488447c0f40000cf6f12c35edcf"
+    },
+    {
+      "old_stem": "自然清新20261101-02",
+      "outfit_in_prompt": "精緻華麗的歐洲古典宮廷禮服",
+      "clothing": "歐洲古典宮廷禮服",
+      "sequence": 1,
+      "new_stem": "歐洲古典宮廷禮服-01",
+      "sha256.png": "dd46af5c03a9c24f827392841be93da9b83e53eeb8dbed07efb768e829b9906c",
+      "sha256.md": "698e462dd78c00845cf637399583253bddf9a1115b6cf83363486b2f109d92a6"
+    },
+    {
+      "old_stem": "自然清新20261101-03",
+      "outfit_in_prompt": "以花瓣和柔軟絲綢設計的淡粉色長裙",
+      "clothing": "花瓣長裙",
+      "sequence": 1,
+      "new_stem": "花瓣長裙-01",
+      "sha256.png": "3e7e87ac37e7084eea411c3b9a38580378c288686577ab4c04cf72178a26afe8",
+      "sha256.md": "6929c8bc619c4e9293e3f252c5e857305ea7ab32fd51899b17fc4f471a6f483b"
+    },
+    {
+      "old_stem": "自然清新20261101-04",
+      "outfit_in_prompt": "米白色西裝外套、簡約針織上衣與俐落長褲",
+      "clothing": "西裝外套+針織上衣+長褲",
+      "sequence": 1,
+      "new_stem": "西裝外套+針織上衣+長褲-01",
+      "sha256.png": "d5c870a140b4138448f13b6e5056605ae803951265a3c713677df799a9a55285",
+      "sha256.md": "84e5a1a3f203b5c073105793049bf9f94d4a66c331d0a4c9ce7743b961be7c3f"
+    },
+    {
+      "old_stem": "自然清新20261101-05",
+      "outfit_in_prompt": "舒適的米色針織衫與休閒長裙",
+      "clothing": "針織衫+休閒長裙",
+      "sequence": 1,
+      "new_stem": "針織衫+休閒長裙-01",
+      "sha256.png": "aa02acc243e73276bf4026f6163a170fc2f9c9454818d3dc94229b06309f824c",
+      "sha256.md": "3372bbab9d238ef2322e889fc88b44ddbafb89adac8a16f9f1e347975e7387c8"
+    },
+    {
+      "old_stem": "自然清新20261101-06",
+      "outfit_in_prompt": "淺藍色襯衫、米色長裙與舒適平底鞋",
+      "clothing": "襯衫+長裙",
+      "sequence": 1,
+      "new_stem": "襯衫+長裙-01",
+      "sha256.png": "fc6e351850e3578c245ff2657fa505485f7f8b1afa24e94d403a1ea8432bdd8a",
+      "sha256.md": "8bca11ad18ca70f3255ca182501f6d5905d6df7666de298c481d623eea4d3f8b"
+    },
+    {
+      "old_stem": "自然清新20261101-07",
+      "outfit_in_prompt": "淡粉色優雅洋裝",
+      "clothing": "洋裝",
+      "sequence": 1,
+      "new_stem": "洋裝-01",
+      "sha256.png": "5de55cccd49a4113d124a0889f74a732bc7e4fbadae1302e616f1b23ce0a1474",
+      "sha256.md": "69d87624a55cc3c2bfba2e5ac91f207895ccd9e3f0c74f11348456c2f619ce34"
+    },
+    {
+      "old_stem": "自然清新20261101-08",
+      "outfit_in_prompt": "簡約的白色襯衫與淺色牛仔褲",
+      "clothing": "襯衫+牛仔褲",
+      "sequence": 1,
+      "new_stem": "襯衫+牛仔褲-01",
+      "sha256.png": "a6fa8282e09af2b1dd1bf2adee4a729f3a11f6a8ded132b99475662254682894",
+      "sha256.md": "f0f0b820b59edd8f2b139b4661d51610cda5c8f71d6e0e199f91feef15c70b6f"
+    },
+    {
+      "old_stem": "自然清新20261101-09",
+      "outfit_in_prompt": "精緻的藍白色奇幻長袍",
+      "clothing": "奇幻長袍",
+      "sequence": 1,
+      "new_stem": "奇幻長袍-01",
+      "sha256.png": "0eacd65315a26553e0d7036f89b8a90e4ae334e32a1a472d699ce02cd6226cb2",
+      "sha256.md": "93b2c1f5400677bb506669d5a3fb7bc560837ad9bab32e56a0b5d396538588c3"
+    },
+    {
+      "old_stem": "自然清新20261101-10",
+      "outfit_in_prompt": "淡藍色棉麻長洋裝與白色編織草帽",
+      "clothing": "棉麻長洋裝",
+      "sequence": 1,
+      "new_stem": "棉麻長洋裝-01",
+      "sha256.png": "ba83948da5df574693a0efddb67e578373d3e853619ab5a51902a90284e109ce",
+      "sha256.md": "6ab40b99c5db51864072363aa17c416a31280b130ae4a6aaaa106d19a80c4a49"
+    },
+    {
+      "old_stem": "自然清新20261101-11",
+      "outfit_in_prompt": "奶油白色長袖棉麻洋裝",
+      "clothing": "長袖棉麻洋裝",
+      "sequence": 1,
+      "new_stem": "長袖棉麻洋裝-01",
+      "sha256.png": "273d7194e5b0654fec027f85dad0cf8245ec2b0075a098207266d6a84f8fc8e8",
+      "sha256.md": "4b56dbacc005eaf31e34579b4c3e6b84e0d9c079517e8f77d93f55867e1a3ce3"
+    },
+    {
+      "old_stem": "自然清新20261101-12",
+      "outfit_in_prompt": "淡青綠色傳統長版旗袍",
+      "clothing": "長版旗袍",
+      "sequence": 1,
+      "new_stem": "長版旗袍-01",
+      "sha256.png": "2c4e0a8f6f2a0815e5dc73c28bda9dd87c1f6cef1f996b086922e27cc2c15a19",
+      "sha256.md": "59d49328ce283ac68efdbfd1d3d0e1ac445fa0775190d5345d419ff529ce92c5"
+    },
+    {
+      "old_stem": "自然清新20261101-13",
+      "outfit_in_prompt": "深藍色與銀白色星辰圖案的華麗長袍",
+      "clothing": "星辰長袍",
+      "sequence": 1,
+      "new_stem": "星辰長袍-01",
+      "sha256.png": "1717b27f6c15a1d9470b1626640e8c9556cf25b409ae550e1e2ed9bb7adc6749",
+      "sha256.md": "7c1c58b2087e0f8c3c30b63579ebe342eb1e315fe15258f2fc34193e787cf3a5"
+    },
+    {
+      "old_stem": "自然清新20261101-14",
+      "outfit_in_prompt": "米白色針織上衣、咖啡色百褶長裙與淺色貝雷帽",
+      "clothing": "針織上衣+百褶長裙",
+      "sequence": 1,
+      "new_stem": "針織上衣+百褶長裙-01",
+      "sha256.png": "3a660abbd20f0634cd67fe296cf0c0c6da23547fa44ad043760422957d3c25b4",
+      "sha256.md": "9f84c8878aad9f325c14c19c816a1824fbdeb382731a9c54502a2b5aa4df42c9"
+    },
+    {
+      "old_stem": "自然清新20261101-15",
+      "outfit_in_prompt": "淡紫色與銀白色交織的華麗宮廷長禮服",
+      "clothing": "宮廷長禮服",
+      "sequence": 1,
+      "new_stem": "宮廷長禮服-01",
+      "sha256.png": "af526fc8217352345f18ee228c31300cac85648acc9bdf0e8242c4edc3d79ad9",
+      "sha256.md": "5f009b2c2beeaa8abd7a9eadda4c4dae6287c7ff9b21c743c77a440e1e635cd5"
+    },
+    {
+      "old_stem": "自然清新20261101-16",
+      "outfit_in_prompt": "淡黃色碎花長洋裝",
+      "clothing": "碎花長洋裝",
+      "sequence": 1,
+      "new_stem": "碎花長洋裝-01",
+      "sha256.png": "7578a8ad4f854a8f3a3f61d8f6fd4318804ac27f053becc64fc8c44324d3f7b7",
+      "sha256.md": "b4da3bc39ed89c9a835532b97ba534520a118ab3eabfdfaed23d319e29de37aa"
+    },
+    {
+      "old_stem": "自然清新20261101-17",
+      "outfit_in_prompt": "淡粉色與月白色交織的華麗漢服",
+      "clothing": "漢服",
+      "sequence": 1,
+      "new_stem": "漢服-01",
+      "sha256.png": "2448456d4c414747dbfc27becdb4e09890b8f5e55266450b1ba1b694cc02f800",
+      "sha256.md": "b836d53052530c97a509f361b4a82702f349bbbe2bccc6c67677094bcf7d81dc"
+    },
+    {
+      "old_stem": "自然清新20261101-18",
+      "outfit_in_prompt": "米白色棉麻上衣與咖啡色寬褲",
+      "clothing": "棉麻上衣+寬褲",
+      "sequence": 1,
+      "new_stem": "棉麻上衣+寬褲-01",
+      "sha256.png": "f97bf1fd81bf17c147f130ff81d9fcd73bbfedd361b67ae3b18627562d491d24",
+      "sha256.md": "792d25e90fb3ebd0e34545706e65f41d3fa90b044471a8a1e4bceb957a7a99e5"
+    },
+    {
+      "old_stem": "自然清新20261101-19",
+      "outfit_in_prompt": "淡綠色棉麻長洋裝",
+      "clothing": "棉麻長洋裝",
+      "sequence": 2,
+      "new_stem": "棉麻長洋裝-02",
+      "sha256.png": "add745565ce40efa4e70388f9e92b3f635a58d1110032822aa2c0256f3047520",
+      "sha256.md": "5ac9fb8c3ae15cbb7204fb298c5093457a1a08bcbad46fdaf27b356f993efd00"
+    },
+    {
+      "old_stem": "自然清新20261101-20",
+      "outfit_in_prompt": "奶油色蝴蝶結襯衫與淺紫色百褶長裙",
+      "clothing": "蝴蝶結襯衫+百褶長裙",
+      "sequence": 1,
+      "new_stem": "蝴蝶結襯衫+百褶長裙-01",
+      "sha256.png": "ce16576701f66e8efb477d04ee8e945996e1c527986af5143987065330f52045",
+      "sha256.md": "8e8f56d20b5aff8588241261763c64dcf5585c33731d0fa9a435a5621c6e8b06"
+    },
+    {
+      "old_stem": "自然清新20261101-21",
+      "outfit_in_prompt": "淡粉色櫻花圖案的傳統日式和服",
+      "clothing": "櫻花和服",
+      "sequence": 1,
+      "new_stem": "櫻花和服-01",
+      "sha256.png": "30586617ed09ebf719e5d44c84bebbb2480a7f6937accdb6ffddadded6cb9569",
+      "sha256.md": "ff541b5562f216fba8fe7a4cd2bf02548e75363d20fdc10e452102c0693e7d43"
+    },
+    {
+      "old_stem": "自然清新20261101-22",
+      "outfit_in_prompt": "米白色針織上衣與咖啡色百褶長裙",
+      "clothing": "針織上衣+百褶長裙",
+      "sequence": 2,
+      "new_stem": "針織上衣+百褶長裙-02",
+      "sha256.png": "cd2dfa30d12477bd0e0968ab896acf69fbef3db1e79642e8996cf8ea4148247c",
+      "sha256.md": "d7958dcefd317ad632c1d38322a13a9025c370690b059bbd21ec6646e9754bbe"
+    },
+    {
+      "old_stem": "自然清新20261101-23",
+      "outfit_in_prompt": "米色學院風針織背心、淺色襯衫與深灰長裙",
+      "clothing": "學院風針織背心+襯衫+長裙",
+      "sequence": 1,
+      "new_stem": "學院風針織背心+襯衫+長裙-01",
+      "sha256.png": "1d7cd641ac1a4a92996d75de2648104bd4efbe0f68373fd926e06d9b17e51bda",
+      "sha256.md": "c673b8e490a4c682555acf61e7ce903aeee86fa6437d393d3b856e055f73542d"
+    },
+    {
+      "old_stem": "自然清新20261101-24",
+      "outfit_in_prompt": "米白色風衣、淺色上衣與深藍長裙",
+      "clothing": "風衣+上衣+長裙",
+      "sequence": 1,
+      "new_stem": "風衣+上衣+長裙-01",
+      "sha256.png": "3d95a3005807a051409197f2fc09eca8fca472dde4bb2ab70875c9f60bbba9be",
+      "sha256.md": "4d817881dfb3fa289063a7e3ed1ea35ed123495f4cedffe4b725fc55d3a61dfa"
+    },
+    {
+      "old_stem": "自然清新20261101-25",
+      "outfit_in_prompt": "象牙白色復古長禮服",
+      "clothing": "復古長禮服",
+      "sequence": 1,
+      "new_stem": "復古長禮服-01",
+      "sha256.png": "15ebac4ab7489a03279f7bc44ce6b933b3118c0e602285675ed503a46d8b2c1c",
+      "sha256.md": "f4e7eb317c9d0705f35d5fb639e7d8995e7cbda24e3817a946aa8c383a5cc6c2"
+    },
+    {
+      "old_stem": "自然清新20261101-26",
+      "outfit_in_prompt": "淡綠色棉麻長洋裝",
+      "clothing": "棉麻長洋裝",
+      "sequence": 3,
+      "new_stem": "棉麻長洋裝-03",
+      "sha256.png": "5c8e65805e675af54b30d2e6d027e849630f27c609e826b02972888c1b5453cb",
+      "sha256.md": "37bc0124c236ba5e7e3bad61b59fd4bdff88350402bc0a5a5a212d507e65ba33"
+    },
+    {
+      "old_stem": "自然清新20261101-27",
+      "outfit_in_prompt": "淡粉色及膝連身裙與奶油白針織外套",
+      "clothing": "及膝連身裙+針織外套",
+      "sequence": 1,
+      "new_stem": "及膝連身裙+針織外套-01",
+      "sha256.png": "e328658df479d428263af50699065720d5d7338e771a76f791efa217fdef5122",
+      "sha256.md": "51e2eb7a554eb54cc04e55590ba865f59b769cf00cefc3178171fe04a7f11282"
+    },
+    {
+      "old_stem": "自然清新20261101-28",
+      "outfit_in_prompt": "淡黃色棉質長洋裝與輕薄針織披肩",
+      "clothing": "棉質長洋裝+針織披肩",
+      "sequence": 1,
+      "new_stem": "棉質長洋裝+針織披肩-01",
+      "sha256.png": "11e5a09678696edc3ef20d9c3e424a975e94a343d930f5b0f25b0b11aaeb673a",
+      "sha256.md": "40fefe80da4a26e5fc37543b3b02e1a77a332d2c650570e46aab90fd1ac6ac25"
+    },
+    {
+      "old_stem": "自然清新20261101-29",
+      "outfit_in_prompt": "淡灰色長版風衣與深藍色針織洋裝",
+      "clothing": "長版風衣+針織洋裝",
+      "sequence": 1,
+      "new_stem": "長版風衣+針織洋裝-01",
+      "sha256.png": "4b96276d8a2a67ec676017897283ea9076ef5d82dd8189f44b9a25dbb4263907",
+      "sha256.md": "1ecb00dec57dcef7de588bdabf43f05895ff217379174122c59139ca0d4faeb1"
+    },
+    {
+      "old_stem": "自然清新20261101-30",
+      "outfit_in_prompt": "深藍色長洋裝與柔軟針織外套",
+      "clothing": "長洋裝+針織外套",
+      "sequence": 1,
+      "new_stem": "長洋裝+針織外套-01",
+      "sha256.png": "116963d096d90b8923fbe6fec9155abfa111ae8741b4cff0a5d1e5c6a53c474d",
+      "sha256.md": "8e036adf0a000e9454f8db2dbff2ad00d7fe7a5bf42224eb27a23bdccccdb1ee"
+    },
+    {
+      "old_stem": "自然清新20261101-31",
+      "outfit_in_prompt": "淺棕色寬鬆長洋裝與薄棉麻披肩",
+      "clothing": "長洋裝+棉麻披肩",
+      "sequence": 1,
+      "new_stem": "長洋裝+棉麻披肩-01",
+      "sha256.png": "faf259808f8412b62779bf10b44063e29d6edf419109aa3f905b74174ed5e34e",
+      "sha256.md": "8de090bb111350ffb2d1cd0e2219e6ea6e25427a28939178fa1d662f400491f3"
+    },
+    {
+      "old_stem": "自然清新20261101-32",
+      "outfit_in_prompt": "淺棕色厚針織上衣與羊毛長裙",
+      "clothing": "厚針織上衣+羊毛長裙",
+      "sequence": 1,
+      "new_stem": "厚針織上衣+羊毛長裙-01",
+      "sha256.png": "afc72f08f92263cc1c9c2eee513d87981b2a2f581cee2a3637ceb3e6faae8cca",
+      "sha256.md": "4b89e69b599a4956bf744b0a78ceff24610d26248be9b3d1f263e1a536be1de1"
+    },
+    {
+      "old_stem": "自然清新20261101-33",
+      "outfit_in_prompt": "奶油色針織上衣與淺藍牛仔長裙",
+      "clothing": "針織上衣+牛仔長裙",
+      "sequence": 1,
+      "new_stem": "針織上衣+牛仔長裙-01",
+      "sha256.png": "df055413ca76749a70101c95746bab5b82c5e1bf0b83a6206c707b83c35321b3",
+      "sha256.md": "d8bfcf8d7d33b2bbaa191e45943bd64d1bba9246a8a7452b98062d71d9e5ce14"
+    },
+    {
+      "old_stem": "自然清新20261101-34",
+      "outfit_in_prompt": "米色針織上衣與深咖啡色長裙",
+      "clothing": "針織上衣+長裙",
+      "sequence": 1,
+      "new_stem": "針織上衣+長裙-01",
+      "sha256.png": "37a5ddae113dd3628b80da5b45bc32d4556d5bcf69a666e47a222c457970a525",
+      "sha256.md": "1548f2dafe81b72e1bd53931476e0fe1fb27eb3956c0f46b629e962ca83f16f3"
+    },
+    {
+      "old_stem": "自然清新20261101-35",
+      "outfit_in_prompt": "淡綠色棉質長洋裝與米白薄外套",
+      "clothing": "棉質長洋裝+薄外套",
+      "sequence": 1,
+      "new_stem": "棉質長洋裝+薄外套-01",
+      "sha256.png": "c90101dcfca3be643b790289a280b333cd39cd752005179bf724e4bda27b492a",
+      "sha256.md": "277e4c1dc3b3b9aaa104bce1a9528e08d11d0c8e197dd34eff6c46ddc7ef5089"
+    },
+    {
+      "old_stem": "自然清新20261101-36",
+      "outfit_in_prompt": "淺灰色針織上衣與墨綠色長裙",
+      "clothing": "針織上衣+長裙",
+      "sequence": 2,
+      "new_stem": "針織上衣+長裙-02",
+      "sha256.png": "ddf743200324dc8bc5aa01cc8d20d8adccaba7b19841b3cbf08f85d8c6c65de4",
+      "sha256.md": "b62f4892e7c5f474b08f033b48ff546468d449f219bf2ac29f53d6ef6b8b1141"
+    },
+    {
+      "old_stem": "自然清新20261101-37",
+      "outfit_in_prompt": "淺灰色戶外外套與深色長褲",
+      "clothing": "戶外外套+長褲",
+      "sequence": 1,
+      "new_stem": "戶外外套+長褲-01",
+      "sha256.png": "17db8e8e31f7c59874027e9d7363701c28cfc9439af39143758ea2f977387df4",
+      "sha256.md": "1a993baf8ab9ffe846d45926faf57f53b9ec9d5f5ce04b450d2ec13fb96ad9d6"
+    },
+    {
+      "old_stem": "自然清新20261101-38",
+      "outfit_in_prompt": "米色學院風針織背心、淺色襯衫與深灰長裙",
+      "clothing": "學院風針織背心+襯衫+長裙",
+      "sequence": 2,
+      "new_stem": "學院風針織背心+襯衫+長裙-02",
+      "sha256.png": "a98abe35f504884b7fd11f7dc6b2b201830d49167da6ca733e8130a4ce3dcc3a",
+      "sha256.md": "4f08300eb2d0dd85f08219494cd926ec78872e0578382b58f81ae8c9bc1d3628"
+    }
+  ]
+}
