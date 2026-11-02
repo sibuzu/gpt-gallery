@@ -12,7 +12,7 @@
   },
   "images": [
     {
-      "image": "sites/gallery2/images/性感/條紋上衣+長褲-01.png",
+      "image": "sites/gallery2/images/清新/條紋上衣+長褲-01.png",
       "source_share": "https://chatgpt.com/share/6ae77d23-2a74-83ee-b600-e7a4ddf77ebe",
       "source_file_id": "file_00000000b54c82068b652d67ce022366",
       "horizontal_mirror": true,
@@ -23,7 +23,8 @@
       "image_at_import": "sites/gallery/images/生成/美麗性感20261101-39.png",
       "present_at_final_verification": true,
       "status": "retained",
-      "image_before_clothing_rename": "sites/gallery2/images/性感/美麗性感20261101-24.png"
+      "image_before_clothing_rename": "sites/gallery2/images/性感/美麗性感20261101-24.png",
+      "image_before_category_move": "sites/gallery2/images/性感/條紋上衣+長褲-01.png"
     },
     {
       "image": "sites/gallery2/images/性感/細肩帶上衣+高腰A字短裙-02.png",
