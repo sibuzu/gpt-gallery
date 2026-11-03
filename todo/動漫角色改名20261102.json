@@ -8,175 +8,249 @@
       "old_stem": "動漫角色20261101-01",
       "character": "Cammy",
       "work": "ストリートファイター",
-      "new_stem": "Cammy-01",
+      "new_stem": "03A_Cammy-01",
       "sequence": 1,
       "sha256.png": "fe272b4fe8426a0940758eeb3d5bae7288950b546e3515d03cfd6f2a0ce0f872",
-      "sha256.md": "41769d7563005f7ab0162b122145c816ccc65ebbb51414f53fdefbeb570b9f8a"
+      "sha256.md": "41769d7563005f7ab0162b122145c816ccc65ebbb51414f53fdefbeb570b9f8a",
+      "previous_stems": [
+        "Cammy-01",
+        "03_Cammy-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-02",
       "character": "早乙女らんま（女）",
       "work": "らんま1/2",
-      "new_stem": "早乙女らんま（女）-01",
+      "new_stem": "36A_早乙女らんま（女）-01",
       "sequence": 1,
       "sha256.png": "4e300501afa8678cde2f0e166ee9046d73f2ca7ab6a304be240a6dbd4497a82e",
-      "sha256.md": "dad188a6cad9c5acfbc9dde7aaace3238f3792b5ceadbec1c53ede1497a9a0a6"
+      "sha256.md": "dad188a6cad9c5acfbc9dde7aaace3238f3792b5ceadbec1c53ede1497a9a0a6",
+      "previous_stems": [
+        "早乙女らんま（女）-01",
+        "36_早乙女らんま（女）-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-03",
       "character": "明日香",
       "work": "ヱヴァンゲリヲン新劇場版",
-      "new_stem": "明日香-01",
+      "new_stem": "30A_明日香-01",
       "sequence": 1,
       "sha256.png": "10925e667907f10df2e401760e50545eb602b90bc93a1d3ab6517483784b9dd6",
-      "sha256.md": "32ddf12e3b44421053e7ef3a7abc2dca6fcdb86b12bd7b0d5267e75f4cd81abc"
+      "sha256.md": "32ddf12e3b44421053e7ef3a7abc2dca6fcdb86b12bd7b0d5267e75f4cd81abc",
+      "previous_stems": [
+        "明日香-01",
+        "30_明日香-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-04",
       "character": "タキ",
       "work": "ソウルキャリバー",
-      "new_stem": "タキ-01",
+      "new_stem": "06A_タキ-01",
       "sequence": 1,
       "sha256.png": "e1bb0b4ffdbd6d92b736e0008154895930a9a5f80c49575aa96aa0a10ed33480",
-      "sha256.md": "7242d25a666d8a83d76d1b59fb730b88e2c06987d3f6264e745b9f9a371714ed"
+      "sha256.md": "7242d25a666d8a83d76d1b59fb730b88e2c06987d3f6264e745b9f9a371714ed",
+      "previous_stems": [
+        "タキ-01",
+        "06_タキ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-05",
       "character": "綱手",
       "work": "NARUTO -ナルト-",
-      "new_stem": "綱手-01",
+      "new_stem": "28A_綱手-01",
       "sequence": 1,
       "sha256.png": "0a4fdf95eca271ef54020566599bf8addd1f62ac0b6a17285bc92a385f03fdfd",
-      "sha256.md": "c4ed1cbe876b890e56a06ce6671f29fd6cac12f9b954acbe77a117e8fcf948c8"
+      "sha256.md": "c4ed1cbe876b890e56a06ce6671f29fd6cac12f9b954acbe77a117e8fcf948c8",
+      "previous_stems": [
+        "綱手-01",
+        "28_綱手-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-06",
       "character": "神楽",
       "work": "銀魂",
-      "new_stem": "神楽_銀魂-01",
+      "new_stem": "57A_神楽_銀魂-01",
       "sequence": 1,
       "sha256.png": "4d3e0e5cba142b50a68f022fd02616e65be9a48ac71687d35d745ecbb1a9b015",
-      "sha256.md": "cbc871b69a03f22b304de86a1b58e2b751dd5093fba9d3a0781a90fc70efccd7"
+      "sha256.md": "cbc871b69a03f22b304de86a1b58e2b751dd5093fba9d3a0781a90fc70efccd7",
+      "previous_stems": [
+        "神楽_銀魂-01",
+        "57_神楽_銀魂-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-07",
       "character": "天道あかね",
       "work": "らんま1/2",
-      "new_stem": "天道あかね-01",
+      "new_stem": "39A_天道あかね-01",
       "sequence": 1,
       "sha256.png": "d12a611c0972efe4b60df4e82b8c4c7e04ba9a4313481b714dcaa2a466e88c89",
-      "sha256.md": "d314a7c8434f6126263999fb758937a13ad43405428ff007a2e32f084f96a07e"
+      "sha256.md": "d314a7c8434f6126263999fb758937a13ad43405428ff007a2e32f084f96a07e",
+      "previous_stems": [
+        "天道あかね-01",
+        "39_天道あかね-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-08",
       "character": "Cassandra",
       "work": "ソウルキャリバー",
-      "new_stem": "Cassandra-01",
+      "new_stem": "08A_Cassandra-01",
       "sequence": 1,
       "sha256.png": "1ee2f37289e6105d03c98120176e5e18e17ad16d521abee63b008c5edb701b1e",
-      "sha256.md": "3cffa6cab9c2b0b724926eedefe888463fe86dd75c07aea5b79087ac86179a2c"
+      "sha256.md": "3cffa6cab9c2b0b724926eedefe888463fe86dd75c07aea5b79087ac86179a2c",
+      "previous_stems": [
+        "Cassandra-01",
+        "08_Cassandra-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-09",
       "character": "春麗",
       "work": "ストリートファイター",
-      "new_stem": "春麗-01",
+      "new_stem": "02A_春麗-01",
       "sequence": 1,
       "sha256.png": "1dce208caa4fff68cc04932069a72f17988a13b74dcb57a24222d13f00ebb08a",
-      "sha256.md": "17ab0933d145bbc8d39ff819e46b90f683df5b3cf29a34a11a102a19e00ad820"
+      "sha256.md": "17ab0933d145bbc8d39ff819e46b90f683df5b3cf29a34a11a102a19e00ad820",
+      "previous_stems": [
+        "春麗-01",
+        "02_春麗-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-10",
       "character": "月野うさぎ",
       "work": "美少女戦士セーラームーン",
-      "new_stem": "月野うさぎ-01",
+      "new_stem": "31A_月野うさぎ-01",
       "sequence": 1,
       "sha256.png": "f1447a78e697ada25636445618acb44eb229c83a8a8a838e4b8e5a50364352a2",
-      "sha256.md": "cad12b53618d2635f04bdd993b847d9a247ee280664b9ddcac9d9fe9b4a54349"
+      "sha256.md": "cad12b53618d2635f04bdd993b847d9a247ee280664b9ddcac9d9fe9b4a54349",
+      "previous_stems": [
+        "月野うさぎ-01",
+        "31_月野うさぎ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-11",
       "character": "桔梗",
       "work": "犬夜叉",
-      "new_stem": "桔梗-01",
+      "new_stem": "51A_桔梗-01",
       "sequence": 1,
       "sha256.png": "e04626ba6249fc2e63d3547b0c891a1ccd3ee38e0fcab9470408d198888c2b92",
-      "sha256.md": "462926d19f4c321e6fe61ec8c4271c2ee06c6d80fcd4a39d6415e1dafcad6c32"
+      "sha256.md": "462926d19f4c321e6fe61ec8c4271c2ee06c6d80fcd4a39d6415e1dafcad6c32",
+      "previous_stems": [
+        "桔梗-01",
+        "51_桔梗-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-12",
       "character": "戦慄のタツマキ",
       "work": "ワンパンマン",
-      "new_stem": "戦慄のタツマキ-01",
+      "new_stem": "50A_戦慄のタツマキ-01",
       "sequence": 1,
       "sha256.png": "cde72d7df083b4229d4ec698504512b72bfc8ffeb574f9f10e42bd29256fb1ac",
-      "sha256.md": "cc3e30730ad652d5f904579b2be219b21bedf33d0ceae58cf2fb9e6d88efffa4"
+      "sha256.md": "cc3e30730ad652d5f904579b2be219b21bedf33d0ceae58cf2fb9e6d88efffa4",
+      "previous_stems": [
+        "戦慄のタツマキ-01",
+        "50_戦慄のタツマキ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-13",
       "character": "神楽",
       "work": "犬夜叉",
-      "new_stem": "神楽_犬夜叉-01",
+      "new_stem": "53A_神楽_犬夜叉-01",
       "sequence": 1,
       "sha256.png": "879a42b92f9dfb54b64d1f371d378af9d7468797530a4b5cd564f4b85af57cab",
-      "sha256.md": "d9d75031da2c41d1a1a1a43a94ec3f6054f5cd52ccce8ed710b1fb7cc0c14dc3"
+      "sha256.md": "d9d75031da2c41d1a1a1a43a94ec3f6054f5cd52ccce8ed710b1fb7cc0c14dc3",
+      "previous_stems": [
+        "神楽_犬夜叉-01",
+        "53_神楽_犬夜叉-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-14",
       "character": "人造人間18号",
       "work": "ドラゴンボールZ",
-      "new_stem": "人造人間18号-01",
+      "new_stem": "29A_人造人間18号-01",
       "sequence": 1,
       "sha256.png": "2cda773f83751e97fe49505db8ddf9d105a985ba46fae2d9d5c0b821e2c18783",
-      "sha256.md": "97595e25deb33f5d8e60eea6ae98c9b1df59c41907e342f8370835d598971f18"
+      "sha256.md": "97595e25deb33f5d8e60eea6ae98c9b1df59c41907e342f8370835d598971f18",
+      "previous_stems": [
+        "人造人間18号-01",
+        "29_人造人間18号-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-15",
       "character": "来島また子",
       "work": "銀魂",
-      "new_stem": "来島また子-01",
+      "new_stem": "56A_来島また子-01",
       "sequence": 1,
       "sha256.png": "d1416ccb423130350d71a4842d9ff318a84b2ff80808d3ea351566effef66a3e",
-      "sha256.md": "67f635f267fd9dd2cc78d2b77213397a4300de0167d9bf13cb16bf1ee26ee9d8"
+      "sha256.md": "67f635f267fd9dd2cc78d2b77213397a4300de0167d9bf13cb16bf1ee26ee9d8",
+      "previous_stems": [
+        "来島また子-01",
+        "56_来島また子-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-16",
       "character": "九能小太刀",
       "work": "らんま1/2",
-      "new_stem": "九能小太刀-01",
+      "new_stem": "40A_九能小太刀-01",
       "sequence": 1,
       "sha256.png": "c4e1cbf508b4b6ff9a69c37fb4a101bcfc5b6dba987613f53a1d17acfac3fe60",
-      "sha256.md": "58d33754bbacb60ea11056d530ae04f4f03f55ddcfd0bee7a2936d850b07919c"
+      "sha256.md": "58d33754bbacb60ea11056d530ae04f4f03f55ddcfd0bee7a2936d850b07919c",
+      "previous_stems": [
+        "九能小太刀-01",
+        "40_九能小太刀-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-17",
       "character": "弁天",
       "work": "うる星やつら",
-      "new_stem": "弁天-01",
+      "new_stem": "42A_弁天-01",
       "sequence": 1,
       "sha256.png": "2e6f6997235fe4bffe38cbe296205e048d3584861c602d6ed02838c9c8f53516",
-      "sha256.md": "d4e28f96a85e0783c57b2d9623ba284b704881adfb50118e4823893f8238863c"
+      "sha256.md": "d4e28f96a85e0783c57b2d9623ba284b704881adfb50118e4823893f8238863c",
+      "previous_stems": [
+        "弁天-01",
+        "42_弁天-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-18",
       "character": "Aerith",
       "work": "ファイナルファンタジーVII",
-      "new_stem": "Aerith-01",
+      "new_stem": "14A_Aerith-01",
       "sequence": 1,
       "sha256.png": "cff3127825c6442b96b0d99c3ff003e9e5b4d53457cd7a40886eac63ec41a725",
-      "sha256.md": "3ec71087f3078342327424732a787d72e8eb50894d8bf5933706c262b0d09197"
+      "sha256.md": "3ec71087f3078342327424732a787d72e8eb50894d8bf5933706c262b0d09197",
+      "previous_stems": [
+        "Aerith-01",
+        "14_Aerith-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-19",
       "character": "巴マミ",
       "work": "魔法少女まどか☆マギカ",
-      "new_stem": "巴マミ-01",
+      "new_stem": "61A_巴マミ-01",
       "sequence": 1,
       "sha256.png": "27051e785bb583534540b632c283dc6cbf3f1260b9538310a7f7248af63e6fcd",
       "sha256.md": "397958293813b3afeb4e26a69e93f1e2b5254a73194527232051e1038b915f39",
       "character_in_prompt": "Mami",
       "previous_stems": [
-        "Mami-01"
+        "Mami-01",
+        "巴マミ-01",
+        "61_巴マミ-01"
       ],
       "captionName": "巴マミ"
     },
@@ -184,22 +258,28 @@
       "old_stem": "動漫角色20261101-20",
       "character": "ヨル",
       "work": "SPY×FAMILY",
-      "new_stem": "ヨル-01",
+      "new_stem": "26A_ヨル-01",
       "sequence": 1,
       "sha256.png": "0ff384a0ec3352b5a8892e792fa1ad34da977452444d89d2e1569a58eab604c3",
-      "sha256.md": "460da6a16bf08880bdb66a3c69369654553f9b9169911ba90c40dec94d72073a"
+      "sha256.md": "460da6a16bf08880bdb66a3c69369654553f9b9169911ba90c40dec94d72073a",
+      "previous_stems": [
+        "ヨル-01",
+        "26_ヨル-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-21",
       "character": "暁美ほむら",
       "work": "魔法少女まどか☆マギカ",
-      "new_stem": "暁美ほむら-01",
+      "new_stem": "60A_暁美ほむら-01",
       "sequence": 1,
       "sha256.png": "cd670a20b7b08ff6ac07d4c1257c14b08c7cf6429d7ee321e490b327a9820158",
       "sha256.md": "25e9dbf8d0874efeeadcf1186c2e1143e126f9828ed9ea3e418a2b303f474792",
       "character_in_prompt": "Homura",
       "previous_stems": [
-        "Homura-01"
+        "Homura-01",
+        "暁美ほむら-01",
+        "60_暁美ほむら-01"
       ],
       "captionName": "暁美ほむら"
     },
@@ -207,13 +287,15 @@
       "old_stem": "動漫角色20261101-22",
       "character": "鹿目まどか",
       "work": "魔法少女まどか☆マギカ",
-      "new_stem": "鹿目まどか-01",
+      "new_stem": "59A_鹿目まどか-01",
       "sequence": 1,
       "sha256.png": "de67712c98ce62ad979a4fb9b9cd5fe6033f8e226644387f98d2a7410e618bdd",
       "sha256.md": "d3ebdf1e33e63368172634a1a00963b1ba7b2fd17bc413a90beab6ddfb14221c",
       "character_in_prompt": "Madoka",
       "previous_stems": [
-        "Madoka-01"
+        "Madoka-01",
+        "鹿目まどか-01",
+        "59_鹿目まどか-01"
       ],
       "captionName": "鹿目まどか"
     },
@@ -221,58 +303,80 @@
       "old_stem": "動漫角色20261101-23",
       "character": "Tifa",
       "work": "ファイナルファンタジーVII",
-      "new_stem": "Tifa-01",
+      "new_stem": "13A_Tifa-01",
       "sequence": 1,
       "sha256.png": "b14d3a27f6625390f168ba5d4511db3ff331a17cf21ff2695f5c35673fd657ab",
-      "sha256.md": "475ba5239f033e6a71ec7646ce65a69c6cfc5705bdd2cd7682f050a3d89ec8c7"
+      "sha256.md": "475ba5239f033e6a71ec7646ce65a69c6cfc5705bdd2cd7682f050a3d89ec8c7",
+      "previous_stems": [
+        "Tifa-01",
+        "13_Tifa-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-24",
       "character": "Yuna",
       "work": "ファイナルファンタジーX",
-      "new_stem": "Yuna-01",
+      "new_stem": "15A_Yuna-01",
       "sequence": 1,
       "sha256.png": "ee2802eea14bcecfeebf1b05a35783ee2069574c66a43c35c20ced13b92630a2",
-      "sha256.md": "5d70e750e3d4cdb2f4d41c2221005a1966c2c08079f6620828d867df48c25520"
+      "sha256.md": "5d70e750e3d4cdb2f4d41c2221005a1966c2c08079f6620828d867df48c25520",
+      "previous_stems": [
+        "Yuna-01",
+        "15_Yuna-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-25",
       "character": "かすみ",
       "work": "デッド オア アライブ",
-      "new_stem": "かすみ-01",
+      "new_stem": "09A_かすみ-01",
       "sequence": 1,
       "sha256.png": "4637fe699989f4650d1c79361f5eb676f334a74d493d8090cee056133f461245",
-      "sha256.md": "36e96f9d3b3ab126df920bf1f468a3b154646da7169d609ea843cc708f5fd22f"
+      "sha256.md": "36e96f9d3b3ab126df920bf1f468a3b154646da7169d609ea843cc708f5fd22f",
+      "previous_stems": [
+        "かすみ-01",
+        "09_かすみ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-26",
       "character": "不知火舞",
       "work": "ザ・キング・オブ・ファイターズ",
-      "new_stem": "不知火舞-01",
+      "new_stem": "01A_不知火舞-01",
       "sequence": 1,
       "sha256.png": "f5a5c0f045eee8276e54671145ea0f4f145c2fe9ec2198fc2d99eab12170ad68",
-      "sha256.md": "09f98a42f908ec8a959a60df762bfbcbeb0716299e259be222111b2189364ea0"
+      "sha256.md": "09f98a42f908ec8a959a60df762bfbcbeb0716299e259be222111b2189364ea0",
+      "previous_stems": [
+        "不知火舞-01",
+        "01_不知火舞-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-27",
       "character": "九能小太刀",
       "work": "らんま1/2",
-      "new_stem": "九能小太刀-02",
+      "new_stem": "40A_九能小太刀-02",
       "sequence": 2,
       "sha256.png": "88ed7147d89622f480a725b8e3d0587b1ef7385d5ffd9d407e901922a5971507",
-      "sha256.md": "72068c5bd73270c109597f85e220c399c2e512e83930aa5711aacc32263f0bdc"
+      "sha256.md": "72068c5bd73270c109597f85e220c399c2e512e83930aa5711aacc32263f0bdc",
+      "previous_stems": [
+        "九能小太刀-02",
+        "40_九能小太刀-02"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-28",
       "character": "巴マミ",
       "work": "魔法少女まどか☆マギカ",
-      "new_stem": "巴マミ-02",
+      "new_stem": "61A_巴マミ-02",
       "sequence": 2,
       "sha256.png": "423d752144f1c2af0c800a14704452a09e6737e1a50878101b138a32776c34eb",
       "sha256.md": "72671f88f33f7953db8a487f03403d4fe8da14e221ef305c587d0d8cc58089dc",
       "character_in_prompt": "Mami",
       "previous_stems": [
-        "Mami-02"
+        "Mami-02",
+        "巴マミ-02",
+        "61_巴マミ-02"
       ],
       "captionName": "巴マミ"
     },
@@ -280,22 +384,28 @@
       "old_stem": "動漫角色20261101-29",
       "character": "アイヴィー",
       "work": "ソウルキャリバー",
-      "new_stem": "アイヴィー-01",
+      "new_stem": "05A_アイヴィー-01",
       "sequence": 1,
       "sha256.png": "dc6af4b7e2602971fd0449ed63f1a68a2db24b019ea863440b477a5eac616e15",
-      "sha256.md": "2f1e938caac69d23f7713431574ceaf70386066f074a5c8c2c85ab9888175271"
+      "sha256.md": "2f1e938caac69d23f7713431574ceaf70386066f074a5c8c2c85ab9888175271",
+      "previous_stems": [
+        "アイヴィー-01",
+        "05_アイヴィー-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-30",
       "character": "美樹さやか",
       "work": "魔法少女まどか☆マギカ",
-      "new_stem": "美樹さやか-01",
+      "new_stem": "62A_美樹さやか-01",
       "sequence": 1,
       "sha256.png": "64b6b126cd34cdeac09a6086da3e15e4840564743c0ef9972a402487902de207",
       "sha256.md": "975abe9ded07ae1d20f1457634195e9eb60a3003beb6dbf8134c925197b49a13",
       "character_in_prompt": "Sayaka",
       "previous_stems": [
-        "Sayaka-01"
+        "Sayaka-01",
+        "美樹さやか-01",
+        "62_美樹さやか-01"
       ],
       "captionName": "美樹さやか"
     },
@@ -303,148 +413,210 @@
       "old_stem": "動漫角色20261101-31",
       "character": "峰不二子",
       "work": "ルパン三世",
-      "new_stem": "峰不二子-01",
+      "new_stem": "35A_峰不二子-01",
       "sequence": 1,
       "sha256.png": "398687d144efb0d19461e0db59c677acb63cc7733f5ae45f41380b91166cb3ad",
-      "sha256.md": "60bdb49864d5d0c1b7d80c7a4ffcf4b1bb2146bf287a2057fac602daef3255ed"
+      "sha256.md": "60bdb49864d5d0c1b7d80c7a4ffcf4b1bb2146bf287a2057fac602daef3255ed",
+      "previous_stems": [
+        "峰不二子-01",
+        "35_峰不二子-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-32",
       "character": "リュック",
       "work": "ファイナルファンタジーX-2",
-      "new_stem": "リュック-01",
+      "new_stem": "17A_リュック-01",
       "sequence": 1,
       "sha256.png": "687836ed2769e4a3bac42802fcd17235c848b681b76bd905d918d32dd0bfe336",
-      "sha256.md": "051ff2ece9dac9d50bf6981cb28e88a77bda1cdff6628c46999ea75be6f6e1b0"
+      "sha256.md": "051ff2ece9dac9d50bf6981cb28e88a77bda1cdff6628c46999ea75be6f6e1b0",
+      "previous_stems": [
+        "リュック-01",
+        "17_リュック-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-33",
       "character": "久遠寺右京",
       "work": "らんま1/2",
-      "new_stem": "久遠寺右京-01",
+      "new_stem": "38A_久遠寺右京-01",
       "sequence": 1,
       "sha256.png": "16051377ac9c346e7a61e7ad115a198e0afd5872adf8634ee053b0d67d33a875",
-      "sha256.md": "766383f8c1f811ffbf42ae73a510e8360b8ea411a68f10504a81b5224e5f0af3"
+      "sha256.md": "766383f8c1f811ffbf42ae73a510e8360b8ea411a68f10504a81b5224e5f0af3",
+      "previous_stems": [
+        "久遠寺右京-01",
+        "38_久遠寺右京-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-34",
       "character": "Sophitia",
       "work": "ソウルキャリバー",
-      "new_stem": "Sophitia-01",
+      "new_stem": "07A_Sophitia-01",
       "sequence": 1,
       "sha256.png": "4413fdf2b7b3bc0e7aeae1ff737ec09402f565ef06b1414fb2e57938379323e8",
-      "sha256.md": "7add56550588e63c964a0b327c1cdd59cf75646dfd98b11ee09e983e27fa69f0"
+      "sha256.md": "7add56550588e63c964a0b327c1cdd59cf75646dfd98b11ee09e983e27fa69f0",
+      "previous_stems": [
+        "Sophitia-01",
+        "07_Sophitia-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-35",
       "character": "Saber",
       "work": "Fate/stay night",
-      "new_stem": "Saber-01",
+      "new_stem": "33A_Saber-01",
       "sequence": 1,
       "sha256.png": "f4bf273cec9db88271f80298e44d72a7e649eeb13b85d89650ff6f3b97ab1aa4",
-      "sha256.md": "b480ea25db32385a09a7a70d591848d676bbd703d190933ebe314cfa3d21c84a"
+      "sha256.md": "b480ea25db32385a09a7a70d591848d676bbd703d190933ebe314cfa3d21c84a",
+      "previous_stems": [
+        "Saber-01",
+        "33_Saber-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-36",
       "character": "九能小太刀",
       "work": "らんま1/2",
-      "new_stem": "九能小太刀-03",
+      "new_stem": "40A_九能小太刀-03",
       "sequence": 3,
       "sha256.png": "8d13844997643826612a30bd6aa96c715a20731c148ec0930dfffa71bb6125c7",
-      "sha256.md": "c0f99cf5245c8dad8642cb309fd74eb33a786910bdeeb6939eed87119b08b94a"
+      "sha256.md": "c0f99cf5245c8dad8642cb309fd74eb33a786910bdeeb6939eed87119b08b94a",
+      "previous_stems": [
+        "九能小太刀-03",
+        "40_九能小太刀-03"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-37",
       "character": "Aerith",
       "work": "ファイナルファンタジーVII",
-      "new_stem": "Aerith-02",
+      "new_stem": "14A_Aerith-02",
       "sequence": 2,
       "sha256.png": "5d7bbcbca6cf626572db070a6ccd34fb2002da523fce8942ade7e22d80860d4c",
-      "sha256.md": "f3eb7cb2346c0b1e8d98f9fbf246566cdb9065399c28bd22c3e54770ba92c259"
+      "sha256.md": "f3eb7cb2346c0b1e8d98f9fbf246566cdb9065399c28bd22c3e54770ba92c259",
+      "previous_stems": [
+        "Aerith-02",
+        "14_Aerith-02"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-38",
       "character": "ペローナ",
       "work": "ワンピース",
-      "new_stem": "ペローナ-01",
+      "new_stem": "46A_ペローナ-01",
       "sequence": 1,
       "sha256.png": "1ec50693e074612ad3d773607a0c576bf83dfea111cf4432b7d8469120f07f70",
-      "sha256.md": "3a8540dd1bee7f9764224bfc2daf6b6e1dc54d7317274b21940944d3c28cad4d"
+      "sha256.md": "3a8540dd1bee7f9764224bfc2daf6b6e1dc54d7317274b21940944d3c28cad4d",
+      "previous_stems": [
+        "ペローナ-01",
+        "46_ペローナ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-39",
       "character": "ホムラ",
       "work": "ゼノブレイド2",
-      "new_stem": "ホムラ-01",
+      "new_stem": "18A_ホムラ-01",
       "sequence": 1,
       "sha256.png": "c9f6ccb5ec2301756ededc794b79bc5893f827fc4de9f618fad9bbdaf2c511ad",
-      "sha256.md": "bda9132d71203c16e50fdf08a5f8fa611ef0b8e3940ba6747a21481a9e86b959"
+      "sha256.md": "bda9132d71203c16e50fdf08a5f8fa611ef0b8e3940ba6747a21481a9e86b959",
+      "previous_stems": [
+        "ホムラ-01",
+        "18_ホムラ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-40",
       "character": "ブルマ",
       "work": "ドラゴンボール",
-      "new_stem": "ブルマ-01",
+      "new_stem": "43A_ブルマ-01",
       "sequence": 1,
       "sha256.png": "36312ef26607b3ac29ec62aeec9f951cd3e03c42a9872e945059b9a1930f9bb8",
-      "sha256.md": "29cd435b80b928b1b99947fdbeb1487d57e935ffe1d2bcb5737e18b2c683570a"
+      "sha256.md": "29cd435b80b928b1b99947fdbeb1487d57e935ffe1d2bcb5737e18b2c683570a",
+      "previous_stems": [
+        "ブルマ-01",
+        "43_ブルマ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-41",
       "character": "Yuna",
       "work": "ファイナルファンタジーX",
-      "new_stem": "Yuna-02",
+      "new_stem": "15A_Yuna-02",
       "sequence": 2,
       "sha256.png": "59859a3626eb39df1456b57e803e085a336e11e834753abfc69c81fe8248a11e",
-      "sha256.md": "10402da59563082881d96057ec20cd57965e701e74401a8ae8cf701548ce2018"
+      "sha256.md": "10402da59563082881d96057ec20cd57965e701e74401a8ae8cf701548ce2018",
+      "previous_stems": [
+        "Yuna-02",
+        "15_Yuna-02"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-42",
       "character": "不知火舞",
       "work": "ザ・キング・オブ・ファイターズ",
-      "new_stem": "不知火舞-02",
+      "new_stem": "01A_不知火舞-02",
       "sequence": 2,
       "sha256.png": "3c01c1d2426a9096afe590be1cc12858c361eb158998e05f26f1386a4bda8039",
-      "sha256.md": "b4fa093031460e24c32aa75517acd177644aba10567e423c9e3de65613eebe97"
+      "sha256.md": "b4fa093031460e24c32aa75517acd177644aba10567e423c9e3de65613eebe97",
+      "previous_stems": [
+        "不知火舞-02",
+        "01_不知火舞-02"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-43",
       "character": "エルザ・スカーレット",
       "work": "FAIRY TAIL",
-      "new_stem": "エルザ・スカーレット-01",
+      "new_stem": "27A_エルザ・スカーレット-01",
       "sequence": 1,
       "sha256.png": "afe432682512dc38482d7c90316958bd6a95e728ddd27c8f7cd3c126ca76bdc7",
-      "sha256.md": "1be3676e9e98735e297b833860d6def40a9f4bb01cd6a24de1da3ae8c10734ed"
+      "sha256.md": "1be3676e9e98735e297b833860d6def40a9f4bb01cd6a24de1da3ae8c10734ed",
+      "previous_stems": [
+        "エルザ・スカーレット-01",
+        "27_エルザ・スカーレット-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-44",
       "character": "シャンプー",
       "work": "らんま1/2",
-      "new_stem": "シャンプー-01",
+      "new_stem": "37A_シャンプー-01",
       "sequence": 1,
       "sha256.png": "dfda7860a70a80b17704b9cffd2961febd8491f2299d6804533a788c2deddad6",
-      "sha256.md": "18fdad0b5e97649b90545b0e9494affcd9faf4c1273a364acd326d9f69a388ee"
+      "sha256.md": "18fdad0b5e97649b90545b0e9494affcd9faf4c1273a364acd326d9f69a388ee",
+      "previous_stems": [
+        "シャンプー-01",
+        "37_シャンプー-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-45",
       "character": "あやね",
       "work": "デッド オア アライブ",
-      "new_stem": "あやね-01",
+      "new_stem": "10A_あやね-01",
       "sequence": 1,
       "sha256.png": "b3c682fcc5c061d0f69bcdaab6b57a6213d69ca64261e753812addffc2ffd335",
-      "sha256.md": "a1c49f591767c0778f28c72d285298590ce5bdd90e5db0fe4ce50d76fce06d79"
+      "sha256.md": "a1c49f591767c0778f28c72d285298590ce5bdd90e5db0fe4ce50d76fce06d79",
+      "previous_stems": [
+        "あやね-01",
+        "10_あやね-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-46",
       "character": "鹿目まどか",
       "work": "魔法少女まどか☆マギカ",
-      "new_stem": "鹿目まどか-02",
+      "new_stem": "59A_鹿目まどか-02",
       "sequence": 2,
       "sha256.png": "6a24d5cd3943b93bba1a1e215dd30fa484a8072f2c233cf2addbfbfd95d2bb9e",
       "sha256.md": "676db852452fefdfc393ba994ae56b3bd880ee99d07ded20148afb60bc2fc7b6",
       "character_in_prompt": "Madoka",
       "previous_stems": [
-        "Madoka-02"
+        "Madoka-02",
+        "鹿目まどか-02",
+        "59_鹿目まどか-02"
       ],
       "captionName": "鹿目まどか"
     },
@@ -452,184 +624,262 @@
       "old_stem": "動漫角色20261101-47",
       "character": "シェルミー",
       "work": "ザ・キング・オブ・ファイターズ",
-      "new_stem": "シェルミー-01",
+      "new_stem": "12A_シェルミー-01",
       "sequence": 1,
       "sha256.png": "148d5dccc86036cbc8667a6a791dfdbb9616b935ecd89ba7082efa0e67afdff9",
-      "sha256.md": "100577bee81e6e1883953914191639f23ba39c33280cc9e0926db190d660eac9"
+      "sha256.md": "100577bee81e6e1883953914191639f23ba39c33280cc9e0926db190d660eac9",
+      "previous_stems": [
+        "シェルミー-01",
+        "12_シェルミー-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-48",
       "character": "日暮かごめ",
       "work": "犬夜叉",
-      "new_stem": "日暮かごめ-01",
+      "new_stem": "54A_日暮かごめ-01",
       "sequence": 1,
       "sha256.png": "d5c0b859017e489e91d4da0c4b421d816ebf6d04ec128abc3bde24b46464cf71",
-      "sha256.md": "305a43d584aff772cd3aa4ac3af6b7f8785e5d88a093ac7574e5e748f669ea4b"
+      "sha256.md": "305a43d584aff772cd3aa4ac3af6b7f8785e5d88a093ac7574e5e748f669ea4b",
+      "previous_stems": [
+        "日暮かごめ-01",
+        "54_日暮かごめ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-49",
       "character": "Tifa",
       "work": "ファイナルファンタジーVII",
-      "new_stem": "Tifa-02",
+      "new_stem": "13A_Tifa-02",
       "sequence": 2,
       "sha256.png": "dd2c272de9cb2d7da9811a786e58c7b80a77fc830c618e9fe33540b101fffd75",
-      "sha256.md": "786e7e7b29309f1c728d1c33e51f4b0e3b19b161deb2d11feb7b90787eb6d145"
+      "sha256.md": "786e7e7b29309f1c728d1c33e51f4b0e3b19b161deb2d11feb7b90787eb6d145",
+      "previous_stems": [
+        "Tifa-02",
+        "13_Tifa-02"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-50",
       "character": "ヨルハ二号B型（2B）",
       "work": "ニーア オートマタ",
-      "new_stem": "ヨルハ二号B型（2B）-01",
+      "new_stem": "20A_ヨルハ二号B型（2B）-01",
       "sequence": 1,
       "sha256.png": "2e5f8109cdfa78d3846f87b68cbe1f0221dfa061483d849ebbe0e6576889f1e5",
-      "sha256.md": "f10c41f64c7d067ebeba16d21befbc3da4a058598499ad6c86e49ad9194b70ef"
+      "sha256.md": "f10c41f64c7d067ebeba16d21befbc3da4a058598499ad6c86e49ad9194b70ef",
+      "previous_stems": [
+        "ヨルハ二号B型（2B）-01",
+        "20_ヨルハ二号B型（2B）-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-51",
       "character": "珊瑚",
       "work": "犬夜叉",
-      "new_stem": "珊瑚-01",
+      "new_stem": "52A_珊瑚-01",
       "sequence": 1,
       "sha256.png": "ba42510eaf2ebd76d1d51c0708e0677bf83718fbd81165bb50ba2214497dc301",
-      "sha256.md": "b5ced2cbd73dbdb4fa0a4e8378f2b1967c3b7a9d501d0f8d1613b3e2de477b4c"
+      "sha256.md": "b5ced2cbd73dbdb4fa0a4e8378f2b1967c3b7a9d501d0f8d1613b3e2de477b4c",
+      "previous_stems": [
+        "珊瑚-01",
+        "52_珊瑚-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-52",
       "character": "ヤマト",
       "work": "ワンピース",
-      "new_stem": "ヤマト-01",
+      "new_stem": "47A_ヤマト-01",
       "sequence": 1,
       "sha256.png": "38e6443d9ae4e932864588bae7bf3197b1ae8a9332c3d66c589887299da3d038",
-      "sha256.md": "29218fae433fc106683a1b5e7a1a83781a5e1fc5b276bdc7623129e503f28a67"
+      "sha256.md": "29218fae433fc106683a1b5e7a1a83781a5e1fc5b276bdc7623129e503f28a67",
+      "previous_stems": [
+        "ヤマト-01",
+        "47_ヤマト-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-53",
       "character": "日向ヒナタ",
       "work": "NARUTO -ナルト-",
-      "new_stem": "日向ヒナタ-01",
+      "new_stem": "48A_日向ヒナタ-01",
       "sequence": 1,
       "sha256.png": "c96f7b8c40e05c3cf3ac8af35eefba04a15a18bac6ca6f795b9f92ff4bc729a6",
-      "sha256.md": "ff37dea4bb5f85c5bbdf97336a5570d9079ddee7ce5dfffc286ab3ed30f20498"
+      "sha256.md": "ff37dea4bb5f85c5bbdf97336a5570d9079ddee7ce5dfffc286ab3ed30f20498",
+      "previous_stems": [
+        "日向ヒナタ-01",
+        "48_日向ヒナタ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-54",
       "character": "神楽",
       "work": "犬夜叉",
-      "new_stem": "神楽_犬夜叉-02",
+      "new_stem": "53A_神楽_犬夜叉-02",
       "sequence": 2,
       "sha256.png": "16b5ca5a1a7e62411dde6a013f006795ac1bafd93cab3b3dfbde821d1e0ca7a8",
-      "sha256.md": "e962436c8f5e541c69073c4c4cc4b03d29029efd2daa8ff9428dabcc82f0dbf0"
+      "sha256.md": "e962436c8f5e541c69073c4c4cc4b03d29029efd2daa8ff9428dabcc82f0dbf0",
+      "previous_stems": [
+        "神楽_犬夜叉-02",
+        "53_神楽_犬夜叉-02"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-55",
       "character": "神楽",
       "work": "銀魂",
-      "new_stem": "神楽_銀魂-02",
+      "new_stem": "57A_神楽_銀魂-02",
       "sequence": 2,
       "sha256.png": "69e3b932097dee5c27b5eb6dbbb8003a5abec70257ddd91cac60c75430c60e0a",
-      "sha256.md": "67a25bd4c9df5e4b41371308152d0875c1109b9b9e2ea1389a34fb5f61bf8271"
+      "sha256.md": "67a25bd4c9df5e4b41371308152d0875c1109b9b9e2ea1389a34fb5f61bf8271",
+      "previous_stems": [
+        "神楽_銀魂-02",
+        "57_神楽_銀魂-02"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-56",
       "character": "ラム",
       "work": "うる星やつら",
-      "new_stem": "ラム-01",
+      "new_stem": "41A_ラム-01",
       "sequence": 1,
       "sha256.png": "aed3779a6eeb56ab4a3507b809bd69d88ec1aca95c1c725c915721d7ade5f78b",
-      "sha256.md": "ada263d81930a0aceca7d15b85026d76765a5824367d47e73e7a87bb4a869e2b"
+      "sha256.md": "ada263d81930a0aceca7d15b85026d76765a5824367d47e73e7a87bb4a869e2b",
+      "previous_stems": [
+        "ラム-01",
+        "41_ラム-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-57",
       "character": "松本乱菊",
       "work": "BLEACH",
-      "new_stem": "松本乱菊-01",
+      "new_stem": "24A_松本乱菊-01",
       "sequence": 1,
       "sha256.png": "7d4495111bff7bbfcba2a79b61151de8912a36a5afa1e081a27275f398de0924",
-      "sha256.md": "64802a8852bb211baaf51e475f04c65af22da0d8b6aeec82b5ae95cb7b220e0a"
+      "sha256.md": "64802a8852bb211baaf51e475f04c65af22da0d8b6aeec82b5ae95cb7b220e0a",
+      "previous_stems": [
+        "松本乱菊-01",
+        "24_松本乱菊-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-58",
       "character": "桔梗",
       "work": "犬夜叉",
-      "new_stem": "桔梗-02",
+      "new_stem": "51A_桔梗-02",
       "sequence": 2,
       "sha256.png": "7e7db1412c1c8dead95cc5e69b8de23f61d7f42c28a688c70fb772e1c811a36d",
-      "sha256.md": "d86b6c19da18abd46ced97b26870901c0ee62ee27413cbc56ace9de93a568f2e"
+      "sha256.md": "d86b6c19da18abd46ced97b26870901c0ee62ee27413cbc56ace9de93a568f2e",
+      "previous_stems": [
+        "桔梗-02",
+        "51_桔梗-02"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-59",
       "character": "タキ",
       "work": "ソウルキャリバー",
-      "new_stem": "タキ-02",
+      "new_stem": "06A_タキ-02",
       "sequence": 2,
       "sha256.png": "fa834261f6d79cc2a1289c5231d37b866e8390e44982ca2ef7da1b4a9aa7c86f",
-      "sha256.md": "a0f56512b53262538cefda60f37d49c945ef1c3ecec35f58984d389244a0c330"
+      "sha256.md": "a0f56512b53262538cefda60f37d49c945ef1c3ecec35f58984d389244a0c330",
+      "previous_stems": [
+        "タキ-02"
+      ],
+      "present_at_last_verification": false
     },
     {
       "old_stem": "動漫角色20261101-60",
       "character": "早乙女らんま（女）",
       "work": "らんま1/2",
-      "new_stem": "早乙女らんま（女）-02",
+      "new_stem": "36A_早乙女らんま（女）-02",
       "sequence": 2,
       "sha256.png": "b374392816a526bd3db95c2f3580fe49b74d9cb0336e235265f733829eff87ec",
-      "sha256.md": "1a1dc3c56ffafead97b590c3cf34a078e472a9972a9958410b30dab6f22d29b2"
+      "sha256.md": "1a1dc3c56ffafead97b590c3cf34a078e472a9972a9958410b30dab6f22d29b2",
+      "previous_stems": [
+        "早乙女らんま（女）-02",
+        "36_早乙女らんま（女）-02"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-61",
       "character": "ランチ",
       "work": "ドラゴンボール",
-      "new_stem": "ランチ-01",
+      "new_stem": "44A_ランチ-01",
       "sequence": 1,
       "sha256.png": "35de021617a1221d62d45eccaea9a15c868babc9b7d0f716758b8f3cc8ea35a5",
-      "sha256.md": "7fcb7880350bb5e530e6dbb3d40dba46e31f305c3429452af4aebb30252eb3ec"
+      "sha256.md": "7fcb7880350bb5e530e6dbb3d40dba46e31f305c3429452af4aebb30252eb3ec",
+      "previous_stems": [
+        "ランチ-01",
+        "44_ランチ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-62",
       "character": "Boa Hancock",
       "work": "ワンピース",
-      "new_stem": "Boa Hancock-01",
+      "new_stem": "22A_Boa Hancock-01",
       "sequence": 1,
       "sha256.png": "079a76687eb52edd598fdf1fa16dc17d53b162afad99fc28c5cf8e2a44cc9a78",
-      "sha256.md": "e18bd533fb1e6736a676daf46412be23b0b13e2d30b811c6242e353638f9af18"
+      "sha256.md": "e18bd533fb1e6736a676daf46412be23b0b13e2d30b811c6242e353638f9af18",
+      "previous_stems": [
+        "Boa Hancock-01",
+        "22_Boa Hancock-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-63",
       "character": "ヨーコ・リットナー",
       "work": "天元突破グレンラガン",
-      "new_stem": "ヨーコ・リットナー-01",
+      "new_stem": "21A_ヨーコ・リットナー-01",
       "sequence": 1,
       "sha256.png": "daad1cda101dc084d5393934d0344c0b4bbb16db6635f07eb69b73cfe0e161f2",
-      "sha256.md": "bdc2c4a6fde935cc745febde93ac78277914b4263e579ac99d453078fe341117"
+      "sha256.md": "bdc2c4a6fde935cc745febde93ac78277914b4263e579ac99d453078fe341117",
+      "previous_stems": [
+        "ヨーコ・リットナー-01",
+        "21_ヨーコ・リットナー-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-64",
       "character": "ナミ",
       "work": "ワンピース",
-      "new_stem": "ナミ-01",
+      "new_stem": "23A_ナミ-01",
       "sequence": 1,
       "sha256.png": "b92bdc881b33defeff3a7ab453cf29d327cd148313d1e35ce34f415ddfef1b5e",
-      "sha256.md": "41a9d7d695f45dc3a72e1533e2a2fe2a218b58432eb9b34aeb1eb1e26cf5d689"
+      "sha256.md": "41a9d7d695f45dc3a72e1533e2a2fe2a218b58432eb9b34aeb1eb1e26cf5d689",
+      "previous_stems": [
+        "ナミ-01",
+        "23_ナミ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-65",
       "character": "地獄のフブキ",
       "work": "ワンパンマン",
-      "new_stem": "地獄のフブキ-01",
+      "new_stem": "49A_地獄のフブキ-01",
       "sequence": 1,
       "sha256.png": "ff96c90ac7dd8fc6afefdf5d7d3f13a0227dd704587afd5824f0a7653e320437",
-      "sha256.md": "7acfc897c9cc86df6169a80e975102fdaf158035cc9acc07ecc1446450b3b586"
+      "sha256.md": "7acfc897c9cc86df6169a80e975102fdaf158035cc9acc07ecc1446450b3b586",
+      "previous_stems": [
+        "地獄のフブキ-01",
+        "49_地獄のフブキ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-66",
       "character": "暁美ほむら",
       "work": "魔法少女まどか☆マギカ",
-      "new_stem": "暁美ほむら-02",
+      "new_stem": "60A_暁美ほむら-02",
       "sequence": 2,
       "sha256.png": "0375d9847f808c3a6ce333d9b76759ddd74a24ce715340505c863b79be9da82a",
       "sha256.md": "6a7845dd99a3bbc9e2969e66f0f96be6dabf7f130f83c7a6a12d2862f752e247",
       "character_in_prompt": "Homura",
       "previous_stems": [
-        "Homura-02"
+        "Homura-02",
+        "暁美ほむら-02",
+        "60_暁美ほむら-02"
       ],
       "captionName": "暁美ほむら"
     },
@@ -637,31 +887,41 @@
       "old_stem": "動漫角色20261101-67",
       "character": "Morrigan",
       "work": "ヴァンパイア",
-      "new_stem": "Morrigan-01",
+      "new_stem": "04A_Morrigan-01",
       "sequence": 1,
       "sha256.png": "7dcc8ab23be6c7a721dfdfee313a59b97c60a2bea6fa3d3748b903e94e22597b",
-      "sha256.md": "a9fc3476f6f4969a63da8fc11a1ce5fa78a53326df0e317e0a0a71bfe87cab2a"
+      "sha256.md": "a9fc3476f6f4969a63da8fc11a1ce5fa78a53326df0e317e0a0a71bfe87cab2a",
+      "previous_stems": [
+        "Morrigan-01",
+        "04_Morrigan-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-68",
       "character": "来島また子",
       "work": "銀魂",
-      "new_stem": "来島また子-02",
+      "new_stem": "56A_来島また子-02",
       "sequence": 2,
       "sha256.png": "9477922116513f6e4c7f9904e06b07089e10a2f76c4c59f11ed5d50fde70dfaa",
-      "sha256.md": "4a48ed157ddf68dc96e40df55e7bc8fe67c39e4e0f6592755c78165371539dff"
+      "sha256.md": "4a48ed157ddf68dc96e40df55e7bc8fe67c39e4e0f6592755c78165371539dff",
+      "previous_stems": [
+        "来島また子-02",
+        "56_来島また子-02"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-69",
       "character": "佐倉杏子",
       "work": "魔法少女まどか☆マギカ",
-      "new_stem": "佐倉杏子-01",
+      "new_stem": "63A_佐倉杏子-01",
       "sequence": 1,
       "sha256.png": "538d4ea2399334b022b381df871f1734244ea37dc3000429e29ada6f1c7c87c3",
       "sha256.md": "f4fcacfabf01d1277b4240b97acd4c1344a520f37df5682259ad205cb3ecfc14",
       "character_in_prompt": "Kyoko",
       "previous_stems": [
-        "Kyoko-01"
+        "Kyoko-01",
+        "佐倉杏子-01",
+        "63_佐倉杏子-01"
       ],
       "captionName": "佐倉杏子"
     },
@@ -669,100 +929,144 @@
       "old_stem": "動漫角色20261101-70",
       "character": "猿飛あやめ",
       "work": "銀魂",
-      "new_stem": "猿飛あやめ-01",
+      "new_stem": "55A_猿飛あやめ-01",
       "sequence": 1,
       "sha256.png": "994e2a390b6ecc95a309d47cef3c9f7c66f066528bc26868cfb37aa2e59bdf63",
-      "sha256.md": "a20ef5cf875f146ba75de9ce245bfc440be92951f7b5727104283c55ef827bfa"
+      "sha256.md": "a20ef5cf875f146ba75de9ce245bfc440be92951f7b5727104283c55ef827bfa",
+      "previous_stems": [
+        "猿飛あやめ-01",
+        "55_猿飛あやめ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-71",
       "character": "ルールー",
       "work": "ファイナルファンタジーX",
-      "new_stem": "ルールー-01",
+      "new_stem": "16A_ルールー-01",
       "sequence": 1,
       "sha256.png": "99759109e11144af3f95d9a08516d3f05f2c7236e2e27872ab1e1572e363e65b",
-      "sha256.md": "1f35e180f73341d7162bf075e96757e6923d55ddf48e70b03657a0b7add4016e"
+      "sha256.md": "1f35e180f73341d7162bf075e96757e6923d55ddf48e70b03657a0b7add4016e",
+      "previous_stems": [
+        "ルールー-01",
+        "16_ルールー-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-72",
       "character": "志村妙",
       "work": "銀魂",
-      "new_stem": "志村妙-01",
+      "new_stem": "58A_志村妙-01",
       "sequence": 1,
       "sha256.png": "4a8e267faf80fd3719e74f216f0b97aa9a0e94dd216fc3ba68e9bad8655a24d6",
-      "sha256.md": "f90db1575575e4cf9d9cc59453983477602a1094fddc1c3cf7e67029b86412ae"
+      "sha256.md": "f90db1575575e4cf9d9cc59453983477602a1094fddc1c3cf7e67029b86412ae",
+      "previous_stems": [
+        "志村妙-01",
+        "58_志村妙-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-73",
       "character": "ヒカリ",
       "work": "ゼノブレイド2",
-      "new_stem": "ヒカリ-01",
+      "new_stem": "19A_ヒカリ-01",
       "sequence": 1,
       "sha256.png": "d7846ac393a6451bcbe4481649936d0718bf24d7534c8f8e3514e5f53ce4ef9a",
-      "sha256.md": "8d5976f6619e05b1882b789fdf7e8a064e722aa283849c0f82262dca9f3dacbd"
+      "sha256.md": "8d5976f6619e05b1882b789fdf7e8a064e722aa283849c0f82262dca9f3dacbd",
+      "previous_stems": [
+        "ヒカリ-01",
+        "19_ヒカリ-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-74",
       "character": "Cassandra",
       "work": "ソウルキャリバー",
-      "new_stem": "Cassandra-02",
+      "new_stem": "08A_Cassandra-02",
       "sequence": 2,
       "sha256.png": "3f4af7cca004e82aa2b24b8cc856df1237e71df53e52e3a9af9738ebb07ca641",
-      "sha256.md": "22bcd73a83e32bb39fff98b3039d7d359b94ae7bf56f4649824a83fa5ff8908a"
+      "sha256.md": "22bcd73a83e32bb39fff98b3039d7d359b94ae7bf56f4649824a83fa5ff8908a",
+      "previous_stems": [
+        "Cassandra-02",
+        "08_Cassandra-02"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-75",
       "character": "孔雀舞",
       "work": "遊☆戯☆王",
-      "new_stem": "孔雀舞-01",
+      "new_stem": "25A_孔雀舞-01",
       "sequence": 1,
       "sha256.png": "8c7075876b3c8be940c1b1a705590a0be9893373122f4a7509e5308c5629e39c",
-      "sha256.md": "49989bb344bd262fe1460a9457a6e26e58f9e48ec6605a87f14ef81c73f33366"
+      "sha256.md": "49989bb344bd262fe1460a9457a6e26e58f9e48ec6605a87f14ef81c73f33366",
+      "previous_stems": [
+        "孔雀舞-01",
+        "25_孔雀舞-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-76",
       "character": "Nico Robin",
       "work": "ワンピース",
-      "new_stem": "Nico Robin-01",
+      "new_stem": "45A_Nico Robin-01",
       "sequence": 1,
       "sha256.png": "aa1b4ea9a182e65a706861a6fd0a4c1c56772947a80c0d07d27ab2d9da92df40",
-      "sha256.md": "cfcd9de31c82b44c7c4ad8cbc90d3bd64ec2877c52d84898d7413ee53a5bd03c"
+      "sha256.md": "cfcd9de31c82b44c7c4ad8cbc90d3bd64ec2877c52d84898d7413ee53a5bd03c",
+      "previous_stems": [
+        "Nico Robin-01",
+        "45_Nico Robin-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-77",
       "character": "明日香",
       "work": "ヱヴァンゲリヲン新劇場版",
-      "new_stem": "明日香-02",
+      "new_stem": "30A_明日香-02",
       "sequence": 2,
       "sha256.png": "618e3c43ed7ce7648b381aef25995b9c4db061cd257f24b1cf9fe6e3da917da1",
-      "sha256.md": "aa32205a090f993a2bca23d31680e54fc0044ba2c6e1a62b712caf6850eb41e4"
+      "sha256.md": "aa32205a090f993a2bca23d31680e54fc0044ba2c6e1a62b712caf6850eb41e4",
+      "previous_stems": [
+        "明日香-02",
+        "30_明日香-02"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-78",
       "character": "初音ミク",
       "work": "VOCALOID",
-      "new_stem": "初音ミク-01",
+      "new_stem": "34A_初音ミク-01",
       "sequence": 1,
       "sha256.png": "5b8d8b66c2679e718faa8ec90ab30f24ec0f5d6b70657cf9a018f1f88aeb9f9f",
-      "sha256.md": "77107e62b461982eb3d14b0649bb8a7772a5af13bc1748592764a08eb4b62265"
+      "sha256.md": "77107e62b461982eb3d14b0649bb8a7772a5af13bc1748592764a08eb4b62265",
+      "previous_stems": [
+        "初音ミク-01",
+        "34_初音ミク-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-79",
       "character": "レム",
       "work": "Re:ゼロから始める",
-      "new_stem": "レム-01",
+      "new_stem": "32A_レム-01",
       "sequence": 1,
       "sha256.png": "58fd3391a0b7637d4e2b9f4ecf5b45b9acd24161062606e94132a97178492e8c",
-      "sha256.md": "5ff75424503daf5c2de4e73d87d485b0dd01c7763eabd0bc542263abb8601e23"
+      "sha256.md": "5ff75424503daf5c2de4e73d87d485b0dd01c7763eabd0bc542263abb8601e23",
+      "previous_stems": [
+        "レム-01",
+        "32_レム-01"
+      ]
     },
     {
       "old_stem": "動漫角色20261101-80",
       "character": "アンヘル",
       "work": "ザ・キング・オブ・ファイターズ",
-      "new_stem": "アンヘル-01",
+      "new_stem": "11A_アンヘル-01",
       "sequence": 1,
       "sha256.png": "e46ad355528ae576180cfd55c48dae5ffe515464db5b67c387bdaa1d9299bcd5",
-      "sha256.md": "8d53c313b42d0a35de65839f5c1f60f1c37b4d820c474df3e8c166482639c951"
+      "sha256.md": "8d53c313b42d0a35de65839f5c1f60f1c37b4d820c474df3e8c166482639c951",
+      "previous_stems": [
+        "アンヘル-01",
+        "11_アンヘル-01"
+      ]
     }
   ],
   "caption_name_overrides": {
