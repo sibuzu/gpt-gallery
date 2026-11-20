@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-GALLERIES = ("gallery1", "gallery2", "gallery3")
+GALLERIES = ("gallery1", "gallery2", "gallery3", "gallery4")
 
 
 def main() -> None:
